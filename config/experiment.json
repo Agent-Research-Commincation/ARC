@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "high",
+  "repetitions": 5,
+  "max_turns": 24,
+  "max_messages": 20,
+  "max_language_turns": 6,
+  "trial_timeout_seconds": 600,
+  "turn_timeout_seconds": 120,
+  "max_payload_bytes": 16384,
+  "max_trial_tokens": 100000,
+  "first_speaker": "A",
+  "service_tier": "default",
+  "problem_file": "config/problem.json",
+  "pricing": {
+    "currency": "USD",
+    "basis": "API-equivalent estimate; not the actual ChatGPT subscription charge",
+    "checked_at": "2026-09-09",
+    "source": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+    "input_per_million": 0.2,
+    "cached_input_per_million": 0.02,
+    "cache_write_multiplier": 1.25,
+    "output_per_million": 1.2,
+    "local_processing_usd_per_cpu_second": null
+  }
+}
