@@ -1,0 +1,20 @@
+{
+  "purpose": "source baseline before v3 refactoring; not experiment results",
+  "head": "36f81b4498b08b096dd978d7dea97075d9a1c22f",
+  "files": {
+    "lab.py": "7b2eb7f02e3cdfafd53d6117d5c46d55e587e6ee5a4963f4d866e473e5e1b4a0",
+    ".gitignore": "5d65dfcbbfe53a87696eebc009dd379ecb30c8a6bcaa6d6f07c192dca2b71e9a",
+    "experiment/__init__.py": "255d0f46dc78d07e01e8497368fec6bc5a5232040e0d74bc3dd176b67577963f",
+    "experiment/cli.py": "5e306b379cc85bfb895fbe9ac00d95aa6fb765cf68f71d6c2af26902eda33f6a",
+    "experiment/codex.py": "6eb0963a637b56ddd08207e0d4bfd7bbf021bffb90b860e8e39153f6cc61fab0",
+    "experiment/problem.py": "1878fa167e8889baa5b8ef5436faba2f2023efd175caf3f497eab302534dfd0f",
+    "experiment/protocols.py": "75e09dcf00ea0a83fc53a453f7c474dde6ef672f99bffeac1ebe896cfeab8a26",
+    "experiment/records.py": "1d79800c4e4484e205dad15a97881e50711826eaea14b383b6f3e876088ca983",
+    "experiment/runner.py": "5bd374be4c5a9eeb11387799d0bae5771656e93c1ebbce01acb3dbb8850ef4f6",
+    "config/experiment.json": "c7e7932587eb9dfbbbcff40f6ab7512bd58ff76c903a3dde4f15b3eb01c3dd8b",
+    "config/problem.json": "c4c96ca735a1a6944a660b679e4fa29fe6f350ee16cc924d99777a5ade1f2baf",
+    "tests/test_experiment.py": "0c5120e67314fd9cac8697457ddc3be37c5c2871dbe712bce6511d94b3461a20",
+    "tests/test_lab_v2.py": "f2b6034f5bb745f0d824b1b1e3f5c0f4d74f2396e48a7e6d8ae9183159d4958d",
+    "scripts/export_histories.py": "bef84595d7581eef40538f26561c51befd3e392fb667e8841891f4dc8ad23b9f"
+  }
+}

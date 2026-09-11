@@ -9,27 +9,8 @@ import threading
 import time
 from collections import deque
 
-from .protocols import compact, strict_json, MEANINGS
-
-class CodexError(RuntimeError):
-    pass
-
-
-ACTION_SCHEMA = {
-    "type": "object", "additionalProperties": False,
-    "required": ["action", "payload", "schedule", "language"],
-    "properties": {
-        "action": {"type": "string", "enum": ["send", "wait", "submit", "define_language", "accept_language"]},
-        "payload": {"type": "string"},
-        "schedule": {"type": "array", "items": {"type": "object", "additionalProperties": False,
-            "required": ["meeting", "slot"], "properties": {
-                "meeting": {"type": "string", "enum": ["M1", "M2", "M3"]},
-                "slot": {"type": "integer", "minimum": 0, "maximum": 11}}}},
-        "language": {"type": "array", "items": {"type": "object", "additionalProperties": False,
-            "required": ["meaning", "symbol"], "properties": {
-                "meaning": {"type": "string", "enum": MEANINGS}, "symbol": {"type": "string"}}}}
-    }
-}
+from .contracts import (compact, strict_json, action_schema, validate_action, CodexError,
+                        ActionFormatError, Cancelled, RECORD_VERSION)
 
 ISOLATION_CONFIG = {
     "features.shell_tool": False, "features.unified_exec": False,
@@ -47,22 +28,6 @@ ISOLATION_CONFIG = {
 }
 
 
-def validate_action(a):
-    if not isinstance(a, dict) or set(a) != {"action", "payload", "schedule", "language"}:
-        raise ValueError("Action requires action, payload, schedule, language")
-    if a["action"] not in ACTION_SCHEMA["properties"]["action"]["enum"]:
-        raise ValueError("Unknown action")
-    if not isinstance(a["payload"], str) or not isinstance(a["schedule"], list) or not isinstance(a["language"], list):
-        raise ValueError("Invalid action field type")
-    if a["action"] != "send" and a["payload"]:
-        raise ValueError("Only send can contain a payload")
-    if a["action"] != "submit" and a["schedule"]:
-        raise ValueError("Only submit can contain a schedule")
-    if a["action"] != "define_language" and a["language"]:
-        raise ValueError("Only define_language can contain a dictionary")
-    return a
-
-
 def toml_value(v):
     if v == {}:
         return "{}"
@@ -70,7 +35,7 @@ def toml_value(v):
 
 
 class AppServer:
-    def __init__(self, config, event_sink=None):
+    def __init__(self, config, event_sink=None, cancel_event=None):
         self.config = config
         self.event_sink = event_sink or (lambda event: None)
         self.proc = None
@@ -84,6 +49,12 @@ class AppServer:
         self.stderr_tail = []
         self.tmp = None
         self.reader = None
+        self.cancel_event = cancel_event or threading.Event()
+        self.last_response = None
+        self.last_turn_id = None
+        self.partial_usage = {}
+        self.post_response_error = None
+        self.post_response_status = None
 
     def __enter__(self):
         executable = shutil.which("codex")
@@ -119,8 +90,8 @@ class AppServer:
         self.reader.start()
         threading.Thread(target=read_stderr, daemon=True).start()
         try:
-            self.rpc("initialize", {"clientInfo": {"name": "agent_communication_lab", "version": "1.0.0"},
-                                    "capabilities": {"experimentalApi": True}}, timeout=30)
+            self.rpc("initialize", {"clientInfo": {"name": "agent_communication_lab", "version": RECORD_VERSION},
+                                    "capabilities": {"experimentalApi": True}})
             self.send({"method": "initialized", "params": {}})
         except BaseException:
             self.close()
@@ -128,44 +99,55 @@ class AppServer:
         return self
 
     def send(self, obj):
+        if self.post_response_error:
+            raise CodexError(self.post_response_error)
         if self.proc is None or self.proc.poll() is not None:
             raise CodexError("Codex App Server is not running")
         self.proc.stdin.write(compact(obj) + "\n")
         self.proc.stdin.flush()
 
-    def next_event(self, deadline):
-        remaining = deadline-time.monotonic()
-        if remaining <= 0:
-            raise TimeoutError("Codex request timed out")
-        try:
-            obj = self.queue.get(timeout=remaining)
-        except queue.Empty:
-            raise TimeoutError("Codex request timed out")
+    def next_event(self):
+        # Polling checks cancellation/process state, never imposes a response deadline.
+        while True:
+            if self.cancel_event.is_set():
+                raise Cancelled("User cancelled the run")
+            try:
+                obj = self.queue.get(timeout=0.25)
+                break
+            except queue.Empty:
+                if self.proc is not None and self.proc.poll() is not None:
+                    raise CodexError("Codex App Server process exited")
         if obj.get("_closed"):
             raise CodexError("Codex App Server closed: " + "\n".join(self.stderr_tail[-4:]))
         if "_invalid" in obj:
             raise CodexError("Invalid App Server response")
-        method = obj.get("method")
+        method = obj.get("method", "")
         if method == "thread/tokenUsage/updated":
             params = obj["params"]
             self.usage[params["threadId"]] = params["tokenUsage"]
+            self.partial_usage[params["threadId"]] = params["tokenUsage"]
             self.usage_turn_ids[params["threadId"]] = params["turnId"]
-        # Do not collect private internal reasoning blocks or authentication events.
-        if method and (method.startswith(("turn/", "item/", "thread/tokenUsage", "model/"))):
-            record = json.loads(json.dumps(obj))
-            if record.get("params", {}).get("item", {}).get("type") == "reasoning":
-                record["params"]["item"] = {"id": record["params"]["item"].get("id"), "type": "reasoning"}
+        def sanitize(value):
+            if isinstance(value, dict):
+                if value.get("type") == "reasoning":
+                    return {"id": value.get("id"), "type": "reasoning"}
+                return {k:sanitize(v) for k,v in value.items()}
+            if isinstance(value, list):
+                return [sanitize(v) for v in value]
+            return value
+        if method.startswith(("turn/", "item/", "thread/tokenUsage", "model/")) or method == "error":
             if "reasoning" not in method.lower():
-                self.event_sink(record)
+                self.event_sink(sanitize(obj))
         return obj
 
-    def rpc(self, method, params, timeout=30):
+    def rpc(self, method, params):
         self.counter += 1
         ident = self.counter
         self.send({"id": ident, "method": method, "params": params})
-        deadline = time.monotonic()+timeout
         while True:
-            event = self.pending.pop(ident, None) or self.next_event(deadline)
+            event = self.pending.pop(ident, None)
+            if event is None:
+                event = self.next_event()
             if "id" in event and "method" not in event:
                 if event["id"] != ident:
                     self.pending[event["id"]] = event
@@ -174,11 +156,16 @@ class AppServer:
                     raise CodexError(method + ": " + str(event["error"]))
                 return event.get("result", {})
             if "id" in event and "method" in event:
-                self.send({"id": event["id"], "error": {"code": -32601, "message": "No tools or approvals are available in this experiment"}})
-            elif "method" in event:
+                self.send({"id": event["id"], "error": {"code": -32601, "message": "Tools disabled"}})
+                raise CodexError("Unexpected tool/approval request: " + event["method"])
+            if event.get("method") == "model/rerouted":
+                raise CodexError("Model rerouted; fixed-model condition violated")
+            if event.get("method") == "error":
+                raise CodexError(str(event.get("params")))
+            if "method" in event:
                 self.notifications.append(event)
 
-    def new_session(self, agent, base_instructions, timeout=45):
+    def new_session(self, agent, base_instructions):
         cwd = os.path.join(self.tmp.name, agent + "-" + str(self.counter))
         os.makedirs(cwd)
         params = {"model": self.config["model"], "allowProviderModelFallback": False,
@@ -190,7 +177,7 @@ class AppServer:
                   "config": {"model_reasoning_effort": self.config["reasoning_effort"]},
                   "serviceTier": self.config["service_tier"],
                   "personality": "none", "experimentalRawEvents": False}
-        result = self.rpc("thread/start", params, timeout)
+        result = self.rpc("thread/start", params)
         if result.get("model") != self.config["model"]:
             raise CodexError("Requested model was not confirmed: " + str(result.get("model")))
         effort = result.get("reasoningEffort")
@@ -204,30 +191,38 @@ class AppServer:
         self.event_sink({"method": "experiment/session", "params": {"agent": agent, "thread_id": thread_id, **self.thread_settings[thread_id]}})
         return thread_id
 
-    def turn(self, thread_id, text, timeout=None):
-        timeout = timeout or self.config["turn_timeout_seconds"]
-        deadline = time.monotonic()+timeout
+    def turn(self, thread_id, text, schema=None, request_id=None):
+        self.last_response = None
+        self.last_turn_id = None
+        # Retain prior totals only as a labelled partial amount, never as this call's total.
+        self.usage.pop(thread_id, None)
         result = self.rpc("turn/start", {"threadId": thread_id, "model": self.config["model"],
                     "effort": self.config["reasoning_effort"], "serviceTier": self.config["service_tier"],
                     "environments": [], "runtimeWorkspaceRoots": [],
-                    "input": [{"type": "text", "text": text}], "outputSchema": ACTION_SCHEMA}, timeout)
-        turn_id = result["turn"]["id"]
-        messages = []
+                    "input": [{"type": "text", "text": text}], "outputSchema": schema or action_schema()})
+        turn_id = self.last_turn_id = result["turn"]["id"]
+        self.event_sink({"method":"experiment/turn_started", "params":{
+            "request_id":request_id, "thread_id":thread_id, "turn_id":turn_id}})
+        messages, deferred = [], []
         try:
             while True:
-                event = self.notifications.popleft() if self.notifications else self.next_event(deadline)
+                event = self.notifications.popleft() if self.notifications else self.next_event()
                 method, params = event.get("method", ""), event.get("params", {})
+                if "id" in event and "method" not in event:
+                    self.pending[event["id"]] = event
+                    continue
                 if "id" in event and "method" in event:
                     self.send({"id": event["id"], "error": {"code": -32601, "message": "Tools disabled"}})
                     raise CodexError("Unexpected tool/approval request: " + method)
                 if method == "model/rerouted":
                     raise CodexError("Model was rerouted; fixed-model condition violated")
+                if params.get("threadId", thread_id) != thread_id or (params.get("turnId") and params["turnId"] != turn_id):
+                    deferred.append(event)
+                    continue
                 if method == "error" or (method.startswith("turn/") and params.get("error")):
                     raise CodexError(str(params.get("error", params)))
-                if params.get("threadId", thread_id) != thread_id:
-                    continue
                 item = params.get("item", {})
-                if method == "item/started" and item.get("type") in {"commandExecution", "fileChange", "mcpToolCall", "collabToolCall", "webSearch", "imageView", "dynamicToolCall"}:
+                if method in ("item/started", "item/completed") and item.get("type") in {"commandExecution", "fileChange", "mcpToolCall", "collabToolCall", "webSearch", "imageView", "dynamicToolCall"}:
                     raise CodexError("Unexpected tool in tool-free session: " + item["type"])
                 if method == "item/completed" and item.get("type") == "agentMessage":
                     messages.append(item.get("text", ""))
@@ -237,21 +232,40 @@ class AppServer:
                     if not messages:
                         messages = [x.get("text", "") for x in params["turn"].get("items", []) if x.get("type") == "agentMessage"]
                     if not messages:
-                        raise CodexError("No final structured response")
-                    # Synchronize local event delivery before using cumulative token totals.
-                    try:
-                        self.rpc("thread/read", {"threadId": thread_id, "includeTurns": False}, min(5, max(.1, deadline-time.monotonic())))
-                    except (CodexError, TimeoutError):
-                        pass
+                        raise ActionFormatError("response_parse", "No final response", "")
+                    self.last_response = messages[-1]
+                    # Consume only already queued events. A usage lookup must not stall or discard a valid response.
+                    while not self.queue.empty():
+                        try:
+                            late = self.next_event()
+                        except (CodexError,Cancelled) as exc:
+                            self.post_response_error = str(exc)
+                            self.post_response_status = "cancelled" if isinstance(exc,Cancelled) else "infrastructure_error"
+                            self.event_sink({"method":"experiment/post_response_error","params":{
+                                "request_id":request_id,"thread_id":thread_id,"turn_id":turn_id,"error":str(exc)}})
+                            break
+                        late_method = late.get("method", "")
+                        late_item = late.get("params",{}).get("item",{})
+                        if late_method == "model/rerouted" or (late_method in ("item/started","item/completed") and
+                            late_item.get("type") in {"commandExecution","fileChange","mcpToolCall","collabToolCall","webSearch","imageView","dynamicToolCall"}):
+                            raise CodexError("Fixed-model/tool-free condition violated after response: " + late_method)
+                        deferred.append(late)
                     if self.usage_turn_ids.get(thread_id) != turn_id:
                         self.usage.pop(thread_id, None)
-                    return validate_action(strict_json(messages[-1]))
-        except BaseException:
+                    try:
+                        return strict_json(self.last_response)
+                    except (ValueError, TypeError) as exc:
+                        raise ActionFormatError("response_parse", str(exc), self.last_response) from exc
+        except (Cancelled, KeyboardInterrupt, CodexError):
+            # Fire-and-forget cancellation; waiting for its acknowledgement would impose another deadline.
             try:
-                self.rpc("turn/interrupt", {"threadId": thread_id, "turnId": turn_id}, 5)
-            except Exception:
+                self.counter += 1
+                self.send({"id":self.counter, "method":"turn/interrupt", "params":{"threadId":thread_id, "turnId":turn_id}})
+            except (CodexError, OSError):
                 pass
             raise
+        finally:
+            self.notifications.extend(deferred)
 
     def close(self):
         if self.proc is not None:
