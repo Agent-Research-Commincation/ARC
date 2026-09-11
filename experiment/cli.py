@@ -10,8 +10,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .codex import AppServer
-from .problem import load_problem, oracle
+from .problem import load_problem, oracle, problem_diagnostics
 from .protocols import STAGES, compact, instructions, transmit
+from .artifacts import source_snapshot, verify_seal
+from .scheduling import run_requested, resume_plan, worker_main
 from .runner import ROOT, Recorder, Trial, base_prompt, digest, run_batch, schedule_from_action, utcnow, validate_config, write_json
 
 
@@ -19,12 +21,14 @@ def load_settings():
     config = json.loads((ROOT / "config/experiment.json").read_text(encoding="utf-8"))
     validate_config(config)
     problem = load_problem(ROOT / config["problem_file"])
+    reference = json.loads((ROOT/"config/problem-reference.json").read_text())
+    if reference["problem_hash"] != digest(problem):
+        raise ValueError("Frozen confirmation problem changed")
     return config, problem
 
 
 def implementation_fingerprint(config, problem):
-    return digest({"config": config, "problem": problem,
-                   "sources": {p.name: p.read_text(encoding="utf-8") for p in sorted((ROOT / "experiment").glob("*.py"))}})
+    return digest({"config":config,"problem":problem,"sources":source_snapshot()})
 
 
 def offline_check():
@@ -37,7 +41,8 @@ def offline_check():
     folder = ROOT / ".runtime"
     folder.mkdir(exist_ok=True)
     write_json(folder / "offline-check.json", {"checked_at": utcnow(), "passed": True,
-               "tests": result.testsRun, "fingerprint": implementation_fingerprint(config, problem), "oracle": expected})
+               "tests": result.testsRun, "fingerprint": implementation_fingerprint(config, problem), "oracle": expected,
+               "problem_diagnostics": problem_diagnostics(problem)})
     print("오프라인 점검 통과: %d개 테스트, 유효 시간표 %d개, 최적 점수 %d" % (result.testsRun, expected["feasible_count"], expected["optimal_score"]))
     print("모델 호출 없음. 실제 연결 검증: python3 lab.py verify-live")
     return 0
@@ -49,7 +54,7 @@ def verification_receipt(config, problem):
         return None
     receipt = json.loads(path.read_text(encoding="utf-8"))
     if receipt.get("fingerprint") != implementation_fingerprint(config, problem):
-        return {"stale": True, **receipt}
+        return {**receipt, "stale": True}
     return receipt
 
 
@@ -57,7 +62,14 @@ def show_status():
     config, problem = load_settings()
     reference = oracle(problem)
     receipt = verification_receipt(config, problem)
+    offline_path = ROOT/".runtime/offline-check.json"
+    offline = json.loads(offline_path.read_text()) if offline_path.exists() else None
+    ready = bool(offline and offline.get("passed") and offline.get("fingerprint")==implementation_fingerprint(config,problem))
+    print("오프라인 구현 검증: " + ("현재 소스 통과" if ready else "미검증 또는 소스 변경 — check 필요"))
     print("모델: %s / %s · 단계당 %d회 · 유효 시간표 %d개" % (config["model"], config["reasoning_effort"], config["repetitions"], reference["feasible_count"]))
+    diagnosis = problem_diagnostics(problem)
+    print("실험실 v%s · 문제 %s · 최적 점수 %d · 회의 간 상충 차이 %d" %
+          (config["version"], problem["id"], reference["optimal_score"], diagnosis["coupling_gap"]))
     print("Codex CLI: " + (shutil.which("codex") or "설치 필요"))
     print("단계 | 소통 방식 | 로컬 구현 | 실제 연결 점검")
     for stage, name in STAGES.items():
@@ -67,7 +79,7 @@ def show_status():
             label = "구현 변경 후 재검증 필요"
         elif record:
             label = "통과" if record.get("passed") else "실패: " + record.get("error", "unknown")
-        print("%d | %s | 준비됨 | %s" % (stage, name, label))
+        print("%d | %s | %s | %s" % (stage, name, "검증 통과" if ready else "검증 필요", label))
     print("실행: python3 lab.py run <1~6> · 비교: python3 lab.py compare")
     return 0
 
@@ -87,15 +99,17 @@ def verify_live(stage=None):
             with AppServer(config, rec.event) as backend:
                 trial = Trial(backend, config, problem, number, rec)
                 for actor in ("A", "B"):
-                    trial.threads[actor] = backend.new_session(actor, base_prompt(actor, number), timeout=trial.remaining())
+                    trial.threads[actor] = backend.new_session(actor, base_prompt(actor, number))
                 if number == 6:
-                    trial.negotiate()
+                    if not trial.negotiate():
+                        raise ValueError("Agent stopped during verification setup")
+                trial.phase = "task"
                 prompt = ("TRANSPORT VERIFICATION ONLY, NOT A SCHEDULING TRIAL. Send one proposal communicating M1 at slot 1, M2 at slot 4, M3 at slot 10. "
                           "Do not use private calendar facts or solve a scheduling task. action=send, empty schedule/language arrays. Use this protocol in payload: " + instructions(number, trial.language))
                 sent = trial.ask("A", prompt)
                 if sent["action"] != "send":
                     raise ValueError("Sender did not send a message")
-                packet = transmit(number, sent["payload"], trial.language, config["max_payload_bytes"])
+                packet = transmit(number, sent["payload"], trial.language)
                 trial.wire_record("A", packet.wire, packet.receiver_text, cpu=packet.cpu_seconds, wall=packet.wall_seconds, source=sent["payload"])
                 received = trial.ask("B", "TRANSPORT VERIFICATION ONLY. Read the peer's message and return action=submit with exactly the three meeting-slot pairs it says. "
                                      "No task solving, no additional communication. Empty payload/language. Protocol: " + instructions(number, trial.language)
@@ -128,7 +142,11 @@ def compare():
     groups = {}
     root = ROOT / "results/experiment"
     if root.exists():
-        for path in sorted(root.glob("*/manifest.json")):
+        paths = sorted(root.glob("*/manifest.json"))
+        superseded = {json.loads(p.read_text()).get("supersedes") for p in paths}
+        for path in paths:
+            if str(path.parent.resolve()) in superseded: continue
+            verify_seal(path.parent)
             manifest = json.loads(path.read_text(encoding="utf-8"))
             if manifest.get("purpose") != "experiment":
                 continue
@@ -152,12 +170,14 @@ def compare():
                 mean(summary["quality_gap_successes"]), "미측정/계산불가" if cost is None else "%.6f" % cost,
                 mean(summary["completion_seconds_successes"]), mean(summary["communication_bytes"]),
                 mean(summary["communication_processing_cpu_seconds"])))
-            print("  기록 %d개 · 보고서: %s" % (summary["completed_trials"], folder / "report.md"))
+            print("  시간은 동일 실행 블록 여부를 함께 확인해야 합니다. 내용 정확도는 별도 검수 버전이 필요합니다.")
+            print("  실행 블록: %s · 프로필: %s" % (manifest.get("plan_id"),compact(manifest["comparison_settings"].get("execution_profile"))))
+            print("  시도 %d개 · 과제 실행 %d개 · 보고서: %s" % (summary.get("attempted_trials", summary["completed_trials"]), summary["completed_trials"], folder / "report.md"))
     return 0
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description="1~6단계 Agent 소통 실험. run만 본실험 5회를 시작합니다.")
+    parser = argparse.ArgumentParser(description="여섯 방식의 자율 소통 실험실 v3. run/run-many는 실제 모델 본실험을 실행합니다.")
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("status", help="모델 호출 없이 단계별 준비 상태 확인")
     sub.add_parser("check", help="모델 호출 없는 데이터·프로토콜·실행기 테스트")
@@ -168,6 +188,18 @@ def main(argv=None):
         command = sub.add_parser(name, help=help_text)
         command.add_argument("stage", type=int, choices=list(STAGES))
     sub.add_parser("compare", help="같은 설정의 기존 본실험 결과만 비교")
+    review = sub.add_parser("review", help="종료된 실행의 대화·관찰표와 수동 검수를 재집계; 모델 호출 없음")
+    review.add_argument("folder", type=Path)
+    review.add_argument("--manual-inputs",type=Path,help="회차 이름 → 작성한 수동 검수 파일 경로의 JSON")
+    review.add_argument("--reviewer",default="",help="검수자 식별자")
+    review.add_argument("--recheck",type=Path,help="표본 재검수 근거 JSON")
+    many = sub.add_parser("run-many",help="요청 단계만 동일 소스 worktree에서 각 5회 실행")
+    many.add_argument("stages",nargs="+",type=int,choices=list(STAGES))
+    many.add_argument("--jobs",type=int,default=1,help="동시 회차 수; 기본 1")
+    resume = sub.add_parser("resume",help="고정 계획에서 아직 시작하지 않은 슬롯만 재개")
+    resume.add_argument("plan",help="계획 ID 또는 plan.json 경로")
+    worker = sub.add_parser("_run-slot",help=argparse.SUPPRESS)
+    worker.add_argument("plan",type=Path); worker.add_argument("slot"); worker.add_argument("folder",type=Path)
     args = parser.parse_args(argv)
     try:
         if args.command == "status":
@@ -176,9 +208,30 @@ def main(argv=None):
             return offline_check()
         if args.command == "compare":
             return compare()
+        if args.command == "review":
+            from .records import review_run
+            manual = json.loads(args.manual_inputs.read_text()) if args.manual_inputs else None
+            recheck = json.loads(args.recheck.read_text()) if args.recheck else None
+            output,observations = review_run(args.folder,manual_inputs=manual,reviewer=args.reviewer,recheck=recheck)
+            print("새 사후 검수 %d회차 · 내용 검수 대기 %d회차 · 모델 호출 없음 · %s" %
+                  (len(observations), sum(x["content_review_status"] == "pending" for x in observations),output))
+            return 0
+        if args.command == "_run-slot":
+            return worker_main(args.plan,args.slot,args.folder)
+        if args.command == "resume":
+            path = Path(args.plan)
+            if not path.exists(): path = ROOT/"results/plans"/args.plan/"plan.json"
+            folders = resume_plan(path)
+            for folder in folders.values(): print("보고서: " + str(folder/"report.md"))
+            return 0
         if args.command == "verify-live":
             return verify_live(args.stage)
         config, problem = load_settings()
+        if args.command == "run-many":
+            plan,folders = run_requested(config,problem,args.stages,jobs=args.jobs)
+            print("실행 계획: " + str(plan))
+            for folder in folders: print("보고서: " + str(folder/"report.md"))
+            return 0 if all(json.loads((f/"summary.json").read_text())["batch_complete"] for f in folders) else 1
         if args.command == "observe":
             print("기본 동작 관찰 · %s / %s · 매회 새 A/B 세션, 동일 합성 일정, 5회" % (config["model"], config["reasoning_effort"]), flush=True)
             folder, summary = run_batch(config, problem, None, repetitions=5, purpose="observation")

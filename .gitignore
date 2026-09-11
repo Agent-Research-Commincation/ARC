@@ -3,3 +3,4 @@ __pycache__/
 .runtime/
 results/
 .DS_Store
+/.worktree/

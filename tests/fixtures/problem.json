@@ -1,5 +1,5 @@
 {
-  "id": "confirmation-v3-20260911",
+  "id": "schedule-v2",
   "description": "Schedule three joint meetings over twelve one-hour slots. Maximize the sum of attendee preferences while satisfying every hard constraint.",
   "slots": [
     "D1 09:00",
@@ -69,18 +69,18 @@
         true
       ],
       "preferences": [
-        2,
         1,
+        3,
         0,
         1,
+        2,
+        2,
         0,
-        2,
-        3,
-        2,
         3,
         1,
+        2,
         3,
-        3
+        1
       ]
     },
     "A2": {
@@ -100,17 +100,17 @@
         true
       ],
       "preferences": [
-        2,
-        1,
-        3,
-        2,
-        0,
-        3,
-        3,
         0,
         3,
         2,
         1,
+        3,
+        0,
+        1,
+        1,
+        3,
+        2,
+        0,
         2
       ]
     },
@@ -131,18 +131,18 @@
         true
       ],
       "preferences": [
-        0,
         2,
-        0,
-        0,
-        0,
-        0,
-        2,
-        2,
+        1,
+        3,
         0,
         1,
+        3,
+        1,
+        0,
         2,
-        0
+        1,
+        3,
+        2
       ]
     },
     "B1": {
@@ -163,16 +163,16 @@
       ],
       "preferences": [
         2,
-        2,
         0,
-        1,
-        2,
-        2,
-        2,
-        1,
         3,
         0,
         3,
+        1,
+        3,
+        2,
+        0,
+        2,
+        1,
         3
       ]
     },
@@ -193,18 +193,18 @@
         true
       ],
       "preferences": [
-        2,
-        1,
-        0,
-        1,
+        3,
         0,
         2,
+        3,
+        3,
         2,
+        2,
+        1,
         2,
         0,
         2,
-        1,
-        1
+        3
       ]
     },
     "B3": {
@@ -224,18 +224,18 @@
         true
       ],
       "preferences": [
+        1,
+        2,
+        2,
+        3,
+        0,
+        1,
         2,
         3,
         1,
-        3,
-        0,
-        0,
-        0,
-        0,
         2,
-        0,
         3,
-        0
+        1
       ]
     }
   }

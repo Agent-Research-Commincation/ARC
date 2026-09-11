@@ -12,14 +12,16 @@ from unittest.mock import patch
 
 from experiment.cli import load_settings
 from experiment.cli import main as cli_main
-from experiment.codex import AppServer, CodexError, ISOLATION_CONFIG, validate_action
-from experiment.problem import agent_input, public_input, evaluate, oracle, PEOPLE, MEETINGS
+from experiment.codex import AppServer, CodexError, ActionFormatError, ISOLATION_CONFIG, validate_action
+from experiment.problem import agent_input, public_input, evaluate, oracle, problem_diagnostics, PEOPLE, MEETINGS
 from experiment.protocols import (STAGES, KINDS, MEANINGS, canonical_frame, compact, empty_frame,
     validate_frame, validate_language, render_logic, parse_logic, render_assembly,
-    compile_bytecode, decode_bytecode, vector_encode, vector_decode, transmit, strict_json)
+    compile_bytecode, decode_bytecode, vector_encode, vector_decode, transmit, strict_json, VECTOR_DIMENSIONS)
 from experiment.runner import Recorder, Trial, base_prompt, model_cost, summarize, schedule_from_action, run_batch
 
-CONFIG, PROBLEM = load_settings()
+FIXTURES = Path(__file__).parent/"fixtures"
+CONFIG = json.loads((FIXTURES/"config.json").read_text())
+PROBLEM = json.loads((FIXTURES/"problem.json").read_text())
 LANGUAGE = {meaning: "x" + chr(97+i) for i, meaning in enumerate(MEANINGS)}
 LANGUAGE_ENTRIES = [{"meaning": k, "symbol": v} for k, v in LANGUAGE.items()]
 GOOD_SCHEDULE = oracle(PROBLEM)["optimal_schedules"][0]
@@ -53,7 +55,7 @@ class ScriptedBackend:
     def __exit__(self, *args):
         pass
 
-    def new_session(self, agent, instructions, timeout=45):
+    def new_session(self, agent, instructions):
         tid = "fixture-%d-%s" % (len(self.created), agent)
         self.created.append(tid)
         self.stage = int(instructions.split("Stage ")[-1].split()[0]) if "Stage " in instructions else None
@@ -61,15 +63,15 @@ class ScriptedBackend:
         self.usage[tid] = {"total": {"inputTokens": 0, "cachedInputTokens": 0, "outputTokens": 0, "totalTokens": 0}}
         return tid
 
-    def turn(self, tid, text, timeout=120):
+    def turn(self, tid, text, schema=None, request_id=None):
         self.inputs.append((self.roles[tid], text))
         u = self.usage[tid]["total"]
         u["inputTokens"] += 100
         u["outputTokens"] += 30
         u["totalTokens"] += 130
-        if text.startswith("LANGUAGE SETUP") or "Setup action rejected" in text:
+        if schema and "define_language" in schema["properties"]["action"]["enum"]:
             self.language_calls += 1
-            return action("define_language", language=LANGUAGE_ENTRIES) if self.roles[tid] == "A" else action("accept_language")
+            return action("define_language", language=LANGUAGE_ENTRIES) if self.language_calls == 1 else action("accept_language")
         if self.fail_once and not self.sent_bad:
             self.sent_bad = True
             return action("send", payload="not valid structured content")
@@ -111,7 +113,7 @@ class ProblemTests(unittest.TestCase):
     def test_known_legal_schedule(self):
         result = evaluate(PROBLEM, {"M1": 4, "M2": 6, "M3": 10})
         self.assertTrue(result["valid"])
-        self.assertEqual(result["score"], 24)
+        self.assertEqual(result["score"], 25)
 
     def test_missing_and_out_of_range(self):
         for schedule in ({}, {"M1": 1, "M2": 2, "M3": 12}, {"M1": True, "M2": 2, "M3": 3}):
@@ -146,15 +148,17 @@ class ProblemTests(unittest.TestCase):
             self.assertEqual(indexing["mapping"][1], {"slot": 1, "time": "D1 10:00"})
             for item in indexing["mapping"]:
                 self.assertEqual(PROBLEM["slots"][item["slot"]], item["time"])
-        # The observed dialogue's 10:00 agreement and its mistaken slot 2 submission differ.
-        self.assertEqual(evaluate(PROBLEM, {"M1": 1, "M2": 11, "M3": 10})["score"], 26)
+        # Distinct fixture slot IDs must remain distinct.
+        self.assertEqual(evaluate(PROBLEM, {"M1": 1, "M2": 11, "M3": 10})["score"], 25)
         self.assertFalse(evaluate(PROBLEM, {"M1": 2, "M2": 11, "M3": 10})["valid"])
 
 
 class CodecTests(unittest.TestCase):
     def example(self):
         return {"kind": "propose", "facts": [["available", "A1", 0, 1], ["preference", "B3", 11, 3]],
-                "schedule": {"M1": 1, "M3": 10}, "requests": ["B1"]}
+                "schedule": {"M1": 1, "M3": 10}, "requests": ["B1"],
+                "summaries": [["available","A","M3",10,1],["preference","B","M3",10,5]],
+                "reasons": [["unavailable","M3","B3",10],["overlap","M1","M2",4]]}
 
     def test_semantics_roundtrip_all_structured_stages(self):
         f = self.example()
@@ -178,7 +182,7 @@ class CodecTests(unittest.TestCase):
             f["schedule"] = {m: rng.randrange(12) for m in MEETINGS if rng.random() < .5}
             f["requests"] = rng.sample(PEOPLE, rng.randrange(7))
             wire = vector_encode(f)
-            self.assertEqual(len(wire), 1024)
+            self.assertEqual(len(wire), VECTOR_DIMENSIONS*4+5)
             self.assertEqual(vector_decode(wire), canonical_frame(f))
 
     def test_full_vector_frame(self):
@@ -187,13 +191,13 @@ class CodecTests(unittest.TestCase):
         self.assertEqual(vector_decode(vector_encode(f)), canonical_frame(f))
 
     def test_vector_invalid_data(self):
-        for wire in (b"short", b"\xff"*1024, b"\x00"*1024):
+        for wire in (b"short", b"\xff"*(VECTOR_DIMENSIONS*4), b"\x00"*(VECTOR_DIMENSIONS*4)):
             with self.assertRaises(ValueError):
                 vector_decode(wire)
 
     def test_bytecode_is_binary(self):
         wire = compile_bytecode("KIND inform\nAV A1 0 1")
-        self.assertEqual(wire, b"ACB1\x00\x01\x00\x00\x01\xff")
+        self.assertEqual(wire, b"ACB3\x00\x01\x00\x00\x01\xff")
         self.assertEqual(decode_bytecode(wire)["facts"], [["available", "A1", 0, 1]])
 
     def test_bytecode_rejects_execution_and_invalid_bytes(self):
@@ -247,11 +251,10 @@ class CodecTests(unittest.TestCase):
             self.assertEqual(packet.wire, payload.encode("utf-8"))
             self.assertEqual(packet.receiver_text, payload)
 
-    def test_payload_limits(self):
-        with self.assertRaises(ValueError):
-            transmit(1, "x"*20, max_bytes=10)
-        with self.assertRaises(ValueError):
-            transmit(4, compact(empty_frame()), max_bytes=100)
+    def test_large_valid_payloads_have_no_research_byte_budget(self):
+        text = "Natural language message. "*2000
+        self.assertEqual(transmit(1,text).receiver_text,text)
+        self.assertGreater(len(transmit(4,compact(empty_frame())).wire),16384)
 
     def test_language_requires_agreement(self):
         with self.assertRaises(ValueError):
@@ -375,17 +378,17 @@ class RunnerTests(unittest.TestCase):
                 raise CodexError("fixture connection unavailable")
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
             folder, summary = run_batch(CONFIG, PROBLEM, 1, backend_factory=BrokenBackend, output_root=tmp)
-            self.assertEqual(summary["completed_trials"], 1)
+            self.assertEqual(summary["completed_trials"], 0)
+            self.assertEqual(summary["attempted_trials"], 1)
             self.assertFalse(summary["batch_complete"])
             self.assertIsNone(summary["success_rate"])
             manifest = json.loads((folder/"manifest.json").read_text())
             self.assertEqual(manifest["status"], "incomplete")
 
-    def test_limits_stop_execution(self):
-        config = dict(CONFIG, max_messages=1)
-        result, _, _ = self.run_fixture(2, config=config)
-        self.assertEqual(result["status"], "timeout")
-        self.assertEqual(result["message_count"], 1)
+    def test_legacy_limit_config_is_rejected_not_silently_used(self):
+        from experiment.contracts import validate_config
+        with self.assertRaises(ValueError):
+            validate_config(dict(CONFIG,max_messages=1))
 
     def test_five_new_pairs_and_no_overwrite(self):
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):

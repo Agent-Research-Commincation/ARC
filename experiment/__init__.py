@@ -1,3 +1,2 @@
-"""Reproducible, on-demand two-agent communication experiments."""
-
-VERSION = "1.0.0"
+"""Two-agent communication observation lab."""
+VERSION = "3.0.0"
