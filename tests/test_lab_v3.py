@@ -34,6 +34,22 @@ def payload(stage,frame):
 
 
 class ContractsTests(unittest.TestCase):
+    def test_thirty_trial_configuration_and_distinct_helper_counts(self):
+        from experiment.cli import load_settings
+        config, _ = load_settings()
+        self.assertEqual(config['repetitions'], 30)
+        self.assertEqual(config['first_speakers'], ['A', 'B'] * 15)
+        validate_config(CONFIG)
+        for count in (0, 5, 29, 31, 30.0, False):
+            with self.subTest(count=count), self.assertRaises(ValueError):
+                make_plan(config, PROBLEM, [1], count=count)
+        with self.assertRaises(ValueError):
+            validate_config(dict(config, repetitions=5, first_speakers=['A','B','A','B','A']))
+        with self.assertRaises(ValueError):
+            validate_config(dict(config, first_speakers=['A'] * 30))
+        self.assertEqual(make_plan(config, PROBLEM, [1], purpose='pilot')['count'], 1)
+        self.assertEqual(make_plan(config, PROBLEM, [None], purpose='observation')['count'], 5)
+
     def test_schemas_match_actions_and_hide_setup_meanings(self):
         for stage in range(1,7):
             schema=action_schema(stage)
@@ -250,16 +266,16 @@ class PlanAndReviewTests(unittest.TestCase):
             self.assertEqual(summary['infrastructure_errors'],1)
             self.assertIsNone(summary['success_rate'])
 
-    def test_stop_finishes_five_attempts_without_success_backfill(self):
+    def test_stop_finishes_thirty_attempts_without_success_backfill(self):
         class StopBackend(ScriptedBackend):
             def turn(self,*args,**kwargs):return action('stop','fixture voluntary stop')
         with tempfile.TemporaryDirectory() as tmp,contextlib.redirect_stdout(io.StringIO()):
             folder,summary=run_batch(CONFIG,PROBLEM,2,backend_factory=StopBackend,output_root=tmp)
-            self.assertEqual(summary['attempted_trials'],5)
+            self.assertEqual(summary['attempted_trials'],30)
             self.assertEqual(summary['success_count'],0)
             self.assertTrue(summary['batch_complete'])
             self.assertIsNone(summary['cost_per_success_estimate_usd'])
-            self.assertEqual(len(list(folder.glob('trial-*/result.json'))),5)
+            self.assertEqual(len(list(folder.glob('trial-*/result.json'))),30)
 
     def test_no_judged_claims_are_not_reported_as_zero_errors(self):
         from experiment.evaluation import claim_counts
@@ -289,9 +305,9 @@ class PlanAndReviewTests(unittest.TestCase):
     def test_paired_plan_has_exact_slots_and_no_extra_stages(self):
         for stages in ([3],list(range(1,7))):
             p=make_plan(CONFIG,PROBLEM,stages)
-            self.assertEqual(len(p['slots']),len(stages)*5)
+            self.assertEqual(len(p['slots']),len(stages)*30)
             for stage in stages:
-                self.assertEqual([s['first_speaker'] for s in p['slots'] if s['stage']==stage],['A','B','A','B','A'])
+                self.assertEqual([s['first_speaker'] for s in p['slots'] if s['stage']==stage],['A','B']*15)
             self.assertEqual(p['slots'],make_plan(CONFIG,PROBLEM,stages)['slots'])
 
     def test_atomic_slot_claim_is_unique(self):
@@ -316,7 +332,7 @@ class PlanAndReviewTests(unittest.TestCase):
             folder=resumed['2']
             self.assertEqual(hashes,file_hashes(original));verify_seal(original);verify_seal(folder)
             self.assertEqual(json.loads((folder/'trial-01/result.json').read_text())['status'],'infrastructure_error')
-            self.assertEqual(json.loads((folder/'summary.json').read_text())['success_count'],4)
+            self.assertEqual(json.loads((folder/'summary.json').read_text())['success_count'],29)
             self.assertEqual(len(calls),1)
             with self.assertRaises(ValueError):resume_plan(plan,backend_factory=ScriptedBackend)
 
@@ -338,7 +354,7 @@ class PlanAndReviewTests(unittest.TestCase):
                 return failure_result(slot['stage'],status,'offline dispatch test')
             execute_plan(path,folders,executor=executor)
             self.assertEqual(len(seen),2)
-            self.assertEqual(sum(s['status']=='not_started' for s in load_state(path)['slots'].values()),13)
+            self.assertEqual(sum(s['status']=='not_started' for s in load_state(path)['slots'].values()),88)
 
     def test_checkpoint_worktrees_keep_user_head_index_and_changes(self):
         def git(root,*args):
@@ -349,9 +365,13 @@ class PlanAndReviewTests(unittest.TestCase):
             for folder in ('experiment','config','tests','scripts','docs'):(root/folder).mkdir()
             (root/'lab.py').write_text('print("original")\n');(root/'AGENTS.md').write_text('fixture')
             (root/'README.md').write_text('fixture');(root/'experiment/example.py').write_text('x=1\n')
+            (root/'releases').mkdir()
+            artifact = root/'releases'/'old-result.zip'
+            artifact.write_bytes(b'offline fixture artifact')
             git(root,'add','.');git(root,'-c','user.name=Fixture','-c','user.email=fixture@localhost','commit','-m','fixture')
             original=git(root,'rev-parse','HEAD');index=(root/'.git/index').read_bytes()
             (root/'experiment/example.py').write_text('x=2\n')
+            artifact.unlink()
             p={'id':'fixture-plan','stages':[1,2],'source_snapshot':source_snapshot(root)}
             plan_folder=Path(tmp)/'plan';plan_folder.mkdir()
             with patch('experiment.scheduling.ROOT',root):paths=checkpoint_worktrees(p,plan_folder)
@@ -359,7 +379,9 @@ class PlanAndReviewTests(unittest.TestCase):
             self.assertEqual((root/'.git/index').read_bytes(),index)
             self.assertEqual((root/'experiment/example.py').read_text(),'x=2\n')
             self.assertEqual(len({git(Path(p),'rev-parse','HEAD') for p in paths.values()}),1)
-            for p in paths.values():git(root,'worktree','remove','--force',p)
+            for p in paths.values():
+                self.assertFalse((Path(p)/'releases/old-result.zip').exists())
+                git(root,'worktree','remove','--force',p)
 
     def test_evaluation_same_meaning_no_submission_and_repetition(self):
         from experiment.problem import feasible_scores

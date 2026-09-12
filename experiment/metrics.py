@@ -2,7 +2,7 @@
 import statistics
 import math
 from collections import Counter
-from .contracts import OPERATIONAL_STATES
+from .contracts import OPERATIONAL_STATES, EXPERIMENT_REPETITIONS
 
 def model_cost(usage, pricing):
     if not isinstance(usage, dict):
@@ -33,7 +33,7 @@ def stats(values):
     return {"count": len(values), "mean": statistics.mean(values), "median": statistics.median(values), "min": min(values), "max": max(values)}
 
 
-def summarize(results, expected=5):
+def summarize(results, expected=EXPERIMENT_REPETITIONS):
     successes = sum(bool(x["success"]) for x in results)
     infrastructure_errors = sum(x.get("status") == "infrastructure_error" or x.get("operational_status") == "infrastructure_error" for x in results)
     task_trials = sum(x.get("status") not in OPERATIONAL_STATES for x in results)

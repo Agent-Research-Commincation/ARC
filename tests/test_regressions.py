@@ -194,28 +194,28 @@ class RunnerRegressions(unittest.TestCase):
         self.assertEqual(r['protocol_errors'],0)
         self.assertEqual(len(backend.inputs),1)
 
-    def test_fifth_initialization_failure_is_terminal_but_not_a_task_success(self):
+    def test_last_initialization_failure_is_terminal_but_not_a_task_success(self):
         calls = []
         def factory(*args,**kwargs):
             calls.append(1)
-            if len(calls)==5:
-                raise CodexError('fifth initialization failed')
+            if len(calls)==30:
+                raise CodexError('last initialization failed')
             return ScriptedBackend(*args,**kwargs)
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
             folder,s = run_batch(CONFIG,PROBLEM,2,backend_factory=factory,output_root=tmp)
-            self.assertEqual((s['attempted_trials'],s['completed_trials'],s['success_count']),(5,4,4))
+            self.assertEqual((s['attempted_trials'],s['completed_trials'],s['success_count']),(30,29,29))
             self.assertTrue(s['batch_complete'])
-            self.assertEqual(s['success_rate'],.8)
+            self.assertEqual(s['success_rate'],29/30)
             self.assertIsNone(s['model_cost_per_success_estimate_usd'])
             self.assertEqual(json.loads((folder/'manifest.json').read_text())['status'],'completed')
-            self.assertTrue((folder/'trial-05/observation.md').exists())
+            self.assertTrue((folder/'trial-30/observation.md').exists())
 
     def test_partial_measured_cost_does_not_make_infrastructure_batch_complete(self):
         rows = [{'success':True,'status':'success','quality_gap':0,'total_cost_estimate_usd':1,
                  'model_cost_estimate_usd':.5,'elapsed_seconds':1,'communication_bytes':10,
                  'protocol_cpu_seconds':0,'protocol_errors':0} for _ in range(5)]
         rows[-1].update(success=False,status='infrastructure_error')
-        s = summarize(rows)
+        s = summarize(rows, expected=5)
         self.assertEqual(s['total_cost_estimate_usd'],5)
         self.assertEqual(s['cost_per_success_estimate_usd'],1.25)
         self.assertEqual(s['model_cost_per_success_estimate_usd'],.625)
@@ -274,7 +274,7 @@ class RecordsRegressions(unittest.TestCase):
             raw=file_hashes(folder)
             first,rows=review_run(folder)
             second,_=review_run(folder)
-            self.assertEqual(len(rows),5)
+            self.assertEqual(len(rows),30)
             self.assertNotEqual(first,second)
             self.assertEqual(raw,file_hashes(folder))
             verify_seal(first);verify_seal(second);verify_seal(folder)

@@ -5,6 +5,8 @@ import math
 from .problem import PEOPLE, MEETINGS, SLOTS
 
 RECORD_VERSION = "3.0.0"
+EXPERIMENT_REPETITIONS = 30
+OBSERVATION_REPETITIONS = 5
 SEMANTIC_VERSION = "schedule-semantics-v3"
 KINDS = ["inform", "request", "propose", "accept", "reject"]
 TEAMS = ["A", "B"]
@@ -223,6 +225,16 @@ def schedule_from_action(action):
     return schedule
 
 
+def planned_repetitions(config, purpose):
+    if purpose == "experiment":
+        return config["repetitions"]
+    if purpose == "observation":
+        return OBSERVATION_REPETITIONS
+    if purpose == "pilot":
+        return 1
+    raise ValueError("Unknown run purpose: " + str(purpose))
+
+
 def validate_config(c):
     legacy = LEGACY_BUDGET_KEYS & set(c)
     if legacy:
@@ -230,10 +242,10 @@ def validate_config(c):
     allowed = {"version", "model", "reasoning_effort", "repetitions", "first_speakers", "service_tier", "problem_file", "pricing", "schedule_seed"}
     if set(c) != allowed or c["version"] != RECORD_VERSION:
         raise ValueError("Expected the v3 configuration schema; unknown/missing fields are rejected")
-    if c["model"] != "gpt-5.6-luna" or c["reasoning_effort"] != "high" or type(c["repetitions"]) is not int or c["repetitions"] != 5:
-        raise ValueError("This experiment requires gpt-5.6-luna / high / five repetitions")
-    if c["first_speakers"] != ["A", "B", "A", "B", "A"] or c["service_tier"] != "default":
-        raise ValueError("Expected paired first speakers A,B,A,B,A and default service tier")
+    if c["model"] != "gpt-5.6-luna" or c["reasoning_effort"] != "high" or type(c["repetitions"]) is not int or c["repetitions"] != EXPERIMENT_REPETITIONS:
+        raise ValueError("This experiment requires gpt-5.6-luna / high / thirty repetitions")
+    if c["first_speakers"] != ["A", "B"] * (EXPERIMENT_REPETITIONS // 2) or c["service_tier"] != "default":
+        raise ValueError("Expected alternating first speakers A/B, fifteen each, and default service tier")
     if type(c["schedule_seed"]) is not int:
         raise ValueError("Schedule seed must be an integer")
     for key in ("input_per_million", "cached_input_per_million", "cache_write_multiplier", "output_per_million", "local_processing_usd_per_cpu_second"):

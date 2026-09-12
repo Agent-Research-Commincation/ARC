@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .codex import AppServer
+from .contracts import EXPERIMENT_REPETITIONS
 from .problem import load_problem, oracle, problem_diagnostics
 from .protocols import STAGES, compact, instructions, transmit
 from .artifacts import source_snapshot, verify_seal
@@ -184,7 +185,7 @@ def main(argv=None):
     sub.add_parser("observe", help="소통 형식을 지정하지 않고 독립 A/B 세션으로 일정 협업을 5회 관찰; 단계별 본실험과 별도")
     live = sub.add_parser("verify-live", help="실제 Luna high로 전송 경로 점검; 본실험과 별도")
     live.add_argument("--stage", type=int, choices=list(STAGES))
-    for name, help_text in (("run", "요청한 단계만 독립 세션으로 5회 본실험"), ("pilot", "요청한 단계 1회 예비 실행; 본실험과 별도")):
+    for name, help_text in (("run", "요청한 단계만 독립 세션으로 %d회 본실험" % EXPERIMENT_REPETITIONS), ("pilot", "요청한 단계 1회 예비 실행; 본실험과 별도")):
         command = sub.add_parser(name, help=help_text)
         command.add_argument("stage", type=int, choices=list(STAGES))
     sub.add_parser("compare", help="같은 설정의 기존 본실험 결과만 비교")
@@ -193,7 +194,7 @@ def main(argv=None):
     review.add_argument("--manual-inputs",type=Path,help="회차 이름 → 작성한 수동 검수 파일 경로의 JSON")
     review.add_argument("--reviewer",default="",help="검수자 식별자")
     review.add_argument("--recheck",type=Path,help="표본 재검수 근거 JSON")
-    many = sub.add_parser("run-many",help="요청 단계만 동일 소스 worktree에서 각 5회 실행")
+    many = sub.add_parser("run-many",help="요청 단계만 동일 소스 worktree에서 각 %d회 실행" % EXPERIMENT_REPETITIONS)
     many.add_argument("stages",nargs="+",type=int,choices=list(STAGES))
     many.add_argument("--jobs",type=int,default=1,help="동시 회차 수; 기본 1")
     resume = sub.add_parser("resume",help="고정 계획에서 아직 시작하지 않은 슬롯만 재개")
@@ -241,7 +242,7 @@ def main(argv=None):
         purpose = "experiment" if args.command == "run" else "pilot"
         print("%d단계 %s · %s / %s · %s" % (args.stage, STAGES[args.stage], config["model"], config["reasoning_effort"], purpose), flush=True)
         folder, summary = run_batch(config, problem, args.stage,
-                                    repetitions=5 if purpose == "experiment" else 1, purpose=purpose)
+                                    repetitions=config["repetitions"] if purpose == "experiment" else 1, purpose=purpose)
         print("보고서: " + str(folder / "report.md"))
         return 0 if summary["batch_complete"] else 1
     except KeyboardInterrupt:

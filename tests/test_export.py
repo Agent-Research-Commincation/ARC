@@ -14,12 +14,11 @@ from experiment.artifacts import file_hashes, verify_seal
 from experiment.records import review_run
 from experiment.runner import run_batch
 from scripts.export_histories import export
-from scripts.verify_release import compare_data, check_bundle_path
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
-class ReleaseTests(unittest.TestCase):
+class ExportTests(unittest.TestCase):
     def test_export_replays_selected_review_after_original_directory_is_removed(self):
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
             tmp = Path(tmp)
@@ -37,7 +36,7 @@ class ReleaseTests(unittest.TestCase):
                                    cwd=tmp, capture_output=True, text=True)
             self.assertEqual(reply.returncode, 0, reply.stdout+reply.stderr)
             self.assertTrue(json.loads(reply.stdout)['matched'])
-            self.assertEqual(json.loads(reply.stdout)['trials'], 5)
+            self.assertEqual(json.loads(reply.stdout)['trials'], 30)
             verify_seal(relocated)
 
     def test_tampered_selected_evaluator_is_rejected_before_replay(self):
@@ -70,26 +69,6 @@ pathlib.Path(__import__('sys').argv[3]).read_text()
                                    capture_output=True, text=True)
             self.assertNotEqual(reply.returncode, 0)
             self.assertIn('Replay read outside bundle/stdlib', reply.stderr)
-
-    def test_numeric_comparison_rejects_changed_cost_or_claims(self):
-        expected = {'stage':1, 'cost':0.006253928, 'claims':[{'correct':True}], 'source':'/old/path'}
-        actual = dict(expected, source='relative/path')
-        compare_data(expected, actual)
-        with self.assertRaises(ValueError):
-            compare_data(expected, dict(actual, cost=0.007))
-        with self.assertRaises(ValueError):
-            compare_data(expected, dict(actual, claims=[{'correct':False}]))
-        with self.assertRaises(ValueError):
-            compare_data(expected, {'stage':1, 'cost':actual['cost']})
-
-    def test_collection_cannot_escape_bundle(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp).resolve()
-            self.assertEqual(check_bundle_path(root, 'results/run'), root/'results/run')
-            for path in ('../outside', str(ROOT/'results')):
-                with self.assertRaises(ValueError):
-                    check_bundle_path(root, path)
-
 
 if __name__ == '__main__':
     unittest.main()

@@ -8,7 +8,7 @@ import time
 from pathlib import Path
 from . import VERSION
 from .codex import AppServer, ISOLATION_CONFIG
-from .contracts import validate_config, schedule_from_action, CodexError, Cancelled, OPERATIONAL_STATES
+from .contracts import validate_config, planned_repetitions, schedule_from_action, CodexError, Cancelled, OPERATIONAL_STATES
 from .artifacts import ROOT, Recorder, utcnow, digest, write_json, new_id, source_snapshot, seal_run, read_events, file_hashes
 from .metrics import model_cost, stats, summarize, communication_totals
 from .trial import Trial, base_prompt
@@ -132,13 +132,14 @@ def finalize_run(folder, state=None):
 
 def run_batch(config, problem, stage, repetitions=None, purpose="experiment", backend_factory=AppServer, output_root=None):
     from .scheduling import run_requested
-    count = repetitions or config["repetitions"]
-    if stage is None and not (purpose=="observation" and count==5):
+    expected = planned_repetitions(config, purpose)
+    count = expected if repetitions is None else repetitions
+    if stage is None and purpose != "observation":
         raise ValueError("Stage must be 1 through 6")
     if stage is not None and stage not in STAGES:
         raise ValueError("Stage must be 1 through 6")
-    if purpose not in ("experiment","pilot","observation") or count != (1 if purpose=="pilot" else 5):
-        raise ValueError("Main/observation requests require five trials; pilot requires one")
+    if type(count) is not int or count != expected:
+        raise ValueError("%s requires exactly %d planned attempts" % (purpose, expected))
     plan_path, folders = run_requested(config,problem,[stage],count,purpose,output_root or ROOT/"results",backend_factory=backend_factory)
     folder = folders[0]
     return folder,json.loads((folder/"summary.json").read_text())

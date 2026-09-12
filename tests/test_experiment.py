@@ -287,16 +287,16 @@ class MetricTests(unittest.TestCase):
 
     def test_success_cost_includes_failures(self):
         values = [self.sample(i < 2, 1) for i in range(5)]
-        s = summarize(values)
+        s = summarize(values, expected=5)
         self.assertEqual(s["cost_per_success_estimate_usd"], 2.5)
         self.assertEqual(s["success_rate"], .4)
 
     def test_zero_success_not_free(self):
-        s = summarize([self.sample(False, 1) for _ in range(5)])
+        s = summarize([self.sample(False, 1) for _ in range(5)], expected=5)
         self.assertIsNone(s["cost_per_success_estimate_usd"])
         self.assertEqual(s["total_cost_estimate_usd"], 5)
 
-    def test_incomplete_batch_does_not_claim_five(self):
+    def test_incomplete_batch_does_not_claim_thirty(self):
         s = summarize([self.sample(True, 1)])
         self.assertFalse(s["batch_complete"])
         self.assertIsNone(s["success_rate"])
@@ -305,7 +305,7 @@ class MetricTests(unittest.TestCase):
     def test_partial_cost_is_not_total(self):
         values = [self.sample(True, 1) for _ in range(5)]
         values[0]["total_cost_estimate_usd"] = None
-        s = summarize(values)
+        s = summarize(values, expected=5)
         self.assertIsNone(s["cost_per_success_estimate_usd"])
         self.assertIsNotNone(s["model_cost_per_success_estimate_usd"])
 
@@ -390,12 +390,15 @@ class RunnerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_config(dict(CONFIG,max_messages=1))
 
-    def test_five_new_pairs_and_no_overwrite(self):
+    def test_thirty_new_pairs_and_no_overwrite(self):
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
             before = len(ScriptedBackend.created)
             folder, summary = run_batch(CONFIG, PROBLEM, 2, backend_factory=ScriptedBackend, output_root=tmp)
-            self.assertEqual(summary["success_count"], 5)
-            self.assertEqual(len(set(ScriptedBackend.created[before:])), 10)
+            self.assertEqual(summary["success_count"], 30)
+            self.assertEqual(summary["expected_trials"], 30)
+            self.assertEqual(len(set(ScriptedBackend.created[before:])), 60)
+            self.assertTrue((folder / "trial-30/result.json").exists())
+            self.assertFalse((folder / "trial-31").exists())
             other, _ = run_batch(CONFIG, PROBLEM, 2, backend_factory=ScriptedBackend, output_root=tmp)
             self.assertNotEqual(folder, other)
             self.assertTrue((folder / "report.md").exists())
@@ -526,14 +529,14 @@ class CommandRoutingTests(unittest.TestCase):
                 self.assertEqual(run.call_args[1]["repetitions"], 5)
                 self.assertEqual(run.call_args[1]["purpose"], "observation")
 
-    def test_requested_stage_only_and_exactly_five_trials(self):
+    def test_requested_stage_only_and_exactly_thirty_trials(self):
         for stage in STAGES:
             with self.subTest(stage=stage), contextlib.redirect_stdout(io.StringIO()):
                 with patch("experiment.cli.run_batch", return_value=(Path("/tmp/fixture"), {"batch_complete": True})) as run:
                     self.assertEqual(cli_main(["run", str(stage)]), 0)
                     run.assert_called_once()
                     self.assertEqual(run.call_args[0][2], stage)
-                    self.assertEqual(run.call_args[1]["repetitions"], 5)
+                    self.assertEqual(run.call_args[1]["repetitions"], 30)
                     self.assertEqual(run.call_args[1]["purpose"], "experiment")
 
     def test_invalid_stage_rejected_before_backend(self):

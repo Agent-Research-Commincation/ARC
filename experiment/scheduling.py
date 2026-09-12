@@ -16,19 +16,21 @@ from contextlib import contextmanager
 from pathlib import Path
 
 from .artifacts import ROOT, digest, new_id, source_snapshot, utcnow, write_json, file_hashes, verify_seal
-from .contracts import validate_config, OPERATIONAL_STATES, RECORD_VERSION
+from .contracts import validate_config, planned_repetitions, OPERATIONAL_STATES, RECORD_VERSION
 from .codex import AppServer
 from .protocols import STAGES
 
 
-def make_plan(config, problem, stages, count=5, jobs=1, purpose="experiment"):
+def make_plan(config, problem, stages, count=None, jobs=1, purpose="experiment"):
     validate_config(config)
+    expected = planned_repetitions(config, purpose)
+    count = expected if count is None else count
     if not stages or len(stages)!=len(set(stages)) or any(s not in STAGES and not (s is None and purpose=="observation") for s in stages):
         raise ValueError("Choose unique stages 1 through 6")
     if type(jobs) is not int or not 1 <= jobs <= len(stages):
         raise ValueError("jobs must be between one and the number of requested stages")
-    if count != (1 if purpose=="pilot" else 5):
-        raise ValueError("Exactly five planned attempts (one for pilot)")
+    if type(count) is not int or count != expected:
+        raise ValueError("%s requires exactly %d planned attempts" % (purpose, expected))
     rng = random.Random(config["schedule_seed"])
     slots = []
     for number in range(1,count+1):
@@ -103,6 +105,11 @@ def checkpoint_worktrees(plan, plan_folder):
     with tempfile.TemporaryDirectory(prefix="communication-index-") as tmp:
         env = dict(os.environ, GIT_INDEX_FILE=str(Path(tmp)/"index"))
         subprocess.run(["git","read-tree","HEAD"],cwd=root,env=env,check=True,capture_output=True)
+        # Keep deleted artifacts out of new worktrees even before cleanup is committed.
+        deleted = subprocess.check_output(["git","ls-files","--deleted","-z"],cwd=root,env=env).decode().split("\0")
+        deleted = [path for path in deleted if path]
+        if deleted:
+            subprocess.run(["git","update-index","--remove","--",*deleted],cwd=root,env=env,check=True,capture_output=True)
         subprocess.run(["git","add","-A","--","experiment","config","tests","scripts","lab.py","AGENTS.md","README.md","docs"],cwd=root,env=env,check=True,capture_output=True)
         tree = subprocess.check_output(["git","write-tree"],cwd=root,env=env,text=True).strip()
         commit = subprocess.check_output(["git","-c","user.name=Communication Lab","-c","user.email=lab@localhost",
@@ -218,11 +225,12 @@ def finalize_plan(plan_path, folders, worktrees=None):
     return folders
 
 
-def run_requested(config, problem, stages, count=5, purpose="experiment", output_root=None, jobs=1, backend_factory=AppServer, use_worktrees=None):
+def run_requested(config, problem, stages, count=None, purpose="experiment", output_root=None, jobs=1, backend_factory=AppServer, use_worktrees=None):
     from .runner import initialize_run
     request_started = time.monotonic()
     output_root = Path(output_root or ROOT/"results").resolve()
     plan = make_plan(config,problem,stages,count,jobs,purpose)
+    count = plan["count"]
     plan_folder = output_root/"plans"/plan["id"]
     plan_folder.mkdir(parents=True,exist_ok=False)
     plan_path = plan_folder/"plan.json"
