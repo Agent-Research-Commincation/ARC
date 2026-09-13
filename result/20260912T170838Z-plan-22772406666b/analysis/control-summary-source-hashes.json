@@ -1,0 +1,1477 @@
+{
+  "plan_id": "20260912T170838Z-plan-22772406666b",
+  "before": {
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-01": {
+      "Agent_A.md": "799f2b639cfd9f26a0b02c329b8b8d9ef46f6c63feaae86b93b52c29d2c7fa12",
+      "Agent_B.md": "a0ee461e8d2fbf647896c1e99712d4dfa312c3c435f8fe50d85f074f8c3d5658",
+      "events.jsonl": "5d9602977c7088a8b34e26d8ad24dd9d36fdf70de53e2d1cd8aa86d89ee42b7d",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b08a8b6e50c78c6021dcb50a38449cf1d54114beac0915b7b9fbae8e38256a68",
+      "transcript.md": "fe8bed74373cd655b5868a31c33498a0afb4e942c0ff9ba69d2294ea064b0d3c"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-02": {
+      "Agent_A.md": "fb2f0f4f19e10b6eeb84f3398be1d92c5195070c8b64f21e9f5ea3edb5808c6d",
+      "Agent_B.md": "742609c15e9d8b9dfc01a7fff8bc8ea8685f2b13c6570845645c2db5dc5e7a0e",
+      "events.jsonl": "c55a93fb769dcae785d7d641e0282ee4652cb661154586a380bb7e65114077fb",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "6ac53e4cc6541336375537c434f0147bfa120c6e659933be8f5e56190330fa52",
+      "transcript.md": "c51be8886d6517638104901c5b7d172f98aa53cb21e76ec5fde85e92fe101072"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-03": {
+      "Agent_A.md": "9f29ab0fa6bc2106e373e20fc6b40374d34a483d3e072f1c618a7e3233a6cc8a",
+      "Agent_B.md": "6e27b6bc8d4406713b0bce70fdeb6b938a46bdc27efb55d25995dfa4b5a62a1f",
+      "events.jsonl": "bedf2e7a8e5fb1f6e7075356fa091d5aee95ac024137e651742d410fcf2bbf22",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "8128e755a98541c7ca42c22a2164fdf71e125fd365c732d78b947aa704d282a8",
+      "transcript.md": "ef63450294ee2c196c744204f2703402329ee3a7388c01861e3546e9723a48d4"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-04": {
+      "Agent_A.md": "4a552786f6674865ca1c45ebf75cf6ce11276d29ac382c275f1e2a5653b554c6",
+      "Agent_B.md": "9082edd9ddcad6fe407d6b1d93bedb1ce45d4485582be64b50a402826805cf3e",
+      "events.jsonl": "545dcf941870b8637ab98ffce89009f89e2cb15e807e45b980558df8536a7df7",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "21faf758730f513284d591482b8822390dec162ea85bead657a2a1c2bbfdced8",
+      "transcript.md": "f33f23fba425d7a51380558088fb3cadd0e19c2b78d10a92f3e14394fc987e10"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-05": {
+      "Agent_A.md": "cf7dd8e10796f0c0a6725f5d850fb8811f176f35b890462a1277dbec8ec29d96",
+      "Agent_B.md": "f557665b8601d5b24739c8f9db9e663478dc778080bf8e9c80f4557729941505",
+      "events.jsonl": "9e9737f3fe706586e73688ebb4a65baed561605808a689d1268b1fc74629c3da",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "0ce3f5792eeea6c19cb9dc4f15e8910d0252c3479d676c1321ed98c6711358f8",
+      "transcript.md": "3c3cec7a24b096390a352f349f5691dba76329e3fc8eb6abed8894bd01808d72"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-06": {
+      "Agent_A.md": "2bd2d706b04a760a87f67121a3e1d0961e55ca9a3369e9bff725c2656fca1ac8",
+      "Agent_B.md": "0a39aaa5b56b47d9aeedd5551716ab069afd7f454b1d2ece27b2dbb9c35770f8",
+      "events.jsonl": "addbc0dfa891e770c6a9b362dba569ffd268991b4b3d676d0afa5511838d0c82",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "1aaa4175f2d2b6587c1b4de259fd50309307f29a6b06d294c3459e8eead42ab5",
+      "transcript.md": "e14b4aac2a2cb9d40d119fadd8c48eaa638a4a12b1e79b8f438855fc751b16c1"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-07": {
+      "Agent_A.md": "37567b4dca8ea73ea5adebfeff411fa11e0a9b6afcea20587f12f3319718d3a0",
+      "Agent_B.md": "1b700ea5d37476716fbe1eb86708539f62b7e36995a75dfbb8dce1df2035b699",
+      "events.jsonl": "3bd7a48ed385b1e3e6be738c7137319efde80cb7c956d248081c3e37ab8e9398",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "0e70b654e8e0003d5fb9b1eea66975a8c7289e75b0c405c9929bca7fd680982c",
+      "transcript.md": "f788b8df3016fd133bcde30decd45b58531704d4c385fe866825821ecdb16d67"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-08": {
+      "Agent_A.md": "e42fe2fc21ce8cef68a1f900f83b7fa7ade574d29967887c96a6ce8b5396a7d0",
+      "Agent_B.md": "e07a2e1ce063ce911e468d8e35f38d5ee545245fcfea5ce1d6202cf3c4d4efa4",
+      "events.jsonl": "36de7bebfa8508931ce776683c7a228df6d9b9bd67dad9913fdc4c0cc1588e54",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "04b15d06577859a9648c155d897191d64ffba27624f09fbdd26137d192d568cf",
+      "transcript.md": "42176a88d2ee4b0c555874c4a5f815cd66ee87ddf9787381e959435651c3eeaa"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-09": {
+      "Agent_A.md": "eb3afd046d72831eef434622fa7b98025fa8ef7740bb1b6364aa7af8ee7fee87",
+      "Agent_B.md": "b49fa56eb45ad895f42afaa161d0de839bf4c4ccf398333c33a4cbade9ebab6c",
+      "events.jsonl": "56116c1535cd96595da231cc860ec833a4809fbc42b68d303f62b45747d38c2c",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "51786f4e9d1c5b1cfa5a6a81574db5cbf9b8e5ac42670c1331af5d25f0f1b7bc",
+      "transcript.md": "57ec2e7a439f7731c52d7d56b5823a50399ada1964a907894b0ccb4bbca9e630"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-10": {
+      "Agent_A.md": "e82021d7096f40fd73733e9b98a31c5e5e983fc315bfe3d134ed4ee60a4396ea",
+      "Agent_B.md": "a8e2008f813cd6a050d66b1dee90e54e77a2502d019eac55ee47ab6cbfe03463",
+      "events.jsonl": "c1a3037125595193e46443814f53b9b8048ab86ae9cfc0f7da5ffcc4df867793",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a911109b97205860cd486ea85fb78c7f1f6cb6b3fa19b37fb89ae27fcca9edff",
+      "transcript.md": "cdbd01d93131421583c0a7135cc20ba183328d6b90a782c47b941dace3ad6fa2"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-11": {
+      "Agent_A.md": "3aa11cab44c178f86b894974092aa8cb07e3b404546110a7202adbcdcde68acd",
+      "Agent_B.md": "f97196d5054b8dbf891a76b9cf95de796e9514e82cf63825d666e7e84b57aafa",
+      "events.jsonl": "c25f9a6ae01b5d8d8fee8c486ffe4a014a0bfbeb1d14152be6556e89a034efd5",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "9ff621703474a561aa7cc137c73e23946156715a9f4a3ae937faab2c84a2524c",
+      "transcript.md": "c25748ae8be03d2a1d2c0bac07d5b10f41d04f92460886862fc21e57074b8520"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-12": {
+      "Agent_A.md": "74b905b01fe707962353d5bfd36106b8e0f921c1699f725f117c739badf32f01",
+      "Agent_B.md": "51e82551c3bafbbb22af2ccbcb3a64d0a84ec6c4adff9a881ee05bca8e9fb6c0",
+      "events.jsonl": "10450c479c7788a82b892ad78bf43e463481586c8f65b6b567ded8605a5c2082",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "afd60dd45cad7a4a5cbb75859b1447737942602721689820cae7e7bc4b1649da",
+      "transcript.md": "1ae922bb918f8e5482067cf37aded9ab72a267960c1be5985a06b83f4e2869ae"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-13": {
+      "Agent_A.md": "7611a5367543a1cab9801ebc207d336335bdc66c098cbed0b50fd8ce29854e98",
+      "Agent_B.md": "252d8fdc8cca94e7cabb089ae766a859182710592c590dbadf339197ce26a319",
+      "events.jsonl": "a6c79a70ed722da9fc21efe0201f83e3a6097a97fb316ea8c7fb428b9ee1e7e0",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "6824704d20b64aa75f4853df7460b17fe6f78e51360d402749625e393166e8d1",
+      "transcript.md": "60b4ef9f43500626cc533d7abfa39e14a68b05c71f28b9fa5ef622f8637aaef5"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-14": {
+      "Agent_A.md": "b69e5a3ae50a7245cd8b9204b5610669bd3cee3d9a261d70aba807055495f852",
+      "Agent_B.md": "a042eeee43564d96f6d1161a1f0f205c26c2dde08016b747afb638a051d839df",
+      "events.jsonl": "d8e494e8f3090217575d86e15b5cfc16d6f284ed6fe7be107057a4c3d2693bfd",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "8717a596b7c00d1f9b73698b21dc3794c2a29fb651a549ccdac5fc8502935318",
+      "transcript.md": "d4c64ebde685a38445a063b6cfba91e0ef296cd9df4f4900ec7ac77efa6b35c5"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-15": {
+      "Agent_A.md": "7a02297975afe15158147e88a81900b594b9893bc0eea3fb69f0c00dd70e739a",
+      "Agent_B.md": "93c6a87f7add9dae76ef3be12c15494610e66b7f17c9accf6cb76ab93fc3f615",
+      "events.jsonl": "07b3cad12d8ea12d8edfb083806741584d6e120b453c9be9b39645938a6a25b3",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "65e8550efe836989b44470fa14c3368538aaab78ee62f5496e3c6b8773a413b8",
+      "transcript.md": "92405009722fc884e63b38c329ad0abfc20c205b53f277a696e0a28af6c23c46"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-16": {
+      "Agent_A.md": "36f555881c7ef5d8a5c2c0a2314e5ffba8569dc79e2d8d066eeba66f5d796301",
+      "Agent_B.md": "42ad410fac83e6d42fc0165c531b34c0e9e75bf3a256c9839fd69109ad62225e",
+      "events.jsonl": "2ce5b50f15f31e1da163b706d4040c703c82e92143797182321b2b9a8a02da66",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "9b4fd5e2e3ad68447847c4dc57cc213cc8bcaccd583f7d887e9b33170c51d3ec",
+      "transcript.md": "d43b49cdc059f36c86b421fecf18654cac6cf97a9a3c99142c0c0a60faffdfb8"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-17": {
+      "Agent_A.md": "3b55ac5242093a2fa85de28ec775bcccf5dce808111a9ef27a0a1f153d4410f6",
+      "Agent_B.md": "34d194879e1549961330237a24de74d537352530d041045f3aa3999369eb928c",
+      "events.jsonl": "cf7fc1c9ad967042884c860df340973abf796a7145cc46aa722762fb44fd5cb9",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "ce71c551e1dcc47a3ceb1bb2fd10d1ec6d420fb5f8ad1b69d0e106a5e7c85723",
+      "transcript.md": "2101ec20c6dc9388cd732c6c1d2f67a86e4863f6f6e865b28465eaf64a0fa681"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-18": {
+      "Agent_A.md": "9e911e392c4f62f7ee21e2a5024fb9a76acb0d995c055ede4d159921a1dc1f7f",
+      "Agent_B.md": "cd1d4d3ef1fdc559ee45e5552037683e1391d61346440727da52e6f92b4e4d73",
+      "events.jsonl": "1ca693b7e538b684889a6be5c873a48987fe4cdbe7feeef64b62fee68fc2001d",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "34568b2ec90b0bfcac225e370095d10a6d88ae475d2c1e35f4c6760803dfcd79",
+      "transcript.md": "6a05495f7f22b8ae15d7d853176ab1e45eae283d7a223c7403220c5951238746"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-19": {
+      "Agent_A.md": "30ddcb262f0e97f9c964855881d69994bf5ea330862264bddc3ee44fd8ac9403",
+      "Agent_B.md": "9578a48bf57d9038466e6370c2717be9bae2c1d66792920de79d013195d0e86f",
+      "events.jsonl": "f0b357a61eba5a8a6c360283a5a2c64c6940a3908c39544e7bc0e9af61db5b1b",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "2de493b1423bee8d5d511982d77d4db67c1c5d59a9733b7cdb630efe3647c55b",
+      "transcript.md": "47ad05fcc4d2a7d73d1d5a64258350f94f169b7e68e8c82e9f2cf6c34dccfb73"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-20": {
+      "Agent_A.md": "4677c20fcbf5bff75ecb822489fc8aac471201133c88632b782824255a2ef340",
+      "Agent_B.md": "94ab980f30acab957fed8eb16f904d8d33c58738ae5ce9b0f3d9e348ed008ae9",
+      "events.jsonl": "68c907b91e8871b9f62a556267b8fa45d7e61df34573b025950aac11d3ba0639",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "ef70496ebb99baa9e1bafc67ca8c4743a59b62ee65244cd0e793679a706196db",
+      "transcript.md": "7bc02cedf29af48d3a559196c5d58eb5d84990648cdb28acad2633d2298d7bea"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-21": {
+      "Agent_A.md": "d5a193bf4ebfe16d3c24af16e9a02666e55f3d629b2ff7a5f779c77053c3b923",
+      "Agent_B.md": "2763f0f32f3790a28429e05e269417ad0c0c72bcac49d7faf7995b7b571aebcc",
+      "events.jsonl": "4d73130b60fdaf5d4beb2eb430db6036312b03ef8dc893797a22bef582a22717",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b100af2c2ef42b434035ecb449b8270f7ccc9f97d0777f0cc5ad844ee73c66de",
+      "transcript.md": "f67c1d544ba4be60650c38357caed8cb6563e6ee14d1ffe9a94ab6c290044baa"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-22": {
+      "Agent_A.md": "c9c3826bdd287175874a620a4a233e38edcc541a9a50cad97ef43ab1ce58d1c6",
+      "Agent_B.md": "b6de8c7a3e834f82fe02c280557885677c22d07b535f600e04ffb95d90ceae1f",
+      "events.jsonl": "6e07eb3a0ac4e039115be53f955896ab8e1d73d4234e432d914d3429b151aee8",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "fbf21c68371b569b5be936403071540c78eefb14939ba4f4f7a01fe127c9f874",
+      "transcript.md": "7fb14d7c21f8fb2c23540e93b08a451ce5b95df2964795b10ecf6ede05107135"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-23": {
+      "Agent_A.md": "fa3d6572a162b8b171f6306fd473e7a16f3a95dc28d9e01c72437f14cbe617e3",
+      "Agent_B.md": "a60f1266d761bdaf0d1c20af26618c7a8e2f9de4ab6c420256043a8d4744ed5e",
+      "events.jsonl": "37346d927843918371bcd3bdb8ffadff46b4e33b4dedd313904d74fbf141590a",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "7c56ea43e6ad05daf86cd57436fcc4b2dcd201d01783cecdbabeb29039dbaae8",
+      "transcript.md": "5e9df7083bebeeee30cb73764f4934f8d3a988d67e9427821cfc6ced653f2c9c"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-24": {
+      "Agent_A.md": "f7642fc2e333fcf61793fd0957fc9c3b6f5afb0ac2e427f863d8f8816ceecf0f",
+      "Agent_B.md": "e1fb4a6cc56c795ba5867d373ed3cfa8334875f135320898c3b22335477920a8",
+      "events.jsonl": "ee7a1cdac82b25340ec14ebec3668568ca2cc1f2e3fe05624cda81478b630fdd",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "25ba41b69c8e3f7daa100abd7a4ff442e1fff9ae7166581576965f0d8891c21c",
+      "transcript.md": "91ab277e5a607c8dfd694610ab6ca534036ec4a641531ea3ce78a5b267cd7c12"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-25": {
+      "Agent_A.md": "49e41a74a7611e7a49f375b88b213ce43426c9c06fe2c1beb76d2584188a58bd",
+      "Agent_B.md": "78c307a4ecbfdb43df1808e34b65cb080a433a88056f90dabc3c867311e85b9c",
+      "events.jsonl": "65082d3634216f45e204ee5ee14f6107fd33c67da4679ffbd928e94223bffe25",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "2847ac65f95174c2feee6e70698974ee69cc25f1b160e6f23a9428043cfa7694",
+      "transcript.md": "1b6f54081be0f4719eb723ead5d90c928f2c3b1da66fb1b457b29b879bf2510e"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-26": {
+      "Agent_A.md": "047ce66ca91861f7cc598a8ecb225e84ab153841ff3a765f102b82bef5193f6e",
+      "Agent_B.md": "2830158c30eaaff49233e2c38bb7bfd574fc616bf937e8a3a1fd5260ddcb6260",
+      "events.jsonl": "414b3369acbc53bd48209eb1e87c363252fa7e4719b3f4498f064e3330f893b1",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a4c1a68709b4217638079fd0675073d019c0e0c43c09b3db5780e755144ea454",
+      "transcript.md": "8e366eca6c3d80b33c39f2c7c2b1a7d597180d4bd516c7e6e8e8c7f4f886a946"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-27": {
+      "Agent_A.md": "b93e1dae4ec1074e580f22eb4a9bc18453813d09c539ace945a8a9adf2663b9d",
+      "Agent_B.md": "efcb5903667659c065fb296c59399fb168f31458fe011e03ff83a26a95cde3ec",
+      "events.jsonl": "c47e183fe6aad55dbfbbd7336fda24622920eabde21222b64a03f2601b4403cd",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b897b15b7606329e34871761179199de2396dbb37826767eefa07c0133a7219b",
+      "transcript.md": "383c6d3eef1352e8711cde10b63c0ea2856d255c7ef7d27e473daf34da6ff255"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-28": {
+      "Agent_A.md": "5164e2bafa854f196646d5e406ca7fbaf2b84d84ad077bb42b4bbb24cfb60fd6",
+      "Agent_B.md": "b7f70c2bde47d07ab97095526cb2ca097e2e8d7319d8210a0812ee98f2a570fc",
+      "events.jsonl": "4ff8b45dd5b60788d5550059b01bba738e4003304bc814bada67882a4d0af51c",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "bf46ddcc2ab342e94e97f549966292b014a6d562f005063be06f9a2f8168610d",
+      "transcript.md": "2225cbe57f73dbdbda1dced547380575346205ecc293bf739fe3edf7706a33e9"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-29": {
+      "Agent_A.md": "88bbde2df5107d5dc7b099e4d1751cea68ee5dcd5cb2dcebc1fdd331cf60e9af",
+      "Agent_B.md": "64254f22754a9b8fcc62da3ccdaf92de3e9e91ae217e25b6a6cf47ce7c7f7442",
+      "events.jsonl": "d0ee0a969745e08a23fd371725f31df495dafb96a6072d74d64aec0b457f5fae",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "331433cfca083931ac0f6a618ab9629bae9e68e2dd0a1a7324527a2a4fe0805c",
+      "transcript.md": "e47f515b7f663898ce2d2520a63c6bed294a02335869f2f40255eaccee1bc333"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-30": {
+      "Agent_A.md": "c67268b32bdbe53d23c31473902fe3cec4b35791793a9368a7a0c9c1409e99ad",
+      "Agent_B.md": "d39d33c6368e861ecdf5eb984b262712dc481de32a53ff1764f0f7b43c373c13",
+      "events.jsonl": "993bfe551fbb7aa833878481333ab16b155f9f6ad2ea8d46f2082aa5352afa35",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "4bf4fdc75dd556531f1a6e78bbad42cf37c78f3758f5ccea400b62be85aa6387",
+      "transcript.md": "bbd40b55436ee922cbfcd0f9b1315090cc7c75e47037ec7a01e6d8de3c628a79"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-01": {
+      "Agent_A.md": "ae7621f6da69ea9605f617dff0f84f8d5bee5907f8014a27904877a93ee6b7cc",
+      "Agent_B.md": "2ef41302bec892dde2deeb103891c607ffc6b30010199057a6721f1562432094",
+      "events.jsonl": "5046b9571cb0605278089770cd6c00d254f77be063f4504c5757e4e16d5118c3",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "78251e88df19741a71773755e0225c48c0cfd2a4da385d0d9e077b50ab038d36",
+      "transcript.md": "352a22b8909330418fce06ba9bca8cf5518833d0e1bb0687b6a238439b681317"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-02": {
+      "Agent_A.md": "34b8a5ff8fb57594722940c92a5ab327d2474a415549201f35a16d3bec879fdd",
+      "Agent_B.md": "68989e8ab992821a5cbb4db3a11a2156c7ca52477260f384562439421f7773d2",
+      "events.jsonl": "f5326353ae05616f181657f4995684e332271d1bb4fc1c49d5ba39e57a3964ef",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "52d088967db7b6497452b4fd947bdfd95deb23ee5f97d30629784cc0795f4398",
+      "transcript.md": "ae52e873728e2762e6c89cf5efe2a87d8e78ce8f2ef466443b719a34a7f5e3b6"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-03": {
+      "Agent_A.md": "ab4fa6545d5b00806183154b69f0e1b9146efa3eba64039d9ec1d11bd937d1d2",
+      "Agent_B.md": "85316e2ed50d9e6789fce4d4ee39cf82d2fe9eda418cddf3df617f67dd5d7928",
+      "events.jsonl": "14ee9247b694f4fad3e20b222fe92fbac1f5eadf8e5b81d657238bac56df94a8",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "99f7db3e7a1e7a7fd9b9ce012eeb8322502880ef6fe6502e9316662d9da48427",
+      "transcript.md": "563f23a6e587edc1686e357e6f807ba5c8493b9a44df8265cf9f62bfb84d0c34"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-04": {
+      "Agent_A.md": "8761dc50eab4b60c22b7756c9d9499d4555c8371e06a513e7d152c664163b561",
+      "Agent_B.md": "ed8919b472d664521ac3627b71a4e79027d9e54cdf632290a0e06bd98cfaa278",
+      "events.jsonl": "f7b24a174e2ddc6a16d60aceff846e8c61ab1c4921666806cc09b00cd6506458",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "890d94aac0ca209addf22119671b0fc05c7e0c5da1caf27759a75791b9bfc4aa",
+      "transcript.md": "957179dc36e86f75a4eeb05a7aa6577f1b207c398daac265782e34db7ee2754c"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-05": {
+      "Agent_A.md": "7ccf4764e8faa80b28233d683f59496afbb6e4ee6086aeed3bf84d5dbb08aa60",
+      "Agent_B.md": "2ece7113acd4571c68ad9144925ce181ee1f8498932a5b0d3e5d89f0ffd9283a",
+      "events.jsonl": "fc14f886499723deff6b06272e3b1bd6c15c3eaf7db288820cd055cd36d4ba8e",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "817ecbad81dda33efa4a7f370fa7be9c9363760efa32a8ca2f2629f6b45fa7af",
+      "transcript.md": "4d6b5de11d694d2ff364c0366f33fe7f2369b187a9238d4d8d7870a9ebbbce1b"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-06": {
+      "Agent_A.md": "b47ed5ded2bd18f007fc0e0649bb2e585a011dd8e2f6d914198497099a72347a",
+      "Agent_B.md": "621f3bc3a0f375e0e3e7c256e3d6cde8d99340d2cdbdd58a94e987922cab19a8",
+      "events.jsonl": "5fbb2810ba6b422bfaf6b1f5001ad7f9bc07a0b58c3dbb9c9835e3e5db3105b1",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "11f3f2e2d114c80fa957090ba42d04ba4c34b6c66be1d85dffe30e9d6a1e923a",
+      "transcript.md": "08f3bd94b760f65905bc8590e678d2ed63627e1bc5802e89b1f5e6276491ea3b"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-07": {
+      "Agent_A.md": "de85c94a97bbda9e934d141a9a211f7beaa407e9aba20de8e5ab7d7cf7295934",
+      "Agent_B.md": "a9de3e52fd430af0d9bcb3ff9ff39ce0dfbe317f1d0deacd2c735abdbe0c1685",
+      "events.jsonl": "d6d79431a341a7753c7a85bb981a30252f799e5f7c6635ff9f358571a91ecef0",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b9b455a04c94db7b164e1f74c493babd7de40f253a63a9fc82daf4bbabc86c59",
+      "transcript.md": "41e8121ec4016fe3b390b64b6022cf2ef53cd81858e18755cfff09f598ea119c"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-08": {
+      "Agent_A.md": "6ea9bb9012b758f714fbb81bd6fb5ea806965a674ad9f78cd95ce562b274e625",
+      "Agent_B.md": "03bfad4b968dd92ce76def8a64a8ea1d04e9409d996df011f85bcb731d0c47c6",
+      "events.jsonl": "6c1893e8fd6daad486f1242ae95dcd45c5b684fdc45971bce3d0674d40a872dc",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "07555118df738525951c968115e23e6f9c6632b31f67fae48b94e99d4a4e320d",
+      "transcript.md": "821a1d91831598a93aeb1e10e37594702834eae0fd02d5314ec8113dc286cba9"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-09": {
+      "Agent_A.md": "a12387178bba84b99a3cba817f7e3fa418bc00de3242507cdc56b9b7cdd16999",
+      "Agent_B.md": "8588911cf08dc8b3503d8d5cdc037c07996bf2e3c2226c29bbb218965ff7379f",
+      "events.jsonl": "6305d2e8bd03c0e3c1ad3daf9885de7524e2600ce668708d45f1cc79a652ccd6",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "4f0fc9fa0baded39d6aa3a4a9a64739224833284e90e9288d7e96ded37342560",
+      "transcript.md": "21fc22296c7c7a665df2dc055b4e429275809befec595681087b6d9411c677cc"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-10": {
+      "Agent_A.md": "71b17f8bfb7c595336366a1840978a3a36dc5cc8522a77b523dc799671addabf",
+      "Agent_B.md": "52c6a36d646e2c5504547e169b7408c8c1c271e6ac7d162361370a09dd5ba679",
+      "events.jsonl": "b948de906eb0a47982011e818b16c54c074c51d5c0d2206f84e2de0d71ad4149",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "7fea883b3f730cb72b09ada31ec1b3c262bbdb4a82148d1f39d11134a518c3e6",
+      "transcript.md": "9be692af4f0e7e5d317b6e494281ab30cf626e10348ae573939deb31f1bdb7b7"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-11": {
+      "Agent_A.md": "cc6855969b7d528435c1b6a998184889310738ec2e813431b51e6b0fd4c3fbda",
+      "Agent_B.md": "392c39fca9bc0691c37179903f3bc300135d1ce50126f0882430afb84e5d0b58",
+      "events.jsonl": "4f2d4c4ce58b4b30bb2269e3339fc11580e8cee686b144c4b18611eb80c056db",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "cf056348e57654a88a95a29755c9c22457d0005f7fa2fed137dbab52f307adc3",
+      "transcript.md": "ea3575645b557e49e9a7a409dda70c98689022d2b18c8d1c992348df20663bf1"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-12": {
+      "Agent_A.md": "169693f7c09bdd0fca8955ae00b190b360c90a4099528c7b639c8860cdde7b76",
+      "Agent_B.md": "51e8dcbe686ee8c04e71f4282c8d7fe9f3a11c4be404cfa2efbc44a0112ea273",
+      "events.jsonl": "73f3bde0f370b78022b37f9ded4840087753e8c3d4f69af6811f749583b83423",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "3add997b783167e98680fe3b8739e8ff01d9eab3aa5509d7f1c2bccd27c14928",
+      "transcript.md": "e95b5b855984ce65b13d99514108e8bae73ec85f29f1a17aea6a1a330fffad89"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-13": {
+      "Agent_A.md": "d7d8a57fef7c6269912c86b7b27fc3743e6ee41bf1993e62e5482fedd9e28463",
+      "Agent_B.md": "1890769d385cfb3b22a295b22323e8a75c7c620e4e864a52cbf92e2a6777022c",
+      "events.jsonl": "5cff4bacc6464ae6f44dd682dece150028f0158d9de76aad96c04100848a57cc",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "4984646bc74b1fc9d14c4dbc6598fd37105e3c90498e58705258a9ff75e34908",
+      "transcript.md": "9e43707a12361ebce6ac24be26b075fba98baaa6fba9626764e65fe7d9039bc7"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-14": {
+      "Agent_A.md": "e6bf4c19c626b2adb662223114e354c30117f2c76c7927b8c446a68e159e54df",
+      "Agent_B.md": "61e1678f3525f33c04a197dd7e3fafa222ff018164a5a34d76033f22a40309eb",
+      "events.jsonl": "cfaf394628b9dffd7a5348e1f4ac2ab64f418bda5661872a8b61b20f3d92c622",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "0ffd020874f5ef32591c95cc8b2e7ad8d9d0bd372de16aa0900a1460aed86491",
+      "transcript.md": "b34e88f7a281f7538b36a9018b7f194f56142252bbe87ac1d54422637cd0ed37"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-15": {
+      "Agent_A.md": "3ae8ef37bbe691d5451801c3cff1ccd389c8bd39e1d63c969acca02d96bd3de9",
+      "Agent_B.md": "0147dcd77393fba384d91bc0b5eef1714cf23641effd432ff629e6a9ef104fc8",
+      "events.jsonl": "4ba97b772124272f8a7e840db8a50ffd2fec4c3d5df7b89c57af1db513c3658a",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "9686d1745c3cf41ab01bf346230c995b40d0a8718d267f4ac534a755e02d0765",
+      "transcript.md": "c1eb6ed5f47fa04317526863b3f637a110578e4cb3291eb86bf71ec0cbfac249"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-16": {
+      "Agent_A.md": "690096ee81c7a49a57ee91de3578f09259ba079622d42588887e297c97b46ab2",
+      "Agent_B.md": "e899e19e18dcd4a0730c00b12c4f5177ed1a9842141ab3373ab9318456270338",
+      "events.jsonl": "ff4285d408f4f3faaaadf9904066544455bf5eeaf8eea40af8f30ee0ce55f369",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "15ba91c2fe9c207dafa2ceeff5237f442caeda545429d8df8dd6c246791a9f15",
+      "transcript.md": "2995a8c2da65580a12285709d480807e00add44fbf903ff659656009091db61c"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-17": {
+      "Agent_A.md": "f0b411555e85c841c6d84905ecabbc9f9c65d60829c102748b2bbcfd19678ab0",
+      "Agent_B.md": "1838996ec4434cb4b5c8f791a744dda373b4fc7dcb0836679461526e4be08787",
+      "events.jsonl": "3da6b5222d9318b4dfb8bf6e32fc461c176abc16ed7ae88a667edb6cda12be1c",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "2fb00713a0cfad4182b3db70c33f2c3792187f2859af74a95af3973b1e174e37",
+      "transcript.md": "e8928513610a3b53bac5728ab2317e3bcaeb076f376be9078c114fe920b419f0"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-18": {
+      "Agent_A.md": "63e3b1378b22101e2ef178c905b421a2a3ea7460c37e3ba23a78040d3b3a48e9",
+      "Agent_B.md": "a060f5ec349212eb64d9b186b084d7a7d95ef7ab34ab530c9ff41dabff425389",
+      "events.jsonl": "8d2cc813d6217ee708755a7f51cecf7f4277a2dd3b4082fd9e57cc1127d665f5",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "3cbf304a936578742a7a6d0e34c49b8c443aa7091ef2b235029c2a5bbe236da6",
+      "transcript.md": "22b37d8e8388594325d5076f3d374159e86b6c37f73b200b9a47eff160b3d181"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-19": {
+      "Agent_A.md": "03b5e191f477a2f4896bc299cf299eb3db0c92ec2a96cf32572bcd87440db0d5",
+      "Agent_B.md": "bd366742d12bc5ec45728fdbabdd47ced0039752bdddde42bf75d34bb6c5d66a",
+      "events.jsonl": "e3d3e59baf51aaa21cb8f9fb4b1536ec99a959e2d865dc229596db89c20467b9",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "0735f21eb4dce195c65974cdfb36e74c9fb67aad4f4b4b3cfd60e84078b47064",
+      "transcript.md": "ada0824dffb449f34e50c0fe561ad270908c0a744bdeff0120436439ea9e81e0"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-20": {
+      "Agent_A.md": "a7c8f8f23f6522d92d97c9d72643e45696aee3fb22a85a4a928a33f7877b8dc8",
+      "Agent_B.md": "f5bf1dd28e3e4fb1bb3a76fb1e3ea3bbb65c6b969d11c7152e25426b4590e2c0",
+      "events.jsonl": "6860868e9022d44507790b040150973e4bb3fe6af6deb59687169db2c67f96c6",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "9b1932082624441ffa63a3e5c373dd69e257ca32d6b64f5b385a6dfbdb1a6b03",
+      "transcript.md": "66de3530c51329c4d532b4e54fb12afdc47d32151d5a0cc6330cc882a6dd6301"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-21": {
+      "Agent_A.md": "b4415839f10a258045ccbcbcee89c8b69c61cb8c6dfb8fa0fe926501900280ca",
+      "Agent_B.md": "49dca7044681616a155883bf5f6f3f7e731c99a7b0db4c497f5f3b19b14bbdd6",
+      "events.jsonl": "55827adb55de5420c55261e81bb4305c9999df5f2c26decac02b57c75439f234",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "e9355a6290278fb84a1a4daf1bdcd04436279ec6e9dfdb26c2451045603cf0dd",
+      "transcript.md": "5af3a86a2cce5d6e4f9f4c05fb528d6240bf8cfd59bb6e73c90977f38ccd051f"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-22": {
+      "Agent_A.md": "ff238a30289c9a8381c58c0fe60546ec0327f57da62049e7d1c56e4c605ec48b",
+      "Agent_B.md": "603d274cbe4f6e653da4d40fe58e90a92bd3f3d315d1d3d0e3d9959ddc75a122",
+      "events.jsonl": "25912b2081bf95ff15578b98d05ecaf0f8b55d5914fa3b77b5663af3b137b6c9",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "0bea82250c32b7832d3f075b73154153b95cb53ebcf73bb2b35b57bcc3eefae1",
+      "transcript.md": "51812d62e75bca3b5803a0d0bed5584fdff8d00fb3b2ba8f34c19c8a03ba29e1"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-23": {
+      "Agent_A.md": "23d13ab18a098ebda0c30d9b637cbb1f1166254915ed879b79dc82c0c4995a1d",
+      "Agent_B.md": "92b5452177206455ac7b37e0095f691b411f5681b216fcf09b3fe0a36c06f592",
+      "events.jsonl": "1c3ca3c0e9a8f6cecaa179a831550aae978ae07720dd606353027d592bf186e1",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "5d9237507e437808409ef2649560542f282acdf0f5c74278c9d9ac4166df0d50",
+      "transcript.md": "4aa1ffd82d6878be5b5dcd100b0f27175e4c61545b1aaad94a97650179971d23"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-24": {
+      "Agent_A.md": "49b168f1d422250d286cf819b9cbf47c1adcfa237696573756a18272741ce316",
+      "Agent_B.md": "6522e6b2b5ce6f4371fb4b23e03d234dab6f7a65aa71a8c92bf9b09b518fc760",
+      "events.jsonl": "42395721b40ec211b6d2f0a592aadf208e9f31bc86cd11abb706e23072d273f4",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "adf7e89af8d3e5679a14a774e6a6d443763fd0716c82c5e820b74c7ed3b42eca",
+      "transcript.md": "6478b19c8497d172ecf15050a3fd28d40067dbe70700293977862c6e6ee84a49"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-25": {
+      "Agent_A.md": "44f6e8be634ee9949734db5d030b34780f518d7be203402b79598604f75540b5",
+      "Agent_B.md": "48cdc04cba86ef638dad841be25eb646e3d4618d38a7a15c36699d5927a7a1a7",
+      "events.jsonl": "70793ed5a71efb21e5fb7e11dec226e9fac4a9f77c91be26313065fa6640d33f",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "0729f1dd70a0655d6ea4b443d7d8ebe3c69a2b596b5d8663220a0791f178af85",
+      "transcript.md": "d425c409fc82c5c491a2b18c568016a4b6a26d28b33b59ba47156e29c9c48a25"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-26": {
+      "Agent_A.md": "a1d4a49458fc30c7777b99e1d9a27a628b65b32bb8d7dc3e59e232a50c444cd2",
+      "Agent_B.md": "87085ed965e27a9aac5ff569ec2a5bf86f4c0a361dbcebd7b3bfe03bdfefb7b8",
+      "events.jsonl": "b3ad4c1e50b0d3bf77afb33bd8e04cde7959710608bc431c15afa9f34aa2ef94",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "4eb3333e6c5570ca49a4f69c0a8384adcee7ce87cd47df95e91474d37d1ff8ae",
+      "transcript.md": "60eae5572d39d8a675b69b8d8183a16267b1f5d36e5598c31b4e85e2d3aca388"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-27": {
+      "Agent_A.md": "654558ed951f1e2f3c0150ff89b89ddfb302a90b1b2038f45f1d62955778c219",
+      "Agent_B.md": "19f495aa631216844be8c2ce4e0703dbc8fdfcdbee8fcb109a2eff482f22960e",
+      "events.jsonl": "f8c54c4301446e1529eb450deef3e372c692194ea20d802320759f1a108811af",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "3a54fb1be03d6416c184af7ad3785cc0b9aefe612d4a32d5732c9e07159b9f27",
+      "transcript.md": "538e80e727e0ed1017699fc8468f2f7fa3dd28e518ead2e293c9cc2808e4b0ae"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-28": {
+      "Agent_A.md": "7bdc0693c5e72f70f929939660def7e321fafd56490f6e86cccc1de48876f600",
+      "Agent_B.md": "847c52da7e95f012cc5a1f671aa1bdd9f55cd4a05384555282ea05c0133f71e2",
+      "events.jsonl": "bdd391874041a8f5cc8989cfa2e176e949212857b0de766c3e5acaa4ccb09df8",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "f564b414dedcd3377a5b97b0035b2b1232581ac85f355594361bf109c959d60c",
+      "transcript.md": "54cd203de4dab9fc21a4ece45dfb1414cecf2184f245ffdef8761a92a23c059e"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-29": {
+      "Agent_A.md": "a5c81d04b985b5d9825c5e8001e2f9b340653e79eae9c36bc013469368aff9a2",
+      "Agent_B.md": "8605812a74bce68f9d8d830387441c5f2a1b166bbecde67ae93998142b99d442",
+      "events.jsonl": "a61033d0aa4a66b9ab1d753d79743dd1cd3b68a927d6b8719e9c64ba911c5992",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "05138efa49287bfae534df949bd0db56a36608e5c9fd6c04c8e0cc45c95437dd",
+      "transcript.md": "a47c0cbd97d08ce0bb513ec574f52dc09c61bc9b0db81c96bf95efdd4d819bfa"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-30": {
+      "Agent_A.md": "51d5d42f499a45e46f1b9612244ee4a7c629c35cbb5a586dc4cedd9445653abf",
+      "Agent_B.md": "37401bf298f5e69ef96ada9c7f5b808e23ab05e85b73880f513b066c59642925",
+      "events.jsonl": "fc1858986d586dc3f93c96406d08b01c5eff5edd484b33ab915161e8869c59b0",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "7bddf34d5592ce20d49c7c2444f49220fd48161f625c259cbcc9237b66945651",
+      "transcript.md": "2f0379c2bbaaaafcf18d29b07cd06d52abd7bb94960ec13a6f02df52c84f7d16"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-01": {
+      "Agent_A.md": "bb4d5fa5d8d1f87a756cfdfbf431e11592de0eef1abe96e4ca2528dfc4b118e1",
+      "Agent_B.md": "8c7da614e2c8bda0d60029d961d5229dea31820ad83bd25387a2c543548ebbbc",
+      "events.jsonl": "79c55168d595ba39e197023bdc4d0af3dc8a686628d9e436d7e5586263f6f783",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "2b389308175a97d566983911f67ff55d3f77ae9c8c64221dfd75a90b792ba790",
+      "transcript.md": "9506a5fa005cb05863ca0acefd74caa6a138a00ed8f14255d053dbafa280b497"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-02": {
+      "Agent_A.md": "d57a38f618f8b0d807e32188788d7c0482ef6ab573f725d9593ae7b805228c7b",
+      "Agent_B.md": "fa1b9e2947f04e31f6235c2ea647355951740ffe796c5fd143df8d4dd72e973b",
+      "events.jsonl": "8fb108e541136a899be86fd5d716502a7397c74bf673de8a6a92f7544f618b87",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "bf13a244a280ac30b5c5fd7e59fc2c90a7fbb025249a8fb4f117b9948e3e5cf2",
+      "transcript.md": "2a67dc535c37151a25fe104c78d6602e77c578cc9891e54c50063c1fec676350"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-03": {
+      "Agent_A.md": "511fcf69105cdf5c4c517edc7756f0d01b08555eb2e77614d2da5eccd8d8b002",
+      "Agent_B.md": "127d954b2bdeac5727c3b071d052cb09abc534bfbfb6d809aeb68ece92da9743",
+      "events.jsonl": "19b035ceec5c47dc3825019e0557a76a1bce05abf31fc97bc80b6b057dcec236",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "e41d08376bde2b57535728a840a0090ef229f6212316a952c0f9de28d1c4dd0a",
+      "transcript.md": "ca32e2a2a9f0f1a19394ebf9dc8ba00b6bf653b723351b47ff605ecd2cf8f69d"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-04": {
+      "Agent_A.md": "4a9b9b456ac0700536ff52d6025359f46bda3cc592de1c94e30204390d28e4a0",
+      "Agent_B.md": "3b4c18cf76138e0f662fd71d38b5e9a573e97d8dbb0fd93a281a1abf3db8a007",
+      "events.jsonl": "0b5a0b5fc4daa995ffc28a1ded82cf4e922cd4fe3012e34e26d1a35ec5dcab5e",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "ea9e58d6ebbd280375dc6b1fcd93986625ea5530dcf2c7f275c8870e81f25c09",
+      "transcript.md": "1c4f53d995c1b164f2bf1c970c63caebd089ed30c71c42f8e7cd1313f02858b4"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-05": {
+      "Agent_A.md": "e8f2d87f48a82a939057f768989f4a0b747f8bb3774a877fe8e71cc3eda52be9",
+      "Agent_B.md": "84ffbb1cb62cb71dcd6ebdfc49dd98d02ac5fa58ee8d5585f1a41c6fa8f73de7",
+      "events.jsonl": "350ca1b512a7d7426e2e9f9195250d543ea694881089282794c1f46cf69a931a",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "cfaa611343865301ca085f0cd09f429d388901bc35a69219f69108facca99244",
+      "transcript.md": "4418d2655ab9f7af05ea77b9b0ff1545a42b6faf85cb556d00ffda2b1703a0aa"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-06": {
+      "Agent_A.md": "77a2fcf99c1f3360a479e388eef483c73dd933bcea061bb85bebf76fb32e4a0e",
+      "Agent_B.md": "6e6d68f7f47fd34aa24575492b80b222728c7139e7978c855475bad447dfe096",
+      "events.jsonl": "627f614a2a5f9563d0794e396b634dbd697d2d4090f0def734afe2b8234ab806",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a2b89b9d5b44d00f7cd5e0b5a13ac67874d32f693a0a864bea05769d3c438b7a",
+      "transcript.md": "cc4e2009d318ec5e3fd588544837373672c9c765bb961f3c20d1ccefe9a1d26b"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-07": {
+      "Agent_A.md": "945ca20dabffdecf389a42e8ef6e39cbbe78ea897ba45f4d7ab84000c78821a4",
+      "Agent_B.md": "34f492a1fffdc99698749e411aa6c12b7d1493a1ff9afdbff338aab94154e1a0",
+      "events.jsonl": "faf5824fab14576ba23243e39187b71bcc45a3122aa4bfa2ba72576a4abb5141",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "4acca55c733b1d6f6d4ca58b688faa7d98624d899cca57d2569df95d7865909a",
+      "transcript.md": "ffee9da5756961f000bea78609a7b33af03be519a4eb28b8720f2a326ed75f0f"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-08": {
+      "Agent_A.md": "5e3e54c5260df9d1305350bd4de57aa762bcd3436bb0dc9cd2da013363431e50",
+      "Agent_B.md": "4be5c82f7d2ed9c6353b8355a2caff1e334beca1d51fd5678f9aae03fa9be5b1",
+      "events.jsonl": "dc848435366df7d5d3df404a624cb9df203b96e5022ae52770ff7af4d2dbc5b8",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "bf6f41c22f7aa0105847c3e69a5ff6a19d49241f837351610a40b21c66ea48e3",
+      "transcript.md": "4f088e73f1e282d1980d0d2e5bb28914fdc5c887f1c7143a409ec04727c2d4cf"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-09": {
+      "Agent_A.md": "50ba09f61f37d1c5fc26af2c38958669cde0cd6c3c40a733c5f0ef897353e5cd",
+      "Agent_B.md": "3afdd4d9e5896e31556b70ff9021be52684c0531eb6ab75b179d6f9a9fe3e026",
+      "events.jsonl": "abcf4008330cf93f87a801f87afa7f1a2578cc9af2d13739c6efd13a5ae852b3",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "f77586ea1b898d2ab426ebd63ae5fa84ae539194f9705f6753cd7176cbd90ffe",
+      "transcript.md": "f544b100f3ebad296591982205166f6c0273d77f1e8c00fbcaed264500241e53"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-10": {
+      "Agent_A.md": "6e68767211ffda891bf2825b8900455e35ec5c7c6b8e30b58f2e8e01984b2b3c",
+      "Agent_B.md": "d73e052ef685ab14cfd35f11aead02b59f32859289f83afd64dbf06cdc35fdb5",
+      "events.jsonl": "e65ec09e708bb1494a8cbc77cc00efb13c297108cf30b077ea4fe12d71a089ba",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "e765ec05cf99510875d48ae183067c498a8dff020ed85a2f25abd2c51da6ebb1",
+      "transcript.md": "0319c53ebdd984a327e9fa435b65f5f1f6ecf7b06197fe7496462c8a95e75f90"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-11": {
+      "Agent_A.md": "7e4604bb121cebe336cfb4a6b15fa3c121ef8e2dbd98bf4fe1420f8b786aff60",
+      "Agent_B.md": "c2499af075ca4702162e14e8884cf5d87c5c1fb8d72660c46fbe2b617b703c27",
+      "events.jsonl": "5854314afddef9cae5e445bf97b19f9386832a2e7970df78676f9d653f813f38",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "62ad76c4aef5cdbbfc5777e9597ad289a6b1799f7290c93fc227706cfc4af260",
+      "transcript.md": "7d42634865bf5603f790cda0a3a840aea2a5f0acab953eaec550974e6b1274e8"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-12": {
+      "Agent_A.md": "dd2129d22ece7a9d5a631d72e2c772433eb32dbe478a14c6f6148716a904237d",
+      "Agent_B.md": "6f597823e8db864f076c4654ad5b4d572689444050d7bebe65edf0d461b718f8",
+      "events.jsonl": "068d0dff98dcceb87c1e386d736de40c33c67adb877ecb1bfa682932e385bfe0",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "d946d678407cd58209ce8805197252d10a0440169809512f41dce823f53c51c5",
+      "transcript.md": "ab9b92ea39c2377831c9436f3be0032dc1397cc5b3b284ed4a6c3ee3e2b00a30"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-13": {
+      "Agent_A.md": "ff004d6fd4ebac9a67c9c23dde1457d757bcf7af37ee417fcd0cd2bae605fd0c",
+      "Agent_B.md": "f8fa2a0c81606f4172b768d4d9a389b133efbf8bac9c7c92ab824a4b670d10cf",
+      "events.jsonl": "f649c014c5142e19ebfdb9a4a2cc49dc7856df147ea9d6c8926c2861af27d570",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "15901e1668d30d730f3d10f4f16e47507894ab633a0fef6e56d4f4546a81ea07",
+      "transcript.md": "eb7b6c148ad47f5af0714eee68f37478b8876a80475e8819017056582303e510"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-14": {
+      "Agent_A.md": "125c1fff907f6749bb142fe43fcab1aa38d8ce9edf8df184bd539d4f971895e6",
+      "Agent_B.md": "bce6214caca578824424283221672f5c28feea2874ffe5151e5fa32cbfff7778",
+      "events.jsonl": "bb042fff7b9ac9a7cb51d9933555498cf79b0deea7ce297321c728f1ccaf91df",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "f614813e8a5974776ab40021162ebd23ffb0a9c8038b3d86cf30fd3c202a59e0",
+      "transcript.md": "3e8fb9c58e8297afcb1f7081f12ec7fb3a5362cbc5c8a76936eff2614aca0173"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-15": {
+      "Agent_A.md": "223e62fcf6b4a012874744d7f437a6b828918b1dece5218910d7f5f0abe187be",
+      "Agent_B.md": "f6a21cb0af7d8c570d7657bb1a9cf226340e4752109de893950a3d9ebdb52417",
+      "events.jsonl": "e1ef32f78e03a42b3ca6554f23a5bcfe8770d2cc258be21d64f6edb2232c4f89",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "8da02cc55c2cd6a6e80c3dfe3bfdc51631f8758c160f161c1075368e123f6c2f",
+      "transcript.md": "c75ea7ed30ad14a469ee73b1636645ab4efd9719a55738e008a831b23f6a3991"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-16": {
+      "Agent_A.md": "c4952035a6c7d52aaebcb28563c6d419a0625532a55bd123e429c40956e23c29",
+      "Agent_B.md": "ada82d61756b0660586fe68ee9988a8784f1df51fe5215b0d7c6b64470540ce6",
+      "events.jsonl": "589ad4e92375930eed49efcaddeff4db2e9f1f34bff8183df169282a66c35a8d",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "2ee3c4ef7c4cbe45a43b670c4ef32dec9c9c343667b77863e49b0af68e3150c4",
+      "transcript.md": "85a77d711a0002257cfe86f7d13e63ac1c23252ae7069a9f071e061dfcf4565d"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-17": {
+      "Agent_A.md": "c7faab183188710d01092065df11421a439966999efa4b90fe96ff0d124b483d",
+      "Agent_B.md": "899b189d9bf3b90232b23ae2e2ff5fc82b1854132e4f2857a81ce0a8383ae9e9",
+      "events.jsonl": "70f9f35b5356867c9bdb81163cd8034ece9eb50179fe321968e840fec608d389",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "89b1e6b8b9e7d2215f0cf85150a79fa97d984ce07eb6663729f3239e9f7198f4",
+      "transcript.md": "07af879cf80bba32edb63dacb50e324388fe96ea42d5ed0015b1fdfe18afe4b2"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-18": {
+      "Agent_A.md": "d130cbf9cfaa671e7221d16634c917d20d621fb9e5e1a1670e2fa74b481cf22b",
+      "Agent_B.md": "36d9c3046da68acac9f8eb57ac87346ceecee0e2e5f1c1533a1fbbf3c7d2ed4b",
+      "events.jsonl": "14d40f329250cc9a243c70380a47ff71aa18f81d816c7abbd7fa32b5e6280724",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "aea94a0cc044b90f374698b6f6a2d7619e1427064b65cd1e0059bdee1ed45a68",
+      "transcript.md": "4c1c7ad300235db4514734a848f37eb5fcc44039618471192d8a0a5ac7a187ec"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-19": {
+      "Agent_A.md": "adb85962d9e4fe6474678e887f153ab9376bcaa830640d235cd76cd360ec7a87",
+      "Agent_B.md": "db39a140e231511ff7e0ef7a60b83b00c847731f0cd97c8334d684f9ed38482c",
+      "events.jsonl": "d465035a715f9f99c63a461eed9f76ebae1099abce5e2e0a88693f8c6f1babba",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "981ebbb92fcaf8ce31981009fe364ae3da72fe2e5cc3005ea5748a28c5627cf9",
+      "transcript.md": "413f3afa56b06ac56504262bf7d861c67237c636808cc478bccf097d4b532a32"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-20": {
+      "Agent_A.md": "ed8cf37db8a82413c9b350a8a73b5be3d1a88110ba4934ba2f7c98aa0910427f",
+      "Agent_B.md": "688e8f8e91cadcaea0eeeb3af9c16661f32284dc2bb06a5c70cbe766f56b87be",
+      "events.jsonl": "aaa31ea1afda389c1b47ace74b0a43c62bbb5b0f3533b3bb72d9b5f4a45f4843",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "70741c23ea3bc3e123e27461448ddec5e5e4b2f9e65b7a43df88e69c66f3019c",
+      "transcript.md": "9780cb6c09ef1de4c8f9371aa5273c4906c2b5dd00cdf1ea665c40f26e51cd65"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-21": {
+      "Agent_A.md": "af50af700fd45fe91a2add54954e5603f06b3a077e80ddcee25e508bc1d8b661",
+      "Agent_B.md": "4f1bc1c0eb34550b9f351ec56c6dd6aa7c539d41aed1e800f0d183f9484b91ce",
+      "events.jsonl": "3b6cebc42293590df4a1f012fc9658e0790f9ba7c3f728771bc47a304e120109",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "65ba42ae51419b33ab072df6fba5bb23bf57c01c203205bbcfa80e21c996ee59",
+      "transcript.md": "7de0e479c31a6d4e4ed740dc79c99fc627fbe4cca43a92adbf48548ccb52c40c"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-22": {
+      "Agent_A.md": "a2ce9487c01368dda915b83a29d9aafc4b3b8bf0b5d68f879582a382cebc8826",
+      "Agent_B.md": "7194066f1c9df73fe82b8f2b2f68abeee2e94fcd70250b00b71a9d76d4e23a27",
+      "events.jsonl": "4d2920f07adbf584f69d743ec4123b7601e918495dae2620d679827824bcc05a",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "bc3603773621ef0efb499057e902b33ff0e1bdff9abf68fb9601b91908dfacd6",
+      "transcript.md": "048477465a16df345464a4e49a7f3c072073da092b162125038fd01c556b992f"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-23": {
+      "Agent_A.md": "23a27b9c8c3cfdbdd114d38a98c3de82125412a576a0a77517902e0461886710",
+      "Agent_B.md": "008cba9005c89664f230e1cc12c16725e99739681c2dbcb4f710e761563ef3d9",
+      "events.jsonl": "2b8af9ae8ef85f79f01ea83cc2d526bb62e8ba2046497cea4fff0965f90c6f5a",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "81b58061200fa92c6f78b97a718d361dc6a7f20d86ef16a987fb25d414d066ff",
+      "transcript.md": "f86e00fd704b7401b7b5b4b2bd8e040c87e8c7c2a7a58503103c9fc5dabfcc78"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-24": {
+      "Agent_A.md": "cbf3f6c920fa81066462329553021751a410ee4706b943d6d9471c5f3e58e885",
+      "Agent_B.md": "4429d1a4ae613c82b84304dc4a10ff9784cfd04c6d4b9e324205db2a7344ad21",
+      "events.jsonl": "3743ca16ded1f44ddb5bf4b480db66d2af7c57b7c2713619f4e35ba334660003",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a063918a9f82f349cb3eb88474389706b2dc5cb2b7e448498734accac8802c06",
+      "transcript.md": "8a7140e697156fdc90eccdbf5725055bfe252372ab0f48ea2c53912f4eb467a2"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-25": {
+      "Agent_A.md": "3698db54d9f3cb517cf8db6b1ddf9e878018934c57fcbe79d5d644b130bb39d2",
+      "Agent_B.md": "c2ba56b6c0ad1e451d4deb34d831f86001412d29953987869bcac6d7ef10ba0d",
+      "events.jsonl": "fe7d06536c5f86ebeb370fec2fedc8ebcd9e4ae022eccca13a42d1cacc235b5f",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "4ab7d996469512dfdd009f743a83a85dd6d52e0a409235ae284d3d4cb495fa9b",
+      "transcript.md": "aea28ba5f535c8ef98c8f66f7e8d01e0733009945dc582e270bf4d4a27084f30"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-26": {
+      "Agent_A.md": "53754baa5cc14c431df803b174b380290c563f1a535f946c117ea835b126322d",
+      "Agent_B.md": "7b963cc0756a1cb4bd99cb76c716a041d930082810f6cdb727a011877ae812ef",
+      "events.jsonl": "84c9669236cdcaebf8d397439bfa67625789c329ec42b0208c3465cbb34b91b3",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "fa421b9896ec466ac87e080ae1b567d8deabc741694c144c2058c90f42280e26",
+      "transcript.md": "c12a58d93132fad77d32b1dd4004e697655d2a2c5d0ea4297c4d0eeea2e5c466"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-27": {
+      "Agent_A.md": "2fe442e482e09dc3ae326109e398c768e31db1e71ea838e70b0e9eca65c06ab5",
+      "Agent_B.md": "6176937240e2650a80e8eea7587f89afe84e6ea7646db3a36b3cd2d4b935c5b0",
+      "events.jsonl": "7dbf82b5ed2212633e6a4f7cbb2aea23eb529876bdf0d0ab65125031fd95d2a8",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "e986698c78c4040933745c7c3839e19006c49dff2a49503a1ef19d83ac6a43a8",
+      "transcript.md": "d0290ea72b8fe835b9451bada6d0d8926d06be129476676930d7d04b69888ef5"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-28": {
+      "Agent_A.md": "08b74fc3c8b7cf8b8b896475f068cb4606c54164d55216616dc7edd3a9008d16",
+      "Agent_B.md": "207342cee2435f1d75cebef48dadc17a359d9c9c9b814cd80b93b26ed5ad3e84",
+      "events.jsonl": "db7148e57c7b75c0cb48e0a7c3a714b6c0fdd96f1ba2a8ef7146d1a085559e42",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "616a296024ba03abe9afe2afdd03e46520e616f34ab526f3fa639c90643caf64",
+      "transcript.md": "49f7ee4ad2d9c29dd47b0ab2701577f671a22dc70963941cde63b2bef6bc2920"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-29": {
+      "Agent_A.md": "2263fb98b1d4e925a61a69e89e8b3666e601e8eac1fcc70f319e1be5354d7bf7",
+      "Agent_B.md": "4b8f4a6f3fa3383371823d5cf877d65dc17a369db40a88bb9f68b47baf9732d6",
+      "events.jsonl": "1034890fea5a67955dbd09d46c7f6a1aececc826884accff9b0d909877139739",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "51cb791fa32dbf8d7bc00516238bcf731da3da594c38928b4bdb156a7fa84a06",
+      "transcript.md": "75a93c75909b0c23ee404f5811769c18d8ae870bad86dd6a4f1d9ba522e07acf"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-30": {
+      "Agent_A.md": "f3e5db56e21598e6401fa8d1f687365356f4afd5d65660b8bd47e3354bbe3e20",
+      "Agent_B.md": "fbddc19b951e419b958f55609ab6e00969903221a2aebd6afbf8096c1c5be27c",
+      "events.jsonl": "00264449e7444d6ba9ee4375717133fdac5328134a613d966f42fb9a1ee1a943",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a80a6fa319a65eca5aaf832583157e534439b8ca7d3bca1deee1a68322f4fc31",
+      "transcript.md": "e6d789947c2693d92c88791d04dc0c34478db5220e6c2b5440be993e828052d6"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-01": {
+      "Agent_A.md": "c446f8180f4e76b4d40ad28a697111389f44254100ea1ef2283bf21d59c88c4b",
+      "Agent_B.md": "82e43eb429fa0b67c20a3f3ff2f279b08af994e3ff0bf70451ac1a08cadaa858",
+      "events.jsonl": "d15b6a77dac07bd0fcc78fe85e5edc90c27131a9d7d1d2c69a8702ad6722a30c",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "717ff73992c82c15e3cbc6b1b6a5daf5dac155114c7c6c9548dcea2217eac231",
+      "transcript.md": "fecd8e01cf5539af02237920676293d99ecd444b94ebd84c18b8c55a59d5a2ae"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-02": {
+      "Agent_A.md": "df2bd362eb9a86cd0bdd59c2ba1962f4a5246ff0cbc70c31c72d1b59ba2ddc5b",
+      "Agent_B.md": "fa9d1e2ae06e331532e5b21beaf8372a0b8fca4608adf1fb7427b3c6ba6a442e",
+      "events.jsonl": "acf7fafb02931ca851915b1e4f46fc4da00d3b24c5d0eac8ff673ca84725f5c4",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a03275ae8982de6e14eaf9eb957ef9278a18601e4b666eb7c64b18337f2502a5",
+      "transcript.md": "f34dc95bd18ff25c3d885a04514cbbc4f0c91c660492a1996dda55705a2987d5"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-03": {
+      "Agent_A.md": "5406e131437d6a711914b460ca6beb7e28bfb59034a4ed478af30b672571e591",
+      "Agent_B.md": "a5e1bee3ad837caf945b9d787bb1389c3fb5d8ce0d88efd60d526e784aa7fbcf",
+      "events.jsonl": "0caa31c3c2cb3506d8512bee61184f0fa4b0c89044f9f3838689c7d44af99bda",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b25709783e7425e1eb46af2f7d858f8e60ce507ada466c8ec0ec69325bfc8693",
+      "transcript.md": "a7c39ae73be6e346918a0b4d4d1a5f9b5bd4477365d1495d2ab7edbbe1004ded"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-04": {
+      "Agent_A.md": "5fdb58da950df944739baa5fe6f431e4dcbb207850cb1d3ecea715d159c87ea5",
+      "Agent_B.md": "1e3dde292d8847e6dd86690e18f05635f24eb40fd2b806326c494e10242d665d",
+      "events.jsonl": "a72e0022b374fab1630498b4fcecd02cb21817f7f29ea354642d4e858637b4ad",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "74aec7f5fba730ccfe5d85f810b87fffb23ef45939398d8f408dfe9a2af38f4f",
+      "transcript.md": "3640a98a6f2b3680e181de3c23c1fde632011735902307b81e6aa71683ca7826"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-05": {
+      "Agent_A.md": "1c10b3cce98861c1ad05823497577f5de009c830a987bdfec6816b105a60e656",
+      "Agent_B.md": "a00dedbe712bade55fbaf6bb93904a8bd0d01a39f8e208d7a6fa149de06042ec",
+      "events.jsonl": "9b0a88f7c4cc7637b4505f2163853d7ec6bc9ab3481beb81f2d9b15ea8d9916e",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "81fb8df3dbd2ccb215e20583b5b4d23bbefd3877b921117552b533883d91dfaa",
+      "transcript.md": "9ef7705650bb980dbe1246141259b696d76b105251d03928a9fde5e8af990761"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-06": {
+      "Agent_A.md": "02741204aed52fcad093152c8e96a364ca3bcd20e63ad89043a4259a57271774",
+      "Agent_B.md": "8dc0ae1463767c0d83be0f6a421b58c1a3396532e446ecde8a6ab3e4cc1c139d",
+      "events.jsonl": "5af341505599b968e9a84ef99a6e1125febab6e1dd80aeb9c95691c5925bd6b5",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "898fcb41b381e949772eb66d8469a06c3899b5d9beb93fa7e063199d10370533",
+      "transcript.md": "cd1aea9d647c3437ffd0645bf2b257205fe108ae211c3dc1ddbadd538bd48a90"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-07": {
+      "Agent_A.md": "d8cc1a906fb917662e046fa8b4b582e805f471b20bfd8a5df05844dd4c964875",
+      "Agent_B.md": "dcf526910d9a484ac267711f2cd8cfcd6e63147e1163665af6dd4cc70d5aac8a",
+      "events.jsonl": "8b3faa6c2b403e5eff307962cdbab68771cf1767578185fe7fc61ecdc9d0b2f6",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "31d96c7ae412ab8ebb74203bd4e36956eab4a364e3a16a301031a14f26351f08",
+      "transcript.md": "1f194ef6c5255333379e463bd45198d61dae3f38f36c124a0d683f1721893cb1"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-08": {
+      "Agent_A.md": "42920521c5572a4c5ae4725a35e5476fe1c589c2cd00c21a66f1e7db3f62225d",
+      "Agent_B.md": "d50ab0cd6355bba2f4367a56aca22427c0763e36dd87764ba8725c73f9f88d52",
+      "events.jsonl": "f6c06d85c30d436bfdfaf6dcfa7cf971aed4315d865d2da976495180c12b44cf",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "da6728b036b1ba6ad7e83a543a188f9aa985c2fa9b9f1e32cfcdb4121505400d",
+      "transcript.md": "ca3f47bce4020d5df19a60960d1b1c5961f5e50e91cd0ec5c1fac0bb61fdae4d"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-09": {
+      "Agent_A.md": "274fa7c3c5a6422a2e38f257ec8d7b2456e5aa4e906a6f03cef1b4f1864cafb3",
+      "Agent_B.md": "c9b548841fa49d5a8036d80c2296e105bef128d4fc020a2a66c4b410cd4800cd",
+      "events.jsonl": "89a4a6119fc2c12e496a73fd5c8d0c18586f12bd4626bb39d9de09df3682679f",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "67719c8101226aa6b528b3c2049c2b76e442ba64f70c81155e9d17e97e235fd4",
+      "transcript.md": "bde898643c1d80eddcad4f377d7baad9aa779aedbdf0753541fca20ca5a27de6"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-10": {
+      "Agent_A.md": "2c81626d182c6a6c72998b00dc92173e8b3d72f0237a5aea218b015192ca619f",
+      "Agent_B.md": "a9e01e67049ae72b1c7acb9c37f66ba48c98b269882584a9b94bd951d012d18f",
+      "events.jsonl": "c76c998872ee23df835e3ad118a9bf33d3fafa5934284e36b5134b4566e05fdf",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "1c6b81f077ee632326e800252b5d031bad666115a4dc6929695a5ad2625e3634",
+      "transcript.md": "8ee8e0e17521be3e6788844a2dbd66d0a3b109315164f1904985355379a8b171"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-11": {
+      "Agent_A.md": "2d258da66045ff92ef3f61c96e052a9df9c8e18d9859cfa4b3fd7eafd45e4108",
+      "Agent_B.md": "7ffba8cf6802c824e129ba973bca3c7f420cea46cbf74baa4b9636245df58712",
+      "events.jsonl": "fcbc16194df6d257521c36a6aa758f4201c339cdf8f41353dcfde44c127464f8",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "43a04381b1baa560c216b5627a40017e5d25375636a6e45556079edaa2fb9c55",
+      "transcript.md": "1f538c8868c73c73b5d3b83972c15a3d750faca938156724dbd34857941565bd"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-12": {
+      "Agent_A.md": "d0bbade3fac54b752dd0d6495e0181cb6f35391fced2feef6c3adffc9da46cbd",
+      "Agent_B.md": "8e46dd53def2542f94b19193d0f72893c91fff85196db97f860244d70558132b",
+      "events.jsonl": "61450ee97d3b771f5ee7de288f7784d872831c30ad31bccbf4afd5c340f99b7d",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "0a2f4d486e40df2a6446eaa85357a4a8054ac91844d2b5e346cf4c9357d965b9",
+      "transcript.md": "4f52a29aecc56adbeb0c2a56957bdee7122a4e9af4cb874ea75a119bb8fc3df2"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-13": {
+      "Agent_A.md": "c7e372fc31d541319041629a80594c4f45504c59e7187d3c17201d697dca3185",
+      "Agent_B.md": "923c68ff897ef9eb577ceb06fc5992dcc6c8bbae08e7a34d9b5b5a624b3f95c6",
+      "events.jsonl": "4639a4b05e16f8c02b1e5c4799163af66e5e4e31438e4f8de862f838ee12e0ce",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b3f5655cca522104d759206847cd487481fb3d3c740ac41496364f1780dae407",
+      "transcript.md": "858cbf1e8527cbe259163f395d8939232c0d899b04fea76274ce0167eabd789e"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-14": {
+      "Agent_A.md": "2f3c3a18f68e72e082fb9cbf6b547badc64c639ee2990c8d15fb72cc0b85efc3",
+      "Agent_B.md": "d45466050800df4232258dd121b671735893e903a0c18a83f642c1c259b7e62c",
+      "events.jsonl": "e7da0bfb08f19eba1c17aade56919d89bb510e685f2788cfcac4b0525bec7f9a",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "76ecc55d75105dcc31f3d81a9b8be150541ea3db30ae27aef048f1b037b7e886",
+      "transcript.md": "bcb04613b116a2d73fdb0bf222a0181dce50589145ff2f7879be53fb0823f0f6"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-15": {
+      "Agent_A.md": "b42dfae34e8e119aaa99a2df6b39caf4586774ee5b33838332ae98b192845421",
+      "Agent_B.md": "8c5ac6aa8d9dd2c47ed519941e674d4b7d27ac5ca6232ca758692551c19755db",
+      "events.jsonl": "9532e7d1e82af944498fd97bbe70f14b984909135cb17f726f51f926a317fbb2",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "aba021fef4d7eaeabe13cbab18b89e477d8e70e5eb6eabe51166283b9d10dada",
+      "transcript.md": "216fd0a38975859092a58254ed4892d91a4beaef81b966419f60837308fb4d0d"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-16": {
+      "Agent_A.md": "ce732e5d6d3b202dbd2a8aca7529088b874da7785cf2f97684bb7d0224e233e6",
+      "Agent_B.md": "0e43708b1981d3e0873ec17c4901bd308c670378dfd7bd1a88a9fa67f77e5618",
+      "events.jsonl": "71e527492c0b5161add46221dd600897631415b883cdf9cc387c1199396d9c4c",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "258ffe1035c5776367c2a877041d1ba5dbdd210e05c98e223e3a2bc1f66d70c5",
+      "transcript.md": "2ce766a624e1643e1b83431376bb1a93fbdd897c74dbc2299d5b3cca6ed76319"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-17": {
+      "Agent_A.md": "1489207d4e8888721877025195bf6aa4644642e4eea6d81fe3979ce02ace194d",
+      "Agent_B.md": "af9b63aac8ae6b8c14cbacb425ce0eb7e9cb9156981f666be0cf215cc520a644",
+      "events.jsonl": "8f4192fc410b303d1e82a2e0aafb001abdd1e8e3d3a3c60ad1c2b36cf9f5a514",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "ef98f612490a08a79009814c8f3839856f10717d94436e98c160c73a82eb6bcf",
+      "transcript.md": "85acf2aed4650d3522f22776341c63ef5967c077900552d7722614a63b1e28d4"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-18": {
+      "Agent_A.md": "f82d950fddee5b66db2deec5d9f56d52d78694ff60fb04eb020716024a0cc89f",
+      "Agent_B.md": "74287587c5b50b48986222f8a83a3e8d4a8373e5741f76cd475084c0be9db102",
+      "events.jsonl": "0cf101e7f58bee48870c60dfda12951e0d67eb3786c7981f4887275e8e1d9534",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a038326f4f3a7da377f1628eca3713c4730f7ab351f37187479ce3674a20581f",
+      "transcript.md": "3f938c7a0e90959b71e49ec3188bc3479ad7233f50625f7a03b1627c772ba78d"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-19": {
+      "Agent_A.md": "993c8c40989cd5b4300f2fdef41717655250b4256e82806858e6d00a211889bf",
+      "Agent_B.md": "ef8d7834a2e9cde1e06a643b7eee04d77721bc1c307777c7cc3af8933b0626ab",
+      "events.jsonl": "817383ade423d87bb5571054957e71f473d897745676e03bcb86f3345f734e4d",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "1d79348566c01c8e2ca58277ba6bc59f0d1828abe9271d3e63d39b18ccc4fb4d",
+      "transcript.md": "f081e2348569674a908efad5b0dce7dcb2844c03d0333ed0bc69a3264e991aad"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-20": {
+      "Agent_A.md": "aae19593b2d67c73def446173d6bf647fc88d33cb01d45effc8ee3fa77207f01",
+      "Agent_B.md": "c28db98e2f0455aeea3c523c2b52b68a45645dd11aa6b2e2137e4c046074d933",
+      "events.jsonl": "31802001ffd9dba064444d4ba730825cb4b6ed379c5f226b9f81acce498a48cd",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "fa2fce82b53c9b37fa09341c7556dc94c1571f38c8077fafca9cff9f7455ccd6",
+      "transcript.md": "b9b476a1a461f43bb2592a8dd7fc465c7e70f3e68be4f07e6e153f5f9d7e632c"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-21": {
+      "Agent_A.md": "7d85b0e2e367927257953cb00014c6a84e5531e54414f14577a2828031b6a02b",
+      "Agent_B.md": "47170560b27a93c5becc7aa65c783606f6cdd1978768b355bf6a10105318c516",
+      "events.jsonl": "9e8ae4b6604bee9b0f086b5368c21297feb051240a982ebee01220d350f03e71",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "70e1cbc19181c2694a600ae73fc92447bf2e9774171bdefb2c6d45264f79cac4",
+      "transcript.md": "4d6032c83e6fbc1a3eb73fe72daaad1f254c6d120847a1884e0ef652e0ac632e"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-22": {
+      "Agent_A.md": "fd96b3312350bc1dcae3762cefa10cd37bd540661d65499cfc737b19a8ecd9f7",
+      "Agent_B.md": "fd0e6cf02228a39710d8850bba973f118e30224ceff4b4b0615d4c7bd917e8e0",
+      "events.jsonl": "d5918c736238286efff272079f9930342d09fab1c4941de5e95e4c721b66cb80",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "40f52b26c69f667ca518025768fe5f436d5230b91c3f3c4462986efe7c40126e",
+      "transcript.md": "acde9202f99b142d63701177eeba26c695522bfe1ee6aff0d864371a79a0319b"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-23": {
+      "Agent_A.md": "6731d0e2489d5eb7600e7cfe7d7e9750d0fcc4cf761ac45990c6ff94ed52b43e",
+      "Agent_B.md": "1ff05762200c506f4db72bd091837b5e909b5fc75ded562d098c07d9eeae9131",
+      "events.jsonl": "7df4e3e56b8e1eeb177f1b69a015cebe88e870156b8dc388f0a47b6556df37ca",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "8e5b5b0861fee8409e2d99283ab13ec57e8cdd3c44bf954abb42554846ed2fe1",
+      "transcript.md": "f622e45867f4a07c7fa4c3e48d5f11bb9708dabfa7de6bf456452b1dfb315e11"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-24": {
+      "Agent_A.md": "b2a341db3e11b2bc5f4125682794d78095c73147ea1b484f58ec4316f476997a",
+      "Agent_B.md": "7e201cfa11fb16e38c5bdc39d83ea6807a6abdcea236dcc6cc52747151ddd0f2",
+      "events.jsonl": "c1466740d54e4b5d3f154456758ccf05f0bac1296f44b6618cf7b28abcbed127",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "6880b92aed265b0d37f27c8d3d8533430ec8725564b1a21722a5bb7d28cce214",
+      "transcript.md": "d0df5cbeaa70226588462d80820c4900632af932fd5c3a3368f34ca1bd5e69bf"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-25": {
+      "Agent_A.md": "27af87ceeceddb060f3ad59887fd0702ee0e7a61eb61bda5a012478bd6d28099",
+      "Agent_B.md": "ed9e384bd56af4bc0ef56ca3814e017c113ce5cc81244ee8751f10af337abd0e",
+      "events.jsonl": "378b6e54449e45b3ef7b4a2c6cb924f50ebfa7c1c6449b34e6a1aac08d086da4",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "09b2d8cb7f75a22c2432ff54ca78c10248a9d205aa7f9cc79d8068db121fa8ec",
+      "transcript.md": "b76e5cb8a1ca19d20fe6d77ca0f515fa1ba8abe2a25d7b257a6fc2979d7f445a"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-26": {
+      "Agent_A.md": "971e56161fa4d7d6e770bd05e7c32cedeea4d95431fb4cbeb81cc29a48f38bbb",
+      "Agent_B.md": "860d147508b49930935a86a43fd96336bee6cc3a814094346432aee59f7db452",
+      "events.jsonl": "1b11e0b5d7d725b418115a0a19e61b15167cf1aedab9615d597205b103282911",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "07e2d7fad6eea07e49e581582dec08fa7061ef07882585ac85ac504521af9a84",
+      "transcript.md": "f4260f27bd55a03bfbe770d0b06f91c5bbb41fd7d23f7f7cc081575f468b94ca"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-27": {
+      "Agent_A.md": "200c8c5bc4696702d6dceec9817317de80663dfb393f851dc763f4aaf5b38b19",
+      "Agent_B.md": "5049b17e0bf8dc95824eb465f04f69f8ab5e98c6fd758bcb2615bd5a24c42041",
+      "events.jsonl": "c0d899156e4eb36823e7ccc2a243067a6bbc61122e7e681ced5845e3bbdddd92",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "954232f2765049b016992cfed55c1cecd7764dbc51bbcc7e9a1350b3fed8a0a8",
+      "transcript.md": "7bb481dd59320f2e8c0f427d2758ab6ecd9d8dc8685fef2f877daf98ebac5af4"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-28": {
+      "Agent_A.md": "b13725c3a3de2cf0bf201e7904128406ecb75c289f36cc39d6274fa4ee8ca57a",
+      "Agent_B.md": "90ddba85a075ee33fb7fc2fbc54f6537c2bfef8ddddb0eb175d654a4b0216190",
+      "events.jsonl": "323ffbc63bab2fcd9d8f846fa636f82c54b2c7ae36c9ab8b9e62a1741b48241b",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "107420d1a940a719cd0fb440df9ee6306366d35f4638c0d7202e80e6d7d72831",
+      "transcript.md": "21ceab295b13a7c345f1118567333b24799a0b7eb2218c6650a8d3ea4b5ed746"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-29": {
+      "Agent_A.md": "6ba0e21030954c4735c2e33d38ecc990ee5b6c134c5a71750be02fa64b139334",
+      "Agent_B.md": "88942097848a2e4b306ef33b2b58fc5fa6bd6b9450eea2f05701de6d6bddbdea",
+      "events.jsonl": "ce28d1ac83d9eaba47e81514d7fbf6f9b006b32e5ae3f437a4d21cd70a1d3aed",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "814c23609900737014c3b0fd1cb8c0e2f15230f121171fabfcafa9acfff20757",
+      "transcript.md": "455474fbe6ac81819adf08cdf226a7a8738a51508b02a0800da4ebc0b0daf592"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-30": {
+      "Agent_A.md": "fe613979ba6bddd4ff8ce75bbd4e7d57f0877b4246dcb5da4fc3411dfc2e4426",
+      "Agent_B.md": "fa2f8dbd4c5f86c5711b06abcb86945e475be7c3b4af4c2ba663e5ec078b58cc",
+      "events.jsonl": "7fdd27204c540ebc461851b25b854c1b495c682ac5da9fe033ed536175893009",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "004e5f6b24541de6ed70eb4160489e9cb8955fd7bf90b6284da9f0fb7bc66744",
+      "transcript.md": "0567ecad298123566637f1d26f8b8bedc1b721099b6e67099987cbc26e2e9709"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-01": {
+      "Agent_A.md": "acf112085b57324a8b7534f221338a5ae810562f38c9d4745e8d389b571467f9",
+      "Agent_B.md": "08e62b04d12aed674e3bf28f52d14d5e04dba76aa20ab56b7f696f56b54989e6",
+      "events.jsonl": "f334fb6ad5c366c433b90ef108f6d795818036b3fac26a812d8c6fc867586acb",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "1ce5013a1d8a5f4145c4252af7ff5b85fd59ba9fa23a7b80a7d3cebbf257e306",
+      "transcript.md": "b1f3803b934fc7c9b9b23fba8fbafd09fb80e770dd042a04c1654b7571b47bb5"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-02": {
+      "Agent_A.md": "74eeb31e2d2cae59dce6b8094671329c818a72f973d34e35c01d298a7623a96b",
+      "Agent_B.md": "96eabd4ce580e9afa23585a15bef952c441a6e992ffe0ac05f6c4da78ff717ed",
+      "events.jsonl": "23a369a3bc915cdc3a0339c03ca46a55e15281f72be27b3a35e8520f05438381",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "38fc54a75ab092aa4b96f4fadced6e5018d4c076b20736e9ee64bf0f88de05b2",
+      "transcript.md": "2bbe50303eb30af152813da38df1841cabb993a559118efe2ed01b8bc181444d"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-03": {
+      "Agent_A.md": "757bb824bd9fcc84466d1241af90f297a8d8d801b343191983cc6ca3c8a6d0d6",
+      "Agent_B.md": "556001e060848ad7a733f051815ac12bcca238e002382135a84bd6b3cf80c9c9",
+      "events.jsonl": "6e77f3ee3534e0612ef42e1c9fdb99ee088b3ce7bb26eb4ec7190516adc84307",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "485f55eca619aa3753dbca4fea0389bbe81fb8969f259dce20b58a1d2dbfa465",
+      "transcript.md": "2e4f68eebd5c3e1a23a774479baa1fa4de4e80acde4e6769e7e59e18782437d6"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-04": {
+      "Agent_A.md": "ca1132e83755c886374dc472e089df13c2892b57fcbfc4ccfcdcf1294c233288",
+      "Agent_B.md": "40e5b34772986cd9705c3961e640581663e4ae7ab0895b91e17fde24cb9f95c0",
+      "events.jsonl": "1fa1caf0c66b5ed3be9bd5a233283159291f3aa675c7372d4da65fd7a99ffb99",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "3d65516e370031942aeb0ce3a480845afe97e21763b3f1f6c4d3664ef559c303",
+      "transcript.md": "7b2df82be7f85fd82b6ca4864ce7f4bebd841a3ff76e8a2faa866b6e72ef9ba9"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-05": {
+      "Agent_A.md": "1cc892961ffc489869428e81e9100eff4206900ecddfeb160ebe34598a427406",
+      "Agent_B.md": "a9ea2ab4962c462ed5da9d170062dfc71acbbf2bfd257cdb84bdd43ec45b4f12",
+      "events.jsonl": "47c01affc0cbcd4c5781fc410ac6854698bcdbbcc48b050fcfe19be70f83622a",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b131a9a8c60ce11ea11e421bca6bd38031193004638ee7082a9d174ca95aa5a0",
+      "transcript.md": "e93a2e71c4013bc9e204d91c26632738e821526b83fc6704abc56a975e938681"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-06": {
+      "Agent_A.md": "75bb2be1b56f2d01f7a978218474b410fc064ef777bc47bb5bdec27415db49e2",
+      "Agent_B.md": "ab2883d4d76a398e3023033fa0d210875b971f9b18a95462f7b5e08eb722107e",
+      "events.jsonl": "7205f9b2cb981f43a182f10619c877b4bb352007fa9f0c39dfd1a1cfb8504b40",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "c93471ef9323a34ca6aad6ee099ea2e5b349e1b1ef1ae87e1e86ad4b2bbebfbf",
+      "transcript.md": "2a6be2622bbf551822ba163ca1b5dec9f06480b93405d09ddd950146a15a06c3"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-07": {
+      "Agent_A.md": "fff364205b55cffbfbb562fd27d3a2025c2205be3582f8400369688b25ae59fa",
+      "Agent_B.md": "e5f80f207a98b59353ff881e2c2b0d00fb413efdf2053ac3571584441ec1acf8",
+      "events.jsonl": "5380b88db872f53420f37941628573c2000022136747dc3fba63826edcd9ca16",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "7caa49dac69ab235fae6e90c8698f49c35a558aaab0060c48d19890282f3243f",
+      "transcript.md": "c3ddc82efd11311f4ba2f789e8e3476adf22708ed25955391b9665a115a30b67"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-08": {
+      "Agent_A.md": "148a4c51c6b8cfb08e9cd667d83af5586ab5678875616895b9cd6ce9a1055fd4",
+      "Agent_B.md": "4ea1e2e66c14b819ae08985a8f9c23d36d4f1a4ae075696a4bd9816ae376052e",
+      "events.jsonl": "90c08b80254877e5d2f57ada2101377b4bb56377c63cd1eb56a126edd51f54d4",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "1caf2716aaccf91be84cc14adb3d2463ee5cccca8fddfc97c2310f60352a583f",
+      "transcript.md": "b2ca7c735e7b5133856d4f88c4889a9d635694568590011e3a176cbf40e41f62"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-09": {
+      "Agent_A.md": "09dac795e48f35bdc6ed4b29e3c1332d7a63447c2df1466381513bb618395a33",
+      "Agent_B.md": "9600fe2efbbfd7fd8f142e2bf08aa16916a9dc5ec777a454372a261ae75ac621",
+      "events.jsonl": "e74bc58b47b991e8a88036b6d7148aead0b214ba3bdff7be7761204cc22a71b9",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "0b01fcf8a4f5a3dc0bb0a95ebb15128b09d043dc8a24c814ea7f1f2dbf00cfc3",
+      "transcript.md": "eb3b13098d762e29b37206f9cc0ce4649a04d29b4db2e64103ac93ca86570432"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-10": {
+      "Agent_A.md": "9a2024734ea341d652dd29496fec161f0eea0962acf3c10bd4b98a6cada1f4b6",
+      "Agent_B.md": "a3e960af0be8bc48ab450e9cd4ab67fc52ab14d0882949691675a6db672e2cdc",
+      "events.jsonl": "fd4ff689c0cdd6a418573b2abb9e432c6c9fdd70bc161971728124c866c1d3cb",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a30d2700252e0da06d0ef1ba43057bde606da7acb4e63ca19ba6ac821113ee44",
+      "transcript.md": "b4626039648498b5e305d9596f58f39927e7ff7c0d4bc3afe27c114dea75c884"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-11": {
+      "Agent_A.md": "2c4d8f70d937ff7d7432dd3a907437a50d60b29174499b0fa698b9e984686996",
+      "Agent_B.md": "6f45c0894bf2b32ec73dfec5ab5c264cb72221e49524a3efad1dc517e5dd7caa",
+      "events.jsonl": "02df7c2cc0a82b05246e7359eb6566f7afe49dce5d6c59643deeb8f06581a74c",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "695568d7ba3f2af114c9c059780fad93413228be673d836c68795e07ca461d31",
+      "transcript.md": "8194407ac2b2c664fb92429aa7456be616ce5a82b35743a77dc9921edddb2647"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-12": {
+      "Agent_A.md": "390df1eeeb8bd542577197632d06d148b60149c13d43e5fd547ad979fa60f231",
+      "Agent_B.md": "867ccfdb0a762531b8ba91932371e35ccbf26a3a03ceb82acaf5ef41ffebc37e",
+      "events.jsonl": "6d7022f0f87830e90c701a752fe91ce4de0d642d1e99fd8b01e5e325dec86a27",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "d5cd0ad26de49dd2793739faeb835549ee7f51d42a7813c6726c0ac3dc2660c7",
+      "transcript.md": "de320ab7feb04cbe4a4fe3aa716d56f6df4f2fba11158cfec0a85d94ea6b8d3b"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-13": {
+      "Agent_A.md": "597667ba2c8b4f7141ab6639d3c2c34386b74c6c6e74fecad838d42f66ae9d74",
+      "Agent_B.md": "ef6287f6c8e7c1549428f474b8f9a36d9426003b74ec0c1e2a5c28a89e0fe09b",
+      "events.jsonl": "c0442500effb13bc3e48235885a57588f9ca7bea78ec41bfa145e5736bbd4760",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "36637a7eaaadcf10706606ccce76171fa004a49606f57fd580b7d33d60897594",
+      "transcript.md": "4c2b40ad6fc1e5eb905a82c5a0d56eb7d19585db2082ccd0e89b28054ff4754e"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-14": {
+      "Agent_A.md": "05c27b7cdc9dc73a664e857a5b5672661cad5c9ebefac2a4565563ecd51052cc",
+      "Agent_B.md": "67e5f177c1d8e26926ee2c22be7936196d992affce76a042d9d1a5bde19514a5",
+      "events.jsonl": "e9e970ec4485b879fd5e9105a14134fb28233957bd6c06d4c1fba703f2110706",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "fb4beca7d222961f8752278720cc8620d6a0fed52799c1a3078f85b7e853ddc9",
+      "transcript.md": "4cf8866881762aba37b52ee8dd4b88d2bf7397d95d9af8dc2d94072ab63440be"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-15": {
+      "Agent_A.md": "2a08031dc2b41ec1f9b48d4db8290e0244ce23ec2364c5ca79aba899751c3733",
+      "Agent_B.md": "7e4e49fc4fd64af5bf3aab979c5b0768ef0b15e070a543428b900200452a8248",
+      "events.jsonl": "32a952000d37b9575132e1385198bc99efc2949c6757110787553689c0f602cf",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "91e27dd9d93657289c6d4a73360b783c6688c2400a21c112091f598a4863f2ca",
+      "transcript.md": "e46bb74ae96f198888973d7dac1f5d0646d13a172a3e962b2ff8b4f3491bdfb1"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-16": {
+      "Agent_A.md": "b48d56e7e6fe233bb5834a1b997a7e74e23829ffeeeede9c7bf00d1771562d32",
+      "Agent_B.md": "08398596be1522febd1af8e6a38d0498044afc7d0ff7b9f9c66fe75b8ee5f7b7",
+      "events.jsonl": "7d0e6fd2ee96bb5226fc7aeddcbed89ce2c1aed4a33a5a4b05a51f6198e42796",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "e153b88a3c1ef66f48ad16ebc4782adc2d24a6c99c6495c7b71341b0bdd8cf74",
+      "transcript.md": "bc73cc76cecae60dc0ee9fb3708fca1ff47a09a2831cd5ac80f5fda078f4cc4e"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-17": {
+      "Agent_A.md": "5d38bf0097e09100533dd3437cc51365a06c61aad0edb764fe1e2c55417aeee7",
+      "Agent_B.md": "a7aebe6da5af362c3eb9780faeaeb358be30c6a739d0e9bf1159a0ab0ef5d368",
+      "events.jsonl": "74f40defb3fa79332c84decdd17aaf08c18dc4288ecf314415036dcbb9e57d8f",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "02094e18477baac0fa57c6ff5e8faa166c051596149a789b0253cd995912e125",
+      "transcript.md": "d6ce39576d54c2aefef2e43791855e467a2ae6981a9fff7618a31c895db373db"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-18": {
+      "Agent_A.md": "1191c34f2cc74f6777be8ae64718ebf6e7e0c41785ade2c78a0113a497882286",
+      "Agent_B.md": "693a106e0c75526531064681a0e2fb7a6619ef70b2b27d47cfeee9d0dafcd7d4",
+      "events.jsonl": "640b73c0f11dc45a2b5ee7a0e5f8b21916dfe9ad48399feb3d4fdcde5a5ba6e8",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "04ee7154b8872ad7860461f57792529b7be9f9a38f3d6c0527dcce7f05cad0e2",
+      "transcript.md": "00b0b15a6f654ed1abe087b7e949373df09ae500cfc7e695bdd2c96c696dc4f2"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-19": {
+      "Agent_A.md": "617d6b449666a76e10b277783d4272fa19728df4eb6265cbebf8e4c9923988c0",
+      "Agent_B.md": "a3587715351e93567ed6a1ef9b3419018a8606c3e8d3b84168a7f6a1750e408c",
+      "events.jsonl": "84638fab0ff0a069c62dbd4b5cf7cda7c5a9425be13b2b77a82417fe02ef8313",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "ec1340ee4bad23ef0f3148ee991b4860211bccd927857f9bff59c8d958bb47b8",
+      "transcript.md": "659a8fd637db8be63b1e410ee0e05db0a1e3cccb9fb08107f62b5f7703f11aaf"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-20": {
+      "Agent_A.md": "8ceba7adff43bcb5862058d8d43617a56ba0089d3dfad80f8a17a0b4d0cba332",
+      "Agent_B.md": "02fe885e13d210eac196d3c66979f6f0b47587c9de08a13500afa0d141db291e",
+      "events.jsonl": "4f00905169cb432aecf910bd3b80483ef70a89d88fc07ce55f6f92fa63e848b4",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "633f2c2ccbff6bbed522e7f3f7bdedb6fb92f44727e70f065aacfc5de50dee25",
+      "transcript.md": "e1893bd9c14f39505d873eb2d28c092af8294a4d3b0a1bfaa376517fb528d407"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-21": {
+      "Agent_A.md": "a2b5ac2b34a0ca90b3c3ac4b06124ea6da15f39169fa1b6e67ff8018aaf70b6d",
+      "Agent_B.md": "4dc7d75274c7643be76c6fbb23cd54245011926bf9238db33d15762419fb12ed",
+      "events.jsonl": "da4ac2366c77e8c61332d2720e95b442a06598f684aaabfbc06697465670833b",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "17af72f3e19ced3f2245715263114b605ceda4c6d0f84ab7181af3ed7d4c6917",
+      "transcript.md": "fc3baac761b9324702dd1137088deeadb821d1a6c6dbf1844613e041be660d43"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-22": {
+      "Agent_A.md": "2bd9cea9705add1d134cecf62fabad6e0a798fa1a6237e50b1eb8611020dbff7",
+      "Agent_B.md": "5485d4deadb15cb099b6f6d34a4ad97d2146d477392f63ef31a044e505b289d7",
+      "events.jsonl": "31aa0f6970f33071496ee1a3ecb64b13c748d6cfc3fdf6a8af043512dd22ce03",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "9f8a96da47aeb974464c6ceba8239c4293070ee50023eeec72054fba8c7da0da",
+      "transcript.md": "8422466158bdfb76ef4a37f4afae439ff2076c2e7088c7a962dfbb39b939ca01"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-23": {
+      "Agent_A.md": "564b91071e963db48e21b9f0b718357430a69e41ff2394695fc5f05dea95c661",
+      "Agent_B.md": "172342aff942c463cdd834e9b403cc96d8bc86a5969ad00d2415e4510ab3e3a9",
+      "events.jsonl": "cc3e0e0453f2f1e72c7898caf5cb2d24f4c515f07916420a0ff6fb4eb74d14d4",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "3328402ef16ef370f639b254e4024a39e6cec2e07bdcee249e454a864d999b90",
+      "transcript.md": "74c5887e6b25f86edc9148e8373a43cabf95f90d47e25fb1bfdcd91a61ab04d2"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-24": {
+      "Agent_A.md": "aaf6e09ef4583a27499fafe3d81831aebb6d39d96e3eada427e9fc1f91af9e5c",
+      "Agent_B.md": "fcb6acfeaf71d1acb898dd9c6252dacb91e912bacdc99497ba6ae3ea02dbfeeb",
+      "events.jsonl": "38b01ac2251ee3c8ab8a1eaee80f25e287b9b83df40f3799b0d0fe68ff47b820",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b4b6a439697d9d6ddd64294bca970b5e1c37c2cd42bfb1e0e6ed268283d1402f",
+      "transcript.md": "275a3cad04e3c4554c89deb27504879a9a6a35bda99fdc1706c0dd04643e5692"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-25": {
+      "Agent_A.md": "123442d6c1aeb168622da908b6df69249beda4399ee33bd000884ec668e7631b",
+      "Agent_B.md": "9e9127827feeb28d22b147cb8db7b69fc83f94e6ebbd8d3a34b3ac40f38f9f2a",
+      "events.jsonl": "1da606e8b82015fd59689b35e32a8edba6546175c8d17a151c68c63bc2e68165",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "20ff16476caf134914b63c463397db02b76fa4d85effa865a1d1530436ad53ee",
+      "transcript.md": "29cc8a907b73b9b189db9811c26e6daa33bbea4aff6e62815333c6d2568cfa2b"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-26": {
+      "Agent_A.md": "7485ddfd389f91c074351ca5ca55e47178e8d436b4d331f48e86e2c763189448",
+      "Agent_B.md": "6556fece26d6a1225b81fc6785ae7eeed895929fa438a8e920071bab008256a2",
+      "events.jsonl": "b097f25e0bbe817794fdd9a28054927d6a7e9cbf1bb53cb936e23e5f7080092b",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "2e0ff3f217afe7d0f9b361b27adfd3ff4c16773f557c2f2c30d6267424c7c1de",
+      "transcript.md": "7ebee19afd0de89b9d5203cf821c7a8ba9e64c9a59b41cbbd9f8ddb7a280c7c1"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-27": {
+      "Agent_A.md": "5fce49aece131a4734848ce6e479331eff56dbbc6c406e992c6a73ab687eb032",
+      "Agent_B.md": "2a37c4897a5e677c7e7cc6bed81821e5953fce1343cabd169b8e04ae72af96d1",
+      "events.jsonl": "27b14fc7c7af68f5beb7e1c39f4f5d13ed46e20c06e3254c1ba4201397dabf53",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "5ff63252c57434214f7d14824820c18dac3babd4d2e37378c757c55d887e0705",
+      "transcript.md": "7ab529b9323e5a2e8d2666dd20485d062c9eab19a5c32f4a41714676965dea48"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-28": {
+      "Agent_A.md": "d296d5429f947df6b109b485e50223972147d1bff77c77a98866e59eb5afb329",
+      "Agent_B.md": "2c15e592e5930f5b531e36e4b2948241e1cc6429770dcdd19e148c9ccc82b0f2",
+      "events.jsonl": "abf86f093c649e0d42f3688336048baadaa6d0e46c55fbb46dbd106da6c7719a",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "59720d8500fd68c1b3d70f5adefc665bdee6ff7dbd3307faa127e8a854994827",
+      "transcript.md": "8da3e654a27feff14707aa2492c2dfa1e07e50dc88af6e6812eae6abe14593d6"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-29": {
+      "Agent_A.md": "2d3e68c3e0789b128d451c871b0ee0e0b60f2598c7e6624c6ea3f8401023241c",
+      "Agent_B.md": "91a83663b7edf819cdcce4120e0fd9dbd667c6cd52c3e4b500b0f9eebf8ffe91",
+      "events.jsonl": "ff666d98c7fd5dd76327cd94dc4032507241407efc33236c030843cef0258198",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "6afe44224f4e3e1214039e8c6ba97cb33d67501d838cddff128dfe01e9851ef9",
+      "transcript.md": "868faf3f7ccf6aa03ad7d6b4df2364794e223f961da494c30d1d2b43b330be04"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-30": {
+      "Agent_A.md": "e3dc46039978ad95412ce62d7d1093c0870f3233977bd755f8bd5689bc417adf",
+      "Agent_B.md": "c0ff5e622477b21b8c7165f3628e4d1c74827cafad3e368dd1fdc8dcd2a496c0",
+      "events.jsonl": "6f7688d6cf48d2d79abe4af5cefa51407d6e2d23a63bec8aae443a12dfdfb562",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "7e66b3b2ac482779e4ac696337ff2a2e5c6eed82a87709ec09e928d00e74b0e8",
+      "transcript.md": "f6baf95acb2032e599f5a6fc6e20dc66a58097952c2fd58ae403539d272fe545"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-01": {
+      "Agent_A.md": "a37653d1deca164a41402ab27dc0cff4236a640bf5954fddbb9ff369e8e4a69a",
+      "Agent_B.md": "a180672624ea078b6941f142109843dd5472e3a9b0692eb2f527d77c63e79afd",
+      "events.jsonl": "676eedd76e6470383a3f1cf036b160131f3b2cd20deb942db95db934ddf925b3",
+      "language.json": "5821623598344751d2701e5d97f5c803a7a140427e82b2610f93c35332fd4ae0",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "805e5a6a2ef23ec80c6b96f775e56809e7437c28680234f8fa572a96763dce2d",
+      "transcript.md": "333405d4ee6562bab33e39cc832e6bc69707828e16b456db0ee787d0e7c57ad4"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-02": {
+      "Agent_A.md": "7bf3e275f93ab3fb509d16f5d8c1f30fc5ae8c0462d83d51f11cccaa403e87bf",
+      "Agent_B.md": "36bee05092ed7a38d1f4f9af76a55212b4c9d787e26ebac2f8ea2c036ec56178",
+      "events.jsonl": "a1ab97d6dd150c4b0623126fb75ef9cc149fa7a1bfd1a500bee7ec087c537574",
+      "language.json": "f55ffd0f254e4d31bb3f0ad9c62a091a424fa92d094a7ba0367f2719b4c336c7",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a02a3f0aaf0082885995160510a46989b404cc5fc5c2479effc2d47a4c18f240",
+      "transcript.md": "04b03a30cc45cdd668bba76678d80f7dd137375d54b97d23bd70c1327b40223c"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-03": {
+      "Agent_A.md": "dccc08be48cce38257b3978debc709cc629d9986c7cf29b875e56618f575b61d",
+      "Agent_B.md": "cf16159606ffdbe2616ba01b206bb5e56d38d00b72552a2f782baa6809255ca9",
+      "events.jsonl": "12160f44b9258a533c180e1203f612a5a0c43c0e460ad931b977b943eaeec0ad",
+      "language.json": "dbe64fc36ccce109b235f5e739082926120f278c4d5eb4b8f06dfdd013f8728d",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "39031780d89e49e20fc2293cca19ebf5a2d8b73cff5e3ef277581a74dd9ff0e5",
+      "transcript.md": "2d965480535e21d8fb2c3c33c68314384bc7bcc9179223ae005857d90701ca66"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-04": {
+      "Agent_A.md": "f5c8d3a41e71f114f9fa4e00e1a0ab2c1995bd74b211ced33bd2488ca5b3849f",
+      "Agent_B.md": "400e63b66ce91b49733704f70e6083a86507e9076e7b459f9ddc4d12158c3a63",
+      "events.jsonl": "3e11840c7c8de0b6b49ec696cea989fe6698aa7da70eccc6878d506fff202ba3",
+      "language.json": "ec2fb04c733d5f9b29b0f2e3fd7c7b3a90f3f0e63ad739d685e304ad3bbaaa10",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "0b737306636de559b692fad8ca318dfc62df127fd7677d6bfe16986b324bb035",
+      "transcript.md": "e484cd6ad0e13ed173c54daf5ba8fe33ce8c09c721126b1f4f161df1ae543b6e"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-05": {
+      "Agent_A.md": "c4006a0a44a3c2a51724c2ddebc09f6cfee38ea3117ad82913cfd597f726bae6",
+      "Agent_B.md": "3494f57f5cc9b21de8781ba5ebe16201edbcc3a00392d802e565ad8b2bb84764",
+      "events.jsonl": "18becdd2c7922260b6ad9e6361657f6b7d6eeed8970bf8f3098be84920dd7389",
+      "language.json": "cbb20c19c377256469239e34a06f98e69fd7e33b4a22bb893c6bca43a5eba20b",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b193ab43f11a08a7b07c99cf0f4e4f8c1213e5067ea456763b6139d3e15c9614",
+      "transcript.md": "839cc426a09b3abd5109c1788e7a1c4ef1141a2847864e86fe55ff31b9b40cc2"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-06": {
+      "Agent_A.md": "c88986ea56dfd482880298c9dbafbaf166ed9997464f6bd64e75009086fd3a4b",
+      "Agent_B.md": "6e541d611f4c7dfd6c5bef4a0cb4d8c26428247437f4e92e03d8324c0f6d3693",
+      "events.jsonl": "fc7f2f41877d8e096e9849d9049255c2b85594adbba321ce8c6776d22fcdd2cc",
+      "language.json": "1f4bbbb82b82e072fe253dab51491b309a60111e367da2aa3adfff28a4ce3ede",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a3e13381a52727ff74a3deefffdf0d36f729ec0084771c922bb2d4b10e1340b2",
+      "transcript.md": "b901612ddc349d5cd9f25bc140669a6c7bad910ad15efb0ed0c5c5d4e31d0749"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-07": {
+      "Agent_A.md": "ee3e078f69ba0da6a61ec1194f9d3b0e6a3c35fecd2624ebf9893c9727ac3132",
+      "Agent_B.md": "b664fc3e485e77090dcc5486bee712a526a0cac2b12f634ef5e94526fd2deca4",
+      "events.jsonl": "c4e28daa8500ee77923e035f5d394ff295c7faaed87871a0a4ee39a641307878",
+      "language.json": "2572d9bb47f92efab2876d695b43e440f5b929480aad3917810827f5fe7fad2c",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b46f7444a16e7ba74ee5800b7283edc2f304e0a1c00010810d75c31b148ff8c0",
+      "transcript.md": "11cbbc9155db149e7a8da8019e3185963fbe437a00596cb8f06375e79730c0bf"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-08": {
+      "Agent_A.md": "96511d556947c7e04c76f6cb3c54cbbe2ce5c878d1ca2165244ccedcdd1f1c88",
+      "Agent_B.md": "eb43838192d3447a052c68a8fa3dd45ae4ffcf12cdd98bd3d5a1f06b27cc558c",
+      "events.jsonl": "18992efe3eb9c676088d2464c1bce61f6c5b26f88cecc2b124e55cf033a5b49d",
+      "language.json": "d581398fbc9a2556874ebfdfb8f91a591af95c28e5b7cb37aa311d78a5ce5898",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "409968de24d8211b0ce348ba0dc4e6f4770bbbbda1dd3a4c89cc4f82cec0b887",
+      "transcript.md": "bee6c218bd12a46b9075b02fe5a67a8452a716ede151dd3a2a20e23cb16dab9c"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-09": {
+      "Agent_A.md": "429a7b46ef0c8468cf2eff55d34ef4683030a1ba32e230e1c24b790e7c48ab44",
+      "Agent_B.md": "e05fac654f19ae1c4aef2c251264167d13fab250c7ea077410c831f3b30a5dd0",
+      "events.jsonl": "dd8f8b159fb0bc8776bb67708d8cef1d8af109a4641e9db813aeaa8a273e502e",
+      "language.json": "45ce62a41c5176798d3a6d82f037d24bdf8861f76885fe214fc4004df2f024fc",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a07805a8ad0c9765f28e3babe97e092044fee89a87e6126a2d99ecffa0f9df70",
+      "transcript.md": "15e886fad5ca109b2cdc575a324429be9daa2bcb440d573c3dbc876a4a11fb27"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-10": {
+      "Agent_A.md": "2e0fda2382840c69d4f19b14ef58ca78d4228e81a24a3fa05d72604e3e2a7482",
+      "Agent_B.md": "33b74bd2718960411f8dedb5b702e4c92b70be41b27a4b0ac1bcdadb4753dccf",
+      "events.jsonl": "f7980ba1a2b4efa2c78ad9026ad80f6106fc06cc26c632d414789d4269149716",
+      "language.json": "2e932ac2cb185f577d08ef82e60ec39ca9f7eae24d6c4cd5bb0083fa180fb7e8",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "db4db4aca6f4ac3c6eb1df15d4accb53cd1539c524712fda7c77c5e004fc78ef",
+      "transcript.md": "3ca21a65c9a2a7fc22f3d823a48d70bcfbeb5e648ff584ec4d30282bf5b169aa"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-11": {
+      "Agent_A.md": "f5eeb99a4a1385fd95a16c14bc952d3d2438201fe04a62181f5e70ed4b4572b8",
+      "Agent_B.md": "771ce9c2e7797e2c872ddeb1cbf9b6168ca9fcfb74ba4b6fb0cb36c032d9f1ed",
+      "events.jsonl": "3d75ef1412229f7a7e3604bc0514721f6ba72d69c3c19c79e8255be54a54916c",
+      "language.json": "441879551f230377d4abb78c16c750277969f8ccf8e6dbde349feda573e7113f",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "f519deac55f266b93a4444f236d098689d062a911c4e40ae5001e10a5a496d46",
+      "transcript.md": "cc8cb7ae2ed60c8a5615efc37a17846e2e02eb6dccf9ed5edaf4c9be98ee32c7"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-12": {
+      "Agent_A.md": "e6e27f477ca41bb5e0410d7c213d9830e5aa11e77e5088918f088602147607d5",
+      "Agent_B.md": "cc462366bafcd4373e338e363e685cdf186629cac1d389c7fb9b42220e86e98d",
+      "events.jsonl": "8e2604ab6e53c21e13f0567cb7f813d7457a740e4322f49864ab0d6168791335",
+      "language.json": "d922b645828db1728dfcc99f2cf072c53f134a3b8dbf0a091decd6bd59849da5",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "bd5ee49db8b533b2e5324fd722c67d5fbd0b755ec46f25cda4337c4ffc2c8ded",
+      "transcript.md": "b0b1cebda8df0a9d98829c6e4c03404f1f5b5e01743ec8804a673fbc48bbb5e1"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-13": {
+      "Agent_A.md": "dbe0d81292b9b63fd80fc8de91eca464d7310dee0a3ad7ba00fff4eca950d9ee",
+      "Agent_B.md": "23b04354f7f4bca8cc02ad34c9b3c134a0dd45565b50c059878f291271c48e28",
+      "events.jsonl": "d001cf2f18d87dcd27196034a72e9a58df23db2330de5cff24e6682f342c914a",
+      "language.json": "3424b60a3366d85c445733a057abb5df71c91527bad49a86d44cc1cd7717be48",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "c20ac294a74526fb11410964b9f86296d0d697010314860077d9992757159896",
+      "transcript.md": "52d15213f41b8818be3305e6f2bec9f4b790292f6417bc20c8a1dfdd9f20c58c"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-14": {
+      "Agent_A.md": "3cceebe64d6b7590fa94bd86d05ded243f270c728ab30ba152724aff4c311fc7",
+      "Agent_B.md": "6d63c8b4fcda66c9c9952ad7c1996df7b0b1249d2173af3bf4d47eef1012c220",
+      "events.jsonl": "f9f374e637debf2251096f455af3ac4607b26673c91c93e71e007e99fdbee6b4",
+      "language.json": "452bc5c2df743835cceae879ee4e7adf55569976dbf806af48924b01585b3487",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "ca88b3928f786d540e9187b1ae030fe2edcd32722adbc1e45908acd0087d3374",
+      "transcript.md": "8abe646cd3f4493b0a1ac8026f7890cc616c69896c76bde1b0a81b57d6f8bdcd"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-15": {
+      "Agent_A.md": "11673b2af6bdbdaa7da46f043bcff2e58045bf5f6fc4a6013078594cd0e93397",
+      "Agent_B.md": "57b3be81bff2ba2aa2b3f821c007033478a2d1f7a197ec25259a11983b7b9cc9",
+      "events.jsonl": "7d3c70da6e13858f68747495873697ef4423a7b97403e2eef34e48904d7d27b6",
+      "language.json": "7eeea6d0a5ad5c2084aa118c7ac9ad977f70c50f95b89b1f0e1a4afb100d661e",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "6bc0e4c8ebd91189957ed37bd35e79a983562167104f1de28eff2f0716bd06f9",
+      "transcript.md": "f7a01eb759c696ff357c35806166aab2696a38b9ee369252e27b75aa428cbaf5"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-16": {
+      "Agent_A.md": "cb42e37d6a96a5051aefcfe01a0384dd1eb0cc246b12a0829a70107b00c9cb3f",
+      "Agent_B.md": "34bc43a4caa40096a02441e740759a88fa8abbca4db0fae402ecd0d0f5df4f18",
+      "events.jsonl": "53480083769d0cfad38a879de07f23e84e96264ece1e844149281d56288baf82",
+      "language.json": "0ed4b87bd96036d2cd6c1e6f36006e1e38fabd779593e7325db57961b323a6c2",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "83166c6bef5984bd9cded55d1e261770011d0d1fde38af6a726d380cfc82d7d2",
+      "transcript.md": "039bfe104efb3e03a3499b77ea59666432038c33735f67e5c03e0d7db9282ec9"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-17": {
+      "Agent_A.md": "c97e6924a1acee83b819374580507efe318ffdbd06cf897b4115ead1f8ccfd83",
+      "Agent_B.md": "65fdf76709d73cfe9d1784be951c62bca3e4cc5a4ea6fd6195b010e09e9af6e4",
+      "events.jsonl": "dd53d30ff0c2233197793f55f79ca6bc7dd6394669e4841ae64f88c8d86d6bd7",
+      "language.json": "1d30a278d0aa80e5e28b05dacc19dbcbccbc76df9cc7ed749c7266967cbb85de",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "29aa2b577cee3c1dd95fe8d9d5ed8cf33a771db957a6a1468664c0b9c83b31a9",
+      "transcript.md": "666ed13c66a40e49ad470aa6303f9afd96d8b3d807b68dfc1620276104ee95ca"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-18": {
+      "Agent_A.md": "dd03d87237c608ff5e9818949851067d55b06bd1787cf133650b00db7ce166df",
+      "Agent_B.md": "33e320db5dee2119b3233143337eef1cb1d921fb749731e78a466cb942bced19",
+      "events.jsonl": "1c5f017ade788b77f0b8d31332cae3020fafa956806544459f7cd95cd349a092",
+      "language.json": "f25b240b3ba039ece5427c509abc6a4ff6f2a4404cd9febbed180df7da0c74b9",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b90cb8d5aa63d19c48def8d54aa284ac7f7f42929e968e9456fe96218834ac96",
+      "transcript.md": "b24acdc4d3492fbe10edb4f301802da7a5859619b959b8d4237d72beb0200096"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-19": {
+      "Agent_A.md": "32df99f3c84ddc74ba1f4e2adfb07f668c198d2845372ae13d81b1e7b9f3a72a",
+      "Agent_B.md": "cd0d1dfa2f88c1c23566cfc71bd7eff47ac322e83ae7a231c606453bcfd76d1d",
+      "events.jsonl": "89034541f9e317ef497c7f0c6bc474a50c392f4586818f31f47299fe42ffa1a5",
+      "language.json": "793c8ac29b3621b4eb912ab5ede5b19a1aa9ef7bc2ff477dfd578e5ec72f1163",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "abfad6d0db51b4816b5256f53c2e1fbf0230a1877c66b0157be88df73491d6db",
+      "transcript.md": "096d9cdeee717fa37347adc2860a0481af395889d34644f24faf36dee7248d4b"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-20": {
+      "Agent_A.md": "de32d1ee5a8785d347eb2be76db5ec5a2298e0e7ecfa008a1727914516447317",
+      "Agent_B.md": "591a2ddcee9cec9aa4362b594d740a9dc5c2f192de8a814971361afbef6d47cb",
+      "events.jsonl": "8faf3a1e74aec803f581bdb97dc0791f49b2520ee7878d5ee5b25da2788057b6",
+      "language.json": "441879551f230377d4abb78c16c750277969f8ccf8e6dbde349feda573e7113f",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "e9b7a8c68b6693c41b223826a03353bb154c012949ef49f3101a107487ff6b8e",
+      "transcript.md": "508506c874873ffc02ae6ab79808147538dd2d0cd9ce29b3a16410f32779434f"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-21": {
+      "Agent_A.md": "836fc22c3dcd5aef827b83c98a9660f738f725aca40984553a3b05adf69d73a4",
+      "Agent_B.md": "63de2949b4b650237fbf03c21ec594e91f704df1fc5490843a474e6cc5cecfb0",
+      "events.jsonl": "de0e3f74a423fbb52e40d78874444d62fd4b50b9f055c1a4d832dbaa95355f9e",
+      "language.json": "be5607a55cab2589965896bb099c58ef77d1e6e54263bfd23996ba1680e9fb12",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "a85780e1d54c032afa34d1a2fd2e978b592f208a307a6a39c59c098b38bbf246",
+      "transcript.md": "3db9a017d981a5d09a0f64df910b03e40489e60f608efb918b75304f5a2516f6"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-22": {
+      "Agent_A.md": "d9972dae1ccc22acb04e6372e90779a5c01b62a5ee312de55e9a359be74a33ca",
+      "Agent_B.md": "9148a1a876f86d87886fed9e5dfe89b1e49d908aefcea60a2bc051144247df6c",
+      "events.jsonl": "7923624b4365d79824b3bd8d4259a1c94688c222d4cce75803d89a90cb25f8de",
+      "language.json": "6c4a946b1f85a1b9d29cc289633dcb8e21b00ebdaeeaa7a03a1e509331a9bf41",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "f5fc181ee04c32b6518c2a5ec9317998367c81b3645b8f2d40b9ac8f7c0c700e",
+      "transcript.md": "503be5bace2f4363b3f9b4c7b7f05d53dd538533fbc2b4479f9ad698dfaffe4b"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-23": {
+      "Agent_A.md": "a6a129c69cde3a9dee0390e6d7601bf7b9a97fe11e4742725f0d54bf5ebd542c",
+      "Agent_B.md": "0f7de5252db48e5ab718a05401523a911fb17ee5026dfc1dc516b05796a45371",
+      "events.jsonl": "074717a5c727910d6c6f3014d2484ddf728931934c4963aea196106365aa78d5",
+      "language.json": "cb37d2a27494183783861a291a677dab70ed4dc06555e9ed6f3e6474fc62ce75",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "0d87b71d5838e2bd5abf26b0696d646530c21636288e8e051f67bffde63ed482",
+      "transcript.md": "9a9711f4602e82f650bf0ea14c6371addfb1955218477fc2f910fff25fdf1428"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-24": {
+      "Agent_A.md": "f3bdadc85035758801540cc4fa6dab5cc89ad5772cd82a9dfda877c386ed1d74",
+      "Agent_B.md": "75cc5840d7013682218e3b52d56730f2653762764b34e4f1649de315ff968032",
+      "events.jsonl": "02d8f8a05c224fe1fc67b8ba716e06af44d7ae531059dcfa49c59ddb42986ae4",
+      "language.json": "2ed03ad85d2a1122f85f2d2f989ca5c73c60f02cafce6b3da15b577d4c47a7ff",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "f62fd206a663fcb94edfc936eda8db74444cf901c519207279007c7ce7425bfb",
+      "transcript.md": "42f13dd8322523b5e4160f760db16f00d26907bfcfb97fc569f948026ca326f9"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-25": {
+      "Agent_A.md": "96c9ca31aae600e0674bdad5a4232650b0fe71366b200562b6e9a23d40722ca9",
+      "Agent_B.md": "6978f3a157f5c469cea2f402b19c647b95a3a7dd530030a69f8d00e44bfd70f8",
+      "events.jsonl": "a89b194f075bf8baa183bf6da563e5d62f95d6355ede18c74f644497135aba36",
+      "language.json": "e2ccc033502972aafc98bc1a671dc3cb74dd9cd1e85d962684b69e313267938f",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "698d6ac790cdc5d67a98aa5c024ce92929edcbf5f85d549fde557adb3b7281f2",
+      "transcript.md": "12e34276fef3b7f0c747d985f9c7071e120d8e15507edfc075fd53003bce5b5e"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-26": {
+      "Agent_A.md": "d112ce93773e804b9c6a8206f59bad73e33ccea3701e7ad01b4749d2e22b3613",
+      "Agent_B.md": "ea21025b11abf9780ab58549fd9b80e3f35ac75b443e4852e8200f6ed980aca7",
+      "events.jsonl": "132bd0dc531c369b963c4fd584f55e915e691aa8fe73067d56d4b52390d792bf",
+      "language.json": "1f330619ed3ed32ec8d62a6e40b60002757fa9355fc75a4da42f4846e6fe1fc1",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "290412c669640653f264cdcb6bdeffbed230831fcfc66e47a824fdd5125a1345",
+      "transcript.md": "337469c426c6db0b7dc32438540061acb03e43115d445ddf43e64c0915553eaf"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-27": {
+      "Agent_A.md": "88811fca0af7631042b2a4a5210302bf44fd19f9c21206adc666ba5b590c1101",
+      "Agent_B.md": "01617ca7a5c85d8851a6ea00a6d63332c826cf1b7b81f85af9d447c5e6f61b26",
+      "events.jsonl": "04ded7c921b1a7876474bc87d8f0f451c74e1f43aa8e64af2e6910e96d6591ce",
+      "language.json": "6c4a946b1f85a1b9d29cc289633dcb8e21b00ebdaeeaa7a03a1e509331a9bf41",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "e0b162db5c94596e9a50be93ab223e53d0011543d6eac8a7d229afd9aaf953be",
+      "transcript.md": "222da4f79f1df634bd984600e3632c28d22bca0150c0b56a3ccf19ab59580592"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-28": {
+      "Agent_A.md": "9c38ebc011b05e0118d1221588f84c2b7a488c59649c3574ce140a74a8769fe6",
+      "Agent_B.md": "cf17a3f2bae7418a1f2bac7b6c511da58584501ac91db76b0881a34785498950",
+      "events.jsonl": "8c0b94420012044649f3e16e99174aafd46ca5823b972e13da566b0163afe50e",
+      "language.json": "311c9d402119e486b7918b698d2cf917b86cde19d25f27e8b1bb1405da4ada68",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "d1c8d69eb7a133bae2a85e273c4b643166c522c19469f43ce3045312d2a098b5",
+      "transcript.md": "a495029e564b7d407b0cf748040c97824382f6134ca1223bc0bf588a0aa5cd19"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-29": {
+      "Agent_A.md": "1bdd64501d6f4c507f981c7c245f84cc913291ef33757c31597831028024a9f5",
+      "Agent_B.md": "6df4540725876c34c173b9542ef7246bbad3f32f64e19d42f1d5b38bba7a51a8",
+      "events.jsonl": "aff4be0fd23a126b847bcd586a007e75be57edcc5bb11777d1213060b554c511",
+      "language.json": "abb1f7b41427b8b7bdc1ded98ab399fff8ed3270fcaa11804b786e2e5a56c9f4",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "b7e4332e14cdf2788bda5fd65bd120d0d5bfddccbf5cbf830c5056b95d715e05",
+      "transcript.md": "c2b906ea909d8d68b4810161df37d0eb8cb1bb90e685fbb3e1006430f49d4fc4"
+    },
+    "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-30": {
+      "Agent_A.md": "6c175e0c176eb0e19bf4728459a1f83aaf9c8ac5b516a603d2e04219261b30aa",
+      "Agent_B.md": "6ee4f8e1800e81ea9f1233739d752e4f992f509405ecac2473939d91f883028b",
+      "events.jsonl": "65eda3feee86828201a35edc77745049759b154e9d06e95d0a3e1764587206f9",
+      "language.json": "7d8bebcccfba77503c88c7cd7e4609470c5812838640c6d45ba40e8d4ccd40c5",
+      "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+      "result.json": "fbaa7579fd94b2b3736d17e3338798430a5e8ae5bc99411ac2a2ea1e05818463",
+      "transcript.md": "67ef5e58f4ca98d421d54702558fd2c2e0245e9f9daa9fcaa31987063946c2ec"
+    }
+  },
+  "after_equals_before": true,
+  "files_checked": 1110
+}

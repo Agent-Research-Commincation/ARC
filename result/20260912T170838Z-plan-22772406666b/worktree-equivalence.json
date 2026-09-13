@@ -1,0 +1,47 @@
+{
+  "source_commit": "13076ad4e2355c6ebceba40c67aa7dd584e9fe2e",
+  "stages": [
+    {
+      "stage": 1,
+      "worktree_source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b",
+      "central_source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage1-b960a45a627b",
+      "files": 213,
+      "identical": true
+    },
+    {
+      "stage": 2,
+      "worktree_source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86",
+      "central_source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage2-2f6d43b42c86",
+      "files": 213,
+      "identical": true
+    },
+    {
+      "stage": 3,
+      "worktree_source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a",
+      "central_source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage3-c4737d9c488a",
+      "files": 213,
+      "identical": true
+    },
+    {
+      "stage": 4,
+      "worktree_source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a",
+      "central_source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a",
+      "files": 213,
+      "identical": true
+    },
+    {
+      "stage": 5,
+      "worktree_source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8",
+      "central_source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8",
+      "files": 213,
+      "identical": true
+    },
+    {
+      "stage": 6,
+      "worktree_source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1",
+      "central_source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage6-be74e683a4b1",
+      "files": 243,
+      "identical": true
+    }
+  ]
+}

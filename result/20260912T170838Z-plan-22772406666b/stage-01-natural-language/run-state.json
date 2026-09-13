@@ -1,0 +1,215 @@
+{
+  "plan_id": "20260912T170838Z-plan-22772406666b",
+  "slots": {
+    "stage1-trial01": {
+      "status": "success",
+      "started_at": "2026-09-12T17:08:38.897904+00:00",
+      "queue_seconds": 0.00895250000000003,
+      "finished_at": "2026-09-12T17:10:33.436427+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial02": {
+      "status": "success",
+      "started_at": "2026-09-12T17:17:17.412037+00:00",
+      "queue_seconds": 518.559373542,
+      "finished_at": "2026-09-12T17:19:40.517973+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial03": {
+      "status": "success",
+      "started_at": "2026-09-12T17:20:57.712586+00:00",
+      "queue_seconds": 738.858268833,
+      "finished_at": "2026-09-12T17:22:41.552133+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial04": {
+      "status": "success",
+      "started_at": "2026-09-12T17:24:40.521501+00:00",
+      "queue_seconds": 961.6657015,
+      "finished_at": "2026-09-12T17:27:15.732750+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial05": {
+      "status": "success",
+      "started_at": "2026-09-12T17:28:03.670276+00:00",
+      "queue_seconds": 1164.8126488330001,
+      "finished_at": "2026-09-12T17:29:51.538358+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial06": {
+      "status": "stopped",
+      "started_at": "2026-09-12T17:31:18.430058+00:00",
+      "queue_seconds": 1359.571175667,
+      "finished_at": "2026-09-12T17:33:26.079317+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial07": {
+      "status": "success",
+      "started_at": "2026-09-12T17:35:16.315032+00:00",
+      "queue_seconds": 1597.454725708,
+      "finished_at": "2026-09-12T17:36:47.221974+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial08": {
+      "status": "success",
+      "started_at": "2026-09-12T17:38:54.881906+00:00",
+      "queue_seconds": 1816.019413708,
+      "finished_at": "2026-09-12T17:40:35.718601+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial09": {
+      "status": "success",
+      "started_at": "2026-09-12T17:43:49.559110+00:00",
+      "queue_seconds": 2110.6957065,
+      "finished_at": "2026-09-12T17:45:28.517560+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial10": {
+      "status": "success",
+      "started_at": "2026-09-12T17:47:34.955065+00:00",
+      "queue_seconds": 2336.088372458,
+      "finished_at": "2026-09-12T17:49:10.624871+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial11": {
+      "status": "success",
+      "started_at": "2026-09-12T17:52:11.711543+00:00",
+      "queue_seconds": 2612.843313792,
+      "finished_at": "2026-09-12T17:53:52.372746+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial12": {
+      "status": "success",
+      "started_at": "2026-09-12T17:55:18.229143+00:00",
+      "queue_seconds": 2799.359029833,
+      "finished_at": "2026-09-12T17:57:47.346140+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial13": {
+      "status": "success",
+      "started_at": "2026-09-12T17:59:09.061598+00:00",
+      "queue_seconds": 3030.1896615,
+      "finished_at": "2026-09-12T18:00:58.319145+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial14": {
+      "status": "failed",
+      "started_at": "2026-09-12T18:03:11.816252+00:00",
+      "queue_seconds": 3272.985408583,
+      "finished_at": "2026-09-12T18:04:57.477258+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial15": {
+      "status": "success",
+      "started_at": "2026-09-12T18:06:09.561871+00:00",
+      "queue_seconds": 3450.733097708,
+      "finished_at": "2026-09-12T18:08:08.869213+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial16": {
+      "status": "success",
+      "started_at": "2026-09-12T18:10:29.720071+00:00",
+      "queue_seconds": 3710.8916205,
+      "finished_at": "2026-09-12T18:12:02.939131+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial17": {
+      "status": "success",
+      "started_at": "2026-09-12T18:13:49.620683+00:00",
+      "queue_seconds": 3910.79382425,
+      "finished_at": "2026-09-12T18:15:29.696134+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial18": {
+      "status": "success",
+      "started_at": "2026-09-12T18:18:00.206677+00:00",
+      "queue_seconds": 4161.380786958,
+      "finished_at": "2026-09-12T18:19:30.604403+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial19": {
+      "status": "success",
+      "started_at": "2026-09-12T18:21:50.190114+00:00",
+      "queue_seconds": 4391.366141167,
+      "finished_at": "2026-09-12T18:24:18.307194+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial20": {
+      "status": "success",
+      "started_at": "2026-09-12T18:26:34.159048+00:00",
+      "queue_seconds": 4675.336090291999,
+      "finished_at": "2026-09-12T18:28:07.315960+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial21": {
+      "status": "success",
+      "started_at": "2026-09-12T18:32:18.441113+00:00",
+      "queue_seconds": 5019.619860375,
+      "finished_at": "2026-09-12T18:34:34.478502+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial22": {
+      "status": "success",
+      "started_at": "2026-09-12T18:35:24.034368+00:00",
+      "queue_seconds": 5205.193158499999,
+      "finished_at": "2026-09-12T18:37:32.859694+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial23": {
+      "status": "success",
+      "started_at": "2026-09-12T18:38:11.079396+00:00",
+      "queue_seconds": 5372.235412624999,
+      "finished_at": "2026-09-12T18:39:42.394392+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial24": {
+      "status": "success",
+      "started_at": "2026-09-12T18:46:15.778007+00:00",
+      "queue_seconds": 5856.934390417,
+      "finished_at": "2026-09-12T18:47:47.588437+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial25": {
+      "status": "success",
+      "started_at": "2026-09-12T18:49:43.658872+00:00",
+      "queue_seconds": 6064.814661916999,
+      "finished_at": "2026-09-12T18:51:18.346590+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial26": {
+      "status": "success",
+      "started_at": "2026-09-12T18:53:52.060869+00:00",
+      "queue_seconds": 6313.216984666999,
+      "finished_at": "2026-09-12T18:55:23.199706+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial27": {
+      "status": "success",
+      "started_at": "2026-09-12T18:57:28.420333+00:00",
+      "queue_seconds": 6529.5759419999995,
+      "finished_at": "2026-09-12T18:59:25.703134+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial28": {
+      "status": "success",
+      "started_at": "2026-09-12T19:02:05.024571+00:00",
+      "queue_seconds": 6806.180429999999,
+      "finished_at": "2026-09-12T19:03:37.093892+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial29": {
+      "status": "success",
+      "started_at": "2026-09-12T19:06:54.111956+00:00",
+      "queue_seconds": 7095.267617916999,
+      "finished_at": "2026-09-12T19:08:37.087495+00:00",
+      "operational_status": "normal"
+    },
+    "stage1-trial30": {
+      "status": "success",
+      "started_at": "2026-09-12T19:11:24.009313+00:00",
+      "queue_seconds": 7365.222945416999,
+      "finished_at": "2026-09-12T19:13:04.717709+00:00",
+      "operational_status": "normal"
+    }
+  }
+}

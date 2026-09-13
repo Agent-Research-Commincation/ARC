@@ -1,0 +1,2296 @@
+{
+  "version": 1,
+  "events_sha256": "3bd7a48ed385b1e3e6be738c7137319efde80cb7c956d248081c3e37ab8e9398",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_5_6; direct source reading of completed natural-language trial-07",
+  "entries": [
+    {
+      "message": 1,
+      "status": "complete",
+      "evidence": "Here are my team’s summaries (available / preference) by slot. M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5. M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2. M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3. Please share your team’s summaries and any proposed schedule when ready.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          11
+        ]
+      ],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "evidence": "M1: 0 no/4, 1 yes/2, 2 no/3, 3 yes/3, 4 yes/0, 5 no/5, 6 no/6, 7 yes/2, 8 yes/6, 9 yes/3, 10 no/4, 11 yes/5.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "evidence": "M2: 0 no/2, 1 yes/1, 2 yes/3, 3 yes/2, 4 yes/0, 5 no/3, 6 yes/3, 7 yes/0, 8 yes/3, 9 yes/2, 10 no/1, 11 yes/2.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "evidence": "M3: 0 yes/2, 1 yes/3, 2 no/0, 3 no/1, 4 yes/0, 5 yes/2, 6 no/5, 7 no/4, 8 yes/3, 9 yes/2, 10 yes/5, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        }
+      ],
+      "unjudgeable": [
+        "and any proposed schedule when ready."
+      ],
+      "notes": "A가 available/preference의 의미를 지정하고 각회의 슬롯0–11을yes/no와숫자로모두직접열거했다. B팀 summaries 요청은 A가방금제공한동일회의/슬롯수준의요약요청으로연결했다. 이는질문범위의문맥해석이며정보가생략됐다고불가사실을추가하지않았다. any proposed schedule when ready는준비됐을때후보를달라는요청이다. 현typed questions에proposal요청형이없어발췌로보존했고이미후보가존재한다는주장으로세지않았다."
+    },
+    {
+      "message": 2,
+      "status": "complete",
+      "evidence": "My team summaries (available / preference) by slot: M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3. M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4. M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1. Proposed schedule: M1 slot 1, M2 slot 6, M3 slot 10. This appears legal and scores 20 from the summaries shared so far.",
+      "kinds": [
+        "inform",
+        "propose"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "evidence": "M1: 0 yes/2, 1 yes/2, 2 yes/0, 3 no/1, 4 yes/2, 5 yes/2, 6 yes/2, 7 yes/1, 8 no/3, 9 yes/0, 10 yes/3, 11 yes/3.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "evidence": "M2: 0 yes/4, 1 no/3, 2 yes/0, 3 no/2, 4 yes/2, 5 yes/4, 6 yes/4, 7 yes/3, 8 no/3, 9 no/2, 10 yes/4, 11 yes/4.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3: 0 yes/4, 1 no/4, 2 yes/1, 3 yes/4, 4 no/0, 5 yes/2, 6 yes/2, 7 yes/2, 8 yes/2, 9 no/2, 10 yes/4, 11 yes/1.",
+          "note": "The opening defines available / preference; every slot 0 through 11 is explicitly numbered with yes/no and a numeric preference. yes maps to 1 and no to 0. No omitted slots or individual-person facts are inferred."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "scores 20 from the summaries shared so far.",
+          "note": "The scores 20 predicate is explicit and qualified by the summaries shared so far. The preceding appears modifies legal, not this separately stated arithmetic result."
+        }
+      ],
+      "unjudgeable": [
+        "This appears legal"
+      ],
+      "notes": "B가두번째메시지안에서전체팀요약과명시적 Proposed schedule을함께전달했다. This appears legal은잠정표현이므로확정적인schedule_valid=1로강제하지않았다. 뒤의scores20은별도서술이며공유된요약범위를보존했다. best/optimal이나명시적수락은말하지않았으므로최적성·수락을추가하지않았다. 최종제출이성공했다는사실도앞선발화의잠정성을소급해서없애지않는다."
+    }
+  ]
+}

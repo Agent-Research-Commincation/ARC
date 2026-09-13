@@ -1,0 +1,3602 @@
+{
+  "version": 3,
+  "review_policy_version": "observation-review-v3.1",
+  "claim_counts_by_type": {
+    "fact": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "summary": {
+      "occurrences": 144,
+      "judged": 144,
+      "correct": 144,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "reason": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_score": {
+      "occurrences": 2,
+      "judged": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_valid": {
+      "occurrences": 2,
+      "judged": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_optimal": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "meeting_score": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "meeting_available": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_constraint": {
+      "occurrences": 2,
+      "judged": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "public_precedence": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    }
+  },
+  "unique_claims": 148,
+  "claim_occurrences": 150,
+  "claim_changes": [],
+  "scope": "post-run observable content; no hidden reasoning; no feedback to agents",
+  "content_review_status": "complete",
+  "content_review_scope": "source-anchored annotations",
+  "task_messages": 4,
+  "reviewed_messages": 4,
+  "correct_claims": 150,
+  "incorrect_claims": 0,
+  "undetermined_claims": 0,
+  "unjudgeable_expressions": 6,
+  "codec_errors": 0,
+  "information_sharing": {
+    "A": {
+      "reviewed_messages": 2,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    },
+    "B": {
+      "reviewed_messages": 2,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    }
+  },
+  "first_proposer": "B",
+  "changed_proposal_messages": 0,
+  "explicit_revisions": 0,
+  "accept_messages": 1,
+  "agreement_note": "Acceptance expressions do not prove independent verification or final submission.",
+  "completion": {
+    "submitted_agents": [
+      "A",
+      "B"
+    ],
+    "both_submitted": true,
+    "identical_submissions": true,
+    "task_status": "success",
+    "error": null
+  },
+  "format_errors": [],
+  "messages": [
+    {
+      "message": 1,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "B 팀 72개 요약 값을 원문 쌍에서 전개했다. same format으로 A 요약을 요청한 범위를 같은 세 회의·12슬롯·두 관계의 72개 질문으로 대응했다. optimize a legal schedule together는 미래 목적이며 현재 후보 평가가 아니다. 개인 원자료 요청이나 발화는 추가하지 않았다. 독립 AI 검수: 이번 회차의 모든 전달 원문과 직접 대조해 의미 필드·발화값·evidence를 유지했다. 전 슬롯 쌍의 순서, 자기 탐색 범위 최상급, 명시 legal·20점·제약과 합의, 스키마 밖 시간 라벨·조건부 제출 의도 및 실제 제어를 구분해 검산했다.",
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          11
+        ]
+      ],
+      "references": []
+    },
+    {
+      "message": 2,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "annotation_note": "첫 문장의 슬롯 0–11 및 쌍 순서(가용성, 선호합)를 따라 원문 숫자를 전개했다. 정답 치환이나 생략 추론은 없다."
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "A 팀 세 회의·12슬롯의 72개 명시 값을 원문 쌍에서 전개했다. 미가용 슬롯의 선호합도 발화대로 기록했다. 후보나 평가, 개인 원자료 주장은 추가하지 않았다. 독립 AI 검수: 이번 회차의 모든 전달 원문과 직접 대조해 의미 필드·발화값·evidence를 유지했다. 전 슬롯 쌍의 순서, 자기 탐색 범위 최상급, 명시 legal·20점·제약과 합의, 스키마 밖 시간 라벨·조건부 제출 의도 및 실제 제어를 구분해 검산했다.",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 3,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "The highest-scoring legal schedule I find is M1 at slot 1, M2 at slot 6, and M3 at slot 10 (D1 10:00, D2 09:00, D2 14:00), for 20 total preference points.",
+          "annotation_note": "명시 후보의 legal 평가는 기록하되 highest-scoring ... I find는 자기 탐색 범위의 최상급으로 남긴다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "for 20 total preference points.",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "They are distinct slots",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "M1 precedes M3.",
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [
+        "The highest-scoring legal schedule I find",
+        "D1 10:00",
+        "D2 09:00",
+        "D2 14:00",
+        "Please confirm this candidate;",
+        "I will submit it once aligned."
+      ],
+      "proposal_quality": {
+        "valid": true,
+        "score": 20,
+        "violations": [],
+        "gap": 0
+      },
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "1/6/10 후보의 legal·20점·distinct·M1 precedes M3 네 주장을 기록했다. highest-scoring ... I find는 자기 탐색 범위가 있어 전역 optimal=1이나 완전 탐색 수행으로 강화하지 않았다. 세 시간 라벨은 지원 claim schema 밖이므로 발췌 및 별도 공개 슬롯 매핑 검산에 보존했다. confirm 요청은 합의 질문이며 typed valid/score 질문으로 임의 치환하지 않았다. 조건부 미래 제출 의도는 현재 제출 사실이 아니다. 실제 제어 submit은 별도 기록이다. 후보별 참석자/팀 가용성·회의 점수는 직접 발화하지 않아 추가하지 않았다. 독립 AI 검수: 이번 회차의 모든 전달 원문과 직접 대조해 의미 필드·발화값·evidence를 유지했다. 전 슬롯 쌍의 순서, 자기 탐색 범위 최상급, 명시 legal·20점·제약과 합의, 스키마 밖 시간 라벨·조건부 제출 의도 및 실제 제어를 구분해 검산했다.",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 4,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "accept"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "A",
+          "evidence": "It is legal and totals 20 preference points.",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "A",
+          "evidence": "It is legal and totals 20 preference points.",
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "A가 I confirm과 함께 같은 1/6/10 후보를 명시해 accept로 기록했다. legal 및 20점 두 평가만 전개하며 전역 optimal, 후보별 distinct/precedence/가용성을 추가하지 않았다. 상대의 최고점 표현을 받아들였다고 추론하지 않았다. 명시 메시지 번호 인용이 없어 references는 비웠다. 독립 AI 검수: 이번 회차의 모든 전달 원문과 직접 대조해 의미 필드·발화값·evidence를 유지했다. 전 슬롯 쌍의 순서, 자기 탐색 범위 최상급, 명시 legal·20점·제약과 합의, 스키마 밖 시간 라벨·조건부 제출 의도 및 실제 제어를 구분해 검산했다.",
+      "questions": [],
+      "references": []
+    }
+  ],
+  "annotation_reviewer_kind": "ai",
+  "annotation_reviewer": "Codex /root/stages_5_6; independent AI source audit of /root/stages_1_2 draft across all delivered task packets in trial-30; 2026-09-13"
+}

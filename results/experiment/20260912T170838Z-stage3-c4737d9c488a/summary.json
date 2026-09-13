@@ -1,0 +1,76 @@
+{
+  "completed_trials": 30,
+  "attempted_trials": 30,
+  "infrastructure_errors": 0,
+  "terminal_trials": 30,
+  "not_started_trials": 0,
+  "status_counts": {
+    "success": 30
+  },
+  "operational_interruptions": 0,
+  "expected_trials": 30,
+  "success_count": 30,
+  "success_rate": 1.0,
+  "batch_complete": true,
+  "quality_gap_successes": {
+    "count": 30,
+    "mean": 0.06666666666666667,
+    "median": 0.0,
+    "min": 0,
+    "max": 1
+  },
+  "total_cost_estimate_usd": null,
+  "cost_per_success_estimate_usd": null,
+  "model_cost_estimate_usd": 0.56927584,
+  "known_partial_model_cost_estimate_usd": 0.56927584,
+  "model_cost_measured_trials": 30,
+  "model_cost_per_success_estimate_usd": 0.018975861333333333,
+  "cost_note": "Model-only values are partial API-equivalent estimates, not total costs or actual subscription charges. Unmeasured costs are null.",
+  "completion_seconds_successes": {
+    "count": 30,
+    "mean": 226.25707274456667,
+    "median": 205.334446021,
+    "min": 126.843357375,
+    "max": 518.397041125
+  },
+  "termination_seconds_all": {
+    "count": 30,
+    "mean": 226.25707274456667,
+    "median": 205.334446021,
+    "min": 126.843357375,
+    "max": 518.397041125
+  },
+  "communication_bytes": {
+    "count": 30,
+    "mean": 6072.633333333333,
+    "median": 6338.5,
+    "min": 2442,
+    "max": 9430
+  },
+  "communication_processing_cpu_seconds": {
+    "count": 30,
+    "mean": 0.0030192943000000704,
+    "median": 0.0027800595000001815,
+    "min": 0.002030207999999867,
+    "max": 0.005726949999999231
+  },
+  "communication_processing_cost_estimate_usd": null,
+  "protocol_errors": 65,
+  "task_sender_text_bytes": {
+    "count": 30,
+    "mean": 5501.7,
+    "median": 5955.0,
+    "min": 1988,
+    "max": 8856
+  },
+  "task_receiver_text_bytes": {
+    "count": 30,
+    "mean": 5501.7,
+    "median": 5955.0,
+    "min": 1988,
+    "max": 8856
+  },
+  "runner_turns": 277,
+  "request_count_scope": "Runner input/response turns, not provider-internal calls or HTTP requests.",
+  "model_calls": 277
+}

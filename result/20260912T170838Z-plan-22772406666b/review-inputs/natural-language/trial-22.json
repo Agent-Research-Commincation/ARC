@@ -1,0 +1,1953 @@
+{
+  "version": 1,
+  "events_sha256": "6e07eb3a0ac4e039115be53f955896ab8e1d73d4234e432d914d3429b151aee8",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_1_2; source-anchored initial AI annotation of all task packets in completed trial-22; 2026-09-13",
+  "entries": [
+    {
+      "message": 1,
+      "status": "complete",
+      "evidence": "My B-team summaries (each entry is availability/preference, ordered by slots 0–11): M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3. M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4. M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1. Please send your A-team summaries for M1, M2, and M3 across slots 0–11, or the underlying availability and preference data, so we can find a legal maximum-score schedule.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        }
+      ],
+      "unjudgeable": [
+        "Please send your A-team summaries for M1, M2, and M3 across slots 0–11, or the underlying availability and preference data, so we can find a legal maximum-score schedule."
+      ],
+      "notes": "B 팀 요약 72개를 직접 발화대로 기록했다. A 요약 또는 underlying 개인 자료라는 OR 요청은 지원 평면 requests/questions 배열로 선택 구조를 표현할 수 없어 request 분류와 전체 원문 발췌로 보존했다. 두 종류를 모두 필수로 요구한 것처럼 생성하지 않았다. legal maximum-score 탐색은 미래 목적이라 현재 후보 최적성 주장이 아니다."
+    },
+    {
+      "message": 2,
+      "status": "complete",
+      "evidence": "My A-team summaries (availability/preference, slots 0–11): M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5. M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2. M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3. I propose M1 at slot 8, M2 at slot 5, and M3 at slot 10; this appears to score 24 in total and respects precedence and attendee conflicts.",
+      "kinds": [
+        "inform",
+        "propose"
+      ],
+      "schedule": {
+        "M1": 8,
+        "M2": 5,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 8,
+              "M2": 5,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "evidence": "respects precedence and attendee conflicts",
+          "note": "this appears to score ... and respects ...의 문장에서 respects는 별도 현재형 평가로 읽고, 바로 앞 후보 8/5/10에 대응시켰다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 8,
+              "M2": 5,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "evidence": "respects precedence and attendee conflicts",
+          "note": "모든 회의 쌍이 참석자를 공유하므로 이 문제에서 attendee conflicts를 피하는 일정 조건은 distinct와 대응한다. 실제 가용성 충족까지 포함한다고 확대하지 않았다."
+        }
+      ],
+      "unjudgeable": [
+        "this appears to score 24 in total"
+      ],
+      "notes": "A 요약 72개와 후보 8/5/10의 선후관계·attendee conflicts 충족을 기록했다. appears to score 24는 점수 자체가 잠정형이므로 확정 schedule_score=24로 강화하지 않고 원문 발췌에 값과 강도를 보존했다. 사후 산술합 25 및 불가능 후보 점수 의미 미정은 검산 메모에서 별도로 구분한다. 잠정 표현을 먼저 확정 claim으로 만든 뒤 오류/보류를 세지 않는다. respects 절은 문법상 appears to score와 and로 연결된 별도 현재형이라 제약 평가로 기록했다. legal, 모든 가용성, optimal은 직접 말하지 않아 추가하지 않았다."
+    },
+    {
+      "message": 3,
+      "status": "complete",
+      "evidence": "Your proposed slots 8 for M1 and 5 for M2 are unavailable to B1 and the A-team, respectively. My corrected maximum-score schedule is M1 at slot 1, M2 at slot 6, and M3 at slot 10. All are available, distinct, and respect M1-before-M3; the total score is 4 + 7 + 9 = 20. Please confirm and submit this schedule.",
+      "kinds": [
+        "inform",
+        "reject",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "reason",
+          "value": [
+            "unavailable",
+            "M1",
+            "B1",
+            8
+          ],
+          "evidence": "Your proposed slots 8 for M1 and 5 for M2 are unavailable to B1 and the A-team, respectively.",
+          "note": "respectively의 첫 대응 M1 슬롯 8 → B1 불가 원인만 기록한다. 같은 개인 불가 fact를 중복 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "evidence": "Your proposed slots 8 for M1 and 5 for M2 are unavailable to B1 and the A-team, respectively.",
+          "note": "respectively의 둘째 대응 M2 슬롯 5 → A 팀 불가를 기록한다. 특정 개인 A2로 발화를 대체하지 않았다."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "available": 1
+          },
+          "evidence": "All are available",
+          "note": "All은 바로 앞 새 후보의 세 회의·슬롯을 가리킨다."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "available": 1
+          },
+          "evidence": "All are available",
+          "note": "All은 바로 앞 새 후보의 세 회의·슬롯을 가리킨다."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "available": 1
+          },
+          "evidence": "All are available",
+          "note": "All은 바로 앞 새 후보의 세 회의·슬롯을 가리킨다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "evidence": "All are available, distinct, and respect M1-before-M3"
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "evidence": "respect M1-before-M3"
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "score": 4
+          },
+          "evidence": "the total score is 4 + 7 + 9 = 20.",
+          "note": "바로 앞 명시 후보 M1/M2/M3 순서의 4+7+9 분해로 해석했다. 값은 발화 그대로다."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "score": 7
+          },
+          "evidence": "the total score is 4 + 7 + 9 = 20.",
+          "note": "바로 앞 명시 후보 M1/M2/M3 순서의 4+7+9 분해로 해석했다. 값은 발화 그대로다."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "score": 9
+          },
+          "evidence": "the total score is 4 + 7 + 9 = 20.",
+          "note": "바로 앞 명시 후보 M1/M2/M3 순서의 4+7+9 분해로 해석했다. 값은 발화 그대로다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "the total score is 4 + 7 + 9 = 20."
+        }
+      ],
+      "unjudgeable": [
+        "My corrected maximum-score schedule",
+        "Please confirm and submit this schedule."
+      ],
+      "notes": "실제 제어행동은 revise이며 주석은 전달된 메시지를 제안 변경으로 기록한다. 기존 두 문제를 respectively에 따라 B1 원인/M2 A 팀 가용성으로 분리했고 새 후보의 세 회의 가용성·distinct·precedence·4/7/9·총점 20을 전개했다. My corrected maximum-score schedule은 자기 수정 후보를 수식한 표현으로 자기 탐색 범위의 여지가 남아 전역 optimal=1로 강화하지 않고 발췌했다. 강한 maximum-score라는 단어가 있으므로 독립 검토에서 범위를 재검토할 수 있게 이 결정을 공개한다. legal은 직접 말하지 않아 추가하지 않았다. 확인과 제출 요청은 수락·실제 제출이 아니며 뒤 submit을 task accept로 만들지 않았다."
+    }
+  ]
+}

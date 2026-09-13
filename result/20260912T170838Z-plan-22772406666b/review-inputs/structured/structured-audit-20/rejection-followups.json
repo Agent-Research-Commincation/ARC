@@ -1,0 +1,206 @@
+[
+  {
+    "stage": 3,
+    "trial": 20,
+    "request_id": "request-1",
+    "actor": "B",
+    "phase": "task",
+    "error": "Invalid question type or arguments",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\nasksummary(availability,A,M1,0).\\nasksummary(preference,A,M1,0).\\nasksummary(availability,A,M1,1).\\nasksummary(preference,A,M1,1).\\nasksummary(availability,A,M1,2).\\nasksummary(preference,A,M1,2).\\nasksummary(availability,A,M1,3).\\nasksummary(preference,A,M1,3).\\nasksummary(availability,A,M1,4).\\nasksummary(preference,A,M1,4).\\nasksummary(availability,A,M1,5).\\nasksummary(preference,A,M1,5).\\nasksummary(availability,A,M1,6).\\nasksummary(preference,A,M1,6).\\nasksummary(availability,A,M1,7).\\nasksummary(preference,A,M1,7).\\nasksummary(availability,A,M1,8).\\nasksummary(preference,A,M1,8).\\nasksummary(availability,A,M1,9).\\nasksummary(preference,A,M1,9).\\nasksummary(availability,A,M1,10).\\nasksummary(preference,A,M1,10).\\nasksummary(availability,A,M1,11).\\nasksummary(preference,A,M1,11).\\nasksummary(availability,A,M2,0).\\nasksummary(preference,A,M2,0).\\nasksummary(availability,A,M2,1).\\nasksummary(preference,A,M2,1).\\nasksummary(availability,A,M2,2).\\nasksummary(preference,A,M2,2).\\nasksummary(availability,A,M2,3).\\nasksummary(preference,A,M2,3).\\nasksummary(availability,A,M2,4).\\nasksummary(preference,A,M2,4).\\nasksummary(availability,A,M2,5).\\nasksummary(preference,A,M2,5).\\nasksummary(availability,A,M2,6).\\nasksummary(preference,A,M2,6).\\nasksummary(availability,A,M2,7).\\nasksummary(preference,A,M2,7).\\nasksummary(availability,A,M2,8).\\nasksummary(preference,A,M2,8).\\nasksummary(availability,A,M2,9).\\nasksummary(preference,A,M2,9).\\nasksummary(availability,A,M2,10).\\nasksummary(preference,A,M2,10).\\nasksummary(availability,A,M2,11).\\nasksummary(preference,A,M2,11).\\nasksummary(availability,A,M3,0).\\nasksummary(preference,A,M3,0).\\nasksummary(availability,A,M3,1).\\nasksummary(preference,A,M3,1).\\nasksummary(availability,A,M3,2).\\nasksummary(preference,A,M3,2).\\nasksummary(availability,A,M3,3).\\nasksummary(preference,A,M3,3).\\nasksummary(availability,A,M3,4).\\nasksummary(preference,A,M3,4).\\nasksummary(availability,A,M3,5).\\nasksummary(preference,A,M3,5).\\nasksummary(availability,A,M3,6).\\nasksummary(preference,A,M3,6).\\nasksummary(availability,A,M3,7).\\nasksummary(preference,A,M3,7).\\nasksummary(availability,A,M3,8).\\nasksummary(preference,A,M3,8).\\nasksummary(availability,A,M3,9).\\nasksummary(preference,A,M3,9).\\nasksummary(availability,A,M3,10).\\nasksummary(preference,A,M3,10).\\nasksummary(availability,A,M3,11).\\nasksummary(preference,A,M3,11).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-2",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 1651,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\nasksummary(available,A,M1,0).\\nasksummary(preference,A,M1,0).\\nasksummary(available,A,M1,1).\\nasksummary(preference,A,M1,1).\\nasksummary(available,A,M1,2).\\nasksummary(preference,A,M1,2).\\nasksummary(available,A,M1,3).\\nasksummary(preference,A,M1,3).\\nasksummary(available,A,M1,4).\\nasksummary(preference,A,M1,4).\\nasksummary(available,A,M1,5).\\nasksummary(preference,A,M1,5).\\nasksummary(available,A,M1,6).\\nasksummary(preference,A,M1,6).\\nasksummary(available,A,M1,7).\\nasksummary(preference,A,M1,7).\\nasksummary(available,A,M1,8).\\nasksummary(preference,A,M1,8).\\nasksummary(available,A,M1,9).\\nasksummary(preference,A,M1,9).\\nasksummary(available,A,M1,10).\\nasksummary(preference,A,M1,10).\\nasksummary(available,A,M1,11).\\nasksummary(preference,A,M1,11).\\nasksummary(available,A,M2,0).\\nasksummary(preference,A,M2,0).\\nasksummary(available,A,M2,1).\\nasksummary(preference,A,M2,1).\\nasksummary(available,A,M2,2).\\nasksummary(preference,A,M2,2).\\nasksummary(available,A,M2,3).\\nasksummary(preference,A,M2,3).\\nasksummary(available,A,M2,4).\\nasksummary(preference,A,M2,4).\\nasksummary(available,A,M2,5).\\nasksummary(preference,A,M2,5).\\nasksummary(available,A,M2,6).\\nasksummary(preference,A,M2,6).\\nasksummary(available,A,M2,7).\\nasksummary(preference,A,M2,7).\\nasksummary(available,A,M2,8).\\nasksummary(preference,A,M2,8).\\nasksummary(available,A,M2,9).\\nasksummary(preference,A,M2,9).\\nasksummary(available,A,M2,10).\\nasksummary(preference,A,M2,10).\\nasksummary(available,A,M2,11).\\nasksummary(preference,A,M2,11).\\nasksummary(available,A,M3,0).\\nasksummary(preference,A,M3,0).\\nasksummary(available,A,M3,1).\\nasksummary(preference,A,M3,1).\\nasksummary(available,A,M3,2).\\nasksummary(preference,A,M3,2).\\nasksummary(available,A,M3,3).\\nasksummary(preference,A,M3,3).\\nasksummary(available,A,M3,4).\\nasksummary(preference,A,M3,4).\\nasksummary(available,A,M3,5).\\nasksummary(preference,A,M3,5).\\nasksummary(available,A,M3,6).\\nasksummary(preference,A,M3,6).\\nasksummary(available,A,M3,7).\\nasksummary(preference,A,M3,7).\\nasksummary(available,A,M3,8).\\nasksummary(preference,A,M3,8).\\nasksummary(available,A,M3,9).\\nasksummary(preference,A,M3,9).\\nasksummary(available,A,M3,10).\\nasksummary(preference,A,M3,10).\\nasksummary(available,A,M3,11).\\nasksummary(preference,A,M3,11).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\nasksummary(available,A,M1,0).\nasksummary(preference,A,M1,0).\nasksummary(available,A,M1,1).\nasksummary(preference,A,M1,1).\nasksummary(available,A,M1,2).\nasksummary(preference,A,M1,2).\nasksummary(available,A,M1,3).\nasksummary(preference,A,M1,3).\nasksummary(available,A,M1,4).\nasksummary(preference,A,M1,4).\nasksummary(available,A,M1,5).\nasksummary(preference,A,M1,5).\nasksummary(available,A,M1,6).\nasksummary(preference,A,M1,6).\nasksummary(available,A,M1,7).\nasksummary(preference,A,M1,7).\nasksummary(available,A,M1,8).\nasksummary(preference,A,M1,8).\nasksummary(available,A,M1,9).\nasksummary(preference,A,M1,9).\nasksummary(available,A,M1,10).\nasksummary(preference,A,M1,10).\nasksummary(available,A,M1,11).\nasksummary(preference,A,M1,11).\nasksummary(available,A,M2,0).\nasksummary(preference,A,M2,0).\nasksummary(available,A,M2,1).\nasksummary(preference,A,M2,1).\nasksummary(available,A,M2,2).\nasksummary(preference,A,M2,2).\nasksummary(available,A,M2,3).\nasksummary(preference,A,M2,3).\nasksummary(available,A,M2,4).\nasksummary(preference,A,M2,4).\nasksummary(available,A,M2,5).\nasksummary(preference,A,M2,5).\nasksummary(available,A,M2,6).\nasksummary(preference,A,M2,6).\nasksummary(available,A,M2,7).\nasksummary(preference,A,M2,7).\nasksummary(available,A,M2,8).\nasksummary(preference,A,M2,8).\nasksummary(available,A,M2,9).\nasksummary(preference,A,M2,9).\nasksummary(available,A,M2,10).\nasksummary(preference,A,M2,10).\nasksummary(available,A,M2,11).\nasksummary(preference,A,M2,11).\nasksummary(available,A,M3,0).\nasksummary(preference,A,M3,0).\nasksummary(available,A,M3,1).\nasksummary(preference,A,M3,1).\nasksummary(available,A,M3,2).\nasksummary(preference,A,M3,2).\nasksummary(available,A,M3,3).\nasksummary(preference,A,M3,3).\nasksummary(available,A,M3,4).\nasksummary(preference,A,M3,4).\nasksummary(available,A,M3,5).\nasksummary(preference,A,M3,5).\nasksummary(available,A,M3,6).\nasksummary(preference,A,M3,6).\nasksummary(available,A,M3,7).\nasksummary(preference,A,M3,7).\nasksummary(available,A,M3,8).\nasksummary(preference,A,M3,8).\nasksummary(available,A,M3,9).\nasksummary(preference,A,M3,9).\nasksummary(available,A,M3,10).\nasksummary(preference,A,M3,10).\nasksummary(available,A,M3,11).\nasksummary(preference,A,M3,11).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-2",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 6,
+    "trial": 20,
+    "request_id": "request-4",
+    "actor": "A",
+    "phase": "task",
+    "error": "Only one message kind",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"info().\\ntavail(A,M1,0,0).\\ntpref(A,M1,0,4).\\ntavail(A,M1,1,1).\\ntpref(A,M1,1,2).\\ntavail(A,M1,2,0).\\ntpref(A,M1,2,3).\\ntavail(A,M1,3,1).\\ntpref(A,M1,3,3).\\ntavail(A,M1,4,1).\\ntpref(A,M1,4,0).\\ntavail(A,M1,5,0).\\ntpref(A,M1,5,5).\\ntavail(A,M1,6,0).\\ntpref(A,M1,6,6).\\ntavail(A,M1,7,1).\\ntpref(A,M1,7,2).\\ntavail(A,M1,8,1).\\ntpref(A,M1,8,6).\\ntavail(A,M1,9,1).\\ntpref(A,M1,9,3).\\ntavail(A,M1,10,0).\\ntpref(A,M1,10,4).\\ntavail(A,M1,11,1).\\ntpref(A,M1,11,5).\\ntavail(A,M2,0,0).\\ntpref(A,M2,0,2).\\ntavail(A,M2,1,1).\\ntpref(A,M2,1,1).\\ntavail(A,M2,2,1).\\ntpref(A,M2,2,3).\\ntavail(A,M2,3,1).\\ntpref(A,M2,3,2).\\ntavail(A,M2,4,1).\\ntpref(A,M2,4,0).\\ntavail(A,M2,5,0).\\ntpref(A,M2,5,3).\\ntavail(A,M2,6,1).\\ntpref(A,M2,6,3).\\ntavail(A,M2,7,1).\\ntpref(A,M2,7,0).\\ntavail(A,M2,8,1).\\ntpref(A,M2,8,3).\\ntavail(A,M2,9,1).\\ntpref(A,M2,9,2).\\ntavail(A,M2,10,0).\\ntpref(A,M2,10,1).\\ntavail(A,M2,11,1).\\ntpref(A,M2,11,2).\\ntavail(A,M3,0,1).\\ntpref(A,M3,0,2).\\ntavail(A,M3,1,1).\\ntpref(A,M3,1,3).\\ntavail(A,M3,2,0).\\ntpref(A,M3,2,0).\\ntavail(A,M3,3,0).\\ntpref(A,M3,3,1).\\ntavail(A,M3,4,1).\\ntpref(A,M3,4,0).\\ntavail(A,M3,5,1).\\ntpref(A,M3,5,2).\\ntavail(A,M3,6,0).\\ntpref(A,M3,6,5).\\ntavail(A,M3,7,0).\\ntpref(A,M3,7,4).\\ntavail(A,M3,8,1).\\ntpref(A,M3,8,3).\\ntavail(A,M3,9,1).\\ntpref(A,M3,9,2).\\ntavail(A,M3,10,1).\\ntpref(A,M3,10,5).\\ntavail(A,M3,11,1).\\ntpref(A,M3,11,3).\\nprop().\\nat(M1,1).\\nat(M2,2).\\nat(M3,10).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-5",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 1829,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"prop().\\nat(M1,1).\\nat(M2,2).\\nat(M3,10).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "prop().\nat(M1,1).\nat(M2,2).\nat(M3,10).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-5",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        4
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 6,
+    "trial": 20,
+    "request_id": "request-6",
+    "actor": "B",
+    "phase": "task",
+    "error": "Invalid predicate arguments",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"ask().\\naskvalid(1,2,10).\\naskscore(1,2,10).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-10",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 2125,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"req().\\naskfact(available,A1,1).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "req().\naskfact(available,A1,1).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-10",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        5
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 6,
+    "trial": 20,
+    "request_id": "request-7",
+    "actor": "B",
+    "phase": "task",
+    "error": "Invalid predicate arguments",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"ask().\\nasksum(available,A,M1,1).\\nasksum(preference,A,M1,1).\\nasksum(available,A,M2,2).\\nasksum(preference,A,M2,2).\\nasksum(available,A,M3,10).\\nasksum(preference,A,M3,10).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-10",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 2125,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"req().\\naskfact(available,A1,1).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "req().\naskfact(available,A1,1).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-10",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        5
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 6,
+    "trial": 20,
+    "request_id": "request-8",
+    "actor": "B",
+    "phase": "task",
+    "error": "Invalid predicate arguments",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"ask().\\naskfact(available,A1,1).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-10",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 2125,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"req().\\naskfact(available,A1,1).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "req().\naskfact(available,A1,1).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-10",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        5
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 6,
+    "trial": 20,
+    "request_id": "request-9",
+    "actor": "B",
+    "phase": "task",
+    "error": "Invalid predicate arguments",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"ask().\\naskfact(avail,A1,1).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-10",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 2125,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"req().\\naskfact(available,A1,1).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "req().\naskfact(available,A1,1).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-10",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        5
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  }
+]

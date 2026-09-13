@@ -1,0 +1,3601 @@
+{
+  "version": 3,
+  "review_policy_version": "observation-review-v3.1",
+  "claim_counts_by_type": {
+    "fact": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "summary": {
+      "occurrences": 144,
+      "judged": 144,
+      "correct": 144,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "reason": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_score": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_valid": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_optimal": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "meeting_score": {
+      "occurrences": 3,
+      "judged": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "meeting_available": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_constraint": {
+      "occurrences": 2,
+      "judged": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "public_precedence": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    }
+  },
+  "unique_claims": 152,
+  "claim_occurrences": 152,
+  "claim_changes": [],
+  "scope": "post-run observable content; no hidden reasoning; no feedback to agents",
+  "content_review_status": "complete",
+  "content_review_scope": "source-anchored annotations",
+  "task_messages": 3,
+  "reviewed_messages": 3,
+  "correct_claims": 152,
+  "incorrect_claims": 0,
+  "undetermined_claims": 0,
+  "unjudgeable_expressions": 4,
+  "codec_errors": 0,
+  "information_sharing": {
+    "A": {
+      "reviewed_messages": 2,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    },
+    "B": {
+      "reviewed_messages": 1,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    }
+  },
+  "first_proposer": "A",
+  "changed_proposal_messages": 0,
+  "explicit_revisions": 0,
+  "accept_messages": 0,
+  "agreement_note": "Acceptance expressions do not prove independent verification or final submission.",
+  "completion": {
+    "submitted_agents": [
+      "A",
+      "B"
+    ],
+    "both_submitted": true,
+    "identical_submissions": true,
+    "task_status": "success",
+    "error": null
+  },
+  "format_errors": [],
+  "messages": [
+    {
+      "message": 1,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1 — 0: no/4, 1: yes/2, 2: no/3, 3: yes/3, 4: yes/0, 5: no/5, 6: no/6, 7: yes/2, 8: yes/6, 9: yes/3, 10: no/4, 11: yes/5.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2 — 0: no/2, 1: yes/1, 2: yes/3, 3: yes/2, 4: yes/0, 5: no/3, 6: yes/3, 7: yes/0, 8: yes/3, 9: yes/2, 10: no/1, 11: yes/2.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3 — 0: yes/2, 1: yes/3, 2: no/0, 3: no/1, 4: yes/0, 5: yes/2, 6: no/5, 7: no/4, 8: yes/3, 9: yes/2, 10: yes/5, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "A의 팀 요약은 세 회의의 슬롯 0–11을 모두 명시하여 72개 주장으로 전개했다. by slot으로 세 회의의 상대 팀 availability/preference를 요청한 범위는 앞서 열거한 공통 슬롯 0–11 전체로 읽어 72개 summary 질문으로 기록했다. 개인 원자료 요청은 아니다. so we can choose the best legal schedule은 앞으로의 협업 목표이므로 현재 후보의 유효성·최적성 주장으로 만들지 않았다. 독립 AI 검수: 이번 회차의 실제 전달 원문 전체와 대조했으며 초안의 의미 필드를 유지했다. 발화의 생략을 오류로 보충하지 않았다.",
+      "questions": [
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          11
+        ]
+      ],
+      "references": []
+    },
+    {
+      "message": 2,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 — 0: yes/2, 1: yes/2, 2: yes/0, 3: no/1, 4: yes/2, 5: yes/2, 6: yes/2, 7: yes/1, 8: no/3, 9: yes/0, 10: yes/3, 11: yes/3.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 — 0: yes/4, 1: no/3, 2: yes/0, 3: no/2, 4: yes/2, 5: yes/4, 6: yes/4, 7: yes/3, 8: no/3, 9: no/2, 10: yes/4, 11: yes/4.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 — 0: yes/4, 1: no/4, 2: yes/1, 3: yes/4, 4: no/0, 5: yes/2, 6: yes/2, 7: yes/2, 8: yes/2, 9: no/2, 10: yes/4, 11: yes/1.",
+          "annotation_note": "원문이 각 슬롯의 availability/preference를 직접 정의한다. yes=1, no=0으로 표준화하고 선호 수치는 발화 그대로 전사했다."
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "B가 명시한 세 회의의 슬롯 0–11 yes/no 및 선호 수치를 72개 팀 요약 주장으로 전개했다. 개인 사실이나 생략된 값을 추론하지 않았다. 이 메시지에는 후보·수락·점수·최적성 발화가 없다. 독립 AI 검수: 이번 회차의 실제 전달 원문 전체와 대조했으며 초안의 의미 필드를 유지했다. 발화의 생략을 오류로 보충하지 않았다.",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 3,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The best legal schedule from the summaries is M1 at slot 1 (D1 10:00), M2 at slot 6 (D2 09:00), and M3 at slot 10 (D2 14:00).",
+          "annotation_note": "legal을 현재 명시 후보의 유효성 주장으로 기록했다."
+        },
+        {
+          "type": "schedule_optimal",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "optimal": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The best legal schedule from the summaries is M1 at slot 1 (D1 10:00), M2 at slot 6 (D2 09:00), and M3 at slot 10 (D2 14:00).",
+          "annotation_note": "The best legal schedule이라는 현재 후보에 대한 명시적 최상급을 최적성 주장으로 읽었다. from the summaries라는 근거 범위는 유지하며 실제 완전 탐색 수행 여부를 주장하거나 검증하지 않는다."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "score": 4
+          },
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The combined meeting scores are 4, 7, and 9, respectively, for total 20.",
+          "annotation_note": "respectively를 바로 앞 후보의 M1, M2, M3 순서에 대응시켰다."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "score": 7
+          },
+          "expected": 7,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The combined meeting scores are 4, 7, and 9, respectively, for total 20.",
+          "annotation_note": "respectively를 바로 앞 후보의 M1, M2, M3 순서에 대응시켰다."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "score": 9
+          },
+          "expected": 9,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The combined meeting scores are 4, 7, and 9, respectively, for total 20.",
+          "annotation_note": "respectively를 바로 앞 후보의 M1, M2, M3 순서에 대응시켰다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The combined meeting scores are 4, 7, and 9, respectively, for total 20.",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "This respects M1-before-M3",
+          "annotation_note": "공개 규칙 자체의 새 주장 대신 이 후보가 선후관계를 충족한다는 발화로 기록했다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "separates every pair of overlapping meetings",
+          "annotation_note": "공개 참석자 목록상 세 회의의 모든 쌍이 참석자를 공유한다. 따라서 이 후보가 모든 overlapping pair를 분리한다는 명시 주장은 이 문제에서 세 슬롯의 distinct 충족과 대응한다. 특정 슬롯의 overlap reason을 만들어 추가하지 않는다."
+        }
+      ],
+      "unjudgeable": [
+        "slot 1 (D1 10:00)",
+        "slot 6 (D2 09:00)",
+        "slot 10 (D2 14:00)",
+        "Please confirm if you agree; otherwise share a better candidate."
+      ],
+      "proposal_quality": {
+        "valid": true,
+        "score": 20,
+        "violations": [],
+        "gap": 0
+      },
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "현재 후보 1/6/10과 legal, best, 회의별 4/7/9점, 총점 20, 선후관계 및 겹치는 회의들의 분리를 명시한 그대로 기록했다. best legal schedule from the summaries는 제시한 요약을 근거로 한 최적성 주장이다. 후보별 참석 가능성·개인 원자료 등 별도로 발화하지 않은 사항은 legal에서 재분해하지 않았다. 시간 라벨 세 개는 현재 claim schema 밖이므로 발췌하고 검산 메모에서만 공공 슬롯 매핑과 대조했다. 조건부 확인/더 나은 후보 요청에는 지원 질문 형식이 없으므로 request와 발췌로 보존한다. 이는 동의 사실이나 더 나은 후보의 존재 주장이 아니다. 후속 submit은 task 수락 메시지로 추가하지 않는다. 독립 AI 검수: 이번 회차의 실제 전달 원문 전체와 대조했으며 초안의 의미 필드를 유지했다. 발화의 생략을 오류로 보충하지 않았다. 사후 계산으로 알게 된 값은 새 발화 주장으로 추가하지 않았다. 원문 최상급/목표 표현과 제어 제출을 구분한 근거는 동반 독립 감사 메모에 보존한다.",
+      "questions": [],
+      "references": []
+    }
+  ],
+  "annotation_reviewer_kind": "ai",
+  "annotation_reviewer": "Codex /root/stages_5_6; independent AI audit of /root/stages_1_2 draft against every delivered task packet in trial-11; 2026-09-13"
+}

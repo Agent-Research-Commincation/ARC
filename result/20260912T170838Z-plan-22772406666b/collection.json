@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "plan_id": "20260912T170838Z-plan-22772406666b",
+  "records": [
+    {
+      "stage": 1,
+      "label": "자연어",
+      "source": "../../results/experiment/20260912T170838Z-stage1-b960a45a627b",
+      "review": "../../results/reviews/20260912T170838Z-stage1-b960a45a627b/20260912T192902Z-review-4252491b55d7",
+      "readable": "stage-01-natural-language"
+    },
+    {
+      "stage": 2,
+      "label": "JSON",
+      "source": "../../results/experiment/20260912T170838Z-stage2-2f6d43b42c86",
+      "review": "../../results/reviews/20260912T170838Z-stage2-2f6d43b42c86/20260912T192904Z-review-86fa502bea8b",
+      "readable": "stage-02-json"
+    },
+    {
+      "stage": 3,
+      "label": "논리식·관계 표현",
+      "source": "../../results/experiment/20260912T170838Z-stage3-c4737d9c488a",
+      "review": "../../results/reviews/20260912T170838Z-stage3-c4737d9c488a/20260912T192907Z-review-0d7f35035a8b",
+      "readable": "stage-03-relations"
+    },
+    {
+      "stage": 4,
+      "label": "고정 의미 특성 벡터",
+      "source": "../../results/experiment/20260912T170838Z-stage4-ff76a0f46e3a",
+      "review": "../../results/reviews/20260912T170838Z-stage4-ff76a0f46e3a/20260912T192911Z-review-7556b9575bc7",
+      "readable": "stage-04-fixed-vector"
+    },
+    {
+      "stage": 5,
+      "label": "바이트코드",
+      "source": "../../results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8",
+      "review": "../../results/reviews/20260912T170838Z-stage5-0cf49fbfa1a8/20260912T192915Z-review-73595da8e765",
+      "readable": "stage-05-bytecode"
+    },
+    {
+      "stage": 6,
+      "label": "공동 기호 언어",
+      "source": "../../results/experiment/20260912T170838Z-stage6-be74e683a4b1",
+      "review": "../../results/reviews/20260912T170838Z-stage6-be74e683a4b1/20260912T192918Z-review-5950d9cf15ed",
+      "readable": "stage-06-shared-dictionary"
+    }
+  ]
+}

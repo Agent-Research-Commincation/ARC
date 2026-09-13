@@ -1,0 +1,76 @@
+{
+  "completed_trials": 30,
+  "attempted_trials": 30,
+  "infrastructure_errors": 0,
+  "terminal_trials": 30,
+  "not_started_trials": 0,
+  "status_counts": {
+    "success": 30
+  },
+  "operational_interruptions": 0,
+  "expected_trials": 30,
+  "success_count": 30,
+  "success_rate": 1.0,
+  "batch_complete": true,
+  "quality_gap_successes": {
+    "count": 30,
+    "mean": 0,
+    "median": 0.0,
+    "min": 0,
+    "max": 0
+  },
+  "total_cost_estimate_usd": null,
+  "cost_per_success_estimate_usd": null,
+  "model_cost_estimate_usd": 0.38117267999999993,
+  "known_partial_model_cost_estimate_usd": 0.38117267999999993,
+  "model_cost_measured_trials": 30,
+  "model_cost_per_success_estimate_usd": 0.012705755999999997,
+  "cost_note": "Model-only values are partial API-equivalent estimates, not total costs or actual subscription charges. Unmeasured costs are null.",
+  "completion_seconds_successes": {
+    "count": 30,
+    "mean": 162.88874040706668,
+    "median": 159.07328797899999,
+    "min": 119.816971834,
+    "max": 230.69452329199999
+  },
+  "termination_seconds_all": {
+    "count": 30,
+    "mean": 162.88874040706668,
+    "median": 159.07328797899999,
+    "min": 119.816971834,
+    "max": 230.69452329199999
+  },
+  "communication_bytes": {
+    "count": 30,
+    "mean": 1346.7333333333333,
+    "median": 1329.0,
+    "min": 963,
+    "max": 2131
+  },
+  "communication_processing_cpu_seconds": {
+    "count": 30,
+    "mean": 0.0014804888333333618,
+    "median": 0.0014376875000000622,
+    "min": 0.000920748999999943,
+    "max": 0.002170833999999622
+  },
+  "communication_processing_cost_estimate_usd": null,
+  "protocol_errors": 4,
+  "task_sender_text_bytes": {
+    "count": 30,
+    "mean": 3511.6666666666665,
+    "median": 4009.0,
+    "min": 1739,
+    "max": 4333
+  },
+  "task_receiver_text_bytes": {
+    "count": 30,
+    "mean": 6279,
+    "median": 6836.0,
+    "min": 3888,
+    "max": 7895
+  },
+  "runner_turns": 160,
+  "request_count_scope": "Runner input/response turns, not provider-internal calls or HTTP requests.",
+  "model_calls": 160
+}

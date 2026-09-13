@@ -1,0 +1,283 @@
+[
+  {
+    "stage": 3,
+    "trial": 9,
+    "rejected_request": "request-4",
+    "error": "Unknown predicate or invalid syntax: revise().",
+    "next_response": {
+      "request_id": "request-5",
+      "actor": "B",
+      "action": {
+        "action": "revise",
+        "payload": "propose().\nat(M1,1).\nat(M2,6).\nat(M3,10).\nvalid(9,6,10,1).\nscore(9,6,10,19).\nvalid(1,6,10,1).\nscore(1,6,10,20).\nteamavailable(B,M1,0,1).\nteampreference(B,M1,0,2).\nteamavailable(B,M1,1,1).\nteampreference(B,M1,1,2).\nteamavailable(B,M1,2,1).\nteampreference(B,M1,2,0).\nteamavailable(B,M1,3,0).\nteampreference(B,M1,3,1).\nteamavailable(B,M1,4,1).\nteampreference(B,M1,4,2).\nteamavailable(B,M1,5,1).\nteampreference(B,M1,5,2).\nteamavailable(B,M1,6,1).\nteampreference(B,M1,6,2).\nteamavailable(B,M1,7,1).\nteampreference(B,M1,7,1).\nteamavailable(B,M1,8,0).\nteampreference(B,M1,8,3).\nteamavailable(B,M1,9,1).\nteampreference(B,M1,9,0).\nteamavailable(B,M1,10,1).\nteampreference(B,M1,10,3).\nteamavailable(B,M1,11,1).\nteampreference(B,M1,11,3).\nteamavailable(B,M2,0,1).\nteampreference(B,M2,0,4).\nteamavailable(B,M2,1,0).\nteampreference(B,M2,1,3).\nteamavailable(B,M2,2,1).\nteampreference(B,M2,2,0).\nteamavailable(B,M2,3,0).\nteampreference(B,M2,3,2).\nteamavailable(B,M2,4,1).\nteampreference(B,M2,4,2).\nteamavailable(B,M2,5,1).\nteampreference(B,M2,5,4).\nteamavailable(B,M2,6,1).\nteampreference(B,M2,6,4).\nteamavailable(B,M2,7,1).\nteampreference(B,M2,7,3).\nteamavailable(B,M2,8,0).\nteampreference(B,M2,8,3).\nteamavailable(B,M2,9,0).\nteampreference(B,M2,9,2).\nteamavailable(B,M2,10,1).\nteampreference(B,M2,10,4).\nteamavailable(B,M2,11,1).\nteampreference(B,M2,11,4).\nteamavailable(B,M3,0,1).\nteampreference(B,M3,0,4).\nteamavailable(B,M3,1,0).\nteampreference(B,M3,1,4).\nteamavailable(B,M3,2,1).\nteampreference(B,M3,2,1).\nteamavailable(B,M3,3,1).\nteampreference(B,M3,3,4).\nteamavailable(B,M3,4,0).\nteampreference(B,M3,4,0).\nteamavailable(B,M3,5,1).\nteampreference(B,M3,5,2).\nteamavailable(B,M3,6,1).\nteampreference(B,M3,6,2).\nteamavailable(B,M3,7,1).\nteampreference(B,M3,7,2).\nteamavailable(B,M3,8,1).\nteampreference(B,M3,8,2).\nteamavailable(B,M3,9,0).\nteampreference(B,M3,9,2).\nteamavailable(B,M3,10,1).\nteampreference(B,M3,10,4).\nteamavailable(B,M3,11,1).\nteampreference(B,M3,11,1).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-5",
+        "action": "revise"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        4
+      ]
+    },
+    "next_applied": {
+      "request_id": "request-5",
+      "actor": "B",
+      "action": {
+        "action": "revise",
+        "payload": "propose().\nat(M1,1).\nat(M2,6).\nat(M3,10).\nvalid(9,6,10,1).\nscore(9,6,10,19).\nvalid(1,6,10,1).\nscore(1,6,10,20).\nteamavailable(B,M1,0,1).\nteampreference(B,M1,0,2).\nteamavailable(B,M1,1,1).\nteampreference(B,M1,1,2).\nteamavailable(B,M1,2,1).\nteampreference(B,M1,2,0).\nteamavailable(B,M1,3,0).\nteampreference(B,M1,3,1).\nteamavailable(B,M1,4,1).\nteampreference(B,M1,4,2).\nteamavailable(B,M1,5,1).\nteampreference(B,M1,5,2).\nteamavailable(B,M1,6,1).\nteampreference(B,M1,6,2).\nteamavailable(B,M1,7,1).\nteampreference(B,M1,7,1).\nteamavailable(B,M1,8,0).\nteampreference(B,M1,8,3).\nteamavailable(B,M1,9,1).\nteampreference(B,M1,9,0).\nteamavailable(B,M1,10,1).\nteampreference(B,M1,10,3).\nteamavailable(B,M1,11,1).\nteampreference(B,M1,11,3).\nteamavailable(B,M2,0,1).\nteampreference(B,M2,0,4).\nteamavailable(B,M2,1,0).\nteampreference(B,M2,1,3).\nteamavailable(B,M2,2,1).\nteampreference(B,M2,2,0).\nteamavailable(B,M2,3,0).\nteampreference(B,M2,3,2).\nteamavailable(B,M2,4,1).\nteampreference(B,M2,4,2).\nteamavailable(B,M2,5,1).\nteampreference(B,M2,5,4).\nteamavailable(B,M2,6,1).\nteampreference(B,M2,6,4).\nteamavailable(B,M2,7,1).\nteampreference(B,M2,7,3).\nteamavailable(B,M2,8,0).\nteampreference(B,M2,8,3).\nteamavailable(B,M2,9,0).\nteampreference(B,M2,9,2).\nteamavailable(B,M2,10,1).\nteampreference(B,M2,10,4).\nteamavailable(B,M2,11,1).\nteampreference(B,M2,11,4).\nteamavailable(B,M3,0,1).\nteampreference(B,M3,0,4).\nteamavailable(B,M3,1,0).\nteampreference(B,M3,1,4).\nteamavailable(B,M3,2,1).\nteampreference(B,M3,2,1).\nteamavailable(B,M3,3,1).\nteampreference(B,M3,3,4).\nteamavailable(B,M3,4,0).\nteampreference(B,M3,4,0).\nteamavailable(B,M3,5,1).\nteampreference(B,M3,5,2).\nteamavailable(B,M3,6,1).\nteampreference(B,M3,6,2).\nteamavailable(B,M3,7,1).\nteampreference(B,M3,7,2).\nteamavailable(B,M3,8,1).\nteampreference(B,M3,8,2).\nteamavailable(B,M3,9,0).\nteampreference(B,M3,9,2).\nteamavailable(B,M3,10,1).\nteampreference(B,M3,10,4).\nteamavailable(B,M3,11,1).\nteampreference(B,M3,11,1).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-5",
+        "action": "revise"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        4
+      ]
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 10,
+    "rejected_request": "request-1",
+    "error": "Unknown predicate or invalid syntax: asksumary(preference,A,M1,0).",
+    "next_response": {
+      "request_id": "request-2",
+      "actor": "B",
+      "action": {
+        "action": "send",
+        "payload": "inform().\nteamavailable(B,M1,0,1).\nteampreference(B,M1,0,2).\nteamavailable(B,M1,1,1).\nteampreference(B,M1,1,2).\nteamavailable(B,M1,2,1).\nteampreference(B,M1,2,0).\nteamavailable(B,M1,3,0).\nteampreference(B,M1,3,1).\nteamavailable(B,M1,4,1).\nteampreference(B,M1,4,2).\nteamavailable(B,M1,5,1).\nteampreference(B,M1,5,2).\nteamavailable(B,M1,6,1).\nteampreference(B,M1,6,2).\nteamavailable(B,M1,7,1).\nteampreference(B,M1,7,1).\nteamavailable(B,M1,8,0).\nteampreference(B,M1,8,3).\nteamavailable(B,M1,9,1).\nteampreference(B,M1,9,0).\nteamavailable(B,M1,10,1).\nteampreference(B,M1,10,3).\nteamavailable(B,M1,11,1).\nteampreference(B,M1,11,3).\nteamavailable(B,M2,0,1).\nteampreference(B,M2,0,4).\nteamavailable(B,M2,1,0).\nteampreference(B,M2,1,3).\nteamavailable(B,M2,2,1).\nteampreference(B,M2,2,0).\nteamavailable(B,M2,3,0).\nteampreference(B,M2,3,2).\nteamavailable(B,M2,4,1).\nteampreference(B,M2,4,2).\nteamavailable(B,M2,5,1).\nteampreference(B,M2,5,4).\nteamavailable(B,M2,6,1).\nteampreference(B,M2,6,4).\nteamavailable(B,M2,7,1).\nteampreference(B,M2,7,3).\nteamavailable(B,M2,8,0).\nteampreference(B,M2,8,3).\nteamavailable(B,M2,9,0).\nteampreference(B,M2,9,2).\nteamavailable(B,M2,10,1).\nteampreference(B,M2,10,4).\nteamavailable(B,M2,11,1).\nteampreference(B,M2,11,4).\nteamavailable(B,M3,0,1).\nteampreference(B,M3,0,4).\nteamavailable(B,M3,1,0).\nteampreference(B,M3,1,4).\nteamavailable(B,M3,2,1).\nteampreference(B,M3,2,1).\nteamavailable(B,M3,3,1).\nteampreference(B,M3,3,4).\nteamavailable(B,M3,4,0).\nteampreference(B,M3,4,0).\nteamavailable(B,M3,5,1).\nteampreference(B,M3,5,2).\nteamavailable(B,M3,6,1).\nteampreference(B,M3,6,2).\nteamavailable(B,M3,7,1).\nteampreference(B,M3,7,2).\nteamavailable(B,M3,8,1).\nteampreference(B,M3,8,2).\nteamavailable(B,M3,9,0).\nteampreference(B,M3,9,2).\nteamavailable(B,M3,10,1).\nteampreference(B,M3,10,4).\nteamavailable(B,M3,11,1).\nteampreference(B,M3,11,1).\nasks ummary(available,A,M1,0).\nasks ummary(preference,A,M1,0).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": null,
+      "rejected": {
+        "actor": "B",
+        "request_id": "request-2",
+        "phase": "task",
+        "category": "message_payload",
+        "error": "Unknown predicate or invalid syntax: asks ummary(available,A,M1,0).",
+        "raw_response": {
+          "action": "send",
+          "payload": "inform().\nteamavailable(B,M1,0,1).\nteampreference(B,M1,0,2).\nteamavailable(B,M1,1,1).\nteampreference(B,M1,1,2).\nteamavailable(B,M1,2,1).\nteampreference(B,M1,2,0).\nteamavailable(B,M1,3,0).\nteampreference(B,M1,3,1).\nteamavailable(B,M1,4,1).\nteampreference(B,M1,4,2).\nteamavailable(B,M1,5,1).\nteampreference(B,M1,5,2).\nteamavailable(B,M1,6,1).\nteampreference(B,M1,6,2).\nteamavailable(B,M1,7,1).\nteampreference(B,M1,7,1).\nteamavailable(B,M1,8,0).\nteampreference(B,M1,8,3).\nteamavailable(B,M1,9,1).\nteampreference(B,M1,9,0).\nteamavailable(B,M1,10,1).\nteampreference(B,M1,10,3).\nteamavailable(B,M1,11,1).\nteampreference(B,M1,11,3).\nteamavailable(B,M2,0,1).\nteampreference(B,M2,0,4).\nteamavailable(B,M2,1,0).\nteampreference(B,M2,1,3).\nteamavailable(B,M2,2,1).\nteampreference(B,M2,2,0).\nteamavailable(B,M2,3,0).\nteampreference(B,M2,3,2).\nteamavailable(B,M2,4,1).\nteampreference(B,M2,4,2).\nteamavailable(B,M2,5,1).\nteampreference(B,M2,5,4).\nteamavailable(B,M2,6,1).\nteampreference(B,M2,6,4).\nteamavailable(B,M2,7,1).\nteampreference(B,M2,7,3).\nteamavailable(B,M2,8,0).\nteampreference(B,M2,8,3).\nteamavailable(B,M2,9,0).\nteampreference(B,M2,9,2).\nteamavailable(B,M2,10,1).\nteampreference(B,M2,10,4).\nteamavailable(B,M2,11,1).\nteampreference(B,M2,11,4).\nteamavailable(B,M3,0,1).\nteampreference(B,M3,0,4).\nteamavailable(B,M3,1,0).\nteampreference(B,M3,1,4).\nteamavailable(B,M3,2,1).\nteampreference(B,M3,2,1).\nteamavailable(B,M3,3,1).\nteampreference(B,M3,3,4).\nteamavailable(B,M3,4,0).\nteampreference(B,M3,4,0).\nteamavailable(B,M3,5,1).\nteampreference(B,M3,5,2).\nteamavailable(B,M3,6,1).\nteampreference(B,M3,6,2).\nteamavailable(B,M3,7,1).\nteampreference(B,M3,7,2).\nteamavailable(B,M3,8,1).\nteampreference(B,M3,8,2).\nteamavailable(B,M3,9,0).\nteampreference(B,M3,9,2).\nteamavailable(B,M3,10,1).\nteampreference(B,M3,10,4).\nteamavailable(B,M3,11,1).\nteampreference(B,M3,11,1).\nasks ummary(available,A,M1,0).\nasks ummary(preference,A,M1,0).",
+          "schedule": [],
+          "language": []
+        }
+      },
+      "delivered_messages": []
+    },
+    "next_applied": {
+      "request_id": "request-3",
+      "actor": "B",
+      "action": {
+        "action": "send",
+        "payload": "inform().\nteamavailable(B,M1,0,1).\nteampreference(B,M1,0,2).\nteamavailable(B,M1,1,1).\nteampreference(B,M1,1,2).\nteamavailable(B,M1,2,1).\nteampreference(B,M1,2,0).\nteamavailable(B,M1,3,0).\nteampreference(B,M1,3,1).\nteamavailable(B,M1,4,1).\nteampreference(B,M1,4,2).\nteamavailable(B,M1,5,1).\nteampreference(B,M1,5,2).\nteamavailable(B,M1,6,1).\nteampreference(B,M1,6,2).\nteamavailable(B,M1,7,1).\nteampreference(B,M1,7,1).\nteamavailable(B,M1,8,0).\nteampreference(B,M1,8,3).\nteamavailable(B,M1,9,1).\nteampreference(B,M1,9,0).\nteamavailable(B,M1,10,1).\nteampreference(B,M1,10,3).\nteamavailable(B,M1,11,1).\nteampreference(B,M1,11,3).\nteamavailable(B,M2,0,1).\nteampreference(B,M2,0,4).\nteamavailable(B,M2,1,0).\nteampreference(B,M2,1,3).\nteamavailable(B,M2,2,1).\nteampreference(B,M2,2,0).\nteamavailable(B,M2,3,0).\nteampreference(B,M2,3,2).\nteamavailable(B,M2,4,1).\nteampreference(B,M2,4,2).\nteamavailable(B,M2,5,1).\nteampreference(B,M2,5,4).\nteamavailable(B,M2,6,1).\nteampreference(B,M2,6,4).\nteamavailable(B,M2,7,1).\nteampreference(B,M2,7,3).\nteamavailable(B,M2,8,0).\nteampreference(B,M2,8,3).\nteamavailable(B,M2,9,0).\nteampreference(B,M2,9,2).\nteamavailable(B,M2,10,1).\nteampreference(B,M2,10,4).\nteamavailable(B,M2,11,1).\nteampreference(B,M2,11,4).\nteamavailable(B,M3,0,1).\nteampreference(B,M3,0,4).\nteamavailable(B,M3,1,0).\nteampreference(B,M3,1,4).\nteamavailable(B,M3,2,1).\nteampreference(B,M3,2,1).\nteamavailable(B,M3,3,1).\nteampreference(B,M3,3,4).\nteamavailable(B,M3,4,0).\nteampreference(B,M3,4,0).\nteamavailable(B,M3,5,1).\nteampreference(B,M3,5,2).\nteamavailable(B,M3,6,1).\nteampreference(B,M3,6,2).\nteamavailable(B,M3,7,1).\nteampreference(B,M3,7,2).\nteamavailable(B,M3,8,1).\nteampreference(B,M3,8,2).\nteamavailable(B,M3,9,0).\nteampreference(B,M3,9,2).\nteamavailable(B,M3,10,1).\nteampreference(B,M3,10,4).\nteamavailable(B,M3,11,1).\nteampreference(B,M3,11,1).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-3",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ]
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 10,
+    "rejected_request": "request-2",
+    "error": "Unknown predicate or invalid syntax: asks ummary(available,A,M1,0).",
+    "next_response": {
+      "request_id": "request-3",
+      "actor": "B",
+      "action": {
+        "action": "send",
+        "payload": "inform().\nteamavailable(B,M1,0,1).\nteampreference(B,M1,0,2).\nteamavailable(B,M1,1,1).\nteampreference(B,M1,1,2).\nteamavailable(B,M1,2,1).\nteampreference(B,M1,2,0).\nteamavailable(B,M1,3,0).\nteampreference(B,M1,3,1).\nteamavailable(B,M1,4,1).\nteampreference(B,M1,4,2).\nteamavailable(B,M1,5,1).\nteampreference(B,M1,5,2).\nteamavailable(B,M1,6,1).\nteampreference(B,M1,6,2).\nteamavailable(B,M1,7,1).\nteampreference(B,M1,7,1).\nteamavailable(B,M1,8,0).\nteampreference(B,M1,8,3).\nteamavailable(B,M1,9,1).\nteampreference(B,M1,9,0).\nteamavailable(B,M1,10,1).\nteampreference(B,M1,10,3).\nteamavailable(B,M1,11,1).\nteampreference(B,M1,11,3).\nteamavailable(B,M2,0,1).\nteampreference(B,M2,0,4).\nteamavailable(B,M2,1,0).\nteampreference(B,M2,1,3).\nteamavailable(B,M2,2,1).\nteampreference(B,M2,2,0).\nteamavailable(B,M2,3,0).\nteampreference(B,M2,3,2).\nteamavailable(B,M2,4,1).\nteampreference(B,M2,4,2).\nteamavailable(B,M2,5,1).\nteampreference(B,M2,5,4).\nteamavailable(B,M2,6,1).\nteampreference(B,M2,6,4).\nteamavailable(B,M2,7,1).\nteampreference(B,M2,7,3).\nteamavailable(B,M2,8,0).\nteampreference(B,M2,8,3).\nteamavailable(B,M2,9,0).\nteampreference(B,M2,9,2).\nteamavailable(B,M2,10,1).\nteampreference(B,M2,10,4).\nteamavailable(B,M2,11,1).\nteampreference(B,M2,11,4).\nteamavailable(B,M3,0,1).\nteampreference(B,M3,0,4).\nteamavailable(B,M3,1,0).\nteampreference(B,M3,1,4).\nteamavailable(B,M3,2,1).\nteampreference(B,M3,2,1).\nteamavailable(B,M3,3,1).\nteampreference(B,M3,3,4).\nteamavailable(B,M3,4,0).\nteampreference(B,M3,4,0).\nteamavailable(B,M3,5,1).\nteampreference(B,M3,5,2).\nteamavailable(B,M3,6,1).\nteampreference(B,M3,6,2).\nteamavailable(B,M3,7,1).\nteampreference(B,M3,7,2).\nteamavailable(B,M3,8,1).\nteampreference(B,M3,8,2).\nteamavailable(B,M3,9,0).\nteampreference(B,M3,9,2).\nteamavailable(B,M3,10,1).\nteampreference(B,M3,10,4).\nteamavailable(B,M3,11,1).\nteampreference(B,M3,11,1).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-3",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ]
+    },
+    "next_applied": {
+      "request_id": "request-3",
+      "actor": "B",
+      "action": {
+        "action": "send",
+        "payload": "inform().\nteamavailable(B,M1,0,1).\nteampreference(B,M1,0,2).\nteamavailable(B,M1,1,1).\nteampreference(B,M1,1,2).\nteamavailable(B,M1,2,1).\nteampreference(B,M1,2,0).\nteamavailable(B,M1,3,0).\nteampreference(B,M1,3,1).\nteamavailable(B,M1,4,1).\nteampreference(B,M1,4,2).\nteamavailable(B,M1,5,1).\nteampreference(B,M1,5,2).\nteamavailable(B,M1,6,1).\nteampreference(B,M1,6,2).\nteamavailable(B,M1,7,1).\nteampreference(B,M1,7,1).\nteamavailable(B,M1,8,0).\nteampreference(B,M1,8,3).\nteamavailable(B,M1,9,1).\nteampreference(B,M1,9,0).\nteamavailable(B,M1,10,1).\nteampreference(B,M1,10,3).\nteamavailable(B,M1,11,1).\nteampreference(B,M1,11,3).\nteamavailable(B,M2,0,1).\nteampreference(B,M2,0,4).\nteamavailable(B,M2,1,0).\nteampreference(B,M2,1,3).\nteamavailable(B,M2,2,1).\nteampreference(B,M2,2,0).\nteamavailable(B,M2,3,0).\nteampreference(B,M2,3,2).\nteamavailable(B,M2,4,1).\nteampreference(B,M2,4,2).\nteamavailable(B,M2,5,1).\nteampreference(B,M2,5,4).\nteamavailable(B,M2,6,1).\nteampreference(B,M2,6,4).\nteamavailable(B,M2,7,1).\nteampreference(B,M2,7,3).\nteamavailable(B,M2,8,0).\nteampreference(B,M2,8,3).\nteamavailable(B,M2,9,0).\nteampreference(B,M2,9,2).\nteamavailable(B,M2,10,1).\nteampreference(B,M2,10,4).\nteamavailable(B,M2,11,1).\nteampreference(B,M2,11,4).\nteamavailable(B,M3,0,1).\nteampreference(B,M3,0,4).\nteamavailable(B,M3,1,0).\nteampreference(B,M3,1,4).\nteamavailable(B,M3,2,1).\nteampreference(B,M3,2,1).\nteamavailable(B,M3,3,1).\nteampreference(B,M3,3,4).\nteamavailable(B,M3,4,0).\nteampreference(B,M3,4,0).\nteamavailable(B,M3,5,1).\nteampreference(B,M3,5,2).\nteamavailable(B,M3,6,1).\nteampreference(B,M3,6,2).\nteamavailable(B,M3,7,1).\nteampreference(B,M3,7,2).\nteamavailable(B,M3,8,1).\nteampreference(B,M3,8,2).\nteamavailable(B,M3,9,0).\nteampreference(B,M3,9,2).\nteamavailable(B,M3,10,1).\nteampreference(B,M3,10,4).\nteamavailable(B,M3,11,1).\nteampreference(B,M3,11,1).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-3",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ]
+    }
+  },
+  {
+    "stage": 4,
+    "trial": 10,
+    "rejected_request": "request-1",
+    "error": "Expecting ',' delimiter: line 1 column 4690 (char 4689)",
+    "next_response": {
+      "request_id": "request-2",
+      "actor": "B",
+      "action": {
+        "action": "send",
+        "payload": "{\"kind\":\"inform\",\"facts\":[],\"schedule\":{},\"requests\":[\"A1\",\"A2\",\"A3\"],\"summaries\":[[\"available\",\"B\",\"M1\",0,1],[\"available\",\"B\",\"M1\",1,1],[\"available\",\"B\",\"M1\",2,1],[\"available\",\"B\",\"M1\",3,0],[\"available\",\"B\",\"M1\",4,1],[\"available\",\"B\",\"M1\",5,1],[\"available\",\"B\",\"M1\",6,1],[\"available\",\"B\",\"M1\",7,1],[\"available\",\"B\",\"M1\",8,0],[\"available\",\"B\",\"M1\",9,1],[\"available\",\"B\",\"M1\",10,1],[\"available\",\"B\",\"M1\",11,1],[\"preference\",\"B\",\"M1\",0,2],[\"preference\",\"B\",\"M1\",1,2],[\"preference\",\"B\",\"M1\",2,0],[\"preference\",\"B\",\"M1\",3,1],[\"preference\",\"B\",\"M1\",4,2],[\"preference\",\"B\",\"M1\",5,2],[\"preference\",\"B\",\"M1\",6,2],[\"preference\",\"B\",\"M1\",7,1],[\"preference\",\"B\",\"M1\",8,3],[\"preference\",\"B\",\"M1\",9,0],[\"preference\",\"B\",\"M1\",10,3],[\"preference\",\"B\",\"M1\",11,3],[\"available\",\"B\",\"M2\",0,1],[\"available\",\"B\",\"M2\",1,0],[\"available\",\"B\",\"M2\",2,1],[\"available\",\"B\",\"M2\",3,0],[\"available\",\"B\",\"M2\",4,1],[\"available\",\"B\",\"M2\",5,1],[\"available\",\"B\",\"M2\",6,1],[\"available\",\"B\",\"M2\",7,1],[\"available\",\"B\",\"M2\",8,0],[\"available\",\"B\",\"M2\",9,0],[\"available\",\"B\",\"M2\",10,1],[\"available\",\"B\",\"M2\",11,1],[\"preference\",\"B\",\"M2\",0,4],[\"preference\",\"B\",\"M2\",1,3],[\"preference\",\"B\",\"M2\",2,0],[\"preference\",\"B\",\"M2\",3,2],[\"preference\",\"B\",\"M2\",4,2],[\"preference\",\"B\",\"M2\",5,4],[\"preference\",\"B\",\"M2\",6,4],[\"preference\",\"B\",\"M2\",7,3],[\"preference\",\"B\",\"M2\",8,3],[\"preference\",\"B\",\"M2\",9,2],[\"preference\",\"B\",\"M2\",10,4],[\"preference\",\"B\",\"M2\",11,4],[\"available\",\"B\",\"M3\",0,1],[\"available\",\"B\",\"M3\",1,0],[\"available\",\"B\",\"M3\",2,1],[\"available\",\"B\",\"M3\",3,1],[\"available\",\"B\",\"M3\",4,0],[\"available\",\"B\",\"M3\",5,1],[\"available\",\"B\",\"M3\",6,1],[\"available\",\"B\",\"M3\",7,1],[\"available\",\"B\",\"M3\",8,1],[\"available\",\"B\",\"M3\",9,0],[\"available\",\"B\",\"M3\",10,1],[\"available\",\"B\",\"M3\",11,1],[\"preference\",\"B\",\"M3\",0,4],[\"preference\",\"B\",\"M3\",1,4],[\"preference\",\"B\",\"M3\",2,1],[\"preference\",\"B\",\"M3\",3,4],[\"preference\",\"B\",\"M3\",4,0],[\"preference\",\"B\",\"M3\",5,2],[\"preference\",\"B\",\"M3\",6,2],[\"preference\",\"B\",\"M3\",7,2],[\"preference\",\"B\",\"M3\",8,2],[\"preference\",\"B\",\"M3\",9,2],[\"preference\",\"B\",\"M3\",10,4],[\"preference\",\"B\",\"M3\",11,1]],\"reasons\":[],\"questions\":[],\"evaluations\":[],\"references\":[]}",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-2",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ]
+    },
+    "next_applied": {
+      "request_id": "request-2",
+      "actor": "B",
+      "action": {
+        "action": "send",
+        "payload": "{\"kind\":\"inform\",\"facts\":[],\"schedule\":{},\"requests\":[\"A1\",\"A2\",\"A3\"],\"summaries\":[[\"available\",\"B\",\"M1\",0,1],[\"available\",\"B\",\"M1\",1,1],[\"available\",\"B\",\"M1\",2,1],[\"available\",\"B\",\"M1\",3,0],[\"available\",\"B\",\"M1\",4,1],[\"available\",\"B\",\"M1\",5,1],[\"available\",\"B\",\"M1\",6,1],[\"available\",\"B\",\"M1\",7,1],[\"available\",\"B\",\"M1\",8,0],[\"available\",\"B\",\"M1\",9,1],[\"available\",\"B\",\"M1\",10,1],[\"available\",\"B\",\"M1\",11,1],[\"preference\",\"B\",\"M1\",0,2],[\"preference\",\"B\",\"M1\",1,2],[\"preference\",\"B\",\"M1\",2,0],[\"preference\",\"B\",\"M1\",3,1],[\"preference\",\"B\",\"M1\",4,2],[\"preference\",\"B\",\"M1\",5,2],[\"preference\",\"B\",\"M1\",6,2],[\"preference\",\"B\",\"M1\",7,1],[\"preference\",\"B\",\"M1\",8,3],[\"preference\",\"B\",\"M1\",9,0],[\"preference\",\"B\",\"M1\",10,3],[\"preference\",\"B\",\"M1\",11,3],[\"available\",\"B\",\"M2\",0,1],[\"available\",\"B\",\"M2\",1,0],[\"available\",\"B\",\"M2\",2,1],[\"available\",\"B\",\"M2\",3,0],[\"available\",\"B\",\"M2\",4,1],[\"available\",\"B\",\"M2\",5,1],[\"available\",\"B\",\"M2\",6,1],[\"available\",\"B\",\"M2\",7,1],[\"available\",\"B\",\"M2\",8,0],[\"available\",\"B\",\"M2\",9,0],[\"available\",\"B\",\"M2\",10,1],[\"available\",\"B\",\"M2\",11,1],[\"preference\",\"B\",\"M2\",0,4],[\"preference\",\"B\",\"M2\",1,3],[\"preference\",\"B\",\"M2\",2,0],[\"preference\",\"B\",\"M2\",3,2],[\"preference\",\"B\",\"M2\",4,2],[\"preference\",\"B\",\"M2\",5,4],[\"preference\",\"B\",\"M2\",6,4],[\"preference\",\"B\",\"M2\",7,3],[\"preference\",\"B\",\"M2\",8,3],[\"preference\",\"B\",\"M2\",9,2],[\"preference\",\"B\",\"M2\",10,4],[\"preference\",\"B\",\"M2\",11,4],[\"available\",\"B\",\"M3\",0,1],[\"available\",\"B\",\"M3\",1,0],[\"available\",\"B\",\"M3\",2,1],[\"available\",\"B\",\"M3\",3,1],[\"available\",\"B\",\"M3\",4,0],[\"available\",\"B\",\"M3\",5,1],[\"available\",\"B\",\"M3\",6,1],[\"available\",\"B\",\"M3\",7,1],[\"available\",\"B\",\"M3\",8,1],[\"available\",\"B\",\"M3\",9,0],[\"available\",\"B\",\"M3\",10,1],[\"available\",\"B\",\"M3\",11,1],[\"preference\",\"B\",\"M3\",0,4],[\"preference\",\"B\",\"M3\",1,4],[\"preference\",\"B\",\"M3\",2,1],[\"preference\",\"B\",\"M3\",3,4],[\"preference\",\"B\",\"M3\",4,0],[\"preference\",\"B\",\"M3\",5,2],[\"preference\",\"B\",\"M3\",6,2],[\"preference\",\"B\",\"M3\",7,2],[\"preference\",\"B\",\"M3\",8,2],[\"preference\",\"B\",\"M3\",9,2],[\"preference\",\"B\",\"M3\",10,4],[\"preference\",\"B\",\"M3\",11,1]],\"reasons\":[],\"questions\":[],\"evaluations\":[],\"references\":[]}",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-2",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ]
+    }
+  },
+  {
+    "stage": 5,
+    "trial": 9,
+    "rejected_request": "request-1",
+    "error": "Invalid question type or arguments",
+    "next_response": {
+      "request_id": "request-2",
+      "actor": "A",
+      "action": {
+        "action": "send",
+        "payload": "KIND request\nTAV A M1 0 0\nTPREF A M1 0 4\nTAV A M1 1 1\nTPREF A M1 1 2\nTAV A M1 2 0\nTPREF A M1 2 3\nTAV A M1 3 1\nTPREF A M1 3 3\nTAV A M1 4 1\nTPREF A M1 4 0\nTAV A M1 5 0\nTPREF A M1 5 5\nTAV A M1 6 0\nTPREF A M1 6 6\nTAV A M1 7 1\nTPREF A M1 7 2\nTAV A M1 8 1\nTPREF A M1 8 6\nTAV A M1 9 1\nTPREF A M1 9 3\nTAV A M1 10 0\nTPREF A M1 10 4\nTAV A M1 11 1\nTPREF A M1 11 5\nTAV A M2 0 0\nTPREF A M2 0 2\nTAV A M2 1 1\nTPREF A M2 1 1\nTAV A M2 2 1\nTPREF A M2 2 3\nTAV A M2 3 1\nTPREF A M2 3 2\nTAV A M2 4 1\nTPREF A M2 4 0\nTAV A M2 5 0\nTPREF A M2 5 3\nTAV A M2 6 1\nTPREF A M2 6 3\nTAV A M2 7 1\nTPREF A M2 7 0\nTAV A M2 8 1\nTPREF A M2 8 3\nTAV A M2 9 1\nTPREF A M2 9 2\nTAV A M2 10 0\nTPREF A M2 10 1\nTAV A M2 11 1\nTPREF A M2 11 2\nTAV A M3 0 1\nTPREF A M3 0 2\nTAV A M3 1 1\nTPREF A M3 1 3\nTAV A M3 2 0\nTPREF A M3 2 0\nTAV A M3 3 0\nTPREF A M3 3 1\nTAV A M3 4 1\nTPREF A M3 4 0\nTAV A M3 5 1\nTPREF A M3 5 2\nTAV A M3 6 0\nTPREF A M3 6 5\nTAV A M3 7 0\nTPREF A M3 7 4\nTAV A M3 8 1\nTPREF A M3 8 3\nTAV A M3 9 1\nTPREF A M3 9 2\nTAV A M3 10 1\nTPREF A M3 10 5\nTAV A M3 11 1\nTPREF A M3 11 3\nQFACT available B1 1\nQFACT available B1 2\nQFACT available B1 3\nQFACT available B1 4\nQFACT available B1 6\nQFACT available B1 7\nQFACT available B1 8\nQFACT available B1 9\nQFACT available B1 11\nQFACT available B2 0\nQFACT available B2 1\nQFACT available B2 2\nQFACT available B2 3\nQFACT available B2 4\nQFACT available B2 5\nQFACT available B2 6\nQFACT available B2 7\nQFACT available B2 8\nQFACT available B2 9\nQFACT available B2 10\nQFACT available B2 11\nQFACT available B3 0\nQFACT available B3 1\nQFACT available B3 4\nQFACT available B3 5\nQFACT available B3 8\nQFACT available B3 9\nQFACT available B3 10\nQFACT available B3 11\nQSUMMARY preference B M1 1\nQSUMMARY preference B M1 3\nQSUMMARY preference B M1 4\nQSUMMARY preference B M1 7\nQSUMMARY preference B M1 8\nQSUMMARY preference B M1 9\nQSUMMARY preference B M1 11\nQSUMMARY preference B M2 1\nQSUMMARY preference B M2 2\nQSUMMARY preference B M2 3\nQSUMMARY preference B M2 4\nQSUMMARY preference B M2 6\nQSUMMARY preference B M2 7\nQSUMMARY preference B M2 8\nQSUMMARY preference B M2 9\nQSUMMARY preference B M2 11\nQSUMMARY preference B M3 0\nQSUMMARY preference B M3 1\nQSUMMARY preference B M3 4\nQSUMMARY preference B M3 5\nQSUMMARY preference B M3 8\nQSUMMARY preference B M3 9\nQSUMMARY preference B M3 10\nQSUMMARY preference B M3 11",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-2",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ]
+    },
+    "next_applied": {
+      "request_id": "request-2",
+      "actor": "A",
+      "action": {
+        "action": "send",
+        "payload": "KIND request\nTAV A M1 0 0\nTPREF A M1 0 4\nTAV A M1 1 1\nTPREF A M1 1 2\nTAV A M1 2 0\nTPREF A M1 2 3\nTAV A M1 3 1\nTPREF A M1 3 3\nTAV A M1 4 1\nTPREF A M1 4 0\nTAV A M1 5 0\nTPREF A M1 5 5\nTAV A M1 6 0\nTPREF A M1 6 6\nTAV A M1 7 1\nTPREF A M1 7 2\nTAV A M1 8 1\nTPREF A M1 8 6\nTAV A M1 9 1\nTPREF A M1 9 3\nTAV A M1 10 0\nTPREF A M1 10 4\nTAV A M1 11 1\nTPREF A M1 11 5\nTAV A M2 0 0\nTPREF A M2 0 2\nTAV A M2 1 1\nTPREF A M2 1 1\nTAV A M2 2 1\nTPREF A M2 2 3\nTAV A M2 3 1\nTPREF A M2 3 2\nTAV A M2 4 1\nTPREF A M2 4 0\nTAV A M2 5 0\nTPREF A M2 5 3\nTAV A M2 6 1\nTPREF A M2 6 3\nTAV A M2 7 1\nTPREF A M2 7 0\nTAV A M2 8 1\nTPREF A M2 8 3\nTAV A M2 9 1\nTPREF A M2 9 2\nTAV A M2 10 0\nTPREF A M2 10 1\nTAV A M2 11 1\nTPREF A M2 11 2\nTAV A M3 0 1\nTPREF A M3 0 2\nTAV A M3 1 1\nTPREF A M3 1 3\nTAV A M3 2 0\nTPREF A M3 2 0\nTAV A M3 3 0\nTPREF A M3 3 1\nTAV A M3 4 1\nTPREF A M3 4 0\nTAV A M3 5 1\nTPREF A M3 5 2\nTAV A M3 6 0\nTPREF A M3 6 5\nTAV A M3 7 0\nTPREF A M3 7 4\nTAV A M3 8 1\nTPREF A M3 8 3\nTAV A M3 9 1\nTPREF A M3 9 2\nTAV A M3 10 1\nTPREF A M3 10 5\nTAV A M3 11 1\nTPREF A M3 11 3\nQFACT available B1 1\nQFACT available B1 2\nQFACT available B1 3\nQFACT available B1 4\nQFACT available B1 6\nQFACT available B1 7\nQFACT available B1 8\nQFACT available B1 9\nQFACT available B1 11\nQFACT available B2 0\nQFACT available B2 1\nQFACT available B2 2\nQFACT available B2 3\nQFACT available B2 4\nQFACT available B2 5\nQFACT available B2 6\nQFACT available B2 7\nQFACT available B2 8\nQFACT available B2 9\nQFACT available B2 10\nQFACT available B2 11\nQFACT available B3 0\nQFACT available B3 1\nQFACT available B3 4\nQFACT available B3 5\nQFACT available B3 8\nQFACT available B3 9\nQFACT available B3 10\nQFACT available B3 11\nQSUMMARY preference B M1 1\nQSUMMARY preference B M1 3\nQSUMMARY preference B M1 4\nQSUMMARY preference B M1 7\nQSUMMARY preference B M1 8\nQSUMMARY preference B M1 9\nQSUMMARY preference B M1 11\nQSUMMARY preference B M2 1\nQSUMMARY preference B M2 2\nQSUMMARY preference B M2 3\nQSUMMARY preference B M2 4\nQSUMMARY preference B M2 6\nQSUMMARY preference B M2 7\nQSUMMARY preference B M2 8\nQSUMMARY preference B M2 9\nQSUMMARY preference B M2 11\nQSUMMARY preference B M3 0\nQSUMMARY preference B M3 1\nQSUMMARY preference B M3 4\nQSUMMARY preference B M3 5\nQSUMMARY preference B M3 8\nQSUMMARY preference B M3 9\nQSUMMARY preference B M3 10\nQSUMMARY preference B M3 11",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-2",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ]
+    }
+  },
+  {
+    "stage": 5,
+    "trial": 11,
+    "rejected_request": "request-1",
+    "error": "Invalid question type or arguments",
+    "next_response": {
+      "request_id": "request-2",
+      "actor": "A",
+      "action": {
+        "action": "send",
+        "payload": "KIND request\nTAV A M1 0 0\nTPREF A M1 0 4\nTAV A M1 1 1\nTPREF A M1 1 2\nTAV A M1 2 0\nTPREF A M1 2 3\nTAV A M1 3 1\nTPREF A M1 3 3\nTAV A M1 4 1\nTPREF A M1 4 0\nTAV A M1 5 0\nTPREF A M1 5 5\nTAV A M1 6 0\nTPREF A M1 6 6\nTAV A M1 7 1\nTPREF A M1 7 2\nTAV A M1 8 1\nTPREF A M1 8 6\nTAV A M1 9 1\nTPREF A M1 9 3\nTAV A M1 10 0\nTPREF A M1 10 4\nTAV A M1 11 1\nTPREF A M1 11 5\nTAV A M2 0 0\nTPREF A M2 0 2\nTAV A M2 1 1\nTPREF A M2 1 1\nTAV A M2 2 1\nTPREF A M2 2 3\nTAV A M2 3 1\nTPREF A M2 3 2\nTAV A M2 4 1\nTPREF A M2 4 0\nTAV A M2 5 0\nTPREF A M2 5 3\nTAV A M2 6 1\nTPREF A M2 6 3\nTAV A M2 7 1\nTPREF A M2 7 0\nTAV A M2 8 1\nTPREF A M2 8 3\nTAV A M2 9 1\nTPREF A M2 9 2\nTAV A M2 10 0\nTPREF A M2 10 1\nTAV A M2 11 1\nTPREF A M2 11 2\nTAV A M3 0 1\nTPREF A M3 0 2\nTAV A M3 1 1\nTPREF A M3 1 3\nTAV A M3 2 0\nTPREF A M3 2 0\nTAV A M3 3 0\nTPREF A M3 3 1\nTAV A M3 4 1\nTPREF A M3 4 0\nTAV A M3 5 1\nTPREF A M3 5 2\nTAV A M3 6 0\nTPREF A M3 6 5\nTAV A M3 7 0\nTPREF A M3 7 4\nTAV A M3 8 1\nTPREF A M3 8 3\nTAV A M3 9 1\nTPREF A M3 9 2\nTAV A M3 10 1\nTPREF A M3 10 5\nTAV A M3 11 1\nTPREF A M3 11 3\nQSUMMARY available B M1 0\nQSUMMARY preference B M1 0\nQSUMMARY available B M1 1\nQSUMMARY preference B M1 1\nQSUMMARY available B M1 2\nQSUMMARY preference B M1 2\nQSUMMARY available B M1 3\nQSUMMARY preference B M1 3\nQSUMMARY available B M1 4\nQSUMMARY preference B M1 4\nQSUMMARY available B M1 5\nQSUMMARY preference B M1 5\nQSUMMARY available B M1 6\nQSUMMARY preference B M1 6\nQSUMMARY available B M1 7\nQSUMMARY preference B M1 7\nQSUMMARY available B M1 8\nQSUMMARY preference B M1 8\nQSUMMARY available B M1 9\nQSUMMARY preference B M1 9\nQSUMMARY available B M1 10\nQSUMMARY preference B M1 10\nQSUMMARY available B M1 11\nQSUMMARY preference B M1 11\nQSUMMARY available B M2 0\nQSUMMARY preference B M2 0\nQSUMMARY available B M2 1\nQSUMMARY preference B M2 1\nQSUMMARY available B M2 2\nQSUMMARY preference B M2 2\nQSUMMARY available B M2 3\nQSUMMARY preference B M2 3\nQSUMMARY available B M2 4\nQSUMMARY preference B M2 4\nQSUMMARY available B M2 5\nQSUMMARY preference B M2 5\nQSUMMARY available B M2 6\nQSUMMARY preference B M2 6\nQSUMMARY available B M2 7\nQSUMMARY preference B M2 7\nQSUMMARY available B M2 8\nQSUMMARY preference B M2 8\nQSUMMARY available B M2 9\nQSUMMARY preference B M2 9\nQSUMMARY available B M2 10\nQSUMMARY preference B M2 10\nQSUMMARY available B M2 11\nQSUMMARY preference B M2 11\nQSUMMARY available B M3 0\nQSUMMARY preference B M3 0\nQSUMMARY available B M3 1\nQSUMMARY preference B M3 1\nQSUMMARY available B M3 2\nQSUMMARY preference B M3 2\nQSUMMARY available B M3 3\nQSUMMARY preference B M3 3\nQSUMMARY available B M3 4\nQSUMMARY preference B M3 4\nQSUMMARY available B M3 5\nQSUMMARY preference B M3 5\nQSUMMARY available B M3 6\nQSUMMARY preference B M3 6\nQSUMMARY available B M3 7\nQSUMMARY preference B M3 7\nQSUMMARY available B M3 8\nQSUMMARY preference B M3 8\nQSUMMARY available B M3 9\nQSUMMARY preference B M3 9\nQSUMMARY available B M3 10\nQSUMMARY preference B M3 10\nQSUMMARY available B M3 11\nQSUMMARY preference B M3 11",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-2",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ]
+    },
+    "next_applied": {
+      "request_id": "request-2",
+      "actor": "A",
+      "action": {
+        "action": "send",
+        "payload": "KIND request\nTAV A M1 0 0\nTPREF A M1 0 4\nTAV A M1 1 1\nTPREF A M1 1 2\nTAV A M1 2 0\nTPREF A M1 2 3\nTAV A M1 3 1\nTPREF A M1 3 3\nTAV A M1 4 1\nTPREF A M1 4 0\nTAV A M1 5 0\nTPREF A M1 5 5\nTAV A M1 6 0\nTPREF A M1 6 6\nTAV A M1 7 1\nTPREF A M1 7 2\nTAV A M1 8 1\nTPREF A M1 8 6\nTAV A M1 9 1\nTPREF A M1 9 3\nTAV A M1 10 0\nTPREF A M1 10 4\nTAV A M1 11 1\nTPREF A M1 11 5\nTAV A M2 0 0\nTPREF A M2 0 2\nTAV A M2 1 1\nTPREF A M2 1 1\nTAV A M2 2 1\nTPREF A M2 2 3\nTAV A M2 3 1\nTPREF A M2 3 2\nTAV A M2 4 1\nTPREF A M2 4 0\nTAV A M2 5 0\nTPREF A M2 5 3\nTAV A M2 6 1\nTPREF A M2 6 3\nTAV A M2 7 1\nTPREF A M2 7 0\nTAV A M2 8 1\nTPREF A M2 8 3\nTAV A M2 9 1\nTPREF A M2 9 2\nTAV A M2 10 0\nTPREF A M2 10 1\nTAV A M2 11 1\nTPREF A M2 11 2\nTAV A M3 0 1\nTPREF A M3 0 2\nTAV A M3 1 1\nTPREF A M3 1 3\nTAV A M3 2 0\nTPREF A M3 2 0\nTAV A M3 3 0\nTPREF A M3 3 1\nTAV A M3 4 1\nTPREF A M3 4 0\nTAV A M3 5 1\nTPREF A M3 5 2\nTAV A M3 6 0\nTPREF A M3 6 5\nTAV A M3 7 0\nTPREF A M3 7 4\nTAV A M3 8 1\nTPREF A M3 8 3\nTAV A M3 9 1\nTPREF A M3 9 2\nTAV A M3 10 1\nTPREF A M3 10 5\nTAV A M3 11 1\nTPREF A M3 11 3\nQSUMMARY available B M1 0\nQSUMMARY preference B M1 0\nQSUMMARY available B M1 1\nQSUMMARY preference B M1 1\nQSUMMARY available B M1 2\nQSUMMARY preference B M1 2\nQSUMMARY available B M1 3\nQSUMMARY preference B M1 3\nQSUMMARY available B M1 4\nQSUMMARY preference B M1 4\nQSUMMARY available B M1 5\nQSUMMARY preference B M1 5\nQSUMMARY available B M1 6\nQSUMMARY preference B M1 6\nQSUMMARY available B M1 7\nQSUMMARY preference B M1 7\nQSUMMARY available B M1 8\nQSUMMARY preference B M1 8\nQSUMMARY available B M1 9\nQSUMMARY preference B M1 9\nQSUMMARY available B M1 10\nQSUMMARY preference B M1 10\nQSUMMARY available B M1 11\nQSUMMARY preference B M1 11\nQSUMMARY available B M2 0\nQSUMMARY preference B M2 0\nQSUMMARY available B M2 1\nQSUMMARY preference B M2 1\nQSUMMARY available B M2 2\nQSUMMARY preference B M2 2\nQSUMMARY available B M2 3\nQSUMMARY preference B M2 3\nQSUMMARY available B M2 4\nQSUMMARY preference B M2 4\nQSUMMARY available B M2 5\nQSUMMARY preference B M2 5\nQSUMMARY available B M2 6\nQSUMMARY preference B M2 6\nQSUMMARY available B M2 7\nQSUMMARY preference B M2 7\nQSUMMARY available B M2 8\nQSUMMARY preference B M2 8\nQSUMMARY available B M2 9\nQSUMMARY preference B M2 9\nQSUMMARY available B M2 10\nQSUMMARY preference B M2 10\nQSUMMARY available B M2 11\nQSUMMARY preference B M2 11\nQSUMMARY available B M3 0\nQSUMMARY preference B M3 0\nQSUMMARY available B M3 1\nQSUMMARY preference B M3 1\nQSUMMARY available B M3 2\nQSUMMARY preference B M3 2\nQSUMMARY available B M3 3\nQSUMMARY preference B M3 3\nQSUMMARY available B M3 4\nQSUMMARY preference B M3 4\nQSUMMARY available B M3 5\nQSUMMARY preference B M3 5\nQSUMMARY available B M3 6\nQSUMMARY preference B M3 6\nQSUMMARY available B M3 7\nQSUMMARY preference B M3 7\nQSUMMARY available B M3 8\nQSUMMARY preference B M3 8\nQSUMMARY available B M3 9\nQSUMMARY preference B M3 9\nQSUMMARY available B M3 10\nQSUMMARY preference B M3 10\nQSUMMARY available B M3 11\nQSUMMARY preference B M3 11",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-2",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ]
+    }
+  }
+]

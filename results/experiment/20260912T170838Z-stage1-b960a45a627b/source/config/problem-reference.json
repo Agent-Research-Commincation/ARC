@@ -1,0 +1,129 @@
+{
+  "purpose": "offline confirmation fixture selection; not model experiment data",
+  "seed": 20260911,
+  "candidate_index": 9,
+  "problem_hash": "f5ce855ddde8e16bd2fee52bbfd88cc743b3fe508595fd2691ef9152b017e9ef",
+  "criteria": [
+    "same six people, three meetings, twelve slots",
+    "independent meeting optima conflict",
+    "unique global optimum",
+    "private availability changes optimum"
+  ],
+  "method": "Preserve development availability/meeting structure; resample all preference values; choose first candidate satisfying fixed criteria before any live model output",
+  "oracle": {
+    "optimal_score": 20,
+    "optimal_schedules": [
+      {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    ],
+    "feasible_count": 54,
+    "distinct_scores": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "independent_oracle": {
+    "optimal_score": 20,
+    "optimal_schedules": [
+      {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    ],
+    "feasible_count": 54,
+    "distinct_scores": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "diagnostics": {
+    "oracle": {
+      "optimal_score": 20,
+      "optimal_schedules": [
+        {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        }
+      ],
+      "feasible_count": 54,
+      "distinct_scores": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "per_meeting_independent_maxima": {
+      "M1": {
+        "score": 8,
+        "slots": [
+          11
+        ]
+      },
+      "M2": {
+        "score": 7,
+        "slots": [
+          6
+        ]
+      },
+      "M3": {
+        "score": 9,
+        "slots": [
+          10
+        ]
+      }
+    },
+    "coupling_gap": 4,
+    "sensitivity_probe": {
+      "fact": [
+        "available",
+        "B3",
+        10,
+        0
+      ],
+      "feasible_count": 36,
+      "optimal_score": 16,
+      "optimal_schedules": [
+        {
+          "M1": 1,
+          "M2": 6,
+          "M3": 8
+        }
+      ],
+      "offline_only": true
+    }
+  }
+}

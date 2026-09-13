@@ -1,0 +1,3731 @@
+{
+  "version": 3,
+  "review_policy_version": "observation-review-v3.1",
+  "claim_counts_by_type": {
+    "fact": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "summary": {
+      "occurrences": 144,
+      "judged": 144,
+      "correct": 143,
+      "incorrect": 1,
+      "undetermined": 0
+    },
+    "reason": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_score": {
+      "occurrences": 2,
+      "judged": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_valid": {
+      "occurrences": 2,
+      "judged": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_optimal": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "meeting_score": {
+      "occurrences": 3,
+      "judged": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "meeting_available": {
+      "occurrences": 3,
+      "judged": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_constraint": {
+      "occurrences": 2,
+      "judged": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "public_precedence": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    }
+  },
+  "unique_claims": 155,
+  "claim_occurrences": 157,
+  "claim_changes": [],
+  "scope": "post-run observable content; no hidden reasoning; no feedback to agents",
+  "content_review_status": "complete",
+  "content_review_scope": "source-anchored annotations",
+  "task_messages": 4,
+  "reviewed_messages": 4,
+  "correct_claims": 156,
+  "incorrect_claims": 1,
+  "undetermined_claims": 0,
+  "unjudgeable_expressions": 3,
+  "codec_errors": 0,
+  "information_sharing": {
+    "A": {
+      "reviewed_messages": 2,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    },
+    "B": {
+      "reviewed_messages": 2,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    }
+  },
+  "first_proposer": "A",
+  "changed_proposal_messages": 0,
+  "explicit_revisions": 0,
+  "accept_messages": 1,
+  "agreement_note": "Acceptance expressions do not prove independent verification or final submission.",
+  "completion": {
+    "submitted_agents": [
+      "A",
+      "B"
+    ],
+    "both_submitted": true,
+    "identical_submissions": true,
+    "task_status": "success",
+    "error": null
+  },
+  "format_errors": [],
+  "messages": [
+    {
+      "message": 1,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            1
+          ],
+          "expected": 0,
+          "correct": false,
+          "impact": {
+            "method": "isolated counterfactual; other claims unchanged",
+            "feasible_set_changed": true,
+            "schedule_scores_changed": true,
+            "optimal_score_before": 20,
+            "optimal_score_after": 20,
+            "optimal_schedules_changed": false,
+            "submitted_schedule_affected": false,
+            "submission_impact_status": "evaluated"
+          },
+          "judgment": "incorrect",
+          "impact_status": "evaluated",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 0 unavailable, 2; 1 available, 1; 2 available, 3; 3 available, 2; 4 available, 0; 5 unavailable, 3; 6 available, 3; 7 available, 0; 8 available, 3; 9 available, 2; 10 unavailable, 1; 11 available, 2.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0 available, 2; 1 available, 3; 2 unavailable, 0; 3 unavailable, 1; 4 available, 0; 5 available, 2; 6 unavailable, 5; 7 unavailable, 4; 8 available, 3; 9 available, 2; 10 available, 5; 11 available, 3.",
+          "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "A가 각회의 슬롯0–11을 번호와 available/unavailable, 점수로 모두 직접 열거했다. M1@2의available=1도 오류 여부와 무관하게 발화 그대로 유지했다. B팀의 세회의 모든슬롯 가용성과 선호 요청은72개 질문으로 전개했다. then we can identify a high-scoring legal schedule은 앞으로의 협업 목표이며 후보 유효성이나 최적성의 단정이 아니다.",
+      "questions": [
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          11
+        ]
+      ],
+      "references": []
+    },
+    {
+      "message": 2,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1: slot 0 available, 2 points; 1 available, 2; 2 available, 0; 3 unavailable, 1; 4 available, 2; 5 available, 2; 6 available, 2; 7 available, 1; 8 unavailable, 3; 9 available, 0; 10 available, 3; 11 available, 3.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2: slot 0 available, 4 points; 1 unavailable, 3; 2 available, 0; 3 unavailable, 2; 4 available, 2; 5 available, 4; 6 available, 4; 7 available, 3; 8 unavailable, 3; 9 unavailable, 2; 10 available, 4; 11 available, 4.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3: slot 0 available, 4 points; 1 unavailable, 4; 2 available, 1; 3 available, 4; 4 unavailable, 0; 5 available, 2; 6 available, 2; 7 available, 2; 8 available, 2; 9 unavailable, 2; 10 available, 4; 11 available, 1.",
+          "annotation_note": "All twelve individually numbered availability and preference pairs are directly spoken. This is the present message, not a value filled from another trial or the task input."
+        }
+      ],
+      "unjudgeable": [
+        "I will now compare combined totals to identify the best legal schedule."
+      ],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "B팀의 직접 열거된72개 요약 주장을 기록했다. 마지막문장은 앞으로 비교하겠다는 계획이며 탐색완료 보고나 어떤 시간표의 전역최적성 주장으로 강화하지 않았다. 실제로 해당 비교를 수행했는지는 내부 추론에서 추정하지 않는다.",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 3,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The best legal schedule from these summaries is M1 at slot 1, M2 at slot 6, and M3 at slot 10.",
+          "annotation_note": "Legal is explicitly asserted for the named complete candidate."
+        },
+        {
+          "type": "schedule_optimal",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "optimal": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The best legal schedule from these summaries is M1 at slot 1, M2 at slot 6, and M3 at slot 10.",
+          "annotation_note": "Best legal schedule is explicit, but qualified by from these summaries. Keep that scope; the separate memo checks both original input and the one erroneous exchanged team summary."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "They are all available",
+          "annotation_note": "They resolves to the three explicitly stated meeting/slot pairs."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "They are all available",
+          "annotation_note": "They resolves to the three explicitly stated meeting/slot pairs."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "They are all available",
+          "annotation_note": "They resolves to the three explicitly stated meeting/slot pairs."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "use distinct slots",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "satisfy M1 before M3",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The combined preference totals are 4 + 7 + 9 = 20.",
+          "annotation_note": null
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "score": 4
+          },
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The best legal schedule from these summaries is M1 at slot 1, M2 at slot 6, and M3 at slot 10. They are all available, use distinct slots, and satisfy M1 before M3. The combined preference totals are 4 + 7 + 9 = 20.",
+          "annotation_note": "The ordered 4 + 7 + 9 breakdown is interpreted in the immediately named M1/M2/M3 order; no numbers are supplied from the answer."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "score": 7
+          },
+          "expected": 7,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The best legal schedule from these summaries is M1 at slot 1, M2 at slot 6, and M3 at slot 10. They are all available, use distinct slots, and satisfy M1 before M3. The combined preference totals are 4 + 7 + 9 = 20.",
+          "annotation_note": "The ordered 4 + 7 + 9 breakdown is interpreted in the immediately named M1/M2/M3 order; no numbers are supplied from the answer."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "score": 9
+          },
+          "expected": 9,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The best legal schedule from these summaries is M1 at slot 1, M2 at slot 6, and M3 at slot 10. They are all available, use distinct slots, and satisfy M1 before M3. The combined preference totals are 4 + 7 + 9 = 20.",
+          "annotation_note": "The ordered 4 + 7 + 9 breakdown is interpreted in the immediately named M1/M2/M3 order; no numbers are supplied from the answer."
+        }
+      ],
+      "unjudgeable": [
+        "Please confirm, and then we should both submit this exact schedule."
+      ],
+      "proposal_quality": {
+        "valid": true,
+        "score": 20,
+        "violations": [],
+        "gap": 0
+      },
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "best legal이라고 명시된 후보의 유효성과 요약에 따른 최적성을 각각 기록했다. 전체가용성3개, distinct와선후관계, 총점20과직전회의순서4+7+9도기록했다. 확인요청과후속공동제출은agreement/submit요청형을지원하지않는현질문스키마밖표현으로발췌에보존했다. 아직상대수락이이루어졌다는주장으로보지않는다.",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 4,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "accept",
+        "inform"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Confirmed: M1 at slot 1, M2 at slot 6, and M3 at slot 10 is legal",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "has total preference 20",
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [
+        "I will submit this exact schedule."
+      ],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "Confirmed는같은배치에대한명시수락이다. legal과20점만명시주장으로기록했고최적성주장을추가하지않았다. I will submit은미래의행동약속이지이메시지시점에이미제출했다는주장이아니다. 실제제출완료는따로실행기이벤트와결과에서확인한다.",
+      "questions": [],
+      "references": []
+    }
+  ],
+  "annotation_reviewer_kind": "ai",
+  "annotation_reviewer": "Codex /root/stages_5_6; direct source reading of completed natural-language trial-05; independently audited against all trial-05 original packets by Codex /root/stages_1_2, 2026-09-13"
+}

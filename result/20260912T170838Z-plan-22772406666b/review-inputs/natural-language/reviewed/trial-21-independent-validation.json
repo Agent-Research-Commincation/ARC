@@ -1,0 +1,2498 @@
+{
+  "trial": "trial-21",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_5_6; independent AI source audit of /root/stages_1_2 draft across all delivered task packets in trial-21; 2026-09-13",
+  "events_sha256": "4d73130b60fdaf5d4beb2eb430db6036312b03ef8dc893797a22bef582a22717",
+  "draft_sha256": "50d574739d81c718048b97ac250880b945ae8ee235a7f37d81eb429f15eebdc6",
+  "reviewed_annotation_sha256": "96b666e9d2a1c48bc8038c20791fbeb771f2a49c753d7671e36c89aefc756216",
+  "draft_semantic_field_changes": [],
+  "independent_source_transcription": [
+    {
+      "message": 1,
+      "owner": "A",
+      "directly_transcribed_summary_values": 72,
+      "match": true,
+      "transcribed": {
+        "M1": {
+          "available": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "preference": [
+            4,
+            2,
+            3,
+            3,
+            0,
+            5,
+            6,
+            2,
+            6,
+            3,
+            4,
+            5
+          ]
+        },
+        "M2": {
+          "available": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "preference": [
+            2,
+            1,
+            3,
+            2,
+            0,
+            3,
+            3,
+            0,
+            3,
+            2,
+            1,
+            2
+          ]
+        },
+        "M3": {
+          "available": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "preference": [
+            2,
+            3,
+            0,
+            1,
+            0,
+            2,
+            5,
+            4,
+            3,
+            2,
+            5,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "message": 2,
+      "owner": "B",
+      "directly_transcribed_summary_values": 72,
+      "match": true,
+      "transcribed": {
+        "M1": {
+          "available": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "preference": [
+            2,
+            2,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            3,
+            0,
+            3,
+            3
+          ]
+        },
+        "M2": {
+          "available": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "preference": [
+            4,
+            3,
+            0,
+            2,
+            2,
+            4,
+            4,
+            3,
+            3,
+            2,
+            4,
+            4
+          ]
+        },
+        "M3": {
+          "available": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "preference": [
+            4,
+            4,
+            1,
+            4,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "independent_claim_judgments": [
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        0,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        0,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        1,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        1,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        2,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        2,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        3,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        3,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        4,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        4,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        5,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        5,
+        5
+      ],
+      "expected": 5,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        6,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        6,
+        6
+      ],
+      "expected": 6,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        7,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        7,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        8,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        8,
+        6
+      ],
+      "expected": 6,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        9,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        9,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        10,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        10,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        11,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        11,
+        5
+      ],
+      "expected": 5,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        0,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        0,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        1,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        1,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        2,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        2,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        3,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        3,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        4,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        4,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        5,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        5,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        6,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        6,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        7,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        7,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        8,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        8,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        9,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        9,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        10,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        10,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        11,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        11,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        0,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        0,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        1,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        1,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        2,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        2,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        3,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        3,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        4,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        4,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        5,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        5,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        6,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        6,
+        5
+      ],
+      "expected": 5,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        7,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        7,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        8,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        8,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        9,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        9,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        10,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        10,
+        5
+      ],
+      "expected": 5,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        11,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        11,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 1,
+      "type": "public_precedence",
+      "value": {
+        "before": "M1",
+        "after": "M3"
+      },
+      "expected": true,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        0,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        0,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        1,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        1,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        2,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        2,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        3,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        3,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        4,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        4,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        5,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        5,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        6,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        6,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        7,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        7,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        8,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        8,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        9,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        9,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        10,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        10,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        11,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        11,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        0,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        0,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        1,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        1,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        2,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        2,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        3,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        3,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        4,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        4,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        5,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        5,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        6,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        6,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        7,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        7,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        8,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        8,
+        3
+      ],
+      "expected": 3,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        9,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        9,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        10,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        10,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        11,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        11,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        0,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        0,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        1,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        1,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        2,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        2,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        3,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        3,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        4,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        4,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        5,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        5,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        6,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        6,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        7,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        7,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        8,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        8,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        9,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        9,
+        2
+      ],
+      "expected": 2,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        10,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        10,
+        4
+      ],
+      "expected": 4,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        11,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        11,
+        1
+      ],
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 2,
+      "type": "schedule_constraint",
+      "value": {
+        "schedule": {
+          "M1": 8,
+          "M2": 6,
+          "M3": 10
+        },
+        "constraint": "precedence",
+        "satisfied": 1
+      },
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 3,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        8,
+        0
+      ],
+      "expected": 0,
+      "correct": true
+    },
+    {
+      "message": 3,
+      "type": "meeting_available",
+      "value": {
+        "meeting": "M1",
+        "slot": 1,
+        "available": 1
+      },
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 3,
+      "type": "meeting_available",
+      "value": {
+        "meeting": "M2",
+        "slot": 6,
+        "available": 1
+      },
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 3,
+      "type": "meeting_available",
+      "value": {
+        "meeting": "M3",
+        "slot": 10,
+        "available": 1
+      },
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 3,
+      "type": "schedule_constraint",
+      "value": {
+        "schedule": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        },
+        "constraint": "distinct",
+        "satisfied": 1
+      },
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 3,
+      "type": "schedule_constraint",
+      "value": {
+        "schedule": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        },
+        "constraint": "precedence",
+        "satisfied": 1
+      },
+      "expected": 1,
+      "correct": true
+    },
+    {
+      "message": 3,
+      "type": "schedule_score",
+      "value": {
+        "schedule": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        },
+        "score": 20
+      },
+      "expected": 20,
+      "correct": true,
+      "candidate_valid": true,
+      "arithmetic_sum": 20,
+      "arithmetic_matches": true
+    }
+  ],
+  "validation": {
+    "content_review_status": "complete",
+    "task_messages": 5,
+    "reviewed_messages": 5,
+    "correct_claims": 153,
+    "incorrect_claims": 0,
+    "undetermined_claims": 0,
+    "unjudgeable_expressions": 3,
+    "codec_errors": 0,
+    "first_proposer": "B",
+    "changed_proposal_messages": 1,
+    "explicit_revisions": 0,
+    "accept_messages": 1,
+    "completion": {
+      "submitted_agents": [
+        "A",
+        "B"
+      ],
+      "both_submitted": true,
+      "identical_submissions": true,
+      "task_status": "success",
+      "error": null
+    },
+    "annotation_reviewer_kind": "ai"
+  },
+  "wrong_and_undetermined_claims": [],
+  "schema_outside_independent_checks": [
+    {
+      "message": 2,
+      "evidence": "please confirm the candidate.",
+      "kind": "candidate confirmation request",
+      "fact_truth_value": null,
+      "interpretation": "Not an existing accept or validity/score assertion for initial8/6/10."
+    },
+    {
+      "message": 4,
+      "evidence": "Please confirm that you adopt M1 at slot 1, M2 at slot 6, and M3 at slot 10, so we can submit identical schedules.",
+      "kind": "adoption confirmation request with future shared-submission purpose",
+      "fact_truth_value": null,
+      "interpretation": "No positive report of B adoption or current identical submissions; no changed candidate, typed agreement question or actual submit inferred."
+    },
+    {
+      "message": 5,
+      "evidence": "I have submitted M1 at slot 1, M2 at slot 6, and M3 at slot 10.",
+      "kind": "past control-action report",
+      "independent_correct": true,
+      "evidence_event_sequence": 707,
+      "evidence_event_actor": "B",
+      "evidence_event_action": "submit",
+      "evidence_event_schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "report_packet_event_sequence": 880,
+      "submit_precedes_report": true,
+      "result_confirms_same_B_submission": true,
+      "schema_supported": false,
+      "interpretation": "Actual earlier B submit supports the report; report is an additional task utterance, not another control submit, score/validity claim or proof of internal reasoning."
+    }
+  ],
+  "offline_candidate_checks": {
+    "method": "Own raw-input enumeration and per-claim arithmetic independent of evaluation/problem helpers. Candidate quality is separate from spoken claim truth.",
+    "initial_schedule": {
+      "M1": 8,
+      "M2": 6,
+      "M3": 10
+    },
+    "initial_quality": {
+      "valid": false,
+      "score": null,
+      "arithmetic_sum": 25,
+      "unavailable": [
+        {
+          "person": "B1",
+          "slot": 8
+        }
+      ]
+    },
+    "initial_explicit_evaluation_claims": [
+      {
+        "type": "schedule_constraint",
+        "constraint": "precedence",
+        "satisfied": 1
+      }
+    ],
+    "initial_valid_score_optimal_claims_added": false,
+    "initial_arithmetic_sum_is_not_a_spoken_score": true,
+    "corrected_schedule": {
+      "M1": 1,
+      "M2": 6,
+      "M3": 10
+    },
+    "corrected_quality": {
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20,
+      "unavailable": []
+    },
+    "feasible_count": 54,
+    "optimal_score": 20,
+    "optimal_schedules": [
+      {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    ],
+    "B_M1_slot8_available_from_source_summary": 0,
+    "actual_B1_slot8_available": false,
+    "all_three_antecedent": "The immediately preceding explicitly named meetings and slots in the new proposal; no team-summary noun or owner restriction appears in this availability phrase.",
+    "submission_report_check": {
+      "message": 5,
+      "evidence": "I have submitted M1 at slot 1, M2 at slot 6, and M3 at slot 10.",
+      "kind": "past control-action report",
+      "independent_correct": true,
+      "evidence_event_sequence": 707,
+      "evidence_event_actor": "B",
+      "evidence_event_action": "submit",
+      "evidence_event_schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "report_packet_event_sequence": 880,
+      "submit_precedes_report": true,
+      "result_confirms_same_B_submission": true,
+      "schema_supported": false,
+      "interpretation": "Actual earlier B submit supports the report; report is an additional task utterance, not another control submit, score/validity claim or proof of internal reasoning."
+    },
+    "invalid_schedule_score_policy": "An infeasible candidate score would remain undetermined, but no score is uttered for the invalid initial candidate. No fabricated false or undetermined score claim."
+  },
+  "proposal_quality_rows_from_validation": [
+    {
+      "message": 2,
+      "schedule": {
+        "M1": 8,
+        "M2": 6,
+        "M3": 10
+      },
+      "proposal_quality": {
+        "valid": false,
+        "score": null,
+        "violations": [
+          "Unavailable: B1 at M1"
+        ],
+        "gap": null
+      },
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ]
+    },
+    {
+      "message": 3,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "proposal_quality": {
+        "valid": true,
+        "score": 20,
+        "violations": [],
+        "gap": 0
+      },
+      "kinds": [
+        "inform",
+        "reject",
+        "propose"
+      ]
+    },
+    {
+      "message": 4,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "proposal_quality": null,
+      "kinds": [
+        "request"
+      ]
+    },
+    {
+      "message": 5,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "proposal_quality": null,
+      "kinds": [
+        "inform",
+        "accept"
+      ]
+    }
+  ],
+  "excluded_control_actions": [
+    {
+      "event_sequence": 707,
+      "recorded_at": "2026-09-12T18:34:08.093300+00:00",
+      "actor": "B",
+      "action": "submit",
+      "payload": "",
+      "schedule": [
+        {
+          "meeting": "M1",
+          "slot": 1
+        },
+        {
+          "meeting": "M2",
+          "slot": 6
+        },
+        {
+          "meeting": "M3",
+          "slot": 10
+        }
+      ],
+      "language": []
+    },
+    {
+      "event_sequence": 734,
+      "recorded_at": "2026-09-12T18:34:12.621854+00:00",
+      "actor": "A",
+      "action": "wait",
+      "payload": "",
+      "schedule": [],
+      "language": []
+    },
+    {
+      "event_sequence": 762,
+      "recorded_at": "2026-09-12T18:34:14.455245+00:00",
+      "actor": "B",
+      "action": "wait",
+      "payload": "",
+      "schedule": [],
+      "language": []
+    },
+    {
+      "event_sequence": 935,
+      "recorded_at": "2026-09-12T18:34:34.418288+00:00",
+      "actor": "A",
+      "action": "submit",
+      "payload": "",
+      "schedule": [
+        {
+          "meeting": "M1",
+          "slot": 1
+        },
+        {
+          "meeting": "M2",
+          "slot": 6
+        },
+        {
+          "meeting": "M3",
+          "slot": 10
+        }
+      ],
+      "language": []
+    }
+  ],
+  "original_result": {
+    "status": "success",
+    "success": true,
+    "operational_status": "normal",
+    "evaluation": {
+      "valid": true,
+      "score": 20,
+      "violations": []
+    },
+    "submissions": {
+      "B": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "A": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    },
+    "error": null
+  },
+  "source_unchanged": true,
+  "source_file_hashes_before_and_after": {
+    "Agent_A.md": "d5a193bf4ebfe16d3c24af16e9a02666e55f3d629b2ff7a5f779c77053c3b923",
+    "Agent_B.md": "2763f0f32f3790a28429e05e269417ad0c0c72bcac49d7faf7995b7b571aebcc",
+    "events.jsonl": "4d73130b60fdaf5d4beb2eb430db6036312b03ef8dc893797a22bef582a22717",
+    "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+    "result.json": "b100af2c2ef42b434035ecb449b8270f7ccc9f97d0777f0cc5ad844ee73c66de",
+    "transcript.md": "f67c1d544ba4be60650c38357caed8cb6563e6ee14d1ffe9a94ab6c290044baa"
+  },
+  "draft_unchanged": true,
+  "core_snapshot_unchanged": true,
+  "core_snapshot_sha256": "289422ae2e34dd86700820e4c646a88b3f564ef969f8dff6bd8752afb4732b5f",
+  "temporary_validation_removed": true
+}

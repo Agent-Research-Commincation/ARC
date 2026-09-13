@@ -1,0 +1,22 @@
+{
+  "inform": "i",
+  "request": "rq",
+  "propose": "prp",
+  "accept": "yes",
+  "reject": "no",
+  "available": "av",
+  "preference": "pref",
+  "at": "at",
+  "ask": "q",
+  "teamavailable": "tav",
+  "teampreference": "tpref",
+  "unavailable": "unav",
+  "overlap": "ov",
+  "askfact": "qf",
+  "asksummary": "qs",
+  "askvalid": "qv",
+  "askscore": "qsc",
+  "valid": "ok",
+  "score": "sc",
+  "recheck": "rc"
+}

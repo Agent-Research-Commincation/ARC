@@ -1,0 +1,2314 @@
+{
+  "verified": true,
+  "phase": "complete",
+  "plan_id": "20260912T170838Z-plan-22772406666b",
+  "collection_sha256": "8208e220b3475caf6daae7f5b3ac5d2760faac40392b785ec966137f5dd3bbe1",
+  "comparison_group": "c112d67b702cb8c5dac43ead76fb983d2fc8882506794e3811731328054a4706",
+  "expected_trials": 180,
+  "unique_sessions": 360,
+  "session_records": 360,
+  "natural_language_independent_reviewed_trials": 30,
+  "natural_language_reviewed_task_messages": 103,
+  "natural_language_annotation_checks": [
+    {
+      "trial": 1,
+      "task_messages": 4,
+      "initial_author": "/root/stages_5_6",
+      "independent_reviewer": "/root/stages_3_4",
+      "annotation_sha256": "230c06d5535014096ac42cd60b7b6104b5cba531117e0dcbe305d9f1cc12f39d",
+      "events_sha256": "5d9602977c7088a8b34e26d8ad24dd9d36fdf70de53e2d1cd8aa86d89ee42b7d",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-01-verification-notes.md",
+        "review-inputs/natural-language/trial-01-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 2,
+      "task_messages": 5,
+      "initial_author": "/root/stages_5_6",
+      "independent_reviewer": "/root/stages_1_2",
+      "annotation_sha256": "860d1b9f6e5c38e4ba5dc8a3fe33c491729fabb03c5c8ba9efc41bf12b201715",
+      "events_sha256": "c55a93fb769dcae785d7d641e0282ee4652cb661154586a380bb7e65114077fb",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-02-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 3,
+      "task_messages": 3,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_3_4",
+      "annotation_sha256": "b293c0f0926487d302f22112da6c1134edb9255d3abd918c9d3c21b2d6a58aba",
+      "events_sha256": "bedf2e7a8e5fb1f6e7075356fa091d5aee95ac024137e651742d410fcf2bbf22",
+      "audit_notes": [
+        "review-inputs/natural-language/trial-03-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 4,
+      "task_messages": 5,
+      "initial_author": "/root/stages_5_6",
+      "independent_reviewer": "/root/stages_1_2",
+      "annotation_sha256": "f47debcf72cda246b66479a39bf8c8344b16a5863593ddfcaff9ef84dab9fa0b",
+      "events_sha256": "545dcf941870b8637ab98ffce89009f89e2cb15e807e45b980558df8536a7df7",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-04-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 5,
+      "task_messages": 4,
+      "initial_author": "/root/stages_5_6",
+      "independent_reviewer": "/root/stages_1_2",
+      "annotation_sha256": "7363b13a2ac79f7c31bc267ddabc7079f2de6130f6d2be201dd1e4224b446853",
+      "events_sha256": "9e9737f3fe706586e73688ebb4a65baed561605808a689d1268b1fc74629c3da",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-05-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 6,
+      "task_messages": 4,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "fff0a5879daf3906d4f7d4bc8cc415357981613fd65154c74b92c5f819003413",
+      "events_sha256": "addbc0dfa891e770c6a9b362dba569ffd268991b4b3d676d0afa5511838d0c82",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-06-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 7,
+      "task_messages": 2,
+      "initial_author": "/root/stages_5_6",
+      "independent_reviewer": "/root/stages_1_2",
+      "annotation_sha256": "7205bb22a48c520fe08639549c40000091549d869917155020e2ae22ebe795ef",
+      "events_sha256": "3bd7a48ed385b1e3e6be738c7137319efde80cb7c956d248081c3e37ab8e9398",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-07-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 8,
+      "task_messages": 2,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "6de7f8521b94feeaa1943f43944cfb247f52a2862fe6489bd0bd1e9bd8dc9554",
+      "events_sha256": "36de7bebfa8508931ce776683c7a228df6d9b9bd67dad9913fdc4c0cc1588e54",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-08-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 9,
+      "task_messages": 3,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "7509a87cd0f05be1ac8d93727b7468f2266f18ce45a1a5c567f91062341c62c0",
+      "events_sha256": "56116c1535cd96595da231cc860ec833a4809fbc42b68d303f62b45747d38c2c",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-09-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 10,
+      "task_messages": 2,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "5920f7b7ab1b9465b29ae983e422a0ad0a819daec6f5b8a5de0210904a8342fd",
+      "events_sha256": "c1a3037125595193e46443814f53b9b8048ab86ae9cfc0f7da5ffcc4df867793",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-10-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 11,
+      "task_messages": 3,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "e8a0e06b7e5e7f0d057cdbd2238d09045f195505316b1918ce353f5299402257",
+      "events_sha256": "c25f9a6ae01b5d8d8fee8c486ffe4a014a0bfbeb1d14152be6556e89a034efd5",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-11-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 12,
+      "task_messages": 6,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "453626a40fa4e6164ca022b0d09eecda56e24b9b37543ae0b5c8a705e97fdc66",
+      "events_sha256": "10450c479c7788a82b892ad78bf43e463481586c8f65b6b567ded8605a5c2082",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-12-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 13,
+      "task_messages": 4,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "5cde9b186608c0bcdb541b5a57e90ad7230ebf5faef635cdca035cc6a6f545f2",
+      "events_sha256": "a6c79a70ed722da9fc21efe0201f83e3a6097a97fb316ea8c7fb428b9ee1e7e0",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-13-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 14,
+      "task_messages": 3,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "a649450fc09d62e809dd6e86e4ee85ff1dab385582abf4498b7534499d4fac9b",
+      "events_sha256": "d8e494e8f3090217575d86e15b5cfc16d6f284ed6fe7be107057a4c3d2693bfd",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-14-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 15,
+      "task_messages": 5,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "24ff0d4d1ac9651168385f075e11afa03689768add2873cfa6acfc485f8ce4fd",
+      "events_sha256": "07b3cad12d8ea12d8edfb083806741584d6e120b453c9be9b39645938a6a25b3",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-15-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 16,
+      "task_messages": 3,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "06531bef35e6bd24498408d62bdd2e5002aede937f542d961d3f5e7310b0eba1",
+      "events_sha256": "2ce5b50f15f31e1da163b706d4040c703c82e92143797182321b2b9a8a02da66",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-16-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 17,
+      "task_messages": 3,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "1d32491713e24c9278effb6e19cea7ca2977ff44d13a32be8a96770dbebaadcd",
+      "events_sha256": "cf7fc1c9ad967042884c860df340973abf796a7145cc46aa722762fb44fd5cb9",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-17-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 18,
+      "task_messages": 2,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "4f53cef619a23abe82cd77e1ad3d19f7ed256bb9ca335521697ada0b8b843118",
+      "events_sha256": "1ca693b7e538b684889a6be5c873a48987fe4cdbe7feeef64b62fee68fc2001d",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-18-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 19,
+      "task_messages": 4,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "3c1fe7c278444e793d51d02879601834631b62cf7cfa8ffb3854acc9fcab5e86",
+      "events_sha256": "f0b357a61eba5a8a6c360283a5a2c64c6940a3908c39544e7bc0e9af61db5b1b",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-19-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 20,
+      "task_messages": 2,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "bf8675d3ef00cdfa9f3c9eb865539e315e95a15a097cba6aaad892579298583f",
+      "events_sha256": "68c907b91e8871b9f62a556267b8fa45d7e61df34573b025950aac11d3ba0639",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-20-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 21,
+      "task_messages": 5,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "96b666e9d2a1c48bc8038c20791fbeb771f2a49c753d7671e36c89aefc756216",
+      "events_sha256": "4d73130b60fdaf5d4beb2eb430db6036312b03ef8dc893797a22bef582a22717",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-21-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 22,
+      "task_messages": 3,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "c94ae0dc171ff6035ca31b1d2565e9d6d6ffbeafc0aeaead578faddf326b6dd4",
+      "events_sha256": "6e07eb3a0ac4e039115be53f955896ab8e1d73d4234e432d914d3429b151aee8",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-22-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 23,
+      "task_messages": 3,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "d5b2143c54f566520b1ee02fcf7c51c62f0ad70f65050b8750c82b8a1e918ea2",
+      "events_sha256": "37346d927843918371bcd3bdb8ffadff46b4e33b4dedd313904d74fbf141590a",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-23-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 24,
+      "task_messages": 4,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "4efc7e9fbfe05d9ad4fb4b6a1a15a0bbab8bd91378049b64f71b8f807d38d902",
+      "events_sha256": "ee7a1cdac82b25340ec14ebec3668568ca2cc1f2e3fe05624cda81478b630fdd",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-24-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 25,
+      "task_messages": 4,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "7d9c70bfa4a313d5e4fe04cea82559524a8a3e58f90f9114dd86c4354f54ae45",
+      "events_sha256": "65082d3634216f45e204ee5ee14f6107fd33c67da4679ffbd928e94223bffe25",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-25-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 26,
+      "task_messages": 3,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "e9944c55bb505a2b1986403933d2fd7d99ae4bb20aef73d9d85b5ff15c2a6ab1",
+      "events_sha256": "414b3369acbc53bd48209eb1e87c363252fa7e4719b3f4498f064e3330f893b1",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-26-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 27,
+      "task_messages": 3,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "5cc7afc1a79550828d40fae4d2bad58db9d50fb6349e2df498abf0e1687c0b43",
+      "events_sha256": "c47e183fe6aad55dbfbbd7336fda24622920eabde21222b64a03f2601b4403cd",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-27-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 28,
+      "task_messages": 2,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "90c4e972b22de71deeb420eae378756788a51ef49f2ae3134f243d9a02cf8ef7",
+      "events_sha256": "4ff8b45dd5b60788d5550059b01bba738e4003304bc814bada67882a4d0af51c",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-28-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 29,
+      "task_messages": 3,
+      "initial_author": "/root/stages_5_6",
+      "independent_reviewer": "/root/stages_1_2",
+      "annotation_sha256": "be263fe1c51e7889c740e825ed1abc0eab747f46606f08b3a9a53b2296a3e5f9",
+      "events_sha256": "d0ee0a969745e08a23fd371725f31df495dafb96a6072d74d64aec0b457f5fae",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-29-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    },
+    {
+      "trial": 30,
+      "task_messages": 4,
+      "initial_author": "/root/stages_1_2",
+      "independent_reviewer": "/root/stages_5_6",
+      "annotation_sha256": "5b1d86652493e790c826dd617d7b1f00c4bce240bc47d8dacf9b1d1dded5b3e7",
+      "events_sha256": "993bfe551fbb7aa833878481333ab16b155f9f6ad2ea8d46f2082aa5352afa35",
+      "audit_notes": [
+        "review-inputs/natural-language/reviewed/trial-30-independent-audit.md"
+      ],
+      "evidence_and_complete_task_coverage": true
+    }
+  ],
+  "analysis_input_hashes": {
+    "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/collection.json": "8208e220b3475caf6daae7f5b3ac5d2760faac40392b785ec966137f5dd3bbe1",
+    "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/worktree-equivalence.json": "ba9fc4616a58cf0f4cb0c537e9d4970c05179110d2e79bc63dafda9af8d74fec",
+    "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/analysis/process-summary.json": "8386027f59bf8c311a0ffa4b80de02b9e8f43b26c77e90b098e3ca421546246c",
+    "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/analysis/control-summary-source-hashes.json": "66203313f9ac6837f66be37fc8830072532d0b9448abefb8020c0e44474574c2",
+    "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/analysis/raw-measurement-audit.json": "266c53e2bc54b90da29b9a10ff89fb98a8778fce7880873677b9c70c8791e2dd",
+    "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/analysis/trial_rows.json": "d503c6eb7c8decdb7f94992d405617aab0edd992118f451b17dbda039b2e3bd8",
+    "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/analysis/stage_summary.json": "0adfdbedab5f067b2cd7477e570bc98e853266b5abeb1e6cebe89e2d9e79054f",
+    "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/analysis/control-summary.json": "a01ee3fa01d62560934e3fbe848ce21ee0bd1b6ea4bfd768caea77535277f10b",
+    "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/analysis/integrity.json": "c42ff9cce5e9bae49b835f711a5b9ec9b0d7515356415a73a2eec888e80f7add"
+  },
+  "natural_input_digest": "c0c91bd2ebafc623407ecff8d3f43c3cf2b5a1777b4f862743d13664d64585d2",
+  "stages": [
+    {
+      "stage": 1,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage1-b960a45a627b",
+      "review": "/Users/hyohyeon/Desktop/agent-research-commincation/results/reviews/20260912T170838Z-stage1-b960a45a627b/20260912T192902Z-review-4252491b55d7",
+      "readable": "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/stage-01-natural-language",
+      "worktree": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b",
+      "expected_trials": 30,
+      "task_messages": 103,
+      "source_digest": "a460067b8cbe20283ee64232b284e25d4cf9d58b41824054431fa7925d1c0260",
+      "review_digest": "67853f6e30fc07528ddaec317cba41861630642b69eef4ba0e0b81b3631bda71",
+      "readable_digest": "339194b6f201518709f3a10c6aaff5604d6090afb603b177ac9b359d58fc8072",
+      "evaluator_digest": "193e62618d817f5a01cde2f3845e03908e092b2f87dad05bfc568d04c4b61d7f",
+      "source_review_readable_worktree_seals": true,
+      "worktree_central_identical": true,
+      "frequency": {
+        "first_optimal": 23,
+        "changed": 7,
+        "revised": 2,
+        "rejection": 0,
+        "first_invalid": 7
+      },
+      "candidate_transitions": {
+        "optimal -> optimal": 22,
+        "optimal -> stopped": 1,
+        "invalid -> optimal": 6,
+        "invalid -> failed": 1
+      },
+      "numeric_distributions_verified": 48
+    },
+    {
+      "stage": 2,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage2-2f6d43b42c86",
+      "review": "/Users/hyohyeon/Desktop/agent-research-commincation/results/reviews/20260912T170838Z-stage2-2f6d43b42c86/20260912T192904Z-review-86fa502bea8b",
+      "readable": "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/stage-02-json",
+      "worktree": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86",
+      "expected_trials": 30,
+      "task_messages": 86,
+      "source_digest": "1d31d173f0941047a8df712cfbfc26bd5d2cafc94f9ee101a9b0845b8cc295dd",
+      "review_digest": "64d790dc092451cc98b4da17224903d10c7cb05fed583bb6102255852e574b12",
+      "readable_digest": "9d71705e8f7390cb82c71bb974d6b2f680db55af281df0ca15fa1dbde78c6698",
+      "evaluator_digest": "193e62618d817f5a01cde2f3845e03908e092b2f87dad05bfc568d04c4b61d7f",
+      "source_review_readable_worktree_seals": true,
+      "worktree_central_identical": true,
+      "frequency": {
+        "first_optimal": 26,
+        "changed": 8,
+        "revised": 7,
+        "rejection": 2,
+        "first_valid_suboptimal": 1,
+        "first_invalid": 3
+      },
+      "candidate_transitions": {
+        "optimal -> optimal": 26,
+        "valid_suboptimal -> optimal": 1,
+        "invalid -> optimal": 3
+      },
+      "numeric_distributions_verified": 48
+    },
+    {
+      "stage": 3,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage3-c4737d9c488a",
+      "review": "/Users/hyohyeon/Desktop/agent-research-commincation/results/reviews/20260912T170838Z-stage3-c4737d9c488a/20260912T192907Z-review-0d7f35035a8b",
+      "readable": "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/stage-03-relations",
+      "worktree": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a",
+      "expected_trials": 30,
+      "task_messages": 150,
+      "source_digest": "0b741af6a3c31815bccabb31046d6d9a0ab0a268aa351a4ecd7f0fd5d13535be",
+      "review_digest": "7ba021ca9804b26249c6e6c1bbd38ba0a6da9946f5bc70942e8b279d7e743f64",
+      "readable_digest": "745896c1c2da5ee9648a561637e068dd75a65d68d23fc06bfc760717be8a995c",
+      "evaluator_digest": "193e62618d817f5a01cde2f3845e03908e092b2f87dad05bfc568d04c4b61d7f",
+      "source_review_readable_worktree_seals": true,
+      "worktree_central_identical": true,
+      "frequency": {
+        "first_optimal": 24,
+        "changed": 5,
+        "revised": 5,
+        "rejection": 22,
+        "first_invalid": 2,
+        "first_valid_suboptimal": 4
+      },
+      "candidate_transitions": {
+        "optimal -> optimal": 24,
+        "invalid -> optimal": 2,
+        "valid_suboptimal -> valid_suboptimal": 2,
+        "valid_suboptimal -> optimal": 2
+      },
+      "numeric_distributions_verified": 48
+    },
+    {
+      "stage": 4,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a",
+      "review": "/Users/hyohyeon/Desktop/agent-research-commincation/results/reviews/20260912T170838Z-stage4-ff76a0f46e3a/20260912T192911Z-review-7556b9575bc7",
+      "readable": "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/stage-04-fixed-vector",
+      "worktree": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a",
+      "expected_trials": 30,
+      "task_messages": 85,
+      "source_digest": "320d64bab993b8bdaf661d8961ddb16c1c47f332d9b6e37c3ce9a7bd5fa3fe3c",
+      "review_digest": "9b3c8b8eed10d764f8566ae798c9d43fb06669ceb46d67e3b95d22b3c99f0aca",
+      "readable_digest": "09b849823d7d686fc65b1622f1289c3ae7b2dca4505370e4ff35e41a688869d9",
+      "evaluator_digest": "193e62618d817f5a01cde2f3845e03908e092b2f87dad05bfc568d04c4b61d7f",
+      "source_review_readable_worktree_seals": true,
+      "worktree_central_identical": true,
+      "frequency": {
+        "first_optimal": 27,
+        "changed": 5,
+        "revised": 4,
+        "rejection": 2,
+        "first_invalid": 3
+      },
+      "candidate_transitions": {
+        "optimal -> optimal": 27,
+        "invalid -> optimal": 3
+      },
+      "numeric_distributions_verified": 48
+    },
+    {
+      "stage": 5,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8",
+      "review": "/Users/hyohyeon/Desktop/agent-research-commincation/results/reviews/20260912T170838Z-stage5-0cf49fbfa1a8/20260912T192915Z-review-73595da8e765",
+      "readable": "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/stage-05-bytecode",
+      "worktree": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8",
+      "expected_trials": 30,
+      "task_messages": 89,
+      "source_digest": "8a6cfc7e23d3f610d13a9d81c84e611bfefe9ab248de6c2808c3ffc49f4db516",
+      "review_digest": "2560d6ebe5f4de8ff5ddaf120e9473c4a47a5e42b40fba3eac1f5a3026a4ad41",
+      "readable_digest": "de3b28597815835a8880fa3c44b83fc8f0f8e4298078995169772f8c835907d1",
+      "evaluator_digest": "193e62618d817f5a01cde2f3845e03908e092b2f87dad05bfc568d04c4b61d7f",
+      "source_review_readable_worktree_seals": true,
+      "worktree_central_identical": true,
+      "frequency": {
+        "first_optimal": 27,
+        "changed": 4,
+        "revised": 4,
+        "rejection": 4,
+        "first_valid_suboptimal": 1,
+        "first_invalid": 2
+      },
+      "candidate_transitions": {
+        "optimal -> optimal": 27,
+        "valid_suboptimal -> optimal": 1,
+        "invalid -> optimal": 2
+      },
+      "numeric_distributions_verified": 48
+    },
+    {
+      "stage": 6,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/results/experiment/20260912T170838Z-stage6-be74e683a4b1",
+      "review": "/Users/hyohyeon/Desktop/agent-research-commincation/results/reviews/20260912T170838Z-stage6-be74e683a4b1/20260912T192918Z-review-5950d9cf15ed",
+      "readable": "/Users/hyohyeon/Desktop/agent-research-commincation/result/20260912T170838Z-plan-22772406666b/stage-06-shared-dictionary",
+      "worktree": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1",
+      "expected_trials": 30,
+      "task_messages": 114,
+      "source_digest": "625b28d589ed4898ca8e80325b4c4a8445ffb5cb65ee007b3282e9a24455a82a",
+      "review_digest": "c47ed54d84b9a66bdb0d9b53bc6e335662ccaa6440001ce17a08e42a3bc8e786",
+      "readable_digest": "0ece7584d34e6c43498e608231029004e959b1f4e3740f6e14982ba95dbd33f5",
+      "evaluator_digest": "193e62618d817f5a01cde2f3845e03908e092b2f87dad05bfc568d04c4b61d7f",
+      "source_review_readable_worktree_seals": true,
+      "worktree_central_identical": true,
+      "frequency": {
+        "first_optimal": 27,
+        "changed": 3,
+        "revised": 2,
+        "rejection": 19,
+        "first_valid_suboptimal": 1,
+        "first_invalid": 2
+      },
+      "candidate_transitions": {
+        "optimal -> optimal": 27,
+        "valid_suboptimal -> optimal": 1,
+        "invalid -> failed": 1,
+        "invalid -> optimal": 1
+      },
+      "numeric_distributions_verified": 48
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "archived_evaluator_replay_trials": 180,
+  "trial_checks": [
+    {
+      "stage": 1,
+      "trial": 1,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 2,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 3,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 4,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 5,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 6,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 7,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 8,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 9,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 10,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 11,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 12,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 13,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 14,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 15,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 16,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 17,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 18,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 19,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 20,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 21,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 22,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 23,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 24,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 25,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 26,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 27,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 28,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 29,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 1,
+      "trial": 30,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 1,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 2,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 3,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 4,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 5,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 6,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 7,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 8,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 9,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 10,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 11,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 12,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 13,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 14,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 15,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 16,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 17,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 18,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 19,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 20,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 21,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 22,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 23,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 24,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 25,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 26,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 27,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 28,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 29,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 2,
+      "trial": 30,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 2,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 3,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 4,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 5,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 6,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 7,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 8,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 9,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 10,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 11,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 12,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 13,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 14,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 15,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 16,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 17,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 18,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 19,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 20,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 21,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 22,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 23,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 24,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 25,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 26,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 27,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 28,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 29,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 3,
+      "trial": 30,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 1,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 3,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 4,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 5,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 6,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 7,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 8,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 9,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 10,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 11,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 12,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 13,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 14,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 15,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 16,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 17,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 18,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 19,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 20,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 21,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 22,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 23,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 24,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 25,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 26,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 27,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 28,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 29,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 4,
+      "trial": 30,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 1,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 2,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 3,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 4,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 5,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 6,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 7,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 8,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 9,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 10,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 11,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 12,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 13,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 14,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 15,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 16,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 17,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 18,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 19,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 20,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 21,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 22,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 23,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 24,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 25,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 26,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 27,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 28,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 29,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 5,
+      "trial": 30,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 1,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 2,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 3,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 4,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 5,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 6,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 7,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 8,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 9,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 10,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 11,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 12,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 13,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 14,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 15,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 16,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 17,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 18,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 19,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 20,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 21,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 22,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 23,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 24,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 25,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 26,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 27,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 28,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 29,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    },
+    {
+      "stage": 6,
+      "trial": 30,
+      "archived_evaluator_replay_identical": true,
+      "raw_review_aggregate_process_match": true,
+      "packet_bytes_verified": true,
+      "cost_from_saved_totals_verified": true,
+      "independent_outcome_and_first_candidate_verified": true
+    }
+  ],
+  "outcome_enumeration": {
+    "feasible_count": 54,
+    "max_score": 20,
+    "optimal_schedules": [
+      {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    ]
+  },
+  "raw_last_usage_diagnostic": [
+    {
+      "stage": 6,
+      "trial": 9,
+      "actor": "B"
+    }
+  ],
+  "reviewer": "Codex /root/stages_1_2; independent final artifact verification",
+  "report_sha256": "faa67198d3ec11d94293c1664b9032b799a6bc1c1665fa9b4e2abf090cd5911e",
+  "report_main_and_frequency_table_checks": [
+    {
+      "stage": 1,
+      "main_outcome_cost_time_wire_table": true,
+      "first_candidate_frequency_table": true,
+      "rejection_frequency_table": true
+    },
+    {
+      "stage": 2,
+      "main_outcome_cost_time_wire_table": true,
+      "first_candidate_frequency_table": true,
+      "rejection_frequency_table": true
+    },
+    {
+      "stage": 3,
+      "main_outcome_cost_time_wire_table": true,
+      "first_candidate_frequency_table": true,
+      "rejection_frequency_table": true
+    },
+    {
+      "stage": 4,
+      "main_outcome_cost_time_wire_table": true,
+      "first_candidate_frequency_table": true,
+      "rejection_frequency_table": true
+    },
+    {
+      "stage": 5,
+      "main_outcome_cost_time_wire_table": true,
+      "first_candidate_frequency_table": true,
+      "rejection_frequency_table": true
+    },
+    {
+      "stage": 6,
+      "main_outcome_cost_time_wire_table": true,
+      "first_candidate_frequency_table": true,
+      "rejection_frequency_table": true
+    }
+  ],
+  "report_message_totals": {
+    "task": 627,
+    "language_setup": 62,
+    "codec_errors": 0
+  },
+  "report_first_nonoptimal_recovery": {
+    "first_nonoptimal": 26,
+    "finished_optimal": 22
+  },
+  "raw_last_usage_diagnostic_explained": {
+    "stage": 6,
+    "trial": 9,
+    "all_usage_events_inspected": 8,
+    "repeated_snapshot_events": [
+      241,
+      1669
+    ],
+    "identical_token_usage_different_turn_id": true,
+    "actor_checks": {
+      "A": {
+        "event_sequences": [
+          212,
+          1067,
+          2533,
+          2644
+        ],
+        "provider_total_matches_result": true,
+        "sum_last_minus_final_total": {
+          "totalTokens": 0,
+          "inputTokens": 0,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0
+        }
+      },
+      "B": {
+        "event_sequences": [
+          241,
+          1669,
+          2500,
+          2589
+        ],
+        "provider_total_matches_result": true,
+        "sum_last_minus_final_total": {
+          "totalTokens": 7316,
+          "inputTokens": 7261,
+          "cachedInputTokens": 6912,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 55,
+          "reasoningOutputTokens": 29
+        }
+      }
+    },
+    "authoritative_total_cost_unchanged": true,
+    "model_cost_estimate_usd": 0.008545400000000002,
+    "provider_internal_reason": "not established",
+    "diagnostic_json_sha256": "d746af5eb44ad0e4f07de4614747ac03fa5c26885dfb54f6948450390b60f786"
+  },
+  "source_review_readable_inputs_unchanged": true,
+  "analysis_inputs_unchanged": true,
+  "experiment_model_calls": 0,
+  "limits": [
+    "Saved independent AI reviewer identities, audit notes, source evidence and exact selected annotations were checked; no new human or third semantic review of every utterance is claimed.",
+    "All 180 deterministic observations were replayed from the selected sealed evaluator archive in memory, without executing experiment models.",
+    "Provider final cumulative totals are authoritative in the recorded cost calculation; the diagnosed repeated last snapshot was not deleted or substituted.",
+    "The provider internal reason for the repeated usage snapshot and cross-session cache sharing is not established.",
+    "This audit does not inspect final generated page layout or future edits beyond the captured report and analysis hashes."
+  ]
+}

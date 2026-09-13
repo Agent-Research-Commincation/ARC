@@ -1,0 +1,3484 @@
+{
+  "version": 3,
+  "review_policy_version": "observation-review-v3.1",
+  "claim_counts_by_type": {
+    "fact": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "summary": {
+      "occurrences": 144,
+      "judged": 144,
+      "correct": 144,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "reason": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_score": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_valid": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_optimal": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "meeting_score": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "meeting_available": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_constraint": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "public_precedence": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    }
+  },
+  "unique_claims": 147,
+  "claim_occurrences": 147,
+  "claim_changes": [],
+  "scope": "post-run observable content; no hidden reasoning; no feedback to agents",
+  "content_review_status": "complete",
+  "content_review_scope": "source-anchored annotations",
+  "task_messages": 2,
+  "reviewed_messages": 2,
+  "correct_claims": 147,
+  "incorrect_claims": 0,
+  "undetermined_claims": 0,
+  "unjudgeable_expressions": 1,
+  "codec_errors": 0,
+  "information_sharing": {
+    "A": {
+      "reviewed_messages": 1,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    },
+    "B": {
+      "reviewed_messages": 1,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    }
+  },
+  "first_proposer": "A",
+  "changed_proposal_messages": 0,
+  "explicit_revisions": 0,
+  "accept_messages": 0,
+  "agreement_note": "Acceptance expressions do not prove independent verification or final submission.",
+  "completion": {
+    "submitted_agents": [
+      "A",
+      "B"
+    ],
+    "both_submitted": true,
+    "identical_submissions": true,
+    "task_status": "success",
+    "error": null
+  },
+  "format_errors": [],
+  "messages": [
+    {
+      "message": 1,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "B팀의 세 회의·전체12슬롯 가용성/선호합72개를 직접 명시했다. corresponding A-attendee team summaries for all three meetings and all slots는 방금 보낸 동일형식의 A팀72개 요약 질문으로 연결했다. 개인별 원자료를 요청했다고 바꾸지 않았다. 독립 AI 검수: slots 0 through 11과 corresponding/all이 명시되므로 두 관계의 전체 배열 및 대응 질문 범위를 유지했다. 72는 정규화된 요약/요청 항목 수이고 자연어 문장 수가 아니다.",
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          11
+        ]
+      ],
+      "references": []
+    },
+    {
+      "message": 2,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "I calculate a top-scoring legal schedule as M1 slot 1, M2 slot 6, M3 slot 10, with total score 20.",
+          "annotation_note": "legal이 직접 수식하는 완전한 후보의 유효성을 기록."
+        },
+        {
+          "type": "schedule_optimal",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "optimal": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "I calculate a top-scoring legal schedule as M1 slot 1, M2 slot 6, M3 slot 10, with total score 20.",
+          "annotation_note": "top-scoring은 최고 점수라는 명시적 최상급 평가로 읽었다. a는 공동 최적 후보가 여럿일 가능성을 허용하며 최고 점수 평가를 취소하지 않는다. 단순 high-scoring으로 바꾸거나 내부 전수검사를 했다고 추론하지 않았다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "I calculate a top-scoring legal schedule as M1 slot 1, M2 slot 6, M3 slot 10, with total score 20.",
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [
+        "Please confirm or share any better candidate."
+      ],
+      "proposal_quality": {
+        "valid": true,
+        "score": 20,
+        "violations": [],
+        "gap": 0
+      },
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "A팀72개 요약, 최초 완전 후보1/6/10, legal·top-scoring·20점 발화를 구분했다. I calculate는 여기서 후보 계산 결과를 소개하며 별도의 숨은 계산 완료 메타 claim을 추가하지 않았다. 확인 또는 더 나은 대안 요청은 request 종류와 발췌로 보존하되 typed agreement나 임의 메시지ID/점수질문을 만들지 않았다. 상대가 수락했다는 말은 없다. 독립 AI 검수: top-scoring은 제한된 비교집합이나 조건이 명시되지 않은 최고 점수 평가로 읽는다. 후속 better candidate 요청은 반론을 구하는 발화이며 더 나은 후보의 존재나 상대 수락을 단정하지 않는다. 내부 전수탐색 여부는 확인하지 않는다.",
+      "questions": [],
+      "references": []
+    }
+  ],
+  "annotation_reviewer_kind": "ai",
+  "annotation_reviewer": "Codex /root/stages_5_6; independent AI audit of /root/stages_1_2 draft against all delivered trial-08 task packets; 2026-09-13"
+}

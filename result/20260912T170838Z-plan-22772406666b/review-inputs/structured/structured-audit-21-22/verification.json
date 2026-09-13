@@ -1,0 +1,544 @@
+{
+  "scope": "stages 2..6, trials 21..22 only",
+  "review_policy_version": "observation-review-v3.1",
+  "totals": {
+    "task_messages": 25,
+    "all_phase_messages": 29,
+    "correct_claims": 1440,
+    "incorrect_claims": 2,
+    "undetermined_claims": 0,
+    "codec_errors": 0,
+    "changed_proposals": 1,
+    "explicit_revisions": 1,
+    "questions": 290,
+    "result_actions": 53
+  },
+  "applied_task_controls": {
+    "send": 24,
+    "submit": 20,
+    "revise": 1,
+    "wait": 1
+  },
+  "protocol_rejections": 3,
+  "rejections_by_phase": {
+    "task": 3
+  },
+  "independent_candidate_checks": [
+    {
+      "stage": 2,
+      "trial": 21,
+      "message": 2,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 2,
+      "trial": 22,
+      "message": 2,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 3,
+      "trial": 21,
+      "message": 2,
+      "schedule": {
+        "M1": 9,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 19,
+      "arithmetic_sum": 19
+    },
+    {
+      "stage": 3,
+      "trial": 21,
+      "message": 3,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 3,
+      "trial": 22,
+      "message": 2,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 3,
+      "trial": 22,
+      "message": 3,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 4,
+      "trial": 21,
+      "message": 2,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 4,
+      "trial": 22,
+      "message": 2,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 5,
+      "trial": 21,
+      "message": 2,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 5,
+      "trial": 22,
+      "message": 2,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 6,
+      "trial": 21,
+      "message": 4,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 6,
+      "trial": 22,
+      "message": 5,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 6,
+      "trial": 22,
+      "message": 6,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    }
+  ],
+  "independent_final_checks": [
+    {
+      "stage": 2,
+      "trial": 21,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 2,
+      "trial": 22,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 3,
+      "trial": 21,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 3,
+      "trial": 22,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 4,
+      "trial": 21,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 4,
+      "trial": 22,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 5,
+      "trial": 21,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 5,
+      "trial": 22,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 6,
+      "trial": 21,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 6,
+      "trial": 22,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    }
+  ],
+  "independent_claim_counts": {
+    "summary": 1440,
+    "schedule_score": 1,
+    "schedule_valid": 1
+  },
+  "independent_claim_verdicts": {
+    "True": 1440,
+    "False": 2
+  },
+  "independent_claim_checks_file": "independent-claim-checks.json",
+  "errors_and_correction_checks": [
+    {
+      "stage": 2,
+      "trial": 22,
+      "message": 2,
+      "sender": "A",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        3,
+        2
+      ],
+      "expected": 1,
+      "attendee_preferences": {
+        "A1": 1,
+        "A3": 0
+      },
+      "unavailable_attendees": [
+        "A3"
+      ],
+      "same_message_correct_unavailability": [
+        [
+          "available",
+          "A",
+          "M3",
+          3,
+          0
+        ]
+      ],
+      "later_same_key_claims": [],
+      "explicit_correction_observed": false,
+      "impact": {
+        "method": "isolated counterfactual; other claims unchanged",
+        "feasible_set_changed": false,
+        "schedule_scores_changed": false,
+        "optimal_score_before": 20,
+        "optimal_score_after": 20,
+        "optimal_schedules_changed": false,
+        "submitted_schedule_affected": false,
+        "submission_impact_status": "evaluated"
+      },
+      "no_valid_schedule_uses_error_slot": true
+    },
+    {
+      "stage": 6,
+      "trial": 22,
+      "message": 3,
+      "sender": "B",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        4,
+        3
+      ],
+      "expected": 0,
+      "attendee_preferences": {
+        "B2": 0,
+        "B3": 0
+      },
+      "unavailable_attendees": [
+        "B3"
+      ],
+      "same_message_correct_unavailability": [
+        [
+          "available",
+          "B",
+          "M3",
+          4,
+          0
+        ]
+      ],
+      "later_same_key_claims": [],
+      "explicit_correction_observed": false,
+      "impact": {
+        "method": "isolated counterfactual; other claims unchanged",
+        "feasible_set_changed": false,
+        "schedule_scores_changed": false,
+        "optimal_score_before": 20,
+        "optimal_score_after": 20,
+        "optimal_schedules_changed": false,
+        "submitted_schedule_affected": false,
+        "submission_impact_status": "evaluated"
+      },
+      "no_valid_schedule_uses_error_slot": true
+    }
+  ],
+  "question_response_checks": [
+    {
+      "stage": 4,
+      "trial": 21,
+      "question_message": 1,
+      "answer_message": 2,
+      "requested_keys": 72,
+      "answer_keys": 72,
+      "exact_match": true
+    },
+    {
+      "stage": 5,
+      "trial": 22,
+      "question_message": 1,
+      "answer_message": 2,
+      "requested_keys": 72,
+      "answer_keys": 72,
+      "exact_match": true
+    },
+    {
+      "stage": 6,
+      "trial": 21,
+      "question_message": 3,
+      "answer_message": 4,
+      "requested_keys": 72,
+      "answer_keys": 72,
+      "exact_match": true
+    },
+    {
+      "stage": 6,
+      "trial": 22,
+      "question_message": 3,
+      "answer_message": 4,
+      "requested_keys": 72,
+      "answer_keys": 72,
+      "exact_match": true
+    }
+  ],
+  "wait_events": [
+    {
+      "stage": 6,
+      "trial": 21,
+      "request_id": "request-6",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 2672,
+      "raw_response": "{\"action\":\"wait\",\"payload\":\"\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "wait",
+        "payload": "",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-6",
+        "action": "wait"
+      },
+      "rejected": null,
+      "delivered_messages": [],
+      "submissions_before": {
+        "A": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        }
+      },
+      "submissions_after": {
+        "A": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        }
+      }
+    }
+  ],
+  "revision_events": [
+    {
+      "stage": 3,
+      "trial": 21,
+      "cleared_agents": [],
+      "request_id": "request-4",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 3356,
+      "raw_response": "{\"action\":\"revise\",\"payload\":\"propose().\\nat(M1,1).\\nat(M2,6).\\nat(M3,10).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "revise",
+        "payload": "propose().\nat(M1,1).\nat(M2,6).\nat(M3,10).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-4",
+        "action": "revise"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        3
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  ],
+  "stage3_trial21_only_information_retained_after_rejection": true,
+  "stage3_trial22_no_questions_delivered": true,
+  "stage6_trial21_evaluation_response_after_own_submission": true,
+  "stage6_trial21_accept_has_no_schedule_fields": true,
+  "independent_enumeration": {
+    "assignments": 1728,
+    "valid": 54,
+    "optimal_score": 20,
+    "optimal_schedules": [
+      {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    ]
+  },
+  "original_trial_files_unchanged": true,
+  "execution_source_unchanged": true,
+  "all_stage_evaluator_sources_equal": true,
+  "experiment_model_calls": 0
+}

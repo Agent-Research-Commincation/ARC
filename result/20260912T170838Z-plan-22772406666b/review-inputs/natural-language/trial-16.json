@@ -1,0 +1,2372 @@
+{
+  "version": 1,
+  "events_sha256": "2ce5b50f15f31e1da163b706d4040c703c82e92143797182321b2b9a8a02da66",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_1_2; source-anchored initial AI annotation of all task packets in completed trial-16; 2026-09-13",
+  "entries": [
+    {
+      "message": 1,
+      "status": "complete",
+      "evidence": "My team summaries, with values listed by slot ID 0 through 11: M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3. M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4. M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1. Please share your team summaries so we can find the highest-scoring legal schedule.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          11
+        ]
+      ],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "evidence": "M1 (B1) availability 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "evidence": "M2 (B1+B2) availability 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 (B2+B3) availability 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        }
+      ],
+      "unjudgeable": [
+        "M1 (B1)",
+        "M2 (B1+B2)",
+        "M3 (B2+B3)"
+      ],
+      "notes": "B가 직접 명시한 세 회의·슬롯 0–11 팀 요약 72개를 전개했다. 괄호는 각 회의의 B 팀 참석자 구성을 가리키며 지원 claim schema 밖이므로 발췌 후 공개 참석자 목록과 별도 대조한다. M1이 B1 한 명이라는 이유로 요약 수치를 중복 개인 fact로 추가하지 않았다. 상대 team summaries 요청은 바로 앞 동일 범위의 A 팀 가용성·선호 72개 질문으로 대응했다. highest-scoring은 미래 협업 목표라 현재 후보 최적성 주장이 아니다."
+    },
+    {
+      "message": 2,
+      "status": "complete",
+      "evidence": "My team summaries (slot IDs 0 through 11): M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5. M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2. M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3. Please share a candidate schedule or let me know if you want me to search for the highest-scoring one.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "evidence": "M1 availability: 0,1,0,1,1,0,0,1,1,1,0,1; preference: 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "evidence": "M2 availability: 0,1,1,1,1,0,1,1,1,1,0,1; preference: 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "evidence": "M3 availability: 1,1,0,0,1,1,0,0,1,1,1,1; preference: 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 명시된 슬롯 0–11의 팀 요약 값을 전개했다. 다른 값이나 개인 사실을 원자료에서 채워 넣지 않았다."
+        }
+      ],
+      "unjudgeable": [
+        "Please share a candidate schedule or let me know if you want me to search for the highest-scoring one."
+      ],
+      "notes": "A 팀 요약 72개를 명시값 그대로 전개했다. 후보 제시 요청 또는 자신이 탐색할지 알려달라는 OR 요청은 지원 typed question이 없다. request와 원문 발췌로 보존하고 필수 동시 요청이나 실제 후보·탐색 수행·최적성 주장으로 만들지 않았다. 개인 원자료 요구도 아니다."
+    },
+    {
+      "message": 3,
+      "status": "complete",
+      "evidence": "The highest-scoring legal schedule from the shared summaries is M1 at slot 1, M2 at slot 6, and M3 at slot 10 (D1 10:00, D2 09:00, D2 14:00). It is valid, respects M1 before M3, and scores 20 total. Please confirm and submit this exact schedule.",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "evidence": "The highest-scoring legal schedule from the shared summaries is M1 at slot 1, M2 at slot 6, and M3 at slot 10 (D1 10:00, D2 09:00, D2 14:00).",
+          "note": "첫 문장의 legal이라는 직접 발화를 기록했다."
+        },
+        {
+          "type": "schedule_optimal",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "optimal": 1
+          },
+          "evidence": "The highest-scoring legal schedule from the shared summaries is M1 at slot 1, M2 at slot 6, and M3 at slot 10 (D1 10:00, D2 09:00, D2 14:00).",
+          "note": "highest-scoring legal이 현재 후보를 직접 수식한다. from the shared summaries라는 범위는 보존하며 숨은 완전 탐색 수행 여부를 판정하지 않는다."
+        },
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "evidence": "It is valid",
+          "note": "앞 문장의 legal에 이어 별도 문장으로 유효성을 다시 발화한 발생을 보존했다. 새 후보를 생성한 것이 아니다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "evidence": "respects M1 before M3"
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "scores 20 total."
+        }
+      ],
+      "unjudgeable": [
+        "D1 10:00",
+        "D2 09:00",
+        "D2 14:00",
+        "Please confirm and submit this exact schedule."
+      ],
+      "notes": "명시 후보 1/6/10의 첫 문장 legal·highest-scoring, 둘째 문장의 valid 반복·precedence·20점을 모두 기록했다. distinct/meeting availability는 별도로 발화하지 않아 legal에서 추론해 추가하지 않았다. 괄호의 시간 라벨 순서는 바로 앞 M1/M2/M3 순서와 대응하는 것으로 읽고 각 값을 스키마 밖 발췌로 보존하여 공통 슬롯 매핑과 검산했다. 확인과 제출 요청은 수락이나 실제 제출이 아니다. 이후 제어 submit에서 양측이 같은 후보를 내더라도 전송 accept 메시지는 새로 만들지 않았다."
+    }
+  ]
+}

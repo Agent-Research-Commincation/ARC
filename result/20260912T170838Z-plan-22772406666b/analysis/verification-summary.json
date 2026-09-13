@@ -1,0 +1,68 @@
+{
+  "plan_id": "20260912T170838Z-plan-22772406666b",
+  "verified_at": "2026-09-12T19:41:25.744962+00:00",
+  "experiment_status": "completed",
+  "experimental_model_attempts": 180,
+  "distinct_experimental_sessions": 360,
+  "selected_reviews_complete": 180,
+  "stage_checks": [
+    {
+      "stage": 1,
+      "trials": 30,
+      "source_review_export_seals_verified": true,
+      "worktree_central_identical": true,
+      "evaluation_replay_matched": true
+    },
+    {
+      "stage": 2,
+      "trials": 30,
+      "source_review_export_seals_verified": true,
+      "worktree_central_identical": true,
+      "evaluation_replay_matched": true
+    },
+    {
+      "stage": 3,
+      "trials": 30,
+      "source_review_export_seals_verified": true,
+      "worktree_central_identical": true,
+      "evaluation_replay_matched": true
+    },
+    {
+      "stage": 4,
+      "trials": 30,
+      "source_review_export_seals_verified": true,
+      "worktree_central_identical": true,
+      "evaluation_replay_matched": true
+    },
+    {
+      "stage": 5,
+      "trials": 30,
+      "source_review_export_seals_verified": true,
+      "worktree_central_identical": true,
+      "evaluation_replay_matched": true
+    },
+    {
+      "stage": 6,
+      "trials": 30,
+      "source_review_export_seals_verified": true,
+      "worktree_central_identical": true,
+      "evaluation_replay_matched": true
+    }
+  ],
+  "checked_markdown_files": 756,
+  "checked_local_file_links": 4457,
+  "missing_local_file_links": [],
+  "offline_tests_passed": 118,
+  "offline_checks_called_models": false,
+  "documentation_sha256": {
+    "README.md": "f32a1008b5108291ffd3af9e3906662c3a7f3a6a47a514903379b7880203c1d8",
+    "AGENTS.md": "59f42db085e16a8f267aa7a2400fd7d6b0d2364a90d9e5a37ef348225291cb74",
+    "docs/README.md": "800f15a75d9ee02a540fd7087293e65f37a14abbbc4a83790fbc5aa9c0bf4aee",
+    "docs/experiment-operation.md": "a3e2d6d140f991c06f43d7268f47e1061f6015d3f611e6b6036258b1d6183cf6",
+    "docs/experiment-plan.md": "5df5baa8041207653580443bd5051dc6548229b852335a7a762ca33715fda575",
+    "docs/experiment-report.md": "faa67198d3ec11d94293c1664b9032b799a6bc1c1665fa9b4e2abf090cd5911e",
+    "docs/metrics.md": "e07d064e27a197545717992880ac50683477158815bee3133bef357d7c14a7c9",
+    "docs/phase-1-experiment.md": "0c68c4566d4162c636196e25420e69dbe99f10f722c8216be2ac76a07fb8ef48"
+  },
+  "scope": "File targets checked; Markdown fragment anchors are not evaluated. No new experimental model runs. Standalone evaluator replays reuse selected annotations."
+}

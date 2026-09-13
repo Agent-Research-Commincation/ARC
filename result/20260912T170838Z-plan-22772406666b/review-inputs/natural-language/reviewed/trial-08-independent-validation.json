@@ -1,0 +1,155 @@
+{
+  "trial": "trial-08",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_5_6; independent AI audit of /root/stages_1_2 draft against all delivered trial-08 task packets; 2026-09-13",
+  "events_sha256": "36de7bebfa8508931ce776683c7a228df6d9b9bd67dad9913fdc4c0cc1588e54",
+  "draft_sha256": "b4b963cd5180b41c625b2dc810e5c77a54111bcfad48ada0122ca47a1b258f1a",
+  "reviewed_annotation_sha256": "6de7f8521b94feeaa1943f43944cfb247f52a2862fe6489bd0bd1e9bd8dc9554",
+  "draft_semantic_field_changes": [],
+  "independent_source_transcription": {
+    "explicit_summary_fields": 144,
+    "all_match_draft": true,
+    "all_match_raw_problem": true,
+    "implicit_negative_availability_claims_added": 0,
+    "per_message_claims": [
+      72,
+      75
+    ],
+    "question_entries": 72,
+    "non_summary_claim_types": [
+      "schedule_valid",
+      "schedule_optimal",
+      "schedule_score"
+    ]
+  },
+  "validation": {
+    "content_review_status": "complete",
+    "task_messages": 2,
+    "reviewed_messages": 2,
+    "correct_claims": 147,
+    "incorrect_claims": 0,
+    "undetermined_claims": 0,
+    "unjudgeable_expressions": 1,
+    "codec_errors": 0,
+    "first_proposer": "A",
+    "changed_proposal_messages": 0,
+    "explicit_revisions": 0,
+    "accept_messages": 0,
+    "completion": {
+      "submitted_agents": [
+        "A",
+        "B"
+      ],
+      "both_submitted": true,
+      "identical_submissions": true,
+      "task_status": "success",
+      "error": null
+    },
+    "annotation_reviewer_kind": "ai"
+  },
+  "offline_independent_calculation": {
+    "method": "Own audit enumeration of 12^3 assignments using raw people, meetings and precedence; no problem/evaluation helper for the independent calculation.",
+    "selected_schedule": {
+      "M1": 1,
+      "M2": 6,
+      "M3": 10
+    },
+    "selected_feasible": true,
+    "selected_score": 20,
+    "meeting_score_parts_for_audit_only": {
+      "M1": 4,
+      "M2": 7,
+      "M3": 9
+    },
+    "feasible_count": 54,
+    "optimal_score": 20,
+    "optimal_schedules": [
+      {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    ]
+  },
+  "excluded_control_actions": [
+    {
+      "event_sequence": 680,
+      "actor": "B",
+      "action": "submit",
+      "payload": "",
+      "schedule": [
+        {
+          "meeting": "M1",
+          "slot": 1
+        },
+        {
+          "meeting": "M2",
+          "slot": 6
+        },
+        {
+          "meeting": "M3",
+          "slot": 10
+        }
+      ],
+      "language": []
+    },
+    {
+      "event_sequence": 735,
+      "actor": "A",
+      "action": "submit",
+      "payload": "",
+      "schedule": [
+        {
+          "meeting": "M1",
+          "slot": 1
+        },
+        {
+          "meeting": "M2",
+          "slot": 6
+        },
+        {
+          "meeting": "M3",
+          "slot": 10
+        }
+      ],
+      "language": []
+    }
+  ],
+  "original_result": {
+    "status": "success",
+    "operational_status": "normal",
+    "success": true,
+    "actions": 4,
+    "message_count": 2,
+    "submissions": {
+      "B": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "A": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    },
+    "evaluation": {
+      "valid": true,
+      "score": 20,
+      "violations": []
+    }
+  },
+  "source_unchanged": true,
+  "source_file_hashes_before_and_after": {
+    "Agent_A.md": "e42fe2fc21ce8cef68a1f900f83b7fa7ade574d29967887c96a6ce8b5396a7d0",
+    "Agent_B.md": "e07a2e1ce063ce911e468d8e35f38d5ee545245fcfea5ce1d6202cf3c4d4efa4",
+    "events.jsonl": "36de7bebfa8508931ce776683c7a228df6d9b9bd67dad9913fdc4c0cc1588e54",
+    "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+    "result.json": "04b15d06577859a9648c155d897191d64ffba27624f09fbdd26137d192d568cf",
+    "transcript.md": "42176a88d2ee4b0c555874c4a5f815cd66ee87ddf9787381e959435651c3eeaa"
+  },
+  "core_snapshot_unchanged": true,
+  "core_snapshot_sha256": "289422ae2e34dd86700820e4c646a88b3f564ef969f8dff6bd8752afb4732b5f",
+  "draft_unchanged": true,
+  "temporary_validation_removed": true
+}

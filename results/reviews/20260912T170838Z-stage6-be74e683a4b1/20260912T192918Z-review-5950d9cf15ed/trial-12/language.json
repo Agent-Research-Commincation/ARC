@@ -1,0 +1,22 @@
+{
+  "inform": "INF",
+  "request": "REQ",
+  "propose": "PROP",
+  "accept": "ACCEPT",
+  "reject": "REJECT",
+  "available": "AVAIL",
+  "preference": "PREF",
+  "at": "AT",
+  "ask": "ASK",
+  "teamavailable": "TEAMAV",
+  "teampreference": "TEAMPR",
+  "unavailable": "UNAV",
+  "overlap": "OVERLAP",
+  "askfact": "ASKFACT",
+  "asksummary": "ASKSUM",
+  "askvalid": "ASKVALID",
+  "askscore": "ASKSCORE",
+  "valid": "VALID",
+  "score": "SCORE",
+  "recheck": "RECHECK"
+}

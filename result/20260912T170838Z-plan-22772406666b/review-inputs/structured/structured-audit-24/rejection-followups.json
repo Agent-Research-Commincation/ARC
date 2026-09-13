@@ -1,0 +1,172 @@
+[
+  {
+    "stage": 3,
+    "trial": 24,
+    "request_id": "request-3",
+    "actor": "B",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: ask summary",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskvalid(1,6,10).\\naskscore(1,6,10).\\nask summary\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-8",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 1281,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskvalid(1,6,10).\\naskscore(1,6,10).\\nasksummary(available,A,M1,1).\\nasksummary(preference,A,M1,1).\\nasksummary(available,A,M2,6).\\nasksummary(preference,A,M2,6).\\nasksummary(available,A,M3,10).\\nasksummary(preference,A,M3,10).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\naskvalid(1,6,10).\naskscore(1,6,10).\nasksummary(available,A,M1,1).\nasksummary(preference,A,M1,1).\nasksummary(available,A,M2,6).\nasksummary(preference,A,M2,6).\nasksummary(available,A,M3,10).\nasksummary(preference,A,M3,10).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-8",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        3
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 24,
+    "request_id": "request-4",
+    "actor": "B",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: ask summary",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskvalid(1,6,10).\\naskscore(1,6,10).\\nask summary\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-8",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 1281,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskvalid(1,6,10).\\naskscore(1,6,10).\\nasksummary(available,A,M1,1).\\nasksummary(preference,A,M1,1).\\nasksummary(available,A,M2,6).\\nasksummary(preference,A,M2,6).\\nasksummary(available,A,M3,10).\\nasksummary(preference,A,M3,10).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\naskvalid(1,6,10).\naskscore(1,6,10).\nasksummary(available,A,M1,1).\nasksummary(preference,A,M1,1).\nasksummary(available,A,M2,6).\nasksummary(preference,A,M2,6).\nasksummary(available,A,M3,10).\nasksummary(preference,A,M3,10).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-8",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        3
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 24,
+    "request_id": "request-5",
+    "actor": "B",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: ask summary",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskvalid(1,6,10).\\naskscore(1,6,10).\\nask summary\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-8",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 1281,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskvalid(1,6,10).\\naskscore(1,6,10).\\nasksummary(available,A,M1,1).\\nasksummary(preference,A,M1,1).\\nasksummary(available,A,M2,6).\\nasksummary(preference,A,M2,6).\\nasksummary(available,A,M3,10).\\nasksummary(preference,A,M3,10).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\naskvalid(1,6,10).\naskscore(1,6,10).\nasksummary(available,A,M1,1).\nasksummary(preference,A,M1,1).\nasksummary(available,A,M2,6).\nasksummary(preference,A,M2,6).\nasksummary(available,A,M3,10).\nasksummary(preference,A,M3,10).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-8",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        3
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 24,
+    "request_id": "request-6",
+    "actor": "B",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: ask summary",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskvalid(1,6,10).\\naskscore(1,6,10).\\nask summary\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-8",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 1281,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskvalid(1,6,10).\\naskscore(1,6,10).\\nasksummary(available,A,M1,1).\\nasksummary(preference,A,M1,1).\\nasksummary(available,A,M2,6).\\nasksummary(preference,A,M2,6).\\nasksummary(available,A,M3,10).\\nasksummary(preference,A,M3,10).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\naskvalid(1,6,10).\naskscore(1,6,10).\nasksummary(available,A,M1,1).\nasksummary(preference,A,M1,1).\nasksummary(available,A,M2,6).\nasksummary(preference,A,M2,6).\nasksummary(available,A,M3,10).\nasksummary(preference,A,M3,10).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-8",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        3
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 24,
+    "request_id": "request-7",
+    "actor": "B",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: ask summary",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskvalid(1,6,10).\\naskscore(1,6,10).\\nask summary\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-8",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 1281,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskvalid(1,6,10).\\naskscore(1,6,10).\\nasksummary(available,A,M1,1).\\nasksummary(preference,A,M1,1).\\nasksummary(available,A,M2,6).\\nasksummary(preference,A,M2,6).\\nasksummary(available,A,M3,10).\\nasksummary(preference,A,M3,10).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\naskvalid(1,6,10).\naskscore(1,6,10).\nasksummary(available,A,M1,1).\nasksummary(preference,A,M1,1).\nasksummary(available,A,M2,6).\nasksummary(preference,A,M2,6).\nasksummary(available,A,M3,10).\nasksummary(preference,A,M3,10).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-8",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        3
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  }
+]

@@ -1,0 +1,291 @@
+{
+  "plan_id": "20260912T170838Z-plan-22772406666b",
+  "scope": "audit coverage of stages2..6, trials1..30; no additional experiment execution or re-scoring",
+  "audit_batches": 13,
+  "expected": 150,
+  "row_count": 150,
+  "unique_trials": 150,
+  "per_stage_counts": {
+    "2": 30,
+    "3": 30,
+    "4": 30,
+    "5": 30,
+    "6": 30
+  },
+  "missing_trials": [],
+  "duplicate_trials": [],
+  "unexpected_trials": [],
+  "independent_final_checks": 150,
+  "source_folders_unique": 150,
+  "all_observation_counts_match_indices": true,
+  "all_audit_status_scores_match_original_results": true,
+  "all_independent_final_checks_match_original_results": true,
+  "all_task_packet_counts_match_observations": true,
+  "all_150_original_trial_files_match_their_audit_hashes": true,
+  "current_execution_sources_match_all_batch_snapshots": true,
+  "review_policy_versions": [
+    "observation-review-v3.1"
+  ],
+  "comparison_groups": [
+    "c112d67b702cb8c5dac43ead76fb983d2fc8882506794e3811731328054a4706"
+  ],
+  "missing_artifacts": [],
+  "source_changes": [],
+  "secondary_pattern_trial07_excluded_from_duplicate_count": true,
+  "manual_exhaustive_review_claimed": false,
+  "reading_scope": "each batch combines automatic all-fields checks with explicitly logged selected raw reads; see the per-batch source-reading-log.json",
+  "model_calls_added": 0,
+  "batches": [
+    {
+      "batch": "structured-audit-01-05",
+      "trials": 25,
+      "trial_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "841614bfe9a8147902f43fdcba45b02de9d69f42adbc32717fe0bb991f38f3bf",
+      "verification_sha256": "9cc935de91659fd200bb700ee1edb5d4567d641b47accfd8ebf41efe2354ff38",
+      "final_checks": 25,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-01-05/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-06-08",
+      "trials": 15,
+      "trial_numbers": [
+        6,
+        7,
+        8
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "824792d6f83128277d0e8074048ec5bce5901bf63a4af411c476011c8b36a071",
+      "verification_sha256": "e501229a787c690c08968360a712f081f81f2bb102f4bf35c2d5148136566ac0",
+      "final_checks": 15,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-06-08/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-09-11",
+      "trials": 15,
+      "trial_numbers": [
+        9,
+        10,
+        11
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "7bd7b7613c00d0ef12292f3ee2ef81f3dcae0306fe35532232c78626b4ba048a",
+      "verification_sha256": "6d6490fe57b30db8055f8b76bdbda3c9a48a1c1f338c8a8cdb4888180b5c1971",
+      "final_checks": 15,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-09-11/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-12-14",
+      "trials": 15,
+      "trial_numbers": [
+        12,
+        13,
+        14
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "6d4f8da77d1ca4835e5acdee034cfacf8a2cd047a2058122e5832814080788bf",
+      "verification_sha256": "0b751d0b944a0b06f7a25ac0eeae6244ab5394db715f3da0668831417f96fa5b",
+      "final_checks": 15,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-12-14/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-15-17",
+      "trials": 15,
+      "trial_numbers": [
+        15,
+        16,
+        17
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "21da55c4930e5c023d60ba11bf86c029d607d2f96c4f9ca3d48d97f87f617cf0",
+      "verification_sha256": "98bef81c3ebfe9fa8bdd4663b4e84af53cb5b60b4290080cd0b05a75b58efabb",
+      "final_checks": 15,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-15-17/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-18-19",
+      "trials": 10,
+      "trial_numbers": [
+        18,
+        19
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "2d991ac61d7fd67a5ef231ccd47aa5fd3a8ebf60ced345257ab225deff935307",
+      "verification_sha256": "af64f83cc2f424f61795904fc7005cb95e01e676fcb2a17b4676361ae24ac556",
+      "final_checks": 10,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-18-19/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-20",
+      "trials": 5,
+      "trial_numbers": [
+        20
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "397dddcd6865232a969fe155bbce1de3c9697fa9e329b87f919053d5100ba79f",
+      "verification_sha256": "21504f363628e284eb9afc67e8f9abd44c6f1e904528862ea2ea58fea27b7e20",
+      "final_checks": 5,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-20/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-21-22",
+      "trials": 10,
+      "trial_numbers": [
+        21,
+        22
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "f42c01753f600e73524620b8101b2b27739b7911981ffdd7b620406c8a8cc444",
+      "verification_sha256": "c771cf03cd92b2c2730c8529793675f42f79bda7d9514f76e19b5977617f1ed2",
+      "final_checks": 10,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-21-22/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-23",
+      "trials": 5,
+      "trial_numbers": [
+        23
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "0e0f63d9997bf3b6e249ec2b972079bb5ecbeb237ba09ba1fcaab11f142495c0",
+      "verification_sha256": "d94e3aca7c88903e5af685a7c4a8230735528f8458b7f8c37bc7259abb94d0cf",
+      "final_checks": 5,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-23/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-24",
+      "trials": 5,
+      "trial_numbers": [
+        24
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "d19da37a94fe5d450e1aa3767fad61289224989a35c12fef8791b46edff243d6",
+      "verification_sha256": "827c22113194c98272bf1b0d075d1bd81bff7e4d9ee405634c04ba866c7120b4",
+      "final_checks": 5,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-24/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-25-26",
+      "trials": 10,
+      "trial_numbers": [
+        25,
+        26
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "fa44b6ffe24e1712210ecd4cb9cca9e389b758cfa455cfa6d5039d4422f012ce",
+      "verification_sha256": "7f14b17078f2769e05c8c6f3571bbab587799c187c4563b76a1a7a18dbec8567",
+      "final_checks": 10,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-25-26/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-27-28",
+      "trials": 10,
+      "trial_numbers": [
+        27,
+        28
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "21c81c7dec572969cfbdba85fdfe188d1eb4ed93108e6a90c2bd8ef1a993038e",
+      "verification_sha256": "9fa10eaf36f691113e9b4adc693b3c773876bd01f19f025676deb5f25d17b7a2",
+      "final_checks": 10,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-27-28/source-reading-log.json"
+    },
+    {
+      "batch": "structured-audit-29-30",
+      "trials": 10,
+      "trial_numbers": [
+        29,
+        30
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "index_sha256": "5b245cd78f4339b7203cb3e25727f117997d4415c1293e20e4d50481a4290093",
+      "verification_sha256": "4cc42a06f6dd154ee3b09659b2f71d27d59f4627c07a59d548f90327dc3fd52d",
+      "final_checks": 10,
+      "reading_scope_log": "/private/tmp/arc30-22772406666b/structured-audit-29-30/source-reading-log.json"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "scope": "Independent source audit and temporary-copy evaluator validation; completed natural-language trial-03 only",
+  "checked_at": "2026-09-12T17:29:02.543076+00:00",
+  "review_policy_version": "observation-review-v3.1",
+  "source_annotation_sha256": "b8b4b80c04e02e6c726614db640e856025a7040ab679f06091f1fe21bbc73f55",
+  "reviewed_annotation_sha256": "b293c0f0926487d302f22112da6c1134edb9255d3abd918c9d3c21b2d6a58aba",
+  "events_sha256": "bedf2e7a8e5fb1f6e7075356fa091d5aee95ac024137e651742d410fcf2bbf22",
+  "draft_semantics_unchanged": true,
+  "independent_transcription_checks": [
+    {
+      "message": 1,
+      "team": "A",
+      "explicit_summary_values": 72,
+      "all_slots_explicitly_spoken": true,
+      "annotation_matches_spoken_values": true
+    },
+    {
+      "message": 2,
+      "team": "B",
+      "explicit_summary_values": 72,
+      "all_slots_explicitly_spoken": true,
+      "annotation_matches_spoken_values": true
+    }
+  ],
+  "independent_general_rule_checks": {
+    "shared_attendees": {
+      "M1/M2": [
+        "A2",
+        "B1"
+      ],
+      "M1/M3": [
+        "A1"
+      ],
+      "M2/M3": [
+        "B2"
+      ]
+    },
+    "pairwise_distinct_required_for_this_problem": true,
+    "precedence_M1_before_M3": true
+  },
+  "independent_candidate_checks": {
+    "schedule": {
+      "M1": 1,
+      "M2": 6,
+      "M3": 10
+    },
+    "legal": true,
+    "raw_preference_total": 20,
+    "later_submissions_match_candidate": true,
+    "search_completeness_or_internal_reasoning_verified": false
+  },
+  "summary": {
+    "content_review_status": "complete",
+    "task_messages": 3,
+    "reviewed_messages": 3,
+    "claim_occurrences": 149,
+    "correct_claims": 149,
+    "incorrect_claims": 0,
+    "undetermined_claims": 0,
+    "unjudgeable_expressions": 3,
+    "codec_errors": 0,
+    "claim_counts_by_type": {
+      "fact": {
+        "occurrences": 0,
+        "judged": 0,
+        "correct": null,
+        "incorrect": null,
+        "undetermined": 0
+      },
+      "summary": {
+        "occurrences": 144,
+        "judged": 144,
+        "correct": 144,
+        "incorrect": 0,
+        "undetermined": 0
+      },
+      "reason": {
+        "occurrences": 0,
+        "judged": 0,
+        "correct": null,
+        "incorrect": null,
+        "undetermined": 0
+      },
+      "schedule_score": {
+        "occurrences": 2,
+        "judged": 2,
+        "correct": 2,
+        "incorrect": 0,
+        "undetermined": 0
+      },
+      "schedule_valid": {
+        "occurrences": 2,
+        "judged": 2,
+        "correct": 2,
+        "incorrect": 0,
+        "undetermined": 0
+      },
+      "schedule_optimal": {
+        "occurrences": 0,
+        "judged": 0,
+        "correct": null,
+        "incorrect": null,
+        "undetermined": 0
+      },
+      "meeting_score": {
+        "occurrences": 0,
+        "judged": 0,
+        "correct": null,
+        "incorrect": null,
+        "undetermined": 0
+      },
+      "meeting_available": {
+        "occurrences": 0,
+        "judged": 0,
+        "correct": null,
+        "incorrect": null,
+        "undetermined": 0
+      },
+      "schedule_constraint": {
+        "occurrences": 0,
+        "judged": 0,
+        "correct": null,
+        "incorrect": null,
+        "undetermined": 0
+      },
+      "public_precedence": {
+        "occurrences": 1,
+        "judged": 1,
+        "correct": 1,
+        "incorrect": 0,
+        "undetermined": 0
+      }
+    },
+    "first_proposer": "B",
+    "changed_proposal_messages": 0,
+    "explicit_revisions": 0,
+    "accept_messages": 1,
+    "annotation_reviewer_kind": "ai",
+    "annotation_reviewer": "Codex /root/stages_1_2 (initial source annotation); Codex /root/stages_3_4 (independent source audit and final verification)"
+  },
+  "preservation_checks": {
+    "draft_annotation_unchanged": true,
+    "draft_notes_unchanged": true,
+    "original_trial_all_files_unchanged": true,
+    "execution_source_and_config_unchanged": true,
+    "policy_unchanged": true,
+    "temporary_source_copy_unchanged": true
+  },
+  "source_trial_hashes": {
+    "Agent_A.md": "9f29ab0fa6bc2106e373e20fc6b40374d34a483d3e072f1c618a7e3233a6cc8a",
+    "Agent_B.md": "6e27b6bc8d4406713b0bce70fdeb6b938a46bdc27efb55d25995dfa4b5a62a1f",
+    "events.jsonl": "bedf2e7a8e5fb1f6e7075356fa091d5aee95ac024137e651742d410fcf2bbf22",
+    "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+    "result.json": "8128e755a98541c7ca42c22a2164fdf71e125fd365c732d78b947aa704d282a8",
+    "transcript.md": "ef63450294ee2c196c744204f2703402329ee3a7388c01861e3546e9723a48d4"
+  },
+  "evaluator_source_hashes": {
+    "experiment/__init__.py": "c92b0675bb9bbf62b6f5c9a869160b409160d8fee5a19890c0f1441033c95452",
+    "experiment/artifacts.py": "275e09ad0b51116a6c43a6da95fd735636a0decb7fd6c27258475b22197dc021",
+    "experiment/cli.py": "bde326745b7caccd7df7173bdea3501a347e882392958aa665083c01d1be8d33",
+    "experiment/codex.py": "67ec13b7c8133bfe687c0232b746f7505755cb84b6ad6cc4ffccc3563c0fda41",
+    "experiment/contracts.py": "1fbcd596b7b9d8923655705fb9be6564ba3f3cb99d4d179552f286c3e1e8c830",
+    "experiment/evaluation.py": "f7ab4f4e1093b3a56f0d8b23de23fb06bf3dfb54ba8b214cdf3a79d02c04aa34",
+    "experiment/metrics.py": "6b753c9f7a455a264886bbc0a2e21152dd6f76dc6ab34cead2dd3f747adcf020",
+    "experiment/problem.py": "361bbd6f4c29254eedf63a179252db823fd4ac77f2a0bd73d8d44ca8ec225663",
+    "experiment/protocols.py": "940604f7e130fcf2d5261f35926d7a3eb7438d1b38cee54adb797153baf59a83",
+    "experiment/records.py": "be886ac1c3e62161dd21580790825bd8c85b72dd35d57d43da10ffd53af5a5c9",
+    "experiment/runner.py": "1f9b135a2f27df92cd96f75ea49d9d3e573ed4b6977ec6f1414646235cbd2153",
+    "experiment/scheduling.py": "cb534174b7bc014effcc492d48a344cdce2cebf74061b77c02efcb5b16a42a5f",
+    "experiment/trial.py": "92a440f8d92851e7b66bf493bfb334f282ef4298c9d318897b9377c5cdb49655",
+    "lab.py": "7b2eb7f02e3cdfafd53d6117d5c46d55e587e6ee5a4963f4d866e473e5e1b4a0",
+    "config/experiment.json": "227ed25525acded4bb4a07f4df060fed75dc1fe0cfeec91c4cd5f4298e76d79d",
+    "config/problem.json": "08ddec3de81f51e66a0b874ddcb422a87c7c39a0fbb9510c44c62f02c56f589f"
+  },
+  "temporary_files_cleaned": true,
+  "experiment_model_calls": 0,
+  "human_review": false
+}

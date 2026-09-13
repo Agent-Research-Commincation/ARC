@@ -1,0 +1,271 @@
+{
+  "scope": "secondary value-only comparison; trial07 excluded from current 10-trial counts",
+  "sources": [
+    {
+      "trial": 7,
+      "message": 2,
+      "path": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-07/events.jsonl"
+    },
+    {
+      "trial": 27,
+      "message": 4,
+      "path": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-27/events.jsonl"
+    }
+  ],
+  "raw_M1_24_values_equal": true,
+  "M1_equals_M2_in_each_packet": true,
+  "actual_M1_B_attendees": [
+    "B1"
+  ],
+  "matching_subsets": [
+    {
+      "people": [
+        "B1"
+      ],
+      "matching_cells": 13,
+      "all_24_match": false
+    },
+    {
+      "people": [
+        "B2"
+      ],
+      "matching_cells": 12,
+      "all_24_match": false
+    },
+    {
+      "people": [
+        "B3"
+      ],
+      "matching_cells": 8,
+      "all_24_match": false
+    },
+    {
+      "people": [
+        "B1",
+        "B2"
+      ],
+      "matching_cells": 24,
+      "all_24_match": true
+    },
+    {
+      "people": [
+        "B1",
+        "B3"
+      ],
+      "matching_cells": 11,
+      "all_24_match": false
+    },
+    {
+      "people": [
+        "B2",
+        "B3"
+      ],
+      "matching_cells": 12,
+      "all_24_match": false
+    },
+    {
+      "people": [
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "matching_cells": 17,
+      "all_24_match": false
+    }
+  ],
+  "value_table": [
+    {
+      "type": "available",
+      "slot": 0,
+      "trial07_M1": 1,
+      "trial27_M1": 1,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 1
+    },
+    {
+      "type": "available",
+      "slot": 1,
+      "trial07_M1": 0,
+      "trial27_M1": 0,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 0
+    },
+    {
+      "type": "available",
+      "slot": 2,
+      "trial07_M1": 1,
+      "trial27_M1": 1,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 1
+    },
+    {
+      "type": "available",
+      "slot": 3,
+      "trial07_M1": 0,
+      "trial27_M1": 0,
+      "true_M1_B1": 0,
+      "B1_plus_B2": 0
+    },
+    {
+      "type": "available",
+      "slot": 4,
+      "trial07_M1": 1,
+      "trial27_M1": 1,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 1
+    },
+    {
+      "type": "available",
+      "slot": 5,
+      "trial07_M1": 1,
+      "trial27_M1": 1,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 1
+    },
+    {
+      "type": "available",
+      "slot": 6,
+      "trial07_M1": 1,
+      "trial27_M1": 1,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 1
+    },
+    {
+      "type": "available",
+      "slot": 7,
+      "trial07_M1": 1,
+      "trial27_M1": 1,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 1
+    },
+    {
+      "type": "available",
+      "slot": 8,
+      "trial07_M1": 0,
+      "trial27_M1": 0,
+      "true_M1_B1": 0,
+      "B1_plus_B2": 0
+    },
+    {
+      "type": "available",
+      "slot": 9,
+      "trial07_M1": 0,
+      "trial27_M1": 0,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 0
+    },
+    {
+      "type": "available",
+      "slot": 10,
+      "trial07_M1": 1,
+      "trial27_M1": 1,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 1
+    },
+    {
+      "type": "available",
+      "slot": 11,
+      "trial07_M1": 1,
+      "trial27_M1": 1,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 1
+    },
+    {
+      "type": "preference",
+      "slot": 0,
+      "trial07_M1": 4,
+      "trial27_M1": 4,
+      "true_M1_B1": 2,
+      "B1_plus_B2": 4
+    },
+    {
+      "type": "preference",
+      "slot": 1,
+      "trial07_M1": 3,
+      "trial27_M1": 3,
+      "true_M1_B1": 2,
+      "B1_plus_B2": 3
+    },
+    {
+      "type": "preference",
+      "slot": 2,
+      "trial07_M1": 0,
+      "trial27_M1": 0,
+      "true_M1_B1": 0,
+      "B1_plus_B2": 0
+    },
+    {
+      "type": "preference",
+      "slot": 3,
+      "trial07_M1": 2,
+      "trial27_M1": 2,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 2
+    },
+    {
+      "type": "preference",
+      "slot": 4,
+      "trial07_M1": 2,
+      "trial27_M1": 2,
+      "true_M1_B1": 2,
+      "B1_plus_B2": 2
+    },
+    {
+      "type": "preference",
+      "slot": 5,
+      "trial07_M1": 4,
+      "trial27_M1": 4,
+      "true_M1_B1": 2,
+      "B1_plus_B2": 4
+    },
+    {
+      "type": "preference",
+      "slot": 6,
+      "trial07_M1": 4,
+      "trial27_M1": 4,
+      "true_M1_B1": 2,
+      "B1_plus_B2": 4
+    },
+    {
+      "type": "preference",
+      "slot": 7,
+      "trial07_M1": 3,
+      "trial27_M1": 3,
+      "true_M1_B1": 1,
+      "B1_plus_B2": 3
+    },
+    {
+      "type": "preference",
+      "slot": 8,
+      "trial07_M1": 3,
+      "trial27_M1": 3,
+      "true_M1_B1": 3,
+      "B1_plus_B2": 3
+    },
+    {
+      "type": "preference",
+      "slot": 9,
+      "trial07_M1": 2,
+      "trial27_M1": 2,
+      "true_M1_B1": 0,
+      "B1_plus_B2": 2
+    },
+    {
+      "type": "preference",
+      "slot": 10,
+      "trial07_M1": 4,
+      "trial27_M1": 4,
+      "true_M1_B1": 3,
+      "B1_plus_B2": 4
+    },
+    {
+      "type": "preference",
+      "slot": 11,
+      "trial07_M1": 4,
+      "trial27_M1": 4,
+      "true_M1_B1": 3,
+      "B1_plus_B2": 4
+    }
+  ],
+  "inferred_internal_reasoning": false
+}

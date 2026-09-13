@@ -1,0 +1,151 @@
+{
+  "scope": "Completed natural-language stage-1 trial-01 only; revised annotation checked on a temporary source copy",
+  "checked_at": "2026-09-12T17:25:55.827830+00:00",
+  "review_policy_version": "observation-review-v3.1",
+  "original_annotation_sha256": "4e44c92c9870a2677a22192f0db61f2c6e872f379db4c88ff298d70f7e92f14b",
+  "reviewed_annotation_sha256": "230c06d5535014096ac42cd60b7b6104b5cba531117e0dcbe305d9f1cc12f39d",
+  "events_sha256": "5d9602977c7088a8b34e26d8ad24dd9d36fdf70de53e2d1cd8aa86d89ee42b7d",
+  "independent_audit_sha256": "8b1c2d7fa19043249f07022c267d1dc9db8e406235528167e48af490a648291b",
+  "removed_inferred_claims": 12,
+  "summary": {
+    "content_review_status": "complete",
+    "task_messages": 4,
+    "reviewed_messages": 4,
+    "claim_occurrences": 172,
+    "correct_claims": 171,
+    "incorrect_claims": 1,
+    "undetermined_claims": 0,
+    "unjudgeable_expressions": 6,
+    "codec_errors": 0,
+    "claim_counts_by_type": {
+      "fact": {
+        "occurrences": 0,
+        "judged": 0,
+        "correct": null,
+        "incorrect": null,
+        "undetermined": 0
+      },
+      "summary": {
+        "occurrences": 135,
+        "judged": 135,
+        "correct": 135,
+        "incorrect": 0,
+        "undetermined": 0
+      },
+      "reason": {
+        "occurrences": 0,
+        "judged": 0,
+        "correct": null,
+        "incorrect": null,
+        "undetermined": 0
+      },
+      "schedule_score": {
+        "occurrences": 2,
+        "judged": 2,
+        "correct": 2,
+        "incorrect": 0,
+        "undetermined": 0
+      },
+      "schedule_valid": {
+        "occurrences": 1,
+        "judged": 1,
+        "correct": 1,
+        "incorrect": 0,
+        "undetermined": 0
+      },
+      "schedule_optimal": {
+        "occurrences": 1,
+        "judged": 1,
+        "correct": 1,
+        "incorrect": 0,
+        "undetermined": 0
+      },
+      "meeting_score": {
+        "occurrences": 15,
+        "judged": 15,
+        "correct": 14,
+        "incorrect": 1,
+        "undetermined": 0
+      },
+      "meeting_available": {
+        "occurrences": 15,
+        "judged": 15,
+        "correct": 15,
+        "incorrect": 0,
+        "undetermined": 0
+      },
+      "schedule_constraint": {
+        "occurrences": 2,
+        "judged": 2,
+        "correct": 2,
+        "incorrect": 0,
+        "undetermined": 0
+      },
+      "public_precedence": {
+        "occurrences": 1,
+        "judged": 1,
+        "correct": 1,
+        "incorrect": 0,
+        "undetermined": 0
+      }
+    },
+    "annotation_reviewer_kind": "ai",
+    "annotation_reviewer": "Codex /root/stages_5_6 (initial source annotation); Codex /root/stages_3_4 (independent source audit and final revision)"
+  },
+  "incorrect_claims_detail": [
+    {
+      "type": "meeting_score",
+      "value": {
+        "meeting": "M3",
+        "slot": 8,
+        "score": 3
+      },
+      "expected": 5,
+      "correct": false,
+      "impact": null,
+      "judgment": "incorrect",
+      "impact_status": "not_evaluated",
+      "message": 4,
+      "sender": "B",
+      "evidence": "M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+      "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+    }
+  ],
+  "preservation_checks": {
+    "original_annotation_unchanged": true,
+    "original_notes_unchanged": true,
+    "original_trial_all_files_unchanged": true,
+    "execution_source_and_config_unchanged": true,
+    "policy_unchanged": true,
+    "temporary_source_copy_unchanged": true
+  },
+  "source_trial_hashes": {
+    "Agent_A.md": "799f2b639cfd9f26a0b02c329b8b8d9ef46f6c63feaae86b93b52c29d2c7fa12",
+    "Agent_B.md": "a0ee461e8d2fbf647896c1e99712d4dfa312c3c435f8fe50d85f074f8c3d5658",
+    "events.jsonl": "5d9602977c7088a8b34e26d8ad24dd9d36fdf70de53e2d1cd8aa86d89ee42b7d",
+    "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+    "result.json": "b08a8b6e50c78c6021dcb50a38449cf1d54114beac0915b7b9fbae8e38256a68",
+    "transcript.md": "fe8bed74373cd655b5868a31c33498a0afb4e942c0ff9ba69d2294ea064b0d3c"
+  },
+  "evaluator_source_hashes": {
+    "experiment/__init__.py": "c92b0675bb9bbf62b6f5c9a869160b409160d8fee5a19890c0f1441033c95452",
+    "experiment/artifacts.py": "275e09ad0b51116a6c43a6da95fd735636a0decb7fd6c27258475b22197dc021",
+    "experiment/cli.py": "bde326745b7caccd7df7173bdea3501a347e882392958aa665083c01d1be8d33",
+    "experiment/codex.py": "67ec13b7c8133bfe687c0232b746f7505755cb84b6ad6cc4ffccc3563c0fda41",
+    "experiment/contracts.py": "1fbcd596b7b9d8923655705fb9be6564ba3f3cb99d4d179552f286c3e1e8c830",
+    "experiment/evaluation.py": "f7ab4f4e1093b3a56f0d8b23de23fb06bf3dfb54ba8b214cdf3a79d02c04aa34",
+    "experiment/metrics.py": "6b753c9f7a455a264886bbc0a2e21152dd6f76dc6ab34cead2dd3f747adcf020",
+    "experiment/problem.py": "361bbd6f4c29254eedf63a179252db823fd4ac77f2a0bd73d8d44ca8ec225663",
+    "experiment/protocols.py": "940604f7e130fcf2d5261f35926d7a3eb7438d1b38cee54adb797153baf59a83",
+    "experiment/records.py": "be886ac1c3e62161dd21580790825bd8c85b72dd35d57d43da10ffd53af5a5c9",
+    "experiment/runner.py": "1f9b135a2f27df92cd96f75ea49d9d3e573ed4b6977ec6f1414646235cbd2153",
+    "experiment/scheduling.py": "cb534174b7bc014effcc492d48a344cdce2cebf74061b77c02efcb5b16a42a5f",
+    "experiment/trial.py": "92a440f8d92851e7b66bf493bfb334f282ef4298c9d318897b9377c5cdb49655",
+    "lab.py": "7b2eb7f02e3cdfafd53d6117d5c46d55e587e6ee5a4963f4d866e473e5e1b4a0",
+    "config/experiment.json": "227ed25525acded4bb4a07f4df060fed75dc1fe0cfeec91c4cd5f4298e76d79d",
+    "config/problem.json": "08ddec3de81f51e66a0b874ddcb422a87c7c39a0fbb9510c44c62f02c56f589f"
+  },
+  "temporary_files_cleaned": true,
+  "experiment_model_calls": 0,
+  "review_method": "Rule-based local verification of reviewed source-anchored annotations; independent AI source audit recorded separately; no human review"
+}

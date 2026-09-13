@@ -1,0 +1,1177 @@
+{
+  "scope": "stages 2..6, trials 29..30 only",
+  "review_policy_version": "observation-review-v3.1",
+  "totals": {
+    "task_messages": 33,
+    "all_phase_messages": 37,
+    "correct_claims": 1453,
+    "incorrect_claims": 0,
+    "undetermined_claims": 0,
+    "codec_errors": 0,
+    "changed_proposals": 1,
+    "explicit_revisions": 1,
+    "questions": 415,
+    "result_actions": 73
+  },
+  "statuses": {
+    "success": 10
+  },
+  "final_score_counts": {
+    "20": 10
+  },
+  "applied_task_controls": {
+    "send": 32,
+    "submit": 20,
+    "wait": 1,
+    "revise": 1
+  },
+  "protocol_rejections": 15,
+  "rejections_by_phase": {
+    "task": 15
+  },
+  "independent_candidate_checks": [
+    {
+      "stage": 2,
+      "trial": 29,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 2,
+      "trial": 30,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 3,
+      "trial": 29,
+      "message": 3,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 3,
+      "trial": 29,
+      "message": 6,
+      "kind": "accept",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 3,
+      "trial": 30,
+      "message": 4,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 3,
+      "trial": 30,
+      "message": 5,
+      "kind": "accept",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 4,
+      "trial": 29,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 4,
+      "trial": 29,
+      "message": 3,
+      "kind": "accept",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 4,
+      "trial": 30,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 5,
+      "trial": 29,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 8,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": false,
+      "score": null,
+      "arithmetic_sum": 25
+    },
+    {
+      "stage": 5,
+      "trial": 29,
+      "message": 3,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 5,
+      "trial": 30,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 6,
+      "trial": 29,
+      "message": 5,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 6,
+      "trial": 30,
+      "message": 5,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    }
+  ],
+  "independent_final_checks": [
+    {
+      "stage": 2,
+      "trial": 29,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 2,
+      "trial": 30,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 3,
+      "trial": 29,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 3,
+      "trial": 30,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 4,
+      "trial": 29,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 4,
+      "trial": 30,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 5,
+      "trial": 29,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 5,
+      "trial": 30,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 6,
+      "trial": 29,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    },
+    {
+      "stage": 6,
+      "trial": 30,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "valid": true,
+      "score": 20,
+      "arithmetic_sum": 20
+    }
+  ],
+  "independent_claim_counts": {
+    "summary": 1158,
+    "fact": 290,
+    "reason": 1,
+    "schedule_score": 2,
+    "schedule_valid": 2
+  },
+  "independent_claim_checks_file": "independent-claim-checks.json",
+  "question_response_checks": [
+    {
+      "stage": 3,
+      "trial": 29,
+      "question_message": 1,
+      "answer_message": 2,
+      "requested_keys": 1,
+      "answer_keys": 74,
+      "exact_requested_keys_answered": 1,
+      "extra_answer_keys": [
+        [
+          "fact",
+          "preference",
+          "B1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          11
+        ]
+      ],
+      "unanswered_exact_keys": [],
+      "value_correctness_scored_separately": true
+    },
+    {
+      "stage": 3,
+      "trial": 29,
+      "question_message": 4,
+      "answer_message": 5,
+      "requested_keys": 72,
+      "answer_keys": 72,
+      "exact_requested_keys_answered": 72,
+      "extra_answer_keys": [],
+      "unanswered_exact_keys": [],
+      "value_correctness_scored_separately": true
+    },
+    {
+      "stage": 3,
+      "trial": 30,
+      "question_message": 1,
+      "answer_message": 2,
+      "requested_keys": 72,
+      "answer_keys": 72,
+      "exact_requested_keys_answered": 72,
+      "extra_answer_keys": [],
+      "unanswered_exact_keys": [],
+      "value_correctness_scored_separately": true
+    },
+    {
+      "stage": 4,
+      "trial": 29,
+      "question_message": 1,
+      "answer_message": 2,
+      "requested_keys": 72,
+      "answer_keys": 72,
+      "exact_requested_keys_answered": 72,
+      "extra_answer_keys": [],
+      "unanswered_exact_keys": [],
+      "value_correctness_scored_separately": true
+    },
+    {
+      "stage": 4,
+      "trial": 30,
+      "question_message": 1,
+      "answer_message": 2,
+      "requested_keys": 72,
+      "answer_keys": 72,
+      "exact_requested_keys_answered": 72,
+      "extra_answer_keys": [],
+      "unanswered_exact_keys": [],
+      "value_correctness_scored_separately": true
+    },
+    {
+      "stage": 5,
+      "trial": 30,
+      "question_message": 1,
+      "answer_message": 2,
+      "requested_keys": 54,
+      "answer_keys": 72,
+      "exact_requested_keys_answered": 54,
+      "extra_answer_keys": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          9
+        ]
+      ],
+      "unanswered_exact_keys": [],
+      "value_correctness_scored_separately": true
+    },
+    {
+      "stage": 6,
+      "trial": 30,
+      "question_message": 3,
+      "answer_message": 4,
+      "requested_keys": 72,
+      "answer_keys": 72,
+      "exact_requested_keys_answered": 72,
+      "extra_answer_keys": [],
+      "unanswered_exact_keys": [],
+      "value_correctness_scored_separately": true
+    }
+  ],
+  "revise_events": [
+    {
+      "stage": 5,
+      "trial": 29,
+      "request_id": "request-4",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 2054,
+      "raw_response": "{\"action\":\"revise\",\"payload\":\"KIND propose\\nAT M1 1\\nAT M2 6\\nAT M3 10\\nWHY_UNAVAILABLE M1 B1 8\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "revise",
+        "payload": "KIND propose\nAT M1 1\nAT M2 6\nAT M3 10\nWHY_UNAVAILABLE M1 B1 8",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-4",
+        "action": "revise"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        3
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  ],
+  "wait_events": [
+    {
+      "stage": 3,
+      "trial": 29,
+      "request_id": "request-14",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 3062,
+      "raw_response": "{\"action\":\"wait\",\"payload\":\"\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "wait",
+        "payload": "",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-14",
+        "action": "wait"
+      },
+      "rejected": null,
+      "delivered_messages": [],
+      "submissions_before": {
+        "B": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        }
+      },
+      "submissions_after": {
+        "B": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        }
+      }
+    }
+  ],
+  "stage3_trial29_B_submission_then_A_wait_then_B_peer_accept_then_A_submission": true,
+  "stage3_trial29_B_submission_preserved": true,
+  "stage3_trial29_A_summary_occurrences": 78,
+  "stage3_trial29_A_summary_unique_keys": 72,
+  "stage3_trial30_B_rejected_mixed_message_split_into_two_later_packets": true,
+  "stage3_trial30_A_invalid_question_removed_not_retransmitted": true,
+  "stage5_trial29_invalid_first_candidate_explicitly_corrected": true,
+  "stage5_trial30_54_question_keys_match_B_feasible_meeting_slots": true,
+  "stage6_both_missing_kinds_added_without_content_change": true,
+  "independent_enumeration": {
+    "assignments": 1728,
+    "valid": 54,
+    "optimal_score": 20,
+    "optimal_schedules": [
+      {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    ]
+  },
+  "original_trial_files_unchanged": true,
+  "execution_source_unchanged": true,
+  "all_stage_evaluator_sources_equal": true,
+  "experiment_model_calls": 0
+}

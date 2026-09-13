@@ -1,0 +1,2304 @@
+{
+  "trial": 29,
+  "initial_author": "/root/stages_5_6",
+  "independent_reviewer": "/root/stages_1_2",
+  "reviewer_kind": "ai",
+  "events_sha256": "d0ee0a969745e08a23fd371725f31df495dafb96a6072d74d64aec0b457f5fae",
+  "draft_sha256": "03c8a1514edca5553aed4b1911205ada655bf4b48e99db18fdcd314fc4b2b0b5",
+  "entries_unchanged": true,
+  "metadata_change": "reviewer identifies separate initial author and independent reviewer; pending wording removed",
+  "source_values_compared_from_raw_messages": [
+    {
+      "message": 1,
+      "expected_source_claims": 72,
+      "draft_claims": 72,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "expected_source_claims": 72,
+      "draft_claims": 72,
+      "matches": true
+    }
+  ],
+  "question_count_verified": 72,
+  "outside_schema_composition_checks": [
+    {
+      "message": 1,
+      "evidence": "M1 (A1 and A2)",
+      "stated_attendees": [
+        "A1",
+        "A2"
+      ],
+      "public_team_attendees": [
+        "A1",
+        "A2"
+      ],
+      "matches": true
+    },
+    {
+      "message": 1,
+      "evidence": "M2 (A2)",
+      "stated_attendees": [
+        "A2"
+      ],
+      "public_team_attendees": [
+        "A2"
+      ],
+      "matches": true
+    },
+    {
+      "message": 1,
+      "evidence": "M3 (A1 and A3)",
+      "stated_attendees": [
+        "A1",
+        "A3"
+      ],
+      "public_team_attendees": [
+        "A1",
+        "A3"
+      ],
+      "matches": true
+    },
+    {
+      "message": 2,
+      "evidence": "M1 (B1)",
+      "stated_attendees": [
+        "B1"
+      ],
+      "public_team_attendees": [
+        "B1"
+      ],
+      "matches": true
+    },
+    {
+      "message": 2,
+      "evidence": "M2 (B1 and B2)",
+      "stated_attendees": [
+        "B1",
+        "B2"
+      ],
+      "public_team_attendees": [
+        "B1",
+        "B2"
+      ],
+      "matches": true
+    },
+    {
+      "message": 2,
+      "evidence": "M3 (B2 and B3)",
+      "stated_attendees": [
+        "B2",
+        "B3"
+      ],
+      "public_team_attendees": [
+        "B2",
+        "B3"
+      ],
+      "matches": true
+    }
+  ],
+  "independent_claim_checks": [
+    {
+      "message": 1,
+      "claim": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        0,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        1,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 3,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        2,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 4,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        3,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 5,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        4,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 6,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        5,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 7,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        6,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 8,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        7,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 9,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        8,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 10,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        9,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 11,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        10,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 12,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        11,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 13,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        0,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 14,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        1,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 15,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        2,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 16,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        3,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 17,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        4,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 18,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        5,
+        5
+      ],
+      "independent_expected": 5,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 19,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        6,
+        6
+      ],
+      "independent_expected": 6,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 20,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        7,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 21,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        8,
+        6
+      ],
+      "independent_expected": 6,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 22,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        9,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 23,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        10,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 24,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M1",
+        11,
+        5
+      ],
+      "independent_expected": 5,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 25,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        0,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 26,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        1,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 27,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        2,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 28,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        3,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 29,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        4,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 30,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        5,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 31,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        6,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 32,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        7,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 33,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        8,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 34,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        9,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 35,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        10,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 36,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M2",
+        11,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 37,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        0,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 38,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        1,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 39,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        2,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 40,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        3,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 41,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        4,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 42,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        5,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 43,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        6,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 44,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        7,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 45,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        8,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 46,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        9,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 47,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        10,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 48,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M2",
+        11,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 49,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        0,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 50,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        1,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 51,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        2,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 52,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        3,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 53,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        4,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 54,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        5,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 55,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        6,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 56,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        7,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 57,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        8,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 58,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        9,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 59,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        10,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 60,
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M3",
+        11,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 61,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        0,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 62,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        1,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 63,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        2,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 64,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        3,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 65,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        4,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 66,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        5,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 67,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        6,
+        5
+      ],
+      "independent_expected": 5,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 68,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        7,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 69,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        8,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 70,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        9,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 71,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        10,
+        5
+      ],
+      "independent_expected": 5,
+      "matches": true
+    },
+    {
+      "message": 1,
+      "claim": 72,
+      "type": "summary",
+      "value": [
+        "preference",
+        "A",
+        "M3",
+        11,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 1,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        0,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 2,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        1,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 3,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        2,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 4,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        3,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 5,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        4,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 6,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        5,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 7,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        6,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 8,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        7,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 9,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        8,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 10,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        9,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 11,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        10,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 12,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M1",
+        11,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 13,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        0,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 14,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        1,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 15,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        2,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 16,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        3,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 17,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        4,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 18,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        5,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 19,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        6,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 20,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        7,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 21,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        8,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 22,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        9,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 23,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        10,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 24,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M1",
+        11,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 25,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        0,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 26,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        1,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 27,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        2,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 28,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        3,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 29,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        4,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 30,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        5,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 31,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        6,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 32,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        7,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 33,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        8,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 34,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        9,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 35,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        10,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 36,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M2",
+        11,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 37,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        0,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 38,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        1,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 39,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        2,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 40,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        3,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 41,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        4,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 42,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        5,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 43,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        6,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 44,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        7,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 45,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        8,
+        3
+      ],
+      "independent_expected": 3,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 46,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        9,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 47,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        10,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 48,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M2",
+        11,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 49,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        0,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 50,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        1,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 51,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        2,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 52,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        3,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 53,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        4,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 54,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        5,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 55,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        6,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 56,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        7,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 57,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        8,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 58,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        9,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 59,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        10,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 60,
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        11,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 61,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        0,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 62,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        1,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 63,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        2,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 64,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        3,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 65,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        4,
+        0
+      ],
+      "independent_expected": 0,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 66,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        5,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 67,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        6,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 68,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        7,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 69,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        8,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 70,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        9,
+        2
+      ],
+      "independent_expected": 2,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 71,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        10,
+        4
+      ],
+      "independent_expected": 4,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 72,
+      "type": "summary",
+      "value": [
+        "preference",
+        "B",
+        "M3",
+        11,
+        1
+      ],
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 73,
+      "type": "schedule_valid",
+      "value": {
+        "schedule": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        },
+        "valid": 1
+      },
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 2,
+      "claim": 74,
+      "type": "schedule_score",
+      "value": {
+        "schedule": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        },
+        "score": 20
+      },
+      "independent_expected": 20,
+      "matches": true
+    },
+    {
+      "message": 3,
+      "claim": 1,
+      "type": "schedule_valid",
+      "value": {
+        "schedule": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        },
+        "valid": 1
+      },
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 3,
+      "claim": 2,
+      "type": "schedule_optimal",
+      "value": {
+        "schedule": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        },
+        "optimal": 1
+      },
+      "independent_expected": 1,
+      "matches": true
+    },
+    {
+      "message": 3,
+      "claim": 3,
+      "type": "schedule_score",
+      "value": {
+        "schedule": {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        },
+        "score": 20
+      },
+      "independent_expected": 20,
+      "matches": true
+    }
+  ],
+  "independent_feasible_schedules": 54,
+  "independent_optimal_score": 20,
+  "independent_optimal_schedules": [
+    {
+      "M1": 1,
+      "M2": 6,
+      "M3": 10
+    }
+  ],
+  "validation_summary": {
+    "content_review_status": "complete",
+    "task_messages": 3,
+    "reviewed_messages": 3,
+    "correct_claims": 149,
+    "incorrect_claims": 0,
+    "undetermined_claims": 0,
+    "unjudgeable_expressions": 8,
+    "codec_errors": 0,
+    "first_proposer": "B",
+    "changed_proposal_messages": 0,
+    "explicit_revisions": 0,
+    "accept_messages": 1,
+    "completion": {
+      "submitted_agents": [
+        "A",
+        "B"
+      ],
+      "both_submitted": true,
+      "identical_submissions": true,
+      "task_status": "success",
+      "error": null
+    },
+    "annotation_reviewer_kind": "ai"
+  },
+  "control_actions": [
+    {
+      "event_sequence": 255,
+      "actor": "A",
+      "action": "send",
+      "schedule": []
+    },
+    {
+      "event_sequence": 526,
+      "actor": "B",
+      "action": "send",
+      "schedule": []
+    },
+    {
+      "event_sequence": 613,
+      "actor": "A",
+      "action": "send",
+      "schedule": []
+    },
+    {
+      "event_sequence": 669,
+      "actor": "B",
+      "action": "submit",
+      "schedule": [
+        {
+          "meeting": "M1",
+          "slot": 1
+        },
+        {
+          "meeting": "M2",
+          "slot": 6
+        },
+        {
+          "meeting": "M3",
+          "slot": 10
+        }
+      ]
+    },
+    {
+      "event_sequence": 724,
+      "actor": "A",
+      "action": "submit",
+      "schedule": [
+        {
+          "meeting": "M1",
+          "slot": 1
+        },
+        {
+          "meeting": "M2",
+          "slot": 6
+        },
+        {
+          "meeting": "M3",
+          "slot": 10
+        }
+      ]
+    }
+  ],
+  "source_hashes_before": {
+    "result.json": "331433cfca083931ac0f6a618ab9629bae9e68e2dd0a1a7324527a2a4fe0805c",
+    "Agent_A.md": "88bbde2df5107d5dc7b099e4d1751cea68ee5dcd5cb2dcebc1fdd331cf60e9af",
+    "Agent_B.md": "64254f22754a9b8fcc62da3ccdaf92de3e9e91ae217e25b6a6cf47ce7c7f7442",
+    "transcript.md": "e47f515b7f663898ce2d2520a63c6bed294a02335869f2f40255eaccee1bc333",
+    "events.jsonl": "d0ee0a969745e08a23fd371725f31df495dafb96a6072d74d64aec0b457f5fae",
+    "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009"
+  },
+  "source_hashes_after": {
+    "result.json": "331433cfca083931ac0f6a618ab9629bae9e68e2dd0a1a7324527a2a4fe0805c",
+    "Agent_A.md": "88bbde2df5107d5dc7b099e4d1751cea68ee5dcd5cb2dcebc1fdd331cf60e9af",
+    "Agent_B.md": "64254f22754a9b8fcc62da3ccdaf92de3e9e91ae217e25b6a6cf47ce7c7f7442",
+    "transcript.md": "e47f515b7f663898ce2d2520a63c6bed294a02335869f2f40255eaccee1bc333",
+    "events.jsonl": "d0ee0a969745e08a23fd371725f31df495dafb96a6072d74d64aec0b457f5fae",
+    "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009"
+  },
+  "initial_draft_notes_and_project_python_sources_unchanged": true,
+  "actual_model_calls": 0
+}

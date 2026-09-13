@@ -1,0 +1,3256 @@
+{
+  "version": 3,
+  "review_policy_version": "observation-review-v3.1",
+  "claim_counts_by_type": {
+    "fact": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "summary": {
+      "occurrences": 128,
+      "judged": 128,
+      "correct": 128,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "reason": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_score": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_valid": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_optimal": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "meeting_score": {
+      "occurrences": 3,
+      "judged": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "meeting_available": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_constraint": {
+      "occurrences": 2,
+      "judged": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "public_precedence": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    }
+  },
+  "unique_claims": 134,
+  "claim_occurrences": 134,
+  "claim_changes": [],
+  "scope": "post-run observable content; no hidden reasoning; no feedback to agents",
+  "content_review_status": "complete",
+  "content_review_scope": "source-anchored annotations",
+  "task_messages": 3,
+  "reviewed_messages": 3,
+  "correct_claims": 134,
+  "incorrect_claims": 0,
+  "undetermined_claims": 0,
+  "unjudgeable_expressions": 2,
+  "codec_errors": 0,
+  "information_sharing": {
+    "A": {
+      "reviewed_messages": 2,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 60
+    },
+    "B": {
+      "reviewed_messages": 1,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 68
+    }
+  },
+  "first_proposer": "A",
+  "changed_proposal_messages": 0,
+  "explicit_revisions": 0,
+  "accept_messages": 0,
+  "agreement_note": "Acceptance expressions do not prove independent verification or final submission.",
+  "completion": {
+    "submitted_agents": [
+      "A",
+      "B"
+    ],
+    "both_submitted": true,
+    "identical_submissions": true,
+    "task_status": "success",
+    "error": null
+  },
+  "format_errors": [],
+  "messages": [
+    {
+      "message": 1,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2;",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "available slots with preference sums라는 원문 정의에 따른 명시 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3.",
+          "annotation_note": "명시된 가용 슬롯 선호합 값만 전사했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "Please share your team's availability and preference sums for M1, M2, and M3 at each slot. My A-team summaries (available slots with preference sums) are: M1: slot 1=2, 3=3, 4=0, 7=2, 8=6, 9=3, 11=5; M2: slot 1=1, 2=3, 3=2, 4=0, 6=3, 7=0, 8=3, 9=2, 11=2; M3: slot 0=2, 1=3, 4=0, 5=2, 8=3, 9=2, 10=5, 11=3. All unlisted slots are unavailable for that A-team meeting.",
+          "annotation_note": "All unlisted slots are unavailable for that A-team meeting.이라고 직접 전칭 부정을 명시했다. 해당 회의의 실제 목록과 공통 슬롯 0–11의 여집합을 전개한 것이며 임의 생략 추론이 아니다. 미발화 선호합은 채우지 않는다."
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "A는 가용 슬롯 24개의 선호합과 All unlisted slots are unavailable라는 명시 부정 규칙을 보냈다. 따라서 A 가용성 36개와 발화한 선호 24개, 총 60개 summary claim을 기록했다. 가용성 0이 직접 전칭 선언됐다는 점에서 단순 목록 생략과 다르다. 불가 슬롯 선호합은 말하지 않아 0이나 정답으로 채우지 않았다. 상대 팀 availability/preference sums at each slot 요청은 세 회의·전 슬롯 두 관계의 72개 질문으로 대응했다. 독립 AI 검수: 이번 task 원문의 모든 명시값·근거를 전수 대조했고 의미 필드를 유지했다. A의 직접 전칭 부정과 B의 단순 생략/직접 불가 명시를 구별하여 전사·검산했으며 사후 원자료로 미발화값을 채우지 않았다.",
+      "questions": [
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          11
+        ]
+      ],
+      "references": []
+    },
+    {
+      "message": 2,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "unavailable-slot preference sums라고 해당 슬롯의 불가를 직접 한정했으므로 available=0으로 전개했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "불가 슬롯에서도 별도로 발화한 선호합을 그대로 유지한다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "unavailable-slot preference sums라고 해당 슬롯의 불가를 직접 한정했으므로 available=0으로 전개했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "불가 슬롯에서도 별도로 발화한 선호합을 그대로 유지한다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "unavailable-slot preference sums라고 해당 슬롯의 불가를 직접 한정했으므로 available=0으로 전개했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "불가 슬롯에서도 별도로 발화한 선호합을 그대로 유지한다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "unavailable-slot preference sums라고 해당 슬롯의 불가를 직접 한정했으므로 available=0으로 전개했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M2 has available slots 0=4, 2=0, 4=2, 5=4, 6=4, 7=3, 10=4, and 11=4; its unavailable-slot preference sums are 1=3, 3=2, 8=3, and 9=2.",
+          "annotation_note": "불가 슬롯에서도 별도로 발화한 선호합을 그대로 유지한다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "has available slots에 직접 나열한 항목의 가용성 1이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "해당 명시 슬롯의 발화 선호합이다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "unavailable-slot preference sums라고 해당 슬롯의 불가를 직접 한정했으므로 available=0으로 전개했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "불가 슬롯에서도 별도로 발화한 선호합을 그대로 유지한다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "unavailable-slot preference sums라고 해당 슬롯의 불가를 직접 한정했으므로 available=0으로 전개했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "불가 슬롯에서도 별도로 발화한 선호합을 그대로 유지한다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "unavailable-slot preference sums라고 해당 슬롯의 불가를 직접 한정했으므로 available=0으로 전개했다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "M3 has available slots 0=4, 2=1, 3=4, 5=2, 6=2, 7=2, 8=2, 10=4, and 11=1; its unavailable-slot preference sums are 1=4, 4=0, and 9=2.",
+          "annotation_note": "불가 슬롯에서도 별도로 발화한 선호합을 그대로 유지한다."
+        }
+      ],
+      "unjudgeable": [
+        "M1 has available slots 0=2, 1=2, 2=0, 4=2, 5=2, 6=2, 7=1, 9=0, 10=3, and 11=3."
+      ],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "B의 M1 가용 슬롯 10개는 가용성 및 선호 20개 주장으로 기록했다. M1에는 only/all unlisted unavailable 또는 불가 슬롯 선언이 없어 생략 슬롯 3/8을 불가로 채우지 않았다. 목록이 전체인지의 범위는 발췌로 보존한다. 직전 A의 All unlisted 규칙은 그 A-team meeting에 한정되어 B로 확장하지 않았다. 반면 B의 M2/M3는 unavailable-slot preference sums를 직접 명시해 그 슬롯의 가용성 0과 선호합까지 전개했다. 각 24개, B 전체 68개 주장이다. M1의 생략 선호값도 추가하지 않았다. 독립 AI 검수: 이번 task 원문의 모든 명시값·근거를 전수 대조했고 의미 필드를 유지했다. A의 직접 전칭 부정과 B의 단순 생략/직접 불가 명시를 구별하여 전사·검산했으며 사후 원자료로 미발화값을 채우지 않았다.",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 3,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "They are distinct",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "satisfy M1-before-M3",
+          "annotation_note": null
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "score": 4
+          },
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "the combined team preference sums are 4, 7, and 9 respectively (total 20).",
+          "annotation_note": "combined team preference sums와 respectively를 앞의 M1/M2/M3 순서에 대응하는 전체 참석자 회의별 점수로 읽었다. 개별 팀 기여를 임의 분해하지 않았다."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "score": 7
+          },
+          "expected": 7,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "the combined team preference sums are 4, 7, and 9 respectively (total 20).",
+          "annotation_note": "combined team preference sums와 respectively를 앞의 M1/M2/M3 순서에 대응하는 전체 참석자 회의별 점수로 읽었다. 개별 팀 기여를 임의 분해하지 않았다."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "score": 9
+          },
+          "expected": 9,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "the combined team preference sums are 4, 7, and 9 respectively (total 20).",
+          "annotation_note": "combined team preference sums와 respectively를 앞의 M1/M2/M3 순서에 대응하는 전체 참석자 회의별 점수로 읽었다. 개별 팀 기여를 임의 분해하지 않았다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "the combined team preference sums are 4, 7, and 9 respectively (total 20).",
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [
+        "Please confirm this schedule, and submit the same slots if you agree."
+      ],
+      "proposal_quality": {
+        "valid": true,
+        "score": 20,
+        "violations": [],
+        "gap": 0
+      },
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "후보 1/6/10 및 명시 distinct·precedence·회의별 4/7/9·총점 20을 보존했다. combined team은 두 팀을 합한 회의별 선호합이며 각 팀의 별도 값으로 분해하지 않았다. legal/optimal/가용성은 이 메시지에 직접 없어서 추가하지 않았다. 확인과 조건부 submit 요청은 실제 동의/제출이 아니다. 후속 제어 submit을 전송 accept 메시지로 만들어 넣지 않았다. 독립 AI 검수: 이번 task 원문의 모든 명시값·근거를 전수 대조했고 의미 필드를 유지했다. A의 직접 전칭 부정과 B의 단순 생략/직접 불가 명시를 구별하여 전사·검산했으며 사후 원자료로 미발화값을 채우지 않았다.",
+      "questions": [],
+      "references": []
+    }
+  ],
+  "annotation_reviewer_kind": "ai",
+  "annotation_reviewer": "Codex /root/stages_5_6; independent AI source audit of /root/stages_1_2 draft across all delivered task packets in trial-23; 2026-09-13"
+}

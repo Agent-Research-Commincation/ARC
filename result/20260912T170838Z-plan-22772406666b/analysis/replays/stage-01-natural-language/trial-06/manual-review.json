@@ -1,0 +1,2393 @@
+{
+  "version": 1,
+  "events_sha256": "addbc0dfa891e770c6a9b362dba569ffd268991b4b3d676d0afa5511838d0c82",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_5_6; independent AI audit of /root/stages_1_2 draft against all delivered task packets in trial-06; 2026-09-13",
+  "entries": [
+    {
+      "message": 1,
+      "status": "complete",
+      "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3. For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4. For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "evidence": "For B attendees of M1, the availability and preference total by slot are: slot 0 available, 2; slot 1 available, 2; slot 2 available, 0; slot 3 unavailable, 1; slot 4 available, 2; slot 5 available, 2; slot 6 available, 2; slot 7 available, 1; slot 8 unavailable, 3; slot 9 available, 0; slot 10 available, 3; slot 11 available, 3.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "evidence": "For B attendees of M2, they are: slot 0 available, 4; slot 1 unavailable, 3; slot 2 available, 0; slot 3 unavailable, 2; slot 4 available, 2; slot 5 available, 4; slot 6 available, 4; slot 7 available, 3; slot 8 unavailable, 3; slot 9 unavailable, 2; slot 10 available, 4; slot 11 available, 4.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+          "note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+        }
+      ],
+      "unjudgeable": [],
+      "notes": "B팀의 회의별 슬롯0–11 가용성/선호합을 전부 직접 열거해 요약72개로 전개했다. 특히 M3 슬롯9는 available이라고 발화하여1로 보존했다. 개인별 원자료로 분해하거나 생략 슬롯을 불가로 추론하지 않았다. 독립 AI 검수: 해당 회차의 실제 전달 원문 전체와 직접 대조했다. 초안의 발화값·분류·주장 범위를 유지했다."
+    },
+    {
+      "message": 2,
+      "status": "complete",
+      "evidence": "I propose M1 at slot 1 (D1 10:00), M2 at slot 6 (D2 09:00), and M3 at slot 10 (D2 14:00). They use distinct slots and satisfy M1 before M3. Based on the shared summaries and my attendees' data, the total preference score is 20. Please confirm this exact schedule.",
+      "kinds": [
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "evidence": "They use distinct slots"
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "evidence": "satisfy M1 before M3"
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "Based on the shared summaries and my attendees' data, the total preference score is 20."
+        }
+      ],
+      "unjudgeable": [
+        "M1 at slot 1 (D1 10:00)",
+        "M2 at slot 6 (D2 09:00)",
+        "M3 at slot 10 (D2 14:00)",
+        "Please confirm this exact schedule."
+      ],
+      "notes": "명시된 후보와 distinct/precedence/20점 주장을 기록했다. legal이라고 직접 말하지 않아 schedule_valid=1은 덧붙이지 않았다. 세 슬롯의 시간 이름 대응은 스키마 밖 공통 입력 대조로 별도 검산했다. 동의 요청은 request로 분류하되 agreement typed 질문이나 재검토 ID를 만들지 않았다. 독립 AI 검수: 해당 회차의 실제 전달 원문 전체와 직접 대조했다. 초안의 발화값·분류·주장 범위를 유지했다."
+    },
+    {
+      "message": 3,
+      "status": "complete",
+      "evidence": "I calculate the B-side preference contribution for your schedule as 10. Before confirming, please share your A-side team summaries by meeting and slot so we can compare legal schedules and maximize the combined score.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          11
+        ]
+      ],
+      "references": [],
+      "claims": [],
+      "unjudgeable": [
+        "I calculate the B-side preference contribution for your schedule as 10."
+      ],
+      "notes": "your schedule은 직전의 유일한1,6,10 후보를 가리킨다. B팀 전체 일정 기여10점은 전체 두 팀 schedule_score나 한 회의 summary와 달라 지원 claim을 임의 생성하지 않았다. 별도 검산 메모에 이 주장을 명시했다. A-side team summaries by meeting and slot은 앞서 동일한 형식으로 제시한 세 회의·전 슬롯·두 관계 요약 요청으로72개 질문에 연결했다. compare/maximize는 목적이며 최적성 단정이 아니다. Before confirming은 실제 수락이 아니다. 독립 AI 검수: 해당 회차의 실제 전달 원문 전체와 직접 대조했다. 초안의 발화값·분류·주장 범위를 유지했다. 요청은 선행 문맥에서 정의한 availability/preference 요약 전체를 가리킨다고 해석한다. 72개는 실제 발화 문장 수가 아니라 정규화한 요청 항목 수다."
+    },
+    {
+      "message": 4,
+      "status": "complete",
+      "evidence": "Here are the A-side team summaries, each listed as slot: availability, preference total. M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5. M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2. M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3. The proposed schedule gives A-side 10 and B-side 10, for 20 total. It remains my recommended maximum-scoring schedule; please confirm if you agree.",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "evidence": "M1: 0: 0,4; 1: 1,2; 2: 0,3; 3: 1,3; 4: 1,0; 5: 0,5; 6: 0,6; 7: 1,2; 8: 1,6; 9: 1,3; 10: 0,4; 11: 1,5.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "evidence": "M2: 0: 0,2; 1: 1,1; 2: 1,3; 3: 1,2; 4: 1,0; 5: 0,3; 6: 1,3; 7: 1,0; 8: 1,3; 9: 1,2; 10: 0,1; 11: 1,2.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "evidence": "M3: 0: 1,2; 1: 1,3; 2: 0,0; 3: 0,1; 4: 1,0; 5: 1,2; 6: 0,5; 7: 0,4; 8: 1,3; 9: 1,2; 10: 1,5; 11: 1,3.",
+          "note": "발화에서 명시한 slot: availability, preference total 쌍 그대로 전개."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "The proposed schedule gives A-side 10 and B-side 10, for 20 total."
+        },
+        {
+          "type": "schedule_optimal",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "optimal": 1
+          },
+          "evidence": "It remains my recommended maximum-scoring schedule;",
+          "note": "maximum-scoring가 바로 앞의 proposed schedule(1,6,10)을 직접 수식하므로 최대 점수라는 명시적 평가를 기록했다. recommended는 추천 태도이며 내부 탐색의 완전성·실제 제출·상대 수락을 증명하지 않는다. 최고값20은 직전 문장에 직접 명시됐다."
+        }
+      ],
+      "unjudgeable": [
+        "The proposed schedule gives A-side 10 and B-side 10",
+        "please confirm if you agree."
+      ],
+      "notes": "A팀 전체72개 요약을 발화대로 기록했다. 전체 일정의 A-side10/B-side10 기여는 스키마 밖 주장으로 별도 검산하고, 직접 언급하지 않은 회의별 기여 숫자를 생성하지 않았다. it/remains의 문맥은 기존1,6,10 후보이고 maximum-scoring 수식의 근거를 claim note에 명시했다. 같은 후보를 재추천하며 동의를 요청한 것으로 분류했으며 대안 변경이나 accept로 세지 않았다. 실제 stop payload는 상대 task 메시지가 아니므로 여기 포함하지 않았다. 독립 AI 검수: 해당 회차의 실제 전달 원문 전체와 직접 대조했다. 초안의 발화값·분류·주장 범위를 유지했다. maximum-scoring은 명시적 최상급 후보 평가로 해석하며, 내부 전수탐색을 했다는 주장이나 상대의 동의로 확장하지 않는다."
+    }
+  ]
+}

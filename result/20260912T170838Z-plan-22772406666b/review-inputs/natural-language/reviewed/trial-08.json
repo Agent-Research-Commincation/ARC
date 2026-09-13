@@ -1,0 +1,2320 @@
+{
+  "version": 1,
+  "events_sha256": "36de7bebfa8508931ce776683c7a228df6d9b9bd67dad9913fdc4c0cc1588e54",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_5_6; independent AI audit of /root/stages_1_2 draft against all delivered trial-08 task packets; 2026-09-13",
+  "entries": [
+    {
+      "message": 1,
+      "status": "complete",
+      "evidence": "For B’s attendees, the team summaries for slots 0 through 11 are as follows. M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3. M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4. M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1. Please share the corresponding A-attendee team summaries for all three meetings and all slots.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          11
+        ]
+      ],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "evidence": "M1 availability: 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1; preference: 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "evidence": "M2 availability: 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1; preference: 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 availability: 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1; preference: 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        }
+      ],
+      "unjudgeable": [],
+      "notes": "B팀의 세 회의·전체12슬롯 가용성/선호합72개를 직접 명시했다. corresponding A-attendee team summaries for all three meetings and all slots는 방금 보낸 동일형식의 A팀72개 요약 질문으로 연결했다. 개인별 원자료를 요청했다고 바꾸지 않았다. 독립 AI 검수: slots 0 through 11과 corresponding/all이 명시되므로 두 관계의 전체 배열 및 대응 질문 범위를 유지했다. 72는 정규화된 요약/요청 항목 수이고 자연어 문장 수가 아니다."
+    },
+    {
+      "message": 2,
+      "status": "complete",
+      "evidence": "A-attendee team summaries, slots 0 through 11: M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5. M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2. M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3. I calculate a top-scoring legal schedule as M1 slot 1, M2 slot 6, M3 slot 10, with total score 20. Please confirm or share any better candidate.",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "evidence": "M1 availability: 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1; preference: 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "evidence": "M2 availability: 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1; preference: 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "evidence": "M3 availability: 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1; preference: 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "note": "원문 slots 0 through 11의 명시 배열 순서대로 전개. 발화값을 정답으로 대체하거나 생략을 불가로 추론하지 않았다."
+        },
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "evidence": "I calculate a top-scoring legal schedule as M1 slot 1, M2 slot 6, M3 slot 10, with total score 20.",
+          "note": "legal이 직접 수식하는 완전한 후보의 유효성을 기록."
+        },
+        {
+          "type": "schedule_optimal",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "optimal": 1
+          },
+          "evidence": "I calculate a top-scoring legal schedule as M1 slot 1, M2 slot 6, M3 slot 10, with total score 20.",
+          "note": "top-scoring은 최고 점수라는 명시적 최상급 평가로 읽었다. a는 공동 최적 후보가 여럿일 가능성을 허용하며 최고 점수 평가를 취소하지 않는다. 단순 high-scoring으로 바꾸거나 내부 전수검사를 했다고 추론하지 않았다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "I calculate a top-scoring legal schedule as M1 slot 1, M2 slot 6, M3 slot 10, with total score 20."
+        }
+      ],
+      "unjudgeable": [
+        "Please confirm or share any better candidate."
+      ],
+      "notes": "A팀72개 요약, 최초 완전 후보1/6/10, legal·top-scoring·20점 발화를 구분했다. I calculate는 여기서 후보 계산 결과를 소개하며 별도의 숨은 계산 완료 메타 claim을 추가하지 않았다. 확인 또는 더 나은 대안 요청은 request 종류와 발췌로 보존하되 typed agreement나 임의 메시지ID/점수질문을 만들지 않았다. 상대가 수락했다는 말은 없다. 독립 AI 검수: top-scoring은 제한된 비교집합이나 조건이 명시되지 않은 최고 점수 평가로 읽는다. 후속 better candidate 요청은 반론을 구하는 발화이며 더 나은 후보의 존재나 상대 수락을 단정하지 않는다. 내부 전수탐색 여부는 확인하지 않는다."
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "trial": "trial-11",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_5_6; independent AI audit of /root/stages_1_2 draft against every delivered task packet in trial-11; 2026-09-13",
+  "events_sha256": "c25f9a6ae01b5d8d8fee8c486ffe4a014a0bfbeb1d14152be6556e89a034efd5",
+  "draft_sha256": "7a22b2a66a96d62324c9ba4a774675bd6135d6b7a72b32686ad88c1467827735",
+  "reviewed_annotation_sha256": "e8a0e06b7e5e7f0d057cdbd2238d09045f195505316b1918ce353f5299402257",
+  "draft_semantic_field_changes": [],
+  "independent_source_transcription": {
+    "explicit_array_summary_fields": 144,
+    "all_match_draft_and_raw_input": true,
+    "additional_explicit_team_availability_claims": 0,
+    "implicit_negative_availability_claims_added": 0,
+    "per_message_claim_counts": [
+      72,
+      72,
+      8
+    ],
+    "question_items": 72,
+    "schedule_optimal_claims": 1
+  },
+  "validation": {
+    "content_review_status": "complete",
+    "task_messages": 3,
+    "reviewed_messages": 3,
+    "correct_claims": 152,
+    "incorrect_claims": 0,
+    "undetermined_claims": 0,
+    "unjudgeable_expressions": 4,
+    "codec_errors": 0,
+    "first_proposer": "A",
+    "changed_proposal_messages": 0,
+    "explicit_revisions": 0,
+    "accept_messages": 0,
+    "completion": {
+      "submitted_agents": [
+        "A",
+        "B"
+      ],
+      "both_submitted": true,
+      "identical_submissions": true,
+      "task_status": "success",
+      "error": null
+    },
+    "annotation_reviewer_kind": "ai"
+  },
+  "offline_independent_calculation": {
+    "method": "Own raw-input enumeration of all 12^3 assignments, without problem/evaluation helper calls; calculated values never fill utterances.",
+    "selected_schedule": {
+      "M1": 1,
+      "M2": 6,
+      "M3": 10
+    },
+    "selected_feasible": true,
+    "selected_score": 20,
+    "feasible_count": 54,
+    "optimal_score": 20,
+    "optimal_schedules": [
+      {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    ],
+    "meeting_scores_for_verification_only": {
+      "M1": 4,
+      "M2": 7,
+      "M3": 9
+    },
+    "shared_attendees_for_constraint_scope": {
+      "M1/M2": [
+        "A2",
+        "B1"
+      ],
+      "M1/M3": [
+        "A1"
+      ],
+      "M2/M3": [
+        "B2"
+      ]
+    },
+    "spoken_time_labels": {
+      "1": "D1 10:00",
+      "6": "D2 09:00",
+      "10": "D2 14:00"
+    },
+    "spoken_time_labels_match": true
+  },
+  "excluded_control_actions": [
+    {
+      "event_sequence": 828,
+      "actor": "B",
+      "action": "submit",
+      "payload": "",
+      "schedule": [
+        {
+          "meeting": "M1",
+          "slot": 1
+        },
+        {
+          "meeting": "M2",
+          "slot": 6
+        },
+        {
+          "meeting": "M3",
+          "slot": 10
+        }
+      ],
+      "language": []
+    },
+    {
+      "event_sequence": 883,
+      "actor": "A",
+      "action": "submit",
+      "payload": "",
+      "schedule": [
+        {
+          "meeting": "M1",
+          "slot": 1
+        },
+        {
+          "meeting": "M2",
+          "slot": 6
+        },
+        {
+          "meeting": "M3",
+          "slot": 10
+        }
+      ],
+      "language": []
+    }
+  ],
+  "original_result": {
+    "status": "success",
+    "operational_status": "normal",
+    "success": true,
+    "actions": 5,
+    "message_count": 3,
+    "evaluation": {
+      "valid": true,
+      "score": 20,
+      "violations": []
+    },
+    "submissions": {
+      "B": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "A": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    }
+  },
+  "source_unchanged": true,
+  "source_file_hashes_before_and_after": {
+    "Agent_A.md": "3aa11cab44c178f86b894974092aa8cb07e3b404546110a7202adbcdcde68acd",
+    "Agent_B.md": "f97196d5054b8dbf891a76b9cf95de796e9514e82cf63825d666e7e84b57aafa",
+    "events.jsonl": "c25f9a6ae01b5d8d8fee8c486ffe4a014a0bfbeb1d14152be6556e89a034efd5",
+    "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+    "result.json": "9ff621703474a561aa7cc137c73e23946156715a9f4a3ae937faab2c84a2524c",
+    "transcript.md": "c25748ae8be03d2a1d2c0bac07d5b10f41d04f92460886862fc21e57074b8520"
+  },
+  "draft_unchanged": true,
+  "core_snapshot_unchanged": true,
+  "core_snapshot_sha256": "289422ae2e34dd86700820e4c646a88b3f564ef969f8dff6bd8752afb4732b5f",
+  "temporary_validation_removed": true
+}

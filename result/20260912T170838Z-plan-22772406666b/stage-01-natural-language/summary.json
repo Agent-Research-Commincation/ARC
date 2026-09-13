@@ -1,0 +1,78 @@
+{
+  "completed_trials": 30,
+  "attempted_trials": 30,
+  "infrastructure_errors": 0,
+  "terminal_trials": 30,
+  "not_started_trials": 0,
+  "status_counts": {
+    "success": 28,
+    "stopped": 1,
+    "failed": 1
+  },
+  "operational_interruptions": 0,
+  "expected_trials": 30,
+  "success_count": 28,
+  "success_rate": 0.9333333333333333,
+  "batch_complete": true,
+  "quality_gap_successes": {
+    "count": 28,
+    "mean": 0,
+    "median": 0.0,
+    "min": 0,
+    "max": 0
+  },
+  "total_cost_estimate_usd": null,
+  "cost_per_success_estimate_usd": null,
+  "model_cost_estimate_usd": 0.24443576000000003,
+  "known_partial_model_cost_estimate_usd": 0.24443576000000003,
+  "model_cost_measured_trials": 30,
+  "model_cost_per_success_estimate_usd": 0.008729848571428573,
+  "cost_note": "Model-only values are partial API-equivalent estimates, not total costs or actual subscription charges. Unmeasured costs are null.",
+  "completion_seconds_successes": {
+    "count": 28,
+    "mean": 109.16394829160714,
+    "median": 100.618126625,
+    "min": 90.290870666,
+    "max": 155.022357
+  },
+  "termination_seconds_all": {
+    "count": 30,
+    "mean": 109.65263112219999,
+    "median": 101.748614729,
+    "min": 90.290870666,
+    "max": 155.022357
+  },
+  "communication_bytes": {
+    "count": 30,
+    "mean": 1719.1,
+    "median": 1626.5,
+    "min": 1044,
+    "max": 3146
+  },
+  "communication_processing_cpu_seconds": {
+    "count": 30,
+    "mean": 0.0001911651000000301,
+    "median": 0.00019531150000003106,
+    "min": 0.00011400000000008625,
+    "max": 0.0002857920000000902
+  },
+  "communication_processing_cost_estimate_usd": null,
+  "protocol_errors": 0,
+  "task_sender_text_bytes": {
+    "count": 30,
+    "mean": 1327.7666666666667,
+    "median": 1191.5,
+    "min": 816,
+    "max": 2463
+  },
+  "task_receiver_text_bytes": {
+    "count": 30,
+    "mean": 1327.7666666666667,
+    "median": 1191.5,
+    "min": 816,
+    "max": 2463
+  },
+  "runner_turns": 173,
+  "request_count_scope": "Runner input/response turns, not provider-internal calls or HTTP requests.",
+  "model_calls": 173
+}

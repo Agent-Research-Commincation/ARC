@@ -1,0 +1,3092 @@
+{
+  "version": 3,
+  "review_policy_version": "observation-review-v3.1",
+  "claim_counts_by_type": {
+    "fact": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "summary": {
+      "occurrences": 123,
+      "judged": 123,
+      "correct": 123,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "reason": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_score": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_valid": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_optimal": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "meeting_score": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "meeting_available": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_constraint": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "public_precedence": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    }
+  },
+  "unique_claims": 126,
+  "claim_occurrences": 126,
+  "claim_changes": [],
+  "scope": "post-run observable content; no hidden reasoning; no feedback to agents",
+  "content_review_status": "complete",
+  "content_review_scope": "source-anchored annotations",
+  "task_messages": 2,
+  "reviewed_messages": 2,
+  "correct_claims": 126,
+  "incorrect_claims": 0,
+  "undetermined_claims": 0,
+  "unjudgeable_expressions": 7,
+  "codec_errors": 0,
+  "information_sharing": {
+    "A": {
+      "reviewed_messages": 1,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 60
+    },
+    "B": {
+      "reviewed_messages": 1,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 63
+    }
+  },
+  "first_proposer": "A",
+  "changed_proposal_messages": 0,
+  "explicit_revisions": 0,
+  "accept_messages": 0,
+  "agreement_note": "Acceptance expressions do not prove independent verification or final submission.",
+  "completion": {
+    "submitted_agents": [
+      "A",
+      "B"
+    ],
+    "both_submitted": true,
+    "identical_submissions": true,
+    "task_status": "success",
+    "error": null
+  },
+  "format_errors": [],
+  "messages": [
+    {
+      "message": 1,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preference sums are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: available at 0, 2, 4, 5, 6, 7, 10, 11; preference sums are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preference sums are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        }
+      ],
+      "unjudgeable": [
+        "M1: available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+        "M2: available at 0, 2, 4, 5, 6, 7, 10, 11",
+        "M3: available at 0, 2, 3, 5, 6, 7, 8, 10, 11"
+      ],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "B 팀 가용성 긍정 27개와 전 슬롯 선호합 36개를 직접 전개했다. 가용 목록의 완전성은 명시되지 않아 목록 발췌에 범위 불확실성을 남기고 생략값을 불가로 만들지 않았다. A-team summaries 요청은 같은 세 회의·두 관계·슬롯 0–11의 72개 질문으로 대응한다. shared optimal legal schedule은 앞으로 찾을 목표여서 현재 최적성 주장으로 만들지 않았다. 독립 AI 검수: 이번 원문 전수 대조 후 의미 필드를 유지했다. 미열거 가용성을 불가로 채우지 않았고 명시 optimal legal·최대20의 의미, 대안 요청, 실제 submit/wait를 별도로 검수했다.",
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          11
+        ]
+      ],
+      "references": []
+    },
+    {
+      "message": 2,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1 available at 1, 3, 4, 7, 8, 9, 11; preference sums are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, 5.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11; preference sums are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, 2.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11",
+          "annotation_note": "가용하다고 직접 나열한 슬롯만 1로 전개했다. only/나머지 불가 선언이 없어 생략 슬롯을 0으로 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3 available at 0, 1, 4, 5, 8, 9, 10, 11; preference sums are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, 3.",
+          "annotation_note": "by slot ID 0–11 문맥에 대응하는 명시된 12개 선호합을 순서대로 전개했다. 가용성 생략과 별개이며 정답으로 바꾸지 않았다."
+        },
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "Combining these with your summaries, I calculate a maximum score of 20; one optimal legal schedule is M1 at slot 1, M2 at slot 6, and M3 at slot 10.",
+          "annotation_note": "명시된 현재 후보를 legal이라고 직접 평가했다."
+        },
+        {
+          "type": "schedule_optimal",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "optimal": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "Combining these with your summaries, I calculate a maximum score of 20; one optimal legal schedule is M1 at slot 1, M2 at slot 6, and M3 at slot 10.",
+          "annotation_note": "one optimal legal schedule이라고 현재 후보의 최적성을 확정형으로 직접 말했다. my best/I find처럼 찾은 후보 집합으로 제한하는 표현이 아니다. one은 존재하는 최적해 하나를 제시할 뿐 유일성이나 복수 최적해 존재 주장은 아니다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "Combining these with your summaries, I calculate a maximum score of 20; one optimal legal schedule is M1 at slot 1, M2 at slot 6, and M3 at slot 10.",
+          "annotation_note": "같은 문장에서 최대값 20과 그 최대값을 달성하는 optimal 후보를 연결했으므로 이 후보의 점수 20으로 기록했다. 숫자나 최적성은 사후 평가기에서 채워 넣은 것이 아니다."
+        }
+      ],
+      "unjudgeable": [
+        "M1 available at 1, 3, 4, 7, 8, 9, 11",
+        "M2 available at 1, 2, 3, 4, 6, 7, 8, 9, 11",
+        "M3 available at 0, 1, 4, 5, 8, 9, 10, 11",
+        "Please confirm or send any better candidate you find."
+      ],
+      "proposal_quality": {
+        "valid": true,
+        "score": 20,
+        "violations": [],
+        "gap": 0
+      },
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "A 팀 가용성 긍정 24개와 전 슬롯 선호합 36개를 기록했다. 생략 가용성을 불가로 생성하지 않았다. maximum score 20과 one optimal legal schedule이라는 명시 확정 평가를 후보 1/6/10의 score/optimal/valid로 연결했다. I calculate는 이 숫자의 계산 결과를 말하는 표현이며 검증 과정 수행을 입증하는 별도 메타 claim은 만들지 않는다. 조건부 better candidate 요청은 더 좋은 후보가 존재한다거나 실제 수락했다는 뜻이 아니다. 현재 후보의 명시 최적성 문장을 요청 때문에 지우거나 반대로 상대의 수락으로 강화하지 않았다. 직접 말하지 않은 uniqueness·제약·가용성·회의별 점수는 추가하지 않았다. 후속 submit/wait는 task 주장에 포함하지 않는다. 독립 AI 검수: 이번 원문 전수 대조 후 의미 필드를 유지했다. 미열거 가용성을 불가로 채우지 않았고 명시 optimal legal·최대20의 의미, 대안 요청, 실제 submit/wait를 별도로 검수했다.",
+      "questions": [],
+      "references": []
+    }
+  ],
+  "annotation_reviewer_kind": "ai",
+  "annotation_reviewer": "Codex /root/stages_5_6; independent AI source audit of /root/stages_1_2 draft across all delivered task packets in trial-28; 2026-09-13"
+}

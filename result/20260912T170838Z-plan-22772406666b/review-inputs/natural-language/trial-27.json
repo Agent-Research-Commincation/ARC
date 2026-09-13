@@ -1,0 +1,2171 @@
+{
+  "version": 1,
+  "events_sha256": "c47e183fe6aad55dbfbbd7336fda24622920eabde21222b64a03f2601b4403cd",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_1_2; source-anchored initial AI annotation of all task packets in completed trial-27; 2026-09-13",
+  "entries": [
+    {
+      "message": 1,
+      "status": "complete",
+      "evidence": "For my attendees, M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5. M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2. M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3. Please share your attendee summaries for M1, M2, and M3 so we can find the best legal schedule.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          11
+        ]
+      ],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "evidence": "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "evidence": "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; its summed preferences for slots 0 through 11 are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "evidence": "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11; its summed preferences for slots 0 through 11 are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        }
+      ],
+      "unjudgeable": [
+        "M1 is available at slots 1, 3, 4, 7, 8, 9, and 11",
+        "M2 is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11",
+        "M3 is available at slots 0, 1, 4, 5, 8, 9, 10, and 11"
+      ],
+      "notes": "A는 가용 슬롯 24개의 긍정과 세 회의의 전 슬롯 선호합 36개를 직접 말했다. available at 목록에 only나 나머지 불가 선언이 없어 누락 가용성을 0으로 채우지 않았다. 각 목록 발췌는 완전성 범위의 미확정이며 이미 기록한 긍정값이 불명확하다는 뜻은 아니다. your attendee summaries for M1/M2/M3 요청은 같은 회의별 팀 가용성·선호를 대상으로 한 것으로 읽어 B 팀 전 슬롯 72개 질문으로 대응했다. best legal을 찾는다는 목적은 현재 최적성/유효성 주장이 아니다."
+    },
+    {
+      "message": 2,
+      "status": "complete",
+      "evidence": "My team summaries, with available slots followed by preference sums for slots 0 through 11: M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3. M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4. M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1. The best combined schedule I find is M1 at slot 1, M2 at slot 6, and M3 at slot 10, for total preference 20. Please verify and confirm this candidate.",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "evidence": "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11; preferences are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "evidence": "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11; preferences are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+          "note": "가용하다고 직접 나열한 슬롯의 긍정 주장만 기록했다. only/all unlisted unavailable 선언이 없어 생략 슬롯의 가용성 0을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11; preferences are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "note": "원문에서 선호합 범위를 슬롯 0–11이라고 명시해 12개 값을 순서대로 전개했다. 가용성 목록 생략과 별개이며 선호를 정답으로 교체하지 않았다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "The best combined schedule I find is M1 at slot 1, M2 at slot 6, and M3 at slot 10, for total preference 20."
+        }
+      ],
+      "unjudgeable": [
+        "M1 is available at 0, 1, 2, 4, 5, 6, 7, 9, 10, 11",
+        "M2 is available at 0, 2, 4, 5, 6, 7, 10, 11",
+        "M3 is available at 0, 2, 3, 5, 6, 7, 8, 10, 11",
+        "The best combined schedule I find",
+        "Please verify and confirm this candidate."
+      ],
+      "notes": "B는 가용 슬롯 긍정 27개와 전 슬롯 선호합 36개를 직접 말했다. 생략 가용성을 불가로 채우지 않아 요약 63개다. 이어 후보 1/6/10과 총점 20을 명시했다. best combined schedule I find는 자기 탐색 범위가 남아 전역 optimal로 강화하지 않았다. legal/valid은 직접 말하지 않아 추론하지 않았다. verify and confirm은 포괄적 검증·수락 요청이며 특정 valid/score 질의를 명시하지 않아 typed questions를 임의 생성하지 않고 request 및 발췌로 보존한다."
+    },
+    {
+      "message": 3,
+      "status": "complete",
+      "evidence": "I verified the candidate: all three meetings are available, use distinct slots, and M1 precedes M3. The combined preference total is 20 (M1 at 1: 4; M2 at 6: 7; M3 at 10: 9). I confirm this schedule.",
+      "kinds": [
+        "inform",
+        "accept"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "available": 1
+          },
+          "evidence": "all three meetings are available",
+          "note": "바로 앞의 유일한 후보 1/6/10이며 뒤 점수 괄호에서도 각 슬롯을 다시 명시한다."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "available": 1
+          },
+          "evidence": "all three meetings are available",
+          "note": "바로 앞의 유일한 후보 1/6/10이며 뒤 점수 괄호에서도 각 슬롯을 다시 명시한다."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "available": 1
+          },
+          "evidence": "all three meetings are available",
+          "note": "바로 앞의 유일한 후보 1/6/10이며 뒤 점수 괄호에서도 각 슬롯을 다시 명시한다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "evidence": "use distinct slots"
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "evidence": "M1 precedes M3."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "The combined preference total is 20 (M1 at 1: 4; M2 at 6: 7; M3 at 10: 9)."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "score": 4
+          },
+          "evidence": "The combined preference total is 20 (M1 at 1: 4; M2 at 6: 7; M3 at 10: 9).",
+          "note": "괄호에서 회의·슬롯·점수를 모두 직접 명시했다."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "score": 7
+          },
+          "evidence": "The combined preference total is 20 (M1 at 1: 4; M2 at 6: 7; M3 at 10: 9).",
+          "note": "괄호에서 회의·슬롯·점수를 모두 직접 명시했다."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "score": 9
+          },
+          "evidence": "The combined preference total is 20 (M1 at 1: 4; M2 at 6: 7; M3 at 10: 9).",
+          "note": "괄호에서 회의·슬롯·점수를 모두 직접 명시했다."
+        }
+      ],
+      "unjudgeable": [
+        "I verified the candidate"
+      ],
+      "notes": "I verified는 자기 검증 과정 보고여서 실제 내부 수행을 입증하는 claim으로 세지 않고 발췌한다. 뒤의 구체적인 세 회의 가용성·distinct·precedence·20점·명시 회의별 점수는 확정형 직접 발화라 각각 기록했다. I confirm은 명시 수락이다. 일반 검증 보고에서 별도의 schedule_valid/optimal claim을 추론하지 않았고 실제 submit은 task 발화와 구분한다."
+    }
+  ]
+}

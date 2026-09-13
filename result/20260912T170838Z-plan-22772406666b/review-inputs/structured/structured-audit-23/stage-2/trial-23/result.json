@@ -1,0 +1,148 @@
+{
+  "status": "success",
+  "error": null,
+  "success": true,
+  "stage": 2,
+  "first_speaker": "A",
+  "phase_at_termination": "task",
+  "started_at": "2026-09-12T18:38:32.013414+00:00",
+  "finished_at": "2026-09-12T18:40:24.649466+00:00",
+  "sessions": {
+    "A": "01a096e9-fc5c-7230-9446-46ccc407d165",
+    "B": "01a096e9-fca5-7750-9072-26e25759d95e"
+  },
+  "actions": 4,
+  "message_count": 2,
+  "protocol_errors": 0,
+  "protocol_error_counts": {
+    "response_parse": 0,
+    "action_envelope": 0,
+    "message_payload": 0,
+    "task_action": 0,
+    "language_setup": 0
+  },
+  "proposal_revision": 0,
+  "submission_versions": {
+    "A": {
+      "revision": 0,
+      "schedule_hash": "e4f2b31b23f40985d8b89b3bdfc60af5637b0fca1af3721c50ddf3791e8e2986"
+    },
+    "B": {
+      "revision": 0,
+      "schedule_hash": "e4f2b31b23f40985d8b89b3bdfc60af5637b0fca1af3721c50ddf3791e8e2986"
+    }
+  },
+  "submissions": {
+    "A": {
+      "M1": 1,
+      "M2": 6,
+      "M3": 10
+    },
+    "B": {
+      "M1": 1,
+      "M2": 6,
+      "M3": 10
+    }
+  },
+  "evaluation": {
+    "valid": true,
+    "score": 20,
+    "violations": []
+  },
+  "optimal_score": 20,
+  "quality_gap": 0,
+  "elapsed_seconds": 133.498863417,
+  "language_setup_seconds": 0.0,
+  "payload_bytes": 4282,
+  "envelope_bytes": 230,
+  "communication_bytes": 4512,
+  "task_sender_text_bytes": 4282,
+  "task_receiver_text_bytes": 4282,
+  "text_size_scope": "Successfully delivered task payload text only; control envelopes and repeated model context are accounted for in model usage, not these byte totals",
+  "language_setup_usage": {},
+  "protocol_cpu_seconds": 0.0006640830000000375,
+  "protocol_wall_seconds": 0.0006652920000007612,
+  "runner_cpu_seconds": 1.079313,
+  "usage": {
+    "A": {
+      "totalTokens": 21939,
+      "inputTokens": 19184,
+      "cachedInputTokens": 15872,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2755,
+      "reasoningOutputTokens": 1725
+    },
+    "B": {
+      "totalTokens": 24246,
+      "inputTokens": 21152,
+      "cachedInputTokens": 15872,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3094,
+      "reasoningOutputTokens": 2060
+    }
+  },
+  "model_cost_estimate_usd": 0.00937208,
+  "runner_cost_estimate_usd": null,
+  "total_cost_estimate_usd": null,
+  "communication_processing_cost_estimate_usd": null,
+  "communication_processing_cost_scope": "Local codec CPU only; LLM communication and task reasoning are inseparable in shared calls",
+  "actual_charge_usd": null,
+  "partial_usage": {
+    "A": {
+      "total": {
+        "totalTokens": 21939,
+        "inputTokens": 19184,
+        "cachedInputTokens": 15872,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 2755,
+        "reasoningOutputTokens": 1725
+      },
+      "last": {
+        "totalTokens": 11877,
+        "inputTokens": 11081,
+        "cachedInputTokens": 7936,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 796,
+        "reasoningOutputTokens": 743
+      },
+      "modelContextWindow": 258400
+    },
+    "B": {
+      "total": {
+        "totalTokens": 24246,
+        "inputTokens": 21152,
+        "cachedInputTokens": 15872,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 3094,
+        "reasoningOutputTokens": 2060
+      },
+      "last": {
+        "totalTokens": 12211,
+        "inputTokens": 12093,
+        "cachedInputTokens": 7936,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 118,
+        "reasoningOutputTokens": 65
+      },
+      "modelContextWindow": 258400
+    }
+  },
+  "task_outcome": "success",
+  "operational_status": "normal",
+  "codec_task_timing": {
+    "encoding_cpu_seconds": 0.0003595410000000743,
+    "decoding_cpu_seconds": 0.00022654199999999625,
+    "encoding_wall_seconds": 0.00036004199999695174,
+    "decoding_wall_seconds": 0.00022687399999909985
+  },
+  "framing_cpu_seconds": 7.799999999996698e-05,
+  "framing_wall_seconds": 7.837600000470957e-05,
+  "trial_number": 23,
+  "runtime_initialization_seconds": 20.835009333000002,
+  "runtime_cleanup_seconds": 0.010778625000000375,
+  "task_elapsed_seconds": 112.627161417,
+  "codex_process_cpu_seconds": 19.494841,
+  "record_render_seconds": 0.009175499999997783,
+  "timing_scope": "Backend initialization through record rendering; final atomic result write excluded. Coordinator queue/worktree time recorded separately.",
+  "cost_scope": "API-equivalent model cost plus measured local CPU for this trial. Coordinator/worktree overhead is outside the per-trial boundary. Not a subscription invoice."
+}

@@ -1,0 +1,11 @@
+{
+  "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-07",
+  "hashes": {
+    "Agent_A.md": "945ca20dabffdecf389a42e8ef6e39cbbe78ea897ba45f4d7ab84000c78821a4",
+    "Agent_B.md": "34f492a1fffdc99698749e411aa6c12b7d1493a1ff9afdbff338aab94154e1a0",
+    "events.jsonl": "faf5824fab14576ba23243e39187b71bcc45a3122aa4bfa2ba72576a4abb5141",
+    "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+    "result.json": "4acca55c733b1d6f6d4ca58b688faa7d98624d899cca57d2569df95d7865909a",
+    "transcript.md": "ffee9da5756961f000bea78609a7b33af03be519a4eb28b8720f2a326ed75f0f"
+  }
+}

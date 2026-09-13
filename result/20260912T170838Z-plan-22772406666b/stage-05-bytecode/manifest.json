@@ -1,0 +1,466 @@
+{
+  "run_id": "20260912T170838Z-stage5-0cf49fbfa1a8",
+  "plan_id": "20260912T170838Z-plan-22772406666b",
+  "purpose": "experiment",
+  "stage": 5,
+  "stage_name": "바이트코드",
+  "created_at": "2026-09-12T17:08:38.820827+00:00",
+  "expected_trials": 30,
+  "runner_version": "3.0.0",
+  "comparison_group": "c112d67b702cb8c5dac43ead76fb983d2fc8882506794e3811731328054a4706",
+  "comparison_settings": {
+    "config": {
+      "version": "3.0.0",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "high",
+      "repetitions": 30,
+      "service_tier": "default",
+      "problem_file": "config/problem.json",
+      "pricing": {
+        "currency": "USD",
+        "basis": "API-equivalent estimate; not the actual ChatGPT subscription charge",
+        "checked_at": "2026-09-09",
+        "source": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+        "input_per_million": 0.2,
+        "cached_input_per_million": 0.02,
+        "cache_write_multiplier": 1.25,
+        "output_per_million": 1.2,
+        "local_processing_usd_per_cpu_second": null
+      },
+      "first_speakers": [
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B"
+      ],
+      "schedule_seed": 20260911
+    },
+    "problem": {
+      "id": "confirmation-v3-20260911",
+      "description": "Schedule three joint meetings over twelve one-hour slots. Maximize the sum of attendee preferences while satisfying every hard constraint.",
+      "slots": [
+        "D1 09:00",
+        "D1 10:00",
+        "D1 11:00",
+        "D1 13:00",
+        "D1 14:00",
+        "D1 15:00",
+        "D2 09:00",
+        "D2 10:00",
+        "D2 11:00",
+        "D2 13:00",
+        "D2 14:00",
+        "D2 15:00"
+      ],
+      "meetings": [
+        {
+          "id": "M1",
+          "attendees": [
+            "A1",
+            "A2",
+            "B1"
+          ],
+          "duration_slots": 1
+        },
+        {
+          "id": "M2",
+          "attendees": [
+            "A2",
+            "B1",
+            "B2"
+          ],
+          "duration_slots": 1
+        },
+        {
+          "id": "M3",
+          "attendees": [
+            "A1",
+            "A3",
+            "B2",
+            "B3"
+          ],
+          "duration_slots": 1
+        }
+      ],
+      "precedence": [
+        [
+          "M1",
+          "M3"
+        ]
+      ],
+      "people": {
+        "A1": {
+          "owner": "A",
+          "availability": [
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "preferences": [
+            2,
+            1,
+            0,
+            1,
+            0,
+            2,
+            3,
+            2,
+            3,
+            1,
+            3,
+            3
+          ]
+        },
+        "A2": {
+          "owner": "A",
+          "availability": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "preferences": [
+            2,
+            1,
+            3,
+            2,
+            0,
+            3,
+            3,
+            0,
+            3,
+            2,
+            1,
+            2
+          ]
+        },
+        "A3": {
+          "owner": "A",
+          "availability": [
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          "preferences": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        "B1": {
+          "owner": "B",
+          "availability": [
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          "preferences": [
+            2,
+            2,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1,
+            3,
+            0,
+            3,
+            3
+          ]
+        },
+        "B2": {
+          "owner": "B",
+          "availability": [
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "preferences": [
+            2,
+            1,
+            0,
+            1,
+            0,
+            2,
+            2,
+            2,
+            0,
+            2,
+            1,
+            1
+          ]
+        },
+        "B3": {
+          "owner": "B",
+          "availability": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "preferences": [
+            2,
+            3,
+            1,
+            3,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        }
+      }
+    },
+    "codex_version": "codex-cli 0.153.4",
+    "source_hash": "289422ae2e34dd86700820e4c646a88b3f564ef969f8dff6bd8752afb4732b5f",
+    "codec_version": "schedule-codecs-v3",
+    "isolation": {
+      "features.shell_tool": false,
+      "features.unified_exec": false,
+      "features.code_mode": false,
+      "features.code_mode_host": false,
+      "features.multi_agent": false,
+      "features.multi_agent_v2": false,
+      "features.apps": false,
+      "features.enable_mcp_apps": false,
+      "features.plugins": false,
+      "features.remote_plugin": false,
+      "features.memories": false,
+      "features.skill_search": false,
+      "features.skip_host_skill_discovery": true,
+      "features.tool_suggest": false,
+      "features.sleep_tool": false,
+      "features.in_app_browser": false,
+      "mcp_servers": {},
+      "plugins": {},
+      "web_search": "disabled",
+      "tools.view_image": false,
+      "project_doc_max_bytes": 0,
+      "project_doc_fallback_filenames": [],
+      "suppress_unstable_features_warning": true
+    },
+    "execution_profile": {
+      "jobs": 6,
+      "mode": "parallel"
+    }
+  },
+  "source_snapshot": {
+    "files": {
+      "AGENTS.md": "215387e52af2bb4f7578cea68aefb80279c8926a4a620d7dd3bc28ca861323db",
+      "config/experiment.json": "227ed25525acded4bb4a07f4df060fed75dc1fe0cfeec91c4cd5f4298e76d79d",
+      "config/problem-reference.json": "b006a41ba81b54a8441847bf17bc17d00ca7799d1ea225b0634a94b661f4f3b5",
+      "config/problem.json": "08ddec3de81f51e66a0b874ddcb422a87c7c39a0fbb9510c44c62f02c56f589f",
+      "experiment/__init__.py": "c92b0675bb9bbf62b6f5c9a869160b409160d8fee5a19890c0f1441033c95452",
+      "experiment/artifacts.py": "275e09ad0b51116a6c43a6da95fd735636a0decb7fd6c27258475b22197dc021",
+      "experiment/cli.py": "bde326745b7caccd7df7173bdea3501a347e882392958aa665083c01d1be8d33",
+      "experiment/codex.py": "67ec13b7c8133bfe687c0232b746f7505755cb84b6ad6cc4ffccc3563c0fda41",
+      "experiment/contracts.py": "1fbcd596b7b9d8923655705fb9be6564ba3f3cb99d4d179552f286c3e1e8c830",
+      "experiment/evaluation.py": "f7ab4f4e1093b3a56f0d8b23de23fb06bf3dfb54ba8b214cdf3a79d02c04aa34",
+      "experiment/metrics.py": "6b753c9f7a455a264886bbc0a2e21152dd6f76dc6ab34cead2dd3f747adcf020",
+      "experiment/problem.py": "361bbd6f4c29254eedf63a179252db823fd4ac77f2a0bd73d8d44ca8ec225663",
+      "experiment/protocols.py": "940604f7e130fcf2d5261f35926d7a3eb7438d1b38cee54adb797153baf59a83",
+      "experiment/records.py": "be886ac1c3e62161dd21580790825bd8c85b72dd35d57d43da10ffd53af5a5c9",
+      "experiment/runner.py": "1f9b135a2f27df92cd96f75ea49d9d3e573ed4b6977ec6f1414646235cbd2153",
+      "experiment/scheduling.py": "cb534174b7bc014effcc492d48a344cdce2cebf74061b77c02efcb5b16a42a5f",
+      "experiment/trial.py": "92a440f8d92851e7b66bf493bfb334f282ef4298c9d318897b9377c5cdb49655",
+      "lab.py": "7b2eb7f02e3cdfafd53d6117d5c46d55e587e6ee5a4963f4d866e473e5e1b4a0",
+      "scripts/export_histories.py": "c0a9bc514a01a59843206b8437d932845e96db0f959da1735f71b8e78d41c70e",
+      "scripts/freeze_problem.py": "1736556773e98e486f9e0b1049ea70b13cb63db0f756808e628fe028bc4e04d0",
+      "scripts/replay_review.py": "358717252b91f50f0c3e34a6447b6234ce4d224dd56427dd856e5bd7867ba2b0",
+      "tests/fixtures/config.json": "227ed25525acded4bb4a07f4df060fed75dc1fe0cfeec91c4cd5f4298e76d79d",
+      "tests/fixtures/problem.json": "c4c96ca735a1a6944a660b679e4fa29fe6f350ee16cc924d99777a5ade1f2baf",
+      "tests/test_experiment.py": "fe3fc9f1e2be5e15496261df68a39099084ce43ed0489d92965f5c3726a4e9bc",
+      "tests/test_export.py": "5fec152fe45f479c846469089346f6d47c433d3c8407e698a56f3807cf806651",
+      "tests/test_lab_v3.py": "d99f400447c26354705dd4dfd4f7aeb70b7a6d8eff0551d17e1cc79433d9fde9",
+      "tests/test_regressions.py": "18544601ef16deb0cb05720355d32118043ad154223f13b84b2122dd6a7ebae7",
+      "tests/test_review_policy.py": "e55030ecb2fe4a195f3e07f4f4a94c939636e21e32b04f12b0a43e69ca5f3d63"
+    },
+    "sha256": "289422ae2e34dd86700820e4c646a88b3f564ef969f8dff6bd8752afb4732b5f"
+  },
+  "problem_hash": "f5ce855ddde8e16bd2fee52bbfd88cc743b3fe508595fd2691ef9152b017e9ef",
+  "oracle": {
+    "optimal_score": 20,
+    "optimal_schedules": [
+      {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    ],
+    "feasible_count": 54,
+    "distinct_scores": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "problem_diagnostics": {
+    "oracle": {
+      "optimal_score": 20,
+      "optimal_schedules": [
+        {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        }
+      ],
+      "feasible_count": 54,
+      "distinct_scores": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "per_meeting_independent_maxima": {
+      "M1": {
+        "score": 8,
+        "slots": [
+          11
+        ]
+      },
+      "M2": {
+        "score": 7,
+        "slots": [
+          6
+        ]
+      },
+      "M3": {
+        "score": 9,
+        "slots": [
+          10
+        ]
+      }
+    },
+    "coupling_gap": 4,
+    "sensitivity_probe": {
+      "fact": [
+        "available",
+        "B3",
+        10,
+        0
+      ],
+      "feasible_count": 36,
+      "optimal_score": 16,
+      "optimal_schedules": [
+        {
+          "M1": 1,
+          "M2": 6,
+          "M3": 8
+        }
+      ],
+      "offline_only": true
+    }
+  },
+  "status": "completed",
+  "finished_at": "2026-09-12T19:15:25.256166+00:00"
+}

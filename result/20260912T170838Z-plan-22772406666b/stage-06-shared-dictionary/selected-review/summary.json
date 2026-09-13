@@ -1,0 +1,8 @@
+{
+  "trials": 30,
+  "pending": 0,
+  "review_policy_version": "observation-review-v3.1",
+  "correct_claims": 4375,
+  "incorrect_claims": 5,
+  "undetermined_claims": 1
+}

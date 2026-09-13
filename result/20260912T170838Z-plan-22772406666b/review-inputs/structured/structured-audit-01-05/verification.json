@@ -1,0 +1,1531 @@
+{
+  "totals": {
+    "task_messages": 110,
+    "all_phase_messages": 120,
+    "correct_claims": 3650,
+    "incorrect_claims": 4,
+    "undetermined_claims": 10,
+    "codec_errors": 0,
+    "changed_proposals": 17,
+    "explicit_revisions": 17,
+    "questions": 1033,
+    "protocol_rejections": 16,
+    "question_messages": 25,
+    "person_request_messages": 10,
+    "raw_source_messages_read": 56
+  },
+  "comparison_groups": [
+    "c112d67b702cb8c5dac43ead76fb983d2fc8882506794e3811731328054a4706"
+  ],
+  "review_policy_version": "observation-review-v3.1",
+  "original_trial_files_unchanged": true,
+  "all_execution_sources_unchanged_and_equal": true,
+  "experiment_model_calls": 0,
+  "candidate_checks": [
+    {
+      "stage": 2,
+      "trial": 1,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 2,
+      "trial": 1,
+      "message": 3,
+      "kind": "accept",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 2,
+      "trial": 2,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 7,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 19,
+        "arithmetic_sum": 19
+      },
+      "matches": true
+    },
+    {
+      "stage": 2,
+      "trial": 2,
+      "message": 3,
+      "kind": "propose",
+      "schedule": {
+        "M1": 8,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": false,
+        "score": null,
+        "arithmetic_sum": 25
+      },
+      "matches": true
+    },
+    {
+      "stage": 2,
+      "trial": 2,
+      "message": 4,
+      "kind": "propose",
+      "schedule": {
+        "M1": 7,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 19,
+        "arithmetic_sum": 19
+      },
+      "matches": true
+    },
+    {
+      "stage": 2,
+      "trial": 2,
+      "message": 5,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 2,
+      "trial": 3,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 2,
+      "trial": 4,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 2,
+      "trial": 4,
+      "message": 3,
+      "kind": "propose",
+      "schedule": {
+        "M1": 8,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": false,
+        "score": null,
+        "arithmetic_sum": 25
+      },
+      "matches": true
+    },
+    {
+      "stage": 2,
+      "trial": 4,
+      "message": 4,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 2,
+      "trial": 5,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 2,
+      "message": 3,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 3,
+      "message": 3,
+      "kind": "propose",
+      "schedule": {
+        "M1": 0,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": false,
+        "score": null,
+        "arithmetic_sum": 22
+      },
+      "matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 3,
+      "message": 4,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 3,
+      "message": 5,
+      "kind": "propose",
+      "schedule": {
+        "M1": 0,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": false,
+        "score": null,
+        "arithmetic_sum": 22
+      },
+      "matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 3,
+      "message": 6,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 4,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 4,
+      "message": 7,
+      "kind": "accept",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 5,
+      "message": 3,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 5,
+      "message": 4,
+      "kind": "propose",
+      "schedule": {
+        "M1": 11,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": false,
+        "score": null,
+        "arithmetic_sum": 24
+      },
+      "matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 5,
+      "message": 5,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 4,
+      "trial": 1,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 0,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": false,
+        "score": null,
+        "arithmetic_sum": 22
+      },
+      "matches": true
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "message": 3,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 11,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 19,
+        "arithmetic_sum": 19
+      },
+      "matches": true
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "message": 4,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "message": 5,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 11,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 19,
+        "arithmetic_sum": 19
+      },
+      "matches": true
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "message": 6,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 4,
+      "trial": 3,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 4,
+      "trial": 3,
+      "message": 3,
+      "kind": "accept",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 4,
+      "trial": 4,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 4,
+      "trial": 5,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 5,
+      "trial": 1,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 5,
+      "trial": 1,
+      "message": 3,
+      "kind": "accept",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 5,
+      "trial": 2,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 5,
+      "trial": 3,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 5,
+      "trial": 4,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 4,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 18,
+        "arithmetic_sum": 18
+      },
+      "matches": true
+    },
+    {
+      "stage": 5,
+      "trial": 4,
+      "message": 3,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 5,
+      "trial": 4,
+      "message": 4,
+      "kind": "accept",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 5,
+      "trial": 5,
+      "message": 2,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 5,
+      "trial": 5,
+      "message": 3,
+      "kind": "accept",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 6,
+      "trial": 1,
+      "message": 5,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 6,
+      "trial": 2,
+      "message": 5,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 6,
+      "trial": 3,
+      "message": 4,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 6,
+      "trial": 3,
+      "message": 7,
+      "kind": "accept",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 6,
+      "trial": 4,
+      "message": 5,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 6,
+      "trial": 5,
+      "message": 5,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    },
+    {
+      "stage": 6,
+      "trial": 5,
+      "message": 6,
+      "kind": "propose",
+      "schedule": {
+        "M1": 6,
+        "M2": 11,
+        "M3": 10
+      },
+      "independent": {
+        "valid": false,
+        "score": null,
+        "arithmetic_sum": 23
+      },
+      "matches": true
+    },
+    {
+      "stage": 6,
+      "trial": 5,
+      "message": 7,
+      "kind": "propose",
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      },
+      "matches": true
+    }
+  ],
+  "final_checks": [
+    {
+      "stage": 2,
+      "trial": 1,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 2,
+      "trial": 2,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 2,
+      "trial": 3,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 2,
+      "trial": 4,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 2,
+      "trial": 5,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 3,
+      "trial": 2,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 3,
+      "trial": 3,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 3,
+      "trial": 4,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 3,
+      "trial": 5,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 4,
+      "trial": 1,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 4,
+      "trial": 3,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 4,
+      "trial": 4,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 4,
+      "trial": 5,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 5,
+      "trial": 1,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 5,
+      "trial": 2,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 5,
+      "trial": 3,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 5,
+      "trial": 4,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 5,
+      "trial": 5,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 6,
+      "trial": 1,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 6,
+      "trial": 2,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 6,
+      "trial": 3,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 6,
+      "trial": 4,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    },
+    {
+      "stage": 6,
+      "trial": 5,
+      "identical_submissions": true,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "independent": {
+        "valid": true,
+        "score": 20,
+        "arithmetic_sum": 20
+      }
+    }
+  ],
+  "held_arithmetic_checks": [
+    {
+      "stage": 3,
+      "trial": 1,
+      "message": 6,
+      "schedule": {
+        "M1": 8,
+        "M2": 6,
+        "M3": 10
+      },
+      "asserted": 25,
+      "arithmetic_sum": 25,
+      "arithmetic_matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "message": 10,
+      "schedule": {
+        "M1": 11,
+        "M2": 6,
+        "M3": 10
+      },
+      "asserted": 24,
+      "arithmetic_sum": 24,
+      "arithmetic_matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "message": 12,
+      "schedule": {
+        "M1": 3,
+        "M2": 2,
+        "M3": 10
+      },
+      "asserted": 16,
+      "arithmetic_sum": 16,
+      "arithmetic_matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "message": 12,
+      "schedule": {
+        "M1": 3,
+        "M2": 6,
+        "M3": 10
+      },
+      "asserted": 20,
+      "arithmetic_sum": 20,
+      "arithmetic_matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "message": 14,
+      "schedule": {
+        "M1": 1,
+        "M2": 3,
+        "M3": 10
+      },
+      "asserted": 17,
+      "arithmetic_sum": 17,
+      "arithmetic_matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "message": 14,
+      "schedule": {
+        "M1": 1,
+        "M2": 8,
+        "M3": 10
+      },
+      "asserted": 16,
+      "arithmetic_sum": 19,
+      "arithmetic_matches": false
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "message": 14,
+      "schedule": {
+        "M1": 1,
+        "M2": 9,
+        "M3": 10
+      },
+      "asserted": 15,
+      "arithmetic_sum": 17,
+      "arithmetic_matches": false
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "message": 16,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 4
+      },
+      "asserted": 11,
+      "arithmetic_sum": 11,
+      "arithmetic_matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "message": 16,
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 9
+      },
+      "asserted": 15,
+      "arithmetic_sum": 15,
+      "arithmetic_matches": true
+    },
+    {
+      "stage": 3,
+      "trial": 5,
+      "message": 4,
+      "schedule": {
+        "M1": 11,
+        "M2": 6,
+        "M3": 10
+      },
+      "asserted": 24,
+      "arithmetic_sum": 24,
+      "arithmetic_matches": true
+    }
+  ],
+  "revision_events": [
+    {
+      "stage": 2,
+      "trial": 2,
+      "actor": "B",
+      "revision": 1,
+      "cleared_agents": [],
+      "request_id": "request-3"
+    },
+    {
+      "stage": 2,
+      "trial": 2,
+      "actor": "A",
+      "revision": 2,
+      "cleared_agents": [],
+      "request_id": "request-4"
+    },
+    {
+      "stage": 2,
+      "trial": 2,
+      "actor": "B",
+      "revision": 3,
+      "cleared_agents": [],
+      "request_id": "request-5"
+    },
+    {
+      "stage": 2,
+      "trial": 4,
+      "actor": "B",
+      "revision": 1,
+      "cleared_agents": [],
+      "request_id": "request-3"
+    },
+    {
+      "stage": 2,
+      "trial": 4,
+      "actor": "A",
+      "revision": 2,
+      "cleared_agents": [],
+      "request_id": "request-4"
+    },
+    {
+      "stage": 3,
+      "trial": 3,
+      "actor": "B",
+      "revision": 1,
+      "cleared_agents": [],
+      "request_id": "request-4"
+    },
+    {
+      "stage": 3,
+      "trial": 3,
+      "actor": "A",
+      "revision": 2,
+      "cleared_agents": [],
+      "request_id": "request-5"
+    },
+    {
+      "stage": 3,
+      "trial": 3,
+      "actor": "B",
+      "revision": 3,
+      "cleared_agents": [],
+      "request_id": "request-6"
+    },
+    {
+      "stage": 3,
+      "trial": 5,
+      "actor": "B",
+      "revision": 1,
+      "cleared_agents": [],
+      "request_id": "request-4"
+    },
+    {
+      "stage": 3,
+      "trial": 5,
+      "actor": "A",
+      "revision": 2,
+      "cleared_agents": [],
+      "request_id": "request-5"
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "actor": "B",
+      "revision": 1,
+      "cleared_agents": [],
+      "request_id": "request-3"
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "actor": "A",
+      "revision": 2,
+      "cleared_agents": [],
+      "request_id": "request-4"
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "actor": "B",
+      "revision": 3,
+      "cleared_agents": [],
+      "request_id": "request-5"
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "actor": "A",
+      "revision": 4,
+      "cleared_agents": [],
+      "request_id": "request-6"
+    },
+    {
+      "stage": 5,
+      "trial": 4,
+      "actor": "B",
+      "revision": 1,
+      "cleared_agents": [],
+      "request_id": "request-3"
+    },
+    {
+      "stage": 6,
+      "trial": 5,
+      "actor": "B",
+      "revision": 1,
+      "cleared_agents": [],
+      "request_id": "request-9"
+    },
+    {
+      "stage": 6,
+      "trial": 5,
+      "actor": "A",
+      "revision": 2,
+      "cleared_agents": [],
+      "request_id": "request-10"
+    }
+  ],
+  "all_revisions_cleared_no_existing_submissions": true,
+  "independent_enumeration": {
+    "all_assignments": 1728,
+    "feasible": 54,
+    "best_score": 20,
+    "best_schedules": [
+      {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    ]
+  },
+  "independent_error_checks": {
+    "A_M3_slot2_preference": 0,
+    "A1_slot0_available": true,
+    "A2_slot0_available": false,
+    "precedence": [
+      [
+        "M1",
+        "M3"
+      ]
+    ]
+  },
+  "docs_metrics_sha256_at_audit": "516bfa2798f7aa5a0cc9a3b3d4b39d55217b33c3c7905c90a83b6053235553c0"
+}

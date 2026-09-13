@@ -1,0 +1,3488 @@
+{
+  "version": 3,
+  "review_policy_version": "observation-review-v3.1",
+  "claim_counts_by_type": {
+    "fact": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "summary": {
+      "occurrences": 144,
+      "judged": 144,
+      "correct": 144,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "reason": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_score": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_valid": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_optimal": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "meeting_score": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "meeting_available": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_constraint": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "public_precedence": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    }
+  },
+  "unique_claims": 147,
+  "claim_occurrences": 147,
+  "claim_changes": [],
+  "scope": "post-run observable content; no hidden reasoning; no feedback to agents",
+  "content_review_status": "complete",
+  "content_review_scope": "source-anchored annotations",
+  "task_messages": 2,
+  "reviewed_messages": 2,
+  "correct_claims": 147,
+  "incorrect_claims": 0,
+  "undetermined_claims": 0,
+  "unjudgeable_expressions": 9,
+  "codec_errors": 0,
+  "information_sharing": {
+    "A": {
+      "reviewed_messages": 1,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    },
+    "B": {
+      "reviewed_messages": 1,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    }
+  },
+  "first_proposer": "A",
+  "changed_proposal_messages": 0,
+  "explicit_revisions": 0,
+  "accept_messages": 0,
+  "agreement_note": "Acceptance expressions do not prove independent verification or final submission.",
+  "completion": {
+    "submitted_agents": [
+      "A",
+      "B"
+    ],
+    "both_submitted": true,
+    "identical_submissions": true,
+    "task_status": "success",
+    "error": null
+  },
+  "format_errors": [],
+  "messages": [
+    {
+      "message": 1,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M1 (B1), availability is [1,1,1,0,1,1,1,1,0,1,1,1] and preference is [2,2,0,1,2,2,2,1,3,0,3,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M2 (B1+B2), availability is [1,0,1,0,1,1,1,1,0,0,1,1] and preference is [4,3,0,2,2,4,4,3,3,2,4,4].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "For M3 (B2+B3), availability is [1,0,1,1,0,1,1,1,1,0,1,1] and preference is [4,4,1,4,0,2,2,2,2,2,4,1].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "public_precedence",
+          "value": {
+            "before": "M1",
+            "after": "M3"
+          },
+          "expected": true,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1 must precede M3",
+          "annotation_note": "아직 후보가 없는 상태에서 말한 공개 선후관계 규칙이다. 임의 후보의 schedule_constraint로 바꾸지 않았다."
+        }
+      ],
+      "unjudgeable": [
+        "M1 (B1)",
+        "M2 (B1+B2)",
+        "M3 (B2+B3)",
+        "all three meetings share attendees pairwise",
+        "their slots must be distinct."
+      ],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "B 팀 요약 72개와 명시적 공개 precedence 규칙을 기록했다. 괄호의 회의별 B 참석자 구성은 현재 claim schema 밖이므로 세 발췌로 보존하고 공통 데이터로 별도 검산한다. 팀 요약과 개인 fact를 중복 생성하지 않았다. all slots의 A 팀 summaries 요청은 같은 세 회의·두 관계·슬롯 0–11에 해당하는 72개 질문이다. pairwise attendee overlap은 특정 슬롯 없는 일반 관계이며 distinct도 아직 후보 없는 일반 규칙이다. reason에 임의 슬롯을 넣거나 미래 후보의 constraint를 소급 생성하지 않고 별도 발췌·검산으로 남겼다. highest-scoring legal을 identify하자는 미래 목적은 현재 최적성 주장이 아니다. 독립 AI 검수: 이번 원문의 배열144개 중 B72개, 참석자구성, 공개 precedence를 직접 대조했다. 일반 pairwise 공유 관계와 후보 없는 distinct 규칙을 별도 검산해 맞음을 확인했으며 이를 지원 주장 수에 강제로 편입하지 않았다.",
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          11
+        ]
+      ],
+      "references": []
+    },
+    {
+      "message": 2,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "propose"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M1 (A1+A2), availability is [0,1,0,1,1,0,0,1,1,1,0,1] and preference is [4,2,3,3,0,5,6,2,6,3,4,5].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M2 (A2), availability is [0,1,1,1,1,0,1,1,1,1,0,1] and preference is [2,1,3,2,0,3,3,0,3,2,1,2].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "For M3 (A1+A3), availability is [1,1,0,0,1,1,0,0,1,1,1,1] and preference is [2,3,0,1,0,2,5,4,3,2,5,3].",
+          "annotation_note": "원문의 by slot ID와 공통 0–11 인덱스 규약에 따라 명시된 12개 값을 순서대로 전개했다. 원자료로 값을 바꾸거나 생략 슬롯을 불가로 만들지 않았다."
+        },
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "Based on the summaries so far, my highest-scoring legal schedule is M1 at slot 1, M2 at slot 6, and M3 at slot 10, for a total of 20 preference points.",
+          "annotation_note": "현재 제시 후보를 legal이라고 명시한 부분만 유효성 주장으로 기록했다. my highest-scoring의 전역 최적성은 별도로 확정하지 않는다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "Based on the summaries so far, my highest-scoring legal schedule is M1 at slot 1, M2 at slot 6, and M3 at slot 10, for a total of 20 preference points.",
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [
+        "M1 (A1+A2)",
+        "M2 (A2)",
+        "M3 (A1+A3)",
+        "Based on the summaries so far, my highest-scoring legal schedule"
+      ],
+      "proposal_quality": {
+        "valid": true,
+        "score": 20,
+        "violations": [],
+        "gap": 0
+      },
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "A 팀 요약 72개와 명시 후보 1/6/10의 legal·20점을 보존했다. 회의별 A 참석자 구성은 스키마 밖 세 발췌로 따로 검산한다. my highest-scoring에는 자기 탐색 범위가 남고 Based on the summaries so far라는 인식 범위도 있어 전역 optimal=1로 강화하지 않았다. 원문 발췌를 유지하며 사후 최적값으로 빈 주장을 채우지 않는다. 현재 후보의 precedence/distinct/회의별 가용성은 따로 말하지 않아 추가 추론하지 않았다. 뒤 실제 submit을 task accept로 만들지 않았다. 독립 AI 검수: A72개 요약과 참석자구성, 현재 후보 legal 및20점을 원문대로 검수했다. my라는 비교범위 유보를 유지하며 사후 전역최적 결과로 발화범위를 결정하지 않았다.",
+      "questions": [],
+      "references": []
+    }
+  ],
+  "annotation_reviewer_kind": "ai",
+  "annotation_reviewer": "Codex /root/stages_5_6; independent AI source audit of /root/stages_1_2 draft across all delivered task packets in trial-20; 2026-09-13"
+}

@@ -1,0 +1,17 @@
+{
+  "matched": true,
+  "trials": 30,
+  "review_id": "20260912T192907Z-review-0d7f35035a8b",
+  "policy": "observation-review-v3.1",
+  "new_model_calls": 0,
+  "scope": "Reuses selected source-anchored annotations; not an independent re-annotation.",
+  "io_guard": "Python file-access audit guard; network/process launch denied",
+  "summary": {
+    "trials": 30,
+    "pending": 0,
+    "review_policy_version": "observation-review-v3.1",
+    "correct_claims": 4249,
+    "incorrect_claims": 25,
+    "undetermined_claims": 10
+  }
+}

@@ -1,0 +1,2326 @@
+{
+  "version": 1,
+  "events_sha256": "cf7fc1c9ad967042884c860df340973abf796a7145cc46aa722762fb44fd5cb9",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_5_6; independent AI source audit of /root/stages_1_2 draft across all delivered task packets in trial-17; 2026-09-13",
+  "entries": [
+    {
+      "message": 1,
+      "status": "complete",
+      "evidence": "For slots 0 through 11, my A-side team summaries (available, preference) are: M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5). M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2). M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3). Please share B-side summaries for M1, M2, and M3 across those slots so we can choose a high-scoring legal schedule.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          11
+        ]
+      ],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "evidence": "M1: (0,4), (1,2), (0,3), (1,3), (1,0), (0,5), (0,6), (1,2), (1,6), (1,3), (0,4), (1,5).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "evidence": "M2: (0,2), (1,1), (1,3), (1,2), (1,0), (0,3), (1,3), (1,0), (1,3), (1,2), (0,1), (1,2).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "evidence": "M3: (1,2), (1,3), (0,0), (0,1), (1,0), (1,2), (0,5), (0,4), (1,3), (1,2), (1,5), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        }
+      ],
+      "unjudgeable": [],
+      "notes": "명시된 A 팀 세 회의·슬롯 0–11의 가용성·선호합 72개를 전개했다. B-side summaries across those slots 요청은 방금 정의한 같은 두 관계와 범위를 대상으로 하는 72개 typed summary 질문으로 기록했다. high-scoring legal schedule 선택은 미래 목표이며 현재 후보의 legal/optimal 주장을 생성하지 않았다. 독립 AI 전수 검수: 이번 task 원문의 명시값과 발췌를 전수 대조했고 초안 의미 필드를 유지했다. 모호한 주체·비교 범위와 일정 제약의 해석은 동반 감사 메모 및 검산 JSON에 보존한다."
+    },
+    {
+      "message": 2,
+      "status": "complete",
+      "evidence": "For slots 0 through 11, my B-side team summaries (available, preference) are: M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3). M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4). M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "evidence": "M1: (1,2), (1,2), (1,0), (0,1), (1,2), (1,2), (1,2), (1,1), (0,3), (1,0), (1,3), (1,3).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "evidence": "M2: (1,4), (0,3), (1,0), (0,2), (1,2), (1,4), (1,4), (1,3), (0,3), (0,2), (1,4), (1,4).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3: (1,4), (0,4), (1,1), (1,4), (0,0), (1,2), (1,2), (1,2), (1,2), (0,2), (1,4), (1,1).",
+          "note": "원문이 slots 0 through 11 및 (available, preference) 순서를 직접 정의한다. 나열된 12쌍을 순서대로 전개했고 정답으로 수정하거나 생략을 불가로 만들지 않았다."
+        }
+      ],
+      "unjudgeable": [],
+      "notes": "명시된 B 팀 세 회의·슬롯 0–11의 가용성·선호합 72개를 원문값대로 전개했다. 개인 원자료와 중복 계수하거나 추가 후보·수락·평가를 추론하지 않았다. 독립 AI 전수 검수: 이번 task 원문의 명시값과 발췌를 전수 대조했고 초안 의미 필드를 유지했다. 모호한 주체·비교 범위와 일정 제약의 해석은 동반 감사 메모 및 검산 JSON에 보존한다."
+    },
+    {
+      "message": 3,
+      "status": "complete",
+      "evidence": "I propose M1 at slot 1, M2 at slot 6, and M3 at slot 10. All three team summaries are available at those slots, the meetings do not overlap attendees, and M1 precedes M3. The total preference score is 20. Please confirm and submit this exact schedule.",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "evidence": "M1 precedes M3.",
+          "note": "바로 앞 명시한 후보의 선후관계 주장이다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "The total preference score is 20."
+        }
+      ],
+      "unjudgeable": [
+        "All three team summaries are available at those slots",
+        "the meetings do not overlap attendees",
+        "Please confirm and submit this exact schedule."
+      ],
+      "notes": "후보 1/6/10, 명시 M1-before-M3 및 총점 20을 기록했다. All three team summaries는 A 자신의 세 요약인지, 방금 받은 B의 세 요약인지, 두 팀을 결합한 회의별 가용성인지 주체 범위가 명시되지 않았다. 어느 팀 summary claim이나 both-teams 가용성으로 임의 강화하지 않고 원문 발췌와 대안별 검산에 보존한다. meetings do not overlap attendees는 일정상 참석자 이중 배정이 없다는 뜻일 수도, 참석자 집합이 겹치지 않는다는 뜻일 수도 있다. 후자의 문자적 해석은 공개 목록과 다르지만 일정 문맥의 전자 해석은 성립하므로 단정적 오류 또는 distinct claim으로 강제하지 않았다. 실제 숨은 의미는 확정하지 않는다. legal/optimal을 직접 말하지 않아 새 claim으로 추론하지 않았다. 확인 및 제출 요청은 실제 수락이 아니고 뒤 제어 submit을 전송 accept로 바꾸지 않는다. 독립 AI 전수 검수: 이번 task 원문의 명시값과 발췌를 전수 대조했고 초안 의미 필드를 유지했다. 모호한 주체·비교 범위와 일정 제약의 해석은 동반 감사 메모 및 검산 JSON에 보존한다."
+    }
+  ]
+}

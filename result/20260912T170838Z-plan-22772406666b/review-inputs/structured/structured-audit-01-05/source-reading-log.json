@@ -1,0 +1,335 @@
+{
+  "reviewer_kind": "AI; independent targeted audit",
+  "reviewer_agent": "/root/stages_3_4",
+  "automated_scope": "25 completed trials; all 110 task packets",
+  "manual_scope": "selected sender_source payloads, error metadata, selected rejected payloads and dictionaries only",
+  "all_raw_messages_manually_reviewed": false,
+  "rows": [
+    {
+      "stage": 2,
+      "trial": 1,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-01",
+      "automated_task_messages": 3,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 2,
+      "trial": 2,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-02",
+      "automated_task_messages": 5,
+      "raw_sender_source_read_in_full": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 2,
+      "trial": 3,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-03",
+      "automated_task_messages": 2,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 2,
+      "trial": 4,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-04",
+      "automated_task_messages": 4,
+      "raw_sender_source_read_in_full": [
+        2,
+        3,
+        4
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 2,
+      "trial": 5,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-2/results/experiment/20260912T170838Z-stage2-2f6d43b42c86/trial-05",
+      "automated_task_messages": 2,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 3,
+      "trial": 1,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-01",
+      "automated_task_messages": 18,
+      "raw_sender_source_read_in_full": [
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 3,
+      "trial": 2,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-02",
+      "automated_task_messages": 3,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 3,
+      "trial": 3,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-03",
+      "automated_task_messages": 6,
+      "raw_sender_source_read_in_full": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 3,
+      "trial": 4,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-04",
+      "automated_task_messages": 7,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 3,
+      "trial": 5,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-3/results/experiment/20260912T170838Z-stage3-c4737d9c488a/trial-05",
+      "automated_task_messages": 5,
+      "raw_sender_source_read_in_full": [
+        3,
+        4,
+        5
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 4,
+      "trial": 1,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-01",
+      "automated_task_messages": 2,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 4,
+      "trial": 2,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-02",
+      "automated_task_messages": 6,
+      "raw_sender_source_read_in_full": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 4,
+      "trial": 3,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-03",
+      "automated_task_messages": 3,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 4,
+      "trial": 4,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-04",
+      "automated_task_messages": 2,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 4,
+      "trial": 5,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-4/results/experiment/20260912T170838Z-stage4-ff76a0f46e3a/trial-05",
+      "automated_task_messages": 2,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 5,
+      "trial": 1,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-01",
+      "automated_task_messages": 3,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 5,
+      "trial": 2,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-02",
+      "automated_task_messages": 2,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 5,
+      "trial": 3,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-03",
+      "automated_task_messages": 6,
+      "raw_sender_source_read_in_full": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 5,
+      "trial": 4,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-04",
+      "automated_task_messages": 4,
+      "raw_sender_source_read_in_full": [
+        2,
+        3,
+        4
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 5,
+      "trial": 5,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-5/results/experiment/20260912T170838Z-stage5-0cf49fbfa1a8/trial-05",
+      "automated_task_messages": 3,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 6,
+      "trial": 1,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-01",
+      "automated_task_messages": 4,
+      "raw_sender_source_read_in_full": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": true
+    },
+    {
+      "stage": 6,
+      "trial": 2,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-02",
+      "automated_task_messages": 4,
+      "raw_sender_source_read_in_full": [],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [],
+      "language_dictionary_read": false
+    },
+    {
+      "stage": 6,
+      "trial": 3,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-03",
+      "automated_task_messages": 5,
+      "raw_sender_source_read_in_full": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [
+        "request-4"
+      ],
+      "language_dictionary_read": true
+    },
+    {
+      "stage": 6,
+      "trial": 4,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-04",
+      "automated_task_messages": 4,
+      "raw_sender_source_read_in_full": [
+        4,
+        5,
+        6
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [
+        "request-4"
+      ],
+      "language_dictionary_read": true
+    },
+    {
+      "stage": 6,
+      "trial": 5,
+      "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-6/results/experiment/20260912T170838Z-stage6-be74e683a4b1/trial-05",
+      "automated_task_messages": 5,
+      "raw_sender_source_read_in_full": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "all_rejection_error_fields_read": true,
+      "full_rejection_responses_read": [
+        "request-3",
+        "request-6",
+        "request-8"
+      ],
+      "language_dictionary_read": true
+    }
+  ]
+}

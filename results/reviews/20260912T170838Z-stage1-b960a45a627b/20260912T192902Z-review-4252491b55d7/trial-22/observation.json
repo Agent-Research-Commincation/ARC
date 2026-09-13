@@ -1,0 +1,3202 @@
+{
+  "version": 3,
+  "review_policy_version": "observation-review-v3.1",
+  "claim_counts_by_type": {
+    "fact": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "summary": {
+      "occurrences": 145,
+      "judged": 145,
+      "correct": 145,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "reason": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_score": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_valid": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_optimal": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "meeting_score": {
+      "occurrences": 3,
+      "judged": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "meeting_available": {
+      "occurrences": 3,
+      "judged": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_constraint": {
+      "occurrences": 4,
+      "judged": 4,
+      "correct": 4,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "public_precedence": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    }
+  },
+  "unique_claims": 156,
+  "claim_occurrences": 157,
+  "claim_changes": [],
+  "scope": "post-run observable content; no hidden reasoning; no feedback to agents",
+  "content_review_status": "complete",
+  "content_review_scope": "source-anchored annotations",
+  "task_messages": 3,
+  "reviewed_messages": 3,
+  "correct_claims": 157,
+  "incorrect_claims": 0,
+  "undetermined_claims": 0,
+  "unjudgeable_expressions": 4,
+  "codec_errors": 0,
+  "information_sharing": {
+    "A": {
+      "reviewed_messages": 1,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    },
+    "B": {
+      "reviewed_messages": 2,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 73
+    }
+  },
+  "first_proposer": "A",
+  "changed_proposal_messages": 1,
+  "explicit_revisions": 1,
+  "accept_messages": 0,
+  "agreement_note": "Acceptance expressions do not prove independent verification or final submission.",
+  "completion": {
+    "submitted_agents": [
+      "A",
+      "B"
+    ],
+    "both_submitted": true,
+    "identical_submissions": true,
+    "task_status": "success",
+    "error": null
+  },
+  "format_errors": [],
+  "messages": [
+    {
+      "message": 1,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M1: 1/2, 1/2, 1/0, 0/1, 1/2, 1/2, 1/2, 1/1, 0/3, 1/0, 1/3, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M2: 1/4, 0/3, 1/0, 0/2, 1/2, 1/4, 1/4, 1/3, 0/3, 0/2, 1/4, 1/4.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "B",
+          "evidence": "M3: 1/4, 0/4, 1/1, 1/4, 0/0, 1/2, 1/2, 1/2, 1/2, 0/2, 1/4, 1/1.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        }
+      ],
+      "unjudgeable": [
+        "Please send your A-team summaries for M1, M2, and M3 across slots 0–11, or the underlying availability and preference data, so we can find a legal maximum-score schedule."
+      ],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "B 팀 요약 72개를 직접 발화대로 기록했다. A 요약 또는 underlying 개인 자료라는 OR 요청은 지원 평면 requests/questions 배열로 선택 구조를 표현할 수 없어 request 분류와 전체 원문 발췌로 보존했다. 두 종류를 모두 필수로 요구한 것처럼 생성하지 않았다. legal maximum-score 탐색은 미래 목적이라 현재 후보 최적성 주장이 아니다. 독립 AI 검수: 이번 task 원문 전체와 명시값·정확근거를 대조해 초안 의미 필드를 유지했다. 잠정24의 산술25 대비 불일치, 자기최상급 범위, 실제revise와 전달메시지의 구분은 별도 감사 및 검산 JSON에 보존한다.",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 2,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "propose"
+      ],
+      "schedule": {
+        "M1": 8,
+        "M2": 5,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M1: 0/4, 1/2, 0/3, 1/3, 1/0, 0/5, 0/6, 1/2, 1/6, 1/3, 0/4, 1/5.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M2: 0/2, 1/1, 1/3, 1/2, 1/0, 0/3, 1/3, 1/0, 1/3, 1/2, 0/1, 1/2.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "M3: 1/2, 1/3, 0/0, 0/1, 1/0, 1/2, 0/5, 0/4, 1/3, 1/2, 1/5, 1/3.",
+          "annotation_note": "원문이 정의한 슬롯 0–11 / availability-preference 순서에 대응하는 명시값만 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 8,
+              "M2": 5,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "respects precedence and attendee conflicts",
+          "annotation_note": "this appears to score ... and respects ...의 문장에서 respects는 별도 현재형 평가로 읽고, 바로 앞 후보 8/5/10에 대응시켰다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 8,
+              "M2": 5,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "A",
+          "evidence": "respects precedence and attendee conflicts",
+          "annotation_note": "모든 회의 쌍이 참석자를 공유하므로 이 문제에서 attendee conflicts를 피하는 일정 조건은 distinct와 대응한다. 실제 가용성 충족까지 포함한다고 확대하지 않았다."
+        }
+      ],
+      "unjudgeable": [
+        "this appears to score 24 in total"
+      ],
+      "proposal_quality": {
+        "valid": false,
+        "score": null,
+        "violations": [
+          "Unavailable: B1 at M1",
+          "Unavailable: A2 at M2"
+        ],
+        "gap": null
+      },
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "A 요약 72개와 후보 8/5/10의 선후관계·attendee conflicts 충족을 기록했다. appears to score 24는 점수 자체가 잠정형이므로 확정 schedule_score=24로 강화하지 않고 원문 발췌에 값과 강도를 보존했다. 사후 산술합 25 및 불가능 후보 점수 의미 미정은 검산 메모에서 별도로 구분한다. 잠정 표현을 먼저 확정 claim으로 만든 뒤 오류/보류를 세지 않는다. respects 절은 문법상 appears to score와 and로 연결된 별도 현재형이라 제약 평가로 기록했다. legal, 모든 가용성, optimal은 직접 말하지 않아 추가하지 않았다. 독립 AI 검수: 이번 task 원문 전체와 명시값·정확근거를 대조해 초안 의미 필드를 유지했다. 잠정24의 산술25 대비 불일치, 자기최상급 범위, 실제revise와 전달메시지의 구분은 별도 감사 및 검산 JSON에 보존한다.",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 3,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "reject",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "reason",
+          "value": [
+            "unavailable",
+            "M1",
+            "B1",
+            8
+          ],
+          "expected": true,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "Your proposed slots 8 for M1 and 5 for M2 are unavailable to B1 and the A-team, respectively.",
+          "annotation_note": "respectively의 첫 대응 M1 슬롯 8 → B1 불가 원인만 기록한다. 같은 개인 불가 fact를 중복 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "Your proposed slots 8 for M1 and 5 for M2 are unavailable to B1 and the A-team, respectively.",
+          "annotation_note": "respectively의 둘째 대응 M2 슬롯 5 → A 팀 불가를 기록한다. 특정 개인 A2로 발화를 대체하지 않았다."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "All are available",
+          "annotation_note": "All은 바로 앞 새 후보의 세 회의·슬롯을 가리킨다."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "All are available",
+          "annotation_note": "All은 바로 앞 새 후보의 세 회의·슬롯을 가리킨다."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "All are available",
+          "annotation_note": "All은 바로 앞 새 후보의 세 회의·슬롯을 가리킨다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "All are available, distinct, and respect M1-before-M3",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "respect M1-before-M3",
+          "annotation_note": null
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "score": 4
+          },
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "the total score is 4 + 7 + 9 = 20.",
+          "annotation_note": "바로 앞 명시 후보 M1/M2/M3 순서의 4+7+9 분해로 해석했다. 값은 발화 그대로다."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "score": 7
+          },
+          "expected": 7,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "the total score is 4 + 7 + 9 = 20.",
+          "annotation_note": "바로 앞 명시 후보 M1/M2/M3 순서의 4+7+9 분해로 해석했다. 값은 발화 그대로다."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "score": 9
+          },
+          "expected": 9,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "the total score is 4 + 7 + 9 = 20.",
+          "annotation_note": "바로 앞 명시 후보 M1/M2/M3 순서의 4+7+9 분해로 해석했다. 값은 발화 그대로다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "B",
+          "evidence": "the total score is 4 + 7 + 9 = 20.",
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [
+        "My corrected maximum-score schedule",
+        "Please confirm and submit this schedule."
+      ],
+      "proposal_quality": {
+        "valid": true,
+        "score": 20,
+        "violations": [],
+        "gap": 0
+      },
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "실제 제어행동은 revise이며 주석은 전달된 메시지를 제안 변경으로 기록한다. 기존 두 문제를 respectively에 따라 B1 원인/M2 A 팀 가용성으로 분리했고 새 후보의 세 회의 가용성·distinct·precedence·4/7/9·총점 20을 전개했다. My corrected maximum-score schedule은 자기 수정 후보를 수식한 표현으로 자기 탐색 범위의 여지가 남아 전역 optimal=1로 강화하지 않고 발췌했다. 강한 maximum-score라는 단어가 있으므로 독립 검토에서 범위를 재검토할 수 있게 이 결정을 공개한다. legal은 직접 말하지 않아 추가하지 않았다. 확인과 제출 요청은 수락·실제 제출이 아니며 뒤 submit을 task accept로 만들지 않았다. 독립 AI 검수: 이번 task 원문 전체와 명시값·정확근거를 대조해 초안 의미 필드를 유지했다. 잠정24의 산술25 대비 불일치, 자기최상급 범위, 실제revise와 전달메시지의 구분은 별도 감사 및 검산 JSON에 보존한다.",
+      "questions": [],
+      "references": []
+    }
+  ],
+  "annotation_reviewer_kind": "ai",
+  "annotation_reviewer": "Codex /root/stages_5_6; independent AI source audit of /root/stages_1_2 draft across all delivered task packets in trial-22; 2026-09-13"
+}

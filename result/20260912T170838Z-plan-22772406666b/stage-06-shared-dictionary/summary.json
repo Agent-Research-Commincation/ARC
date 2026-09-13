@@ -1,0 +1,77 @@
+{
+  "completed_trials": 30,
+  "attempted_trials": 30,
+  "infrastructure_errors": 0,
+  "terminal_trials": 30,
+  "not_started_trials": 0,
+  "status_counts": {
+    "success": 29,
+    "failed": 1
+  },
+  "operational_interruptions": 0,
+  "expected_trials": 30,
+  "success_count": 29,
+  "success_rate": 0.9666666666666667,
+  "batch_complete": true,
+  "quality_gap_successes": {
+    "count": 29,
+    "mean": 0,
+    "median": 0,
+    "min": 0,
+    "max": 0
+  },
+  "total_cost_estimate_usd": null,
+  "cost_per_success_estimate_usd": null,
+  "model_cost_estimate_usd": 0.52334084,
+  "known_partial_model_cost_estimate_usd": 0.52334084,
+  "model_cost_measured_trials": 30,
+  "model_cost_per_success_estimate_usd": 0.018046235862068966,
+  "cost_note": "Model-only values are partial API-equivalent estimates, not total costs or actual subscription charges. Unmeasured costs are null.",
+  "completion_seconds_successes": {
+    "count": 29,
+    "mean": 204.33017162931034,
+    "median": 189.518450916,
+    "min": 144.56666875000002,
+    "max": 344.10729449999997
+  },
+  "termination_seconds_all": {
+    "count": 30,
+    "mean": 205.79354029166666,
+    "median": 191.3834130205,
+    "min": 144.56666875000002,
+    "max": 344.10729449999997
+  },
+  "communication_bytes": {
+    "count": 30,
+    "mean": 5497.833333333333,
+    "median": 6023.0,
+    "min": 3450,
+    "max": 7284
+  },
+  "communication_processing_cpu_seconds": {
+    "count": 30,
+    "mean": 0.0031716907999999517,
+    "median": 0.0031681459999998163,
+    "min": 0.001966042000000029,
+    "max": 0.004495958999999994
+  },
+  "communication_processing_cost_estimate_usd": null,
+  "protocol_errors": 42,
+  "task_sender_text_bytes": {
+    "count": 30,
+    "mean": 3873.7,
+    "median": 4517.5,
+    "min": 1864,
+    "max": 5271
+  },
+  "task_receiver_text_bytes": {
+    "count": 30,
+    "mean": 3873.7,
+    "median": 4517.5,
+    "min": 1864,
+    "max": 5271
+  },
+  "runner_turns": 283,
+  "request_count_scope": "Runner input/response turns, not provider-internal calls or HTTP requests.",
+  "model_calls": 283
+}

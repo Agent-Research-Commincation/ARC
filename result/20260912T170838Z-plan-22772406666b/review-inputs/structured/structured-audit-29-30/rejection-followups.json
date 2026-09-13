@@ -1,0 +1,512 @@
+[
+  {
+    "stage": 2,
+    "trial": 29,
+    "request_id": "request-1",
+    "actor": "A",
+    "phase": "task",
+    "error": "Duplicate JSON key: summaries",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"{\\\"kind\\\":\\\"request\\\",\\\"facts\\\":[],\\\"schedule\\\":{},\\\"requests\\\":[\\\"B1\\\",\\\"B2\\\",\\\"B3\\\"],\\\"summaries\\\":[[\\\"available\\\",\\\"A\\\",\\\"M1\\\",0,0],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",0,4],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",1,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",1,2],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",2,0],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",2,3],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",3,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",3,3],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",4,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",4,0],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",5,0],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",5,5],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",6,0],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",6,6],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",7,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",7,2],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",8,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",8,6],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",9,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",9,3],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",10,0],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",10,4],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",11,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",11,5],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",0,0],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",0,2],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",1,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",1,1],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",2,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",2,3],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",3,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",3,2],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",4,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",4,0],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",5,0],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",5,3],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",6,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",6,3],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",7,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",7,0],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",8,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",8,3],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",9,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",9,2],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",10,0],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",10,1],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",11,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",11,2],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",0,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",0,2],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",1,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",1,3],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",2,0],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",2,0],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",3,0],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",3,1],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",4,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",4,0],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",5,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",5,2],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",6,0],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",6,5],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",7,0],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",7,4],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",8,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",8,3],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",9,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",9,2],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",10,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",10,5],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",11,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",11,3]],\\\"summaries\\\":[],\\\"reasons\\\":[],\\\"questions\\\":[],\\\"evaluations\\\":[],\\\"references\\\":[]}\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-2",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 1968,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"{\\\"kind\\\":\\\"request\\\",\\\"facts\\\":[],\\\"schedule\\\":{},\\\"requests\\\":[\\\"B1\\\",\\\"B2\\\",\\\"B3\\\"],\\\"summaries\\\":[[\\\"available\\\",\\\"A\\\",\\\"M1\\\",0,0],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",0,4],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",1,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",1,2],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",2,0],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",2,3],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",3,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",3,3],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",4,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",4,0],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",5,0],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",5,5],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",6,0],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",6,6],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",7,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",7,2],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",8,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",8,6],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",9,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",9,3],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",10,0],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",10,4],[\\\"available\\\",\\\"A\\\",\\\"M1\\\",11,1],[\\\"preference\\\",\\\"A\\\",\\\"M1\\\",11,5],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",0,0],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",0,2],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",1,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",1,1],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",2,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",2,3],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",3,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",3,2],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",4,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",4,0],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",5,0],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",5,3],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",6,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",6,3],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",7,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",7,0],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",8,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",8,3],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",9,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",9,2],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",10,0],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",10,1],[\\\"available\\\",\\\"A\\\",\\\"M2\\\",11,1],[\\\"preference\\\",\\\"A\\\",\\\"M2\\\",11,2],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",0,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",0,2],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",1,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",1,3],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",2,0],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",2,0],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",3,0],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",3,1],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",4,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",4,0],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",5,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",5,2],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",6,0],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",6,5],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",7,0],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",7,4],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",8,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",8,3],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",9,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",9,2],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",10,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",10,5],[\\\"available\\\",\\\"A\\\",\\\"M3\\\",11,1],[\\\"preference\\\",\\\"A\\\",\\\"M3\\\",11,3]],\\\"reasons\\\":[],\\\"questions\\\":[],\\\"evaluations\\\":[],\\\"references\\\":[]}\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "{\"kind\":\"request\",\"facts\":[],\"schedule\":{},\"requests\":[\"B1\",\"B2\",\"B3\"],\"summaries\":[[\"available\",\"A\",\"M1\",0,0],[\"preference\",\"A\",\"M1\",0,4],[\"available\",\"A\",\"M1\",1,1],[\"preference\",\"A\",\"M1\",1,2],[\"available\",\"A\",\"M1\",2,0],[\"preference\",\"A\",\"M1\",2,3],[\"available\",\"A\",\"M1\",3,1],[\"preference\",\"A\",\"M1\",3,3],[\"available\",\"A\",\"M1\",4,1],[\"preference\",\"A\",\"M1\",4,0],[\"available\",\"A\",\"M1\",5,0],[\"preference\",\"A\",\"M1\",5,5],[\"available\",\"A\",\"M1\",6,0],[\"preference\",\"A\",\"M1\",6,6],[\"available\",\"A\",\"M1\",7,1],[\"preference\",\"A\",\"M1\",7,2],[\"available\",\"A\",\"M1\",8,1],[\"preference\",\"A\",\"M1\",8,6],[\"available\",\"A\",\"M1\",9,1],[\"preference\",\"A\",\"M1\",9,3],[\"available\",\"A\",\"M1\",10,0],[\"preference\",\"A\",\"M1\",10,4],[\"available\",\"A\",\"M1\",11,1],[\"preference\",\"A\",\"M1\",11,5],[\"available\",\"A\",\"M2\",0,0],[\"preference\",\"A\",\"M2\",0,2],[\"available\",\"A\",\"M2\",1,1],[\"preference\",\"A\",\"M2\",1,1],[\"available\",\"A\",\"M2\",2,1],[\"preference\",\"A\",\"M2\",2,3],[\"available\",\"A\",\"M2\",3,1],[\"preference\",\"A\",\"M2\",3,2],[\"available\",\"A\",\"M2\",4,1],[\"preference\",\"A\",\"M2\",4,0],[\"available\",\"A\",\"M2\",5,0],[\"preference\",\"A\",\"M2\",5,3],[\"available\",\"A\",\"M2\",6,1],[\"preference\",\"A\",\"M2\",6,3],[\"available\",\"A\",\"M2\",7,1],[\"preference\",\"A\",\"M2\",7,0],[\"available\",\"A\",\"M2\",8,1],[\"preference\",\"A\",\"M2\",8,3],[\"available\",\"A\",\"M2\",9,1],[\"preference\",\"A\",\"M2\",9,2],[\"available\",\"A\",\"M2\",10,0],[\"preference\",\"A\",\"M2\",10,1],[\"available\",\"A\",\"M2\",11,1],[\"preference\",\"A\",\"M2\",11,2],[\"available\",\"A\",\"M3\",0,1],[\"preference\",\"A\",\"M3\",0,2],[\"available\",\"A\",\"M3\",1,1],[\"preference\",\"A\",\"M3\",1,3],[\"available\",\"A\",\"M3\",2,0],[\"preference\",\"A\",\"M3\",2,0],[\"available\",\"A\",\"M3\",3,0],[\"preference\",\"A\",\"M3\",3,1],[\"available\",\"A\",\"M3\",4,1],[\"preference\",\"A\",\"M3\",4,0],[\"available\",\"A\",\"M3\",5,1],[\"preference\",\"A\",\"M3\",5,2],[\"available\",\"A\",\"M3\",6,0],[\"preference\",\"A\",\"M3\",6,5],[\"available\",\"A\",\"M3\",7,0],[\"preference\",\"A\",\"M3\",7,4],[\"available\",\"A\",\"M3\",8,1],[\"preference\",\"A\",\"M3\",8,3],[\"available\",\"A\",\"M3\",9,1],[\"preference\",\"A\",\"M3\",9,2],[\"available\",\"A\",\"M3\",10,1],[\"preference\",\"A\",\"M3\",10,5],[\"available\",\"A\",\"M3\",11,1],[\"preference\",\"A\",\"M3\",11,3]],\"reasons\":[],\"questions\":[],\"evaluations\":[],\"references\":[]}",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-2",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 29,
+    "request_id": "request-1",
+    "actor": "A",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: asks ummary(available,B,M1,0).",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\nasks ummary(available,B,M1,0).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-5",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 213,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskfact(available,B1,0).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\naskfact(available,B1,0).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-5",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 29,
+    "request_id": "request-2",
+    "actor": "A",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: asks ummary",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\nasks ummary\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-5",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 213,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskfact(available,B1,0).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\naskfact(available,B1,0).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-5",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 29,
+    "request_id": "request-3",
+    "actor": "A",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: asks ummary(available,B,M1,0).",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\nasks ummary(available,B,M1,0).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-5",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 213,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskfact(available,B1,0).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\naskfact(available,B1,0).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-5",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 29,
+    "request_id": "request-4",
+    "actor": "A",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: asks ummary(available,B,M1,0).",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\nasks ummary(available,B,M1,0).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-5",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 213,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\naskfact(available,B1,0).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\naskfact(available,B1,0).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-5",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 29,
+    "request_id": "request-6",
+    "actor": "B",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: teamsummary",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"inform().\\navailable(B1,0,1).\\npreference(B1,0,2).\\nteamsummary\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-7",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 1112,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"inform().\\navailable(B1,0,1).\\npreference(B1,0,2).\\nteamavailable(B,M1,0,1).\\nteampreference(B,M1,0,2).\\nteamavailable(B,M1,1,1).\\nteampreference(B,M1,1,2).\\nteamavailable(B,M1,2,1).\\nteampreference(B,M1,2,0).\\nteamavailable(B,M1,3,0).\\nteampreference(B,M1,3,1).\\nteamavailable(B,M1,4,1).\\nteampreference(B,M1,4,2).\\nteamavailable(B,M1,5,1).\\nteampreference(B,M1,5,2).\\nteamavailable(B,M1,6,1).\\nteampreference(B,M1,6,2).\\nteamavailable(B,M1,7,1).\\nteampreference(B,M1,7,1).\\nteamavailable(B,M1,8,0).\\nteampreference(B,M1,8,3).\\nteamavailable(B,M1,9,1).\\nteampreference(B,M1,9,0).\\nteamavailable(B,M1,10,1).\\nteampreference(B,M1,10,3).\\nteamavailable(B,M1,11,1).\\nteampreference(B,M1,11,3).\\nteamavailable(B,M2,0,1).\\nteampreference(B,M2,0,4).\\nteamavailable(B,M2,1,0).\\nteampreference(B,M2,1,3).\\nteamavailable(B,M2,2,1).\\nteampreference(B,M2,2,0).\\nteamavailable(B,M2,3,0).\\nteampreference(B,M2,3,2).\\nteamavailable(B,M2,4,1).\\nteampreference(B,M2,4,2).\\nteamavailable(B,M2,5,1).\\nteampreference(B,M2,5,4).\\nteamavailable(B,M2,6,1).\\nteampreference(B,M2,6,4).\\nteamavailable(B,M2,7,1).\\nteampreference(B,M2,7,3).\\nteamavailable(B,M2,8,0).\\nteampreference(B,M2,8,3).\\nteamavailable(B,M2,9,0).\\nteampreference(B,M2,9,2).\\nteamavailable(B,M2,10,1).\\nteampreference(B,M2,10,4).\\nteamavailable(B,M2,11,1).\\nteampreference(B,M2,11,4).\\nteamavailable(B,M3,0,1).\\nteampreference(B,M3,0,4).\\nteamavailable(B,M3,1,0).\\nteampreference(B,M3,1,4).\\nteamavailable(B,M3,2,1).\\nteampreference(B,M3,2,1).\\nteamavailable(B,M3,3,1).\\nteampreference(B,M3,3,4).\\nteamavailable(B,M3,4,0).\\nteampreference(B,M3,4,0).\\nteamavailable(B,M3,5,1).\\nteampreference(B,M3,5,2).\\nteamavailable(B,M3,6,1).\\nteampreference(B,M3,6,2).\\nteamavailable(B,M3,7,1).\\nteampreference(B,M3,7,2).\\nteamavailable(B,M3,8,1).\\nteampreference(B,M3,8,2).\\nteamavailable(B,M3,9,0).\\nteampreference(B,M3,9,2).\\nteamavailable(B,M3,10,1).\\nteampreference(B,M3,10,4).\\nteamavailable(B,M3,11,1).\\nteampreference(B,M3,11,1).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "inform().\navailable(B1,0,1).\npreference(B1,0,2).\nteamavailable(B,M1,0,1).\nteampreference(B,M1,0,2).\nteamavailable(B,M1,1,1).\nteampreference(B,M1,1,2).\nteamavailable(B,M1,2,1).\nteampreference(B,M1,2,0).\nteamavailable(B,M1,3,0).\nteampreference(B,M1,3,1).\nteamavailable(B,M1,4,1).\nteampreference(B,M1,4,2).\nteamavailable(B,M1,5,1).\nteampreference(B,M1,5,2).\nteamavailable(B,M1,6,1).\nteampreference(B,M1,6,2).\nteamavailable(B,M1,7,1).\nteampreference(B,M1,7,1).\nteamavailable(B,M1,8,0).\nteampreference(B,M1,8,3).\nteamavailable(B,M1,9,1).\nteampreference(B,M1,9,0).\nteamavailable(B,M1,10,1).\nteampreference(B,M1,10,3).\nteamavailable(B,M1,11,1).\nteampreference(B,M1,11,3).\nteamavailable(B,M2,0,1).\nteampreference(B,M2,0,4).\nteamavailable(B,M2,1,0).\nteampreference(B,M2,1,3).\nteamavailable(B,M2,2,1).\nteampreference(B,M2,2,0).\nteamavailable(B,M2,3,0).\nteampreference(B,M2,3,2).\nteamavailable(B,M2,4,1).\nteampreference(B,M2,4,2).\nteamavailable(B,M2,5,1).\nteampreference(B,M2,5,4).\nteamavailable(B,M2,6,1).\nteampreference(B,M2,6,4).\nteamavailable(B,M2,7,1).\nteampreference(B,M2,7,3).\nteamavailable(B,M2,8,0).\nteampreference(B,M2,8,3).\nteamavailable(B,M2,9,0).\nteampreference(B,M2,9,2).\nteamavailable(B,M2,10,1).\nteampreference(B,M2,10,4).\nteamavailable(B,M2,11,1).\nteampreference(B,M2,11,4).\nteamavailable(B,M3,0,1).\nteampreference(B,M3,0,4).\nteamavailable(B,M3,1,0).\nteampreference(B,M3,1,4).\nteamavailable(B,M3,2,1).\nteampreference(B,M3,2,1).\nteamavailable(B,M3,3,1).\nteampreference(B,M3,3,4).\nteamavailable(B,M3,4,0).\nteampreference(B,M3,4,0).\nteamavailable(B,M3,5,1).\nteampreference(B,M3,5,2).\nteamavailable(B,M3,6,1).\nteampreference(B,M3,6,2).\nteamavailable(B,M3,7,1).\nteampreference(B,M3,7,2).\nteamavailable(B,M3,8,1).\nteampreference(B,M3,8,2).\nteamavailable(B,M3,9,0).\nteampreference(B,M3,9,2).\nteamavailable(B,M3,10,1).\nteampreference(B,M3,10,4).\nteamavailable(B,M3,11,1).\nteampreference(B,M3,11,1).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-7",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        2
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 29,
+    "request_id": "request-9",
+    "actor": "B",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: asks ummary",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\nasks ummary\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-11",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 2149,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\nasksummary(preference,A,M1,0).\\nasksummary(available,A,M1,0).\\nasksummary(preference,A,M1,1).\\nasksummary(available,A,M1,1).\\nasksummary(preference,A,M1,2).\\nasksummary(available,A,M1,2).\\nasksummary(preference,A,M1,3).\\nasksummary(available,A,M1,3).\\nasksummary(preference,A,M1,4).\\nasksummary(available,A,M1,4).\\nasksummary(preference,A,M1,5).\\nasksummary(available,A,M1,5).\\nasksummary(preference,A,M1,6).\\nasksummary(available,A,M1,6).\\nasksummary(preference,A,M1,7).\\nasksummary(available,A,M1,7).\\nasksummary(preference,A,M1,8).\\nasksummary(available,A,M1,8).\\nasksummary(preference,A,M1,9).\\nasksummary(available,A,M1,9).\\nasksummary(preference,A,M1,10).\\nasksummary(available,A,M1,10).\\nasksummary(preference,A,M1,11).\\nasksummary(available,A,M1,11).\\nasksummary(preference,A,M2,0).\\nasksummary(available,A,M2,0).\\nasksummary(preference,A,M2,1).\\nasksummary(available,A,M2,1).\\nasksummary(preference,A,M2,2).\\nasksummary(available,A,M2,2).\\nasksummary(preference,A,M2,3).\\nasksummary(available,A,M2,3).\\nasksummary(preference,A,M2,4).\\nasksummary(available,A,M2,4).\\nasksummary(preference,A,M2,5).\\nasksummary(available,A,M2,5).\\nasksummary(preference,A,M2,6).\\nasksummary(available,A,M2,6).\\nasksummary(preference,A,M2,7).\\nasksummary(available,A,M2,7).\\nasksummary(preference,A,M2,8).\\nasksummary(available,A,M2,8).\\nasksummary(preference,A,M2,9).\\nasksummary(available,A,M2,9).\\nasksummary(preference,A,M2,10).\\nasksummary(available,A,M2,10).\\nasksummary(preference,A,M2,11).\\nasksummary(available,A,M2,11).\\nasksummary(preference,A,M3,0).\\nasksummary(available,A,M3,0).\\nasksummary(preference,A,M3,1).\\nasksummary(available,A,M3,1).\\nasksummary(preference,A,M3,2).\\nasksummary(available,A,M3,2).\\nasksummary(preference,A,M3,3).\\nasksummary(available,A,M3,3).\\nasksummary(preference,A,M3,4).\\nasksummary(available,A,M3,4).\\nasksummary(preference,A,M3,5).\\nasksummary(available,A,M3,5).\\nasksummary(preference,A,M3,6).\\nasksummary(available,A,M3,6).\\nasksummary(preference,A,M3,7).\\nasksummary(available,A,M3,7).\\nasksummary(preference,A,M3,8).\\nasksummary(available,A,M3,8).\\nasksummary(preference,A,M3,9).\\nasksummary(available,A,M3,9).\\nasksummary(preference,A,M3,10).\\nasksummary(available,A,M3,10).\\nasksummary(preference,A,M3,11).\\nasksummary(available,A,M3,11).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\nasksummary(preference,A,M1,0).\nasksummary(available,A,M1,0).\nasksummary(preference,A,M1,1).\nasksummary(available,A,M1,1).\nasksummary(preference,A,M1,2).\nasksummary(available,A,M1,2).\nasksummary(preference,A,M1,3).\nasksummary(available,A,M1,3).\nasksummary(preference,A,M1,4).\nasksummary(available,A,M1,4).\nasksummary(preference,A,M1,5).\nasksummary(available,A,M1,5).\nasksummary(preference,A,M1,6).\nasksummary(available,A,M1,6).\nasksummary(preference,A,M1,7).\nasksummary(available,A,M1,7).\nasksummary(preference,A,M1,8).\nasksummary(available,A,M1,8).\nasksummary(preference,A,M1,9).\nasksummary(available,A,M1,9).\nasksummary(preference,A,M1,10).\nasksummary(available,A,M1,10).\nasksummary(preference,A,M1,11).\nasksummary(available,A,M1,11).\nasksummary(preference,A,M2,0).\nasksummary(available,A,M2,0).\nasksummary(preference,A,M2,1).\nasksummary(available,A,M2,1).\nasksummary(preference,A,M2,2).\nasksummary(available,A,M2,2).\nasksummary(preference,A,M2,3).\nasksummary(available,A,M2,3).\nasksummary(preference,A,M2,4).\nasksummary(available,A,M2,4).\nasksummary(preference,A,M2,5).\nasksummary(available,A,M2,5).\nasksummary(preference,A,M2,6).\nasksummary(available,A,M2,6).\nasksummary(preference,A,M2,7).\nasksummary(available,A,M2,7).\nasksummary(preference,A,M2,8).\nasksummary(available,A,M2,8).\nasksummary(preference,A,M2,9).\nasksummary(available,A,M2,9).\nasksummary(preference,A,M2,10).\nasksummary(available,A,M2,10).\nasksummary(preference,A,M2,11).\nasksummary(available,A,M2,11).\nasksummary(preference,A,M3,0).\nasksummary(available,A,M3,0).\nasksummary(preference,A,M3,1).\nasksummary(available,A,M3,1).\nasksummary(preference,A,M3,2).\nasksummary(available,A,M3,2).\nasksummary(preference,A,M3,3).\nasksummary(available,A,M3,3).\nasksummary(preference,A,M3,4).\nasksummary(available,A,M3,4).\nasksummary(preference,A,M3,5).\nasksummary(available,A,M3,5).\nasksummary(preference,A,M3,6).\nasksummary(available,A,M3,6).\nasksummary(preference,A,M3,7).\nasksummary(available,A,M3,7).\nasksummary(preference,A,M3,8).\nasksummary(available,A,M3,8).\nasksummary(preference,A,M3,9).\nasksummary(available,A,M3,9).\nasksummary(preference,A,M3,10).\nasksummary(available,A,M3,10).\nasksummary(preference,A,M3,11).\nasksummary(available,A,M3,11).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-11",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        4
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 29,
+    "request_id": "request-10",
+    "actor": "B",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: asks ummary(preference,A,M1,0).",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\nasks ummary(preference,A,M1,0).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-11",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 2149,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\nasksummary(preference,A,M1,0).\\nasksummary(available,A,M1,0).\\nasksummary(preference,A,M1,1).\\nasksummary(available,A,M1,1).\\nasksummary(preference,A,M1,2).\\nasksummary(available,A,M1,2).\\nasksummary(preference,A,M1,3).\\nasksummary(available,A,M1,3).\\nasksummary(preference,A,M1,4).\\nasksummary(available,A,M1,4).\\nasksummary(preference,A,M1,5).\\nasksummary(available,A,M1,5).\\nasksummary(preference,A,M1,6).\\nasksummary(available,A,M1,6).\\nasksummary(preference,A,M1,7).\\nasksummary(available,A,M1,7).\\nasksummary(preference,A,M1,8).\\nasksummary(available,A,M1,8).\\nasksummary(preference,A,M1,9).\\nasksummary(available,A,M1,9).\\nasksummary(preference,A,M1,10).\\nasksummary(available,A,M1,10).\\nasksummary(preference,A,M1,11).\\nasksummary(available,A,M1,11).\\nasksummary(preference,A,M2,0).\\nasksummary(available,A,M2,0).\\nasksummary(preference,A,M2,1).\\nasksummary(available,A,M2,1).\\nasksummary(preference,A,M2,2).\\nasksummary(available,A,M2,2).\\nasksummary(preference,A,M2,3).\\nasksummary(available,A,M2,3).\\nasksummary(preference,A,M2,4).\\nasksummary(available,A,M2,4).\\nasksummary(preference,A,M2,5).\\nasksummary(available,A,M2,5).\\nasksummary(preference,A,M2,6).\\nasksummary(available,A,M2,6).\\nasksummary(preference,A,M2,7).\\nasksummary(available,A,M2,7).\\nasksummary(preference,A,M2,8).\\nasksummary(available,A,M2,8).\\nasksummary(preference,A,M2,9).\\nasksummary(available,A,M2,9).\\nasksummary(preference,A,M2,10).\\nasksummary(available,A,M2,10).\\nasksummary(preference,A,M2,11).\\nasksummary(available,A,M2,11).\\nasksummary(preference,A,M3,0).\\nasksummary(available,A,M3,0).\\nasksummary(preference,A,M3,1).\\nasksummary(available,A,M3,1).\\nasksummary(preference,A,M3,2).\\nasksummary(available,A,M3,2).\\nasksummary(preference,A,M3,3).\\nasksummary(available,A,M3,3).\\nasksummary(preference,A,M3,4).\\nasksummary(available,A,M3,4).\\nasksummary(preference,A,M3,5).\\nasksummary(available,A,M3,5).\\nasksummary(preference,A,M3,6).\\nasksummary(available,A,M3,6).\\nasksummary(preference,A,M3,7).\\nasksummary(available,A,M3,7).\\nasksummary(preference,A,M3,8).\\nasksummary(available,A,M3,8).\\nasksummary(preference,A,M3,9).\\nasksummary(available,A,M3,9).\\nasksummary(preference,A,M3,10).\\nasksummary(available,A,M3,10).\\nasksummary(preference,A,M3,11).\\nasksummary(available,A,M3,11).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\nasksummary(preference,A,M1,0).\nasksummary(available,A,M1,0).\nasksummary(preference,A,M1,1).\nasksummary(available,A,M1,1).\nasksummary(preference,A,M1,2).\nasksummary(available,A,M1,2).\nasksummary(preference,A,M1,3).\nasksummary(available,A,M1,3).\nasksummary(preference,A,M1,4).\nasksummary(available,A,M1,4).\nasksummary(preference,A,M1,5).\nasksummary(available,A,M1,5).\nasksummary(preference,A,M1,6).\nasksummary(available,A,M1,6).\nasksummary(preference,A,M1,7).\nasksummary(available,A,M1,7).\nasksummary(preference,A,M1,8).\nasksummary(available,A,M1,8).\nasksummary(preference,A,M1,9).\nasksummary(available,A,M1,9).\nasksummary(preference,A,M1,10).\nasksummary(available,A,M1,10).\nasksummary(preference,A,M1,11).\nasksummary(available,A,M1,11).\nasksummary(preference,A,M2,0).\nasksummary(available,A,M2,0).\nasksummary(preference,A,M2,1).\nasksummary(available,A,M2,1).\nasksummary(preference,A,M2,2).\nasksummary(available,A,M2,2).\nasksummary(preference,A,M2,3).\nasksummary(available,A,M2,3).\nasksummary(preference,A,M2,4).\nasksummary(available,A,M2,4).\nasksummary(preference,A,M2,5).\nasksummary(available,A,M2,5).\nasksummary(preference,A,M2,6).\nasksummary(available,A,M2,6).\nasksummary(preference,A,M2,7).\nasksummary(available,A,M2,7).\nasksummary(preference,A,M2,8).\nasksummary(available,A,M2,8).\nasksummary(preference,A,M2,9).\nasksummary(available,A,M2,9).\nasksummary(preference,A,M2,10).\nasksummary(available,A,M2,10).\nasksummary(preference,A,M2,11).\nasksummary(available,A,M2,11).\nasksummary(preference,A,M3,0).\nasksummary(available,A,M3,0).\nasksummary(preference,A,M3,1).\nasksummary(available,A,M3,1).\nasksummary(preference,A,M3,2).\nasksummary(available,A,M3,2).\nasksummary(preference,A,M3,3).\nasksummary(available,A,M3,3).\nasksummary(preference,A,M3,4).\nasksummary(available,A,M3,4).\nasksummary(preference,A,M3,5).\nasksummary(available,A,M3,5).\nasksummary(preference,A,M3,6).\nasksummary(available,A,M3,6).\nasksummary(preference,A,M3,7).\nasksummary(available,A,M3,7).\nasksummary(preference,A,M3,8).\nasksummary(available,A,M3,8).\nasksummary(preference,A,M3,9).\nasksummary(available,A,M3,9).\nasksummary(preference,A,M3,10).\nasksummary(available,A,M3,10).\nasksummary(preference,A,M3,11).\nasksummary(available,A,M3,11).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-11",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        4
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 30,
+    "request_id": "request-1",
+    "actor": "B",
+    "phase": "task",
+    "error": "Only one message kind",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"inform().\\nteamavailable(B,M1,0,1).\\nteampreference(B,M1,0,2).\\nteamavailable(B,M1,1,1).\\nteampreference(B,M1,1,2).\\nteamavailable(B,M1,2,1).\\nteampreference(B,M1,2,0).\\nteamavailable(B,M1,3,0).\\nteampreference(B,M1,3,1).\\nteamavailable(B,M1,4,1).\\nteampreference(B,M1,4,2).\\nteamavailable(B,M1,5,1).\\nteampreference(B,M1,5,2).\\nteamavailable(B,M1,6,1).\\nteampreference(B,M1,6,2).\\nteamavailable(B,M1,7,1).\\nteampreference(B,M1,7,1).\\nteamavailable(B,M1,8,0).\\nteampreference(B,M1,8,3).\\nteamavailable(B,M1,9,1).\\nteampreference(B,M1,9,0).\\nteamavailable(B,M1,10,1).\\nteampreference(B,M1,10,3).\\nteamavailable(B,M1,11,1).\\nteampreference(B,M1,11,3).\\nteamavailable(B,M2,0,1).\\nteampreference(B,M2,0,4).\\nteamavailable(B,M2,1,0).\\nteampreference(B,M2,1,3).\\nteamavailable(B,M2,2,1).\\nteampreference(B,M2,2,0).\\nteamavailable(B,M2,3,0).\\nteampreference(B,M2,3,2).\\nteamavailable(B,M2,4,1).\\nteampreference(B,M2,4,2).\\nteamavailable(B,M2,5,1).\\nteampreference(B,M2,5,4).\\nteamavailable(B,M2,6,1).\\nteampreference(B,M2,6,4).\\nteamavailable(B,M2,7,1).\\nteampreference(B,M2,7,3).\\nteamavailable(B,M2,8,0).\\nteampreference(B,M2,8,3).\\nteamavailable(B,M2,9,0).\\nteampreference(B,M2,9,2).\\nteamavailable(B,M2,10,1).\\nteampreference(B,M2,10,4).\\nteamavailable(B,M2,11,1).\\nteampreference(B,M2,11,4).\\nteamavailable(B,M3,0,1).\\nteampreference(B,M3,0,4).\\nteamavailable(B,M3,1,0).\\nteampreference(B,M3,1,4).\\nteamavailable(B,M3,2,1).\\nteampreference(B,M3,2,1).\\nteamavailable(B,M3,3,1).\\nteampreference(B,M3,3,4).\\nteamavailable(B,M3,4,0).\\nteampreference(B,M3,4,0).\\nteamavailable(B,M3,5,1).\\nteampreference(B,M3,5,2).\\nteamavailable(B,M3,6,1).\\nteampreference(B,M3,6,2).\\nteamavailable(B,M3,7,1).\\nteampreference(B,M3,7,2).\\nteamavailable(B,M3,8,1).\\nteampreference(B,M3,8,2).\\nteamavailable(B,M3,9,0).\\nteampreference(B,M3,9,2).\\nteamavailable(B,M3,10,1).\\nteampreference(B,M3,10,4).\\nteamavailable(B,M3,11,1).\\nteampreference(B,M3,11,1).\\nrequest().\\nasksummary(available,A,M1,0).\\nasksummary(preference,A,M1,0).\\nasksummary(available,A,M1,1).\\nasksummary(preference,A,M1,1).\\nasksummary(available,A,M1,2).\\nasksummary(preference,A,M1,2).\\nasksummary(available,A,M1,3).\\nasksummary(preference,A,M1,3).\\nasksummary(available,A,M1,4).\\nasksummary(preference,A,M1,4).\\nasksummary(available,A,M1,5).\\nasksummary(preference,A,M1,5).\\nasksummary(available,A,M1,6).\\nasksummary(preference,A,M1,6).\\nasksummary(available,A,M1,7).\\nasksummary(preference,A,M1,7).\\nasksummary(available,A,M1,8).\\nasksummary(preference,A,M1,8).\\nasksummary(available,A,M1,9).\\nasksummary(preference,A,M1,9).\\nasksummary(available,A,M1,10).\\nasksummary(preference,A,M1,10).\\nasksummary(available,A,M1,11).\\nasksummary(preference,A,M1,11).\\nasksummary(available,A,M2,0).\\nasksummary(preference,A,M2,0).\\nasksummary(available,A,M2,1).\\nasksummary(preference,A,M2,1).\\nasksummary(available,A,M2,2).\\nasksummary(preference,A,M2,2).\\nasksummary(available,A,M2,3).\\nasksummary(preference,A,M2,3).\\nasksummary(available,A,M2,4).\\nasksummary(preference,A,M2,4).\\nasksummary(available,A,M2,5).\\nasksummary(preference,A,M2,5).\\nasksummary(available,A,M2,6).\\nasksummary(preference,A,M2,6).\\nasksummary(available,A,M2,7).\\nasksummary(preference,A,M2,7).\\nasksummary(available,A,M2,8).\\nasksummary(preference,A,M2,8).\\nasksummary(available,A,M2,9).\\nasksummary(preference,A,M2,9).\\nasksummary(available,A,M2,10).\\nasksummary(preference,A,M2,10).\\nasksummary(available,A,M2,11).\\nasksummary(preference,A,M2,11).\\nasksummary(available,A,M3,0).\\nasksummary(preference,A,M3,0).\\nasksummary(available,A,M3,1).\\nasksummary(preference,A,M3,1).\\nasksummary(available,A,M3,2).\\nasksummary(preference,A,M3,2).\\nasksummary(available,A,M3,3).\\nasksummary(preference,A,M3,3).\\nasksummary(available,A,M3,4).\\nasksummary(preference,A,M3,4).\\nasksummary(available,A,M3,5).\\nasksummary(preference,A,M3,5).\\nasksummary(available,A,M3,6).\\nasksummary(preference,A,M3,6).\\nasksummary(available,A,M3,7).\\nasksummary(preference,A,M3,7).\\nasksummary(available,A,M3,8).\\nasksummary(preference,A,M3,8).\\nasksummary(available,A,M3,9).\\nasksummary(preference,A,M3,9).\\nasksummary(available,A,M3,10).\\nasksummary(preference,A,M3,10).\\nasksummary(available,A,M3,11).\\nasksummary(preference,A,M3,11).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-2",
+      "actor": "B",
+      "phase": "task",
+      "event_sequence": 2447,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"request().\\nasksummary(available,A,M1,0).\\nasksummary(preference,A,M1,0).\\nasksummary(available,A,M1,1).\\nasksummary(preference,A,M1,1).\\nasksummary(available,A,M1,2).\\nasksummary(preference,A,M1,2).\\nasksummary(available,A,M1,3).\\nasksummary(preference,A,M1,3).\\nasksummary(available,A,M1,4).\\nasksummary(preference,A,M1,4).\\nasksummary(available,A,M1,5).\\nasksummary(preference,A,M1,5).\\nasksummary(available,A,M1,6).\\nasksummary(preference,A,M1,6).\\nasksummary(available,A,M1,7).\\nasksummary(preference,A,M1,7).\\nasksummary(available,A,M1,8).\\nasksummary(preference,A,M1,8).\\nasksummary(available,A,M1,9).\\nasksummary(preference,A,M1,9).\\nasksummary(available,A,M1,10).\\nasksummary(preference,A,M1,10).\\nasksummary(available,A,M1,11).\\nasksummary(preference,A,M1,11).\\nasksummary(available,A,M2,0).\\nasksummary(preference,A,M2,0).\\nasksummary(available,A,M2,1).\\nasksummary(preference,A,M2,1).\\nasksummary(available,A,M2,2).\\nasksummary(preference,A,M2,2).\\nasksummary(available,A,M2,3).\\nasksummary(preference,A,M2,3).\\nasksummary(available,A,M2,4).\\nasksummary(preference,A,M2,4).\\nasksummary(available,A,M2,5).\\nasksummary(preference,A,M2,5).\\nasksummary(available,A,M2,6).\\nasksummary(preference,A,M2,6).\\nasksummary(available,A,M2,7).\\nasksummary(preference,A,M2,7).\\nasksummary(available,A,M2,8).\\nasksummary(preference,A,M2,8).\\nasksummary(available,A,M2,9).\\nasksummary(preference,A,M2,9).\\nasksummary(available,A,M2,10).\\nasksummary(preference,A,M2,10).\\nasksummary(available,A,M2,11).\\nasksummary(preference,A,M2,11).\\nasksummary(available,A,M3,0).\\nasksummary(preference,A,M3,0).\\nasksummary(available,A,M3,1).\\nasksummary(preference,A,M3,1).\\nasksummary(available,A,M3,2).\\nasksummary(preference,A,M3,2).\\nasksummary(available,A,M3,3).\\nasksummary(preference,A,M3,3).\\nasksummary(available,A,M3,4).\\nasksummary(preference,A,M3,4).\\nasksummary(available,A,M3,5).\\nasksummary(preference,A,M3,5).\\nasksummary(available,A,M3,6).\\nasksummary(preference,A,M3,6).\\nasksummary(available,A,M3,7).\\nasksummary(preference,A,M3,7).\\nasksummary(available,A,M3,8).\\nasksummary(preference,A,M3,8).\\nasksummary(available,A,M3,9).\\nasksummary(preference,A,M3,9).\\nasksummary(available,A,M3,10).\\nasksummary(preference,A,M3,10).\\nasksummary(available,A,M3,11).\\nasksummary(preference,A,M3,11).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "request().\nasksummary(available,A,M1,0).\nasksummary(preference,A,M1,0).\nasksummary(available,A,M1,1).\nasksummary(preference,A,M1,1).\nasksummary(available,A,M1,2).\nasksummary(preference,A,M1,2).\nasksummary(available,A,M1,3).\nasksummary(preference,A,M1,3).\nasksummary(available,A,M1,4).\nasksummary(preference,A,M1,4).\nasksummary(available,A,M1,5).\nasksummary(preference,A,M1,5).\nasksummary(available,A,M1,6).\nasksummary(preference,A,M1,6).\nasksummary(available,A,M1,7).\nasksummary(preference,A,M1,7).\nasksummary(available,A,M1,8).\nasksummary(preference,A,M1,8).\nasksummary(available,A,M1,9).\nasksummary(preference,A,M1,9).\nasksummary(available,A,M1,10).\nasksummary(preference,A,M1,10).\nasksummary(available,A,M1,11).\nasksummary(preference,A,M1,11).\nasksummary(available,A,M2,0).\nasksummary(preference,A,M2,0).\nasksummary(available,A,M2,1).\nasksummary(preference,A,M2,1).\nasksummary(available,A,M2,2).\nasksummary(preference,A,M2,2).\nasksummary(available,A,M2,3).\nasksummary(preference,A,M2,3).\nasksummary(available,A,M2,4).\nasksummary(preference,A,M2,4).\nasksummary(available,A,M2,5).\nasksummary(preference,A,M2,5).\nasksummary(available,A,M2,6).\nasksummary(preference,A,M2,6).\nasksummary(available,A,M2,7).\nasksummary(preference,A,M2,7).\nasksummary(available,A,M2,8).\nasksummary(preference,A,M2,8).\nasksummary(available,A,M2,9).\nasksummary(preference,A,M2,9).\nasksummary(available,A,M2,10).\nasksummary(preference,A,M2,10).\nasksummary(available,A,M2,11).\nasksummary(preference,A,M2,11).\nasksummary(available,A,M3,0).\nasksummary(preference,A,M3,0).\nasksummary(available,A,M3,1).\nasksummary(preference,A,M3,1).\nasksummary(available,A,M3,2).\nasksummary(preference,A,M3,2).\nasksummary(available,A,M3,3).\nasksummary(preference,A,M3,3).\nasksummary(available,A,M3,4).\nasksummary(preference,A,M3,4).\nasksummary(available,A,M3,5).\nasksummary(preference,A,M3,5).\nasksummary(available,A,M3,6).\nasksummary(preference,A,M3,6).\nasksummary(available,A,M3,7).\nasksummary(preference,A,M3,7).\nasksummary(available,A,M3,8).\nasksummary(preference,A,M3,8).\nasksummary(available,A,M3,9).\nasksummary(preference,A,M3,9).\nasksummary(available,A,M3,10).\nasksummary(preference,A,M3,10).\nasksummary(available,A,M3,11).\nasksummary(preference,A,M3,11).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "B",
+        "phase": "task",
+        "request_id": "request-2",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 30,
+    "request_id": "request-3",
+    "actor": "A",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: te amavailable(A,M1,6,0).",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"inform().\\nteamavailable(A,M1,0,0).\\nteampreference(A,M1,0,4).\\nteamavailable(A,M1,1,1).\\nteampreference(A,M1,1,2).\\nteamavailable(A,M1,2,0).\\nteampreference(A,M1,2,3).\\nteamavailable(A,M1,3,1).\\nteampreference(A,M1,3,3).\\nteamavailable(A,M1,4,1).\\nteampreference(A,M1,4,0).\\nteamavailable(A,M1,5,0).\\nteampreference(A,M1,5,5).\\nte amavailable(A,M1,6,0).\\nteampreference(A,M1,6,6).\\nteamavailable(A,M1,7,1).\\nteampreference(A,M1,7,2).\\nteamavailable(A,M1,8,1).\\nteampreference(A,M1,8,6).\\nteamavailable(A,M1,9,1).\\nteampreference(A,M1,9,3).\\nteamavailable(A,M1,10,0).\\nteampreference(A,M1,10,4).\\nteamavailable(A,M1,11,1).\\nteampreference(A,M1,11,5).\\nteamavailable(A,M2,0,0).\\nteampreference(A,M2,0,2).\\nteamavailable(A,M2,1,1).\\nteampreference(A,M2,1,1).\\nteamavailable(A,M2,2,1).\\nteampreference(A,M2,2,3).\\nteamavailable(A,M2,3,1).\\nteampreference(A,M2,3,2).\\nteamavailable(A,M2,4,1).\\nteampreference(A,M2,4,0).\\nteamavailable(A,M2,5,0).\\nteampreference(A,M2,5,3).\\nteamavailable(A,M2,6,1).\\nteampreference(A,M2,6,3).\\nteamavailable(A,M2,7,1).\\nteampreference(A,M2,7,0).\\nteamavailable(A,M2,8,1).\\nteampreference(A,M2,8,3).\\nteamavailable(A,M2,9,1).\\nteampreference(A,M2,9,2).\\nteamavailable(A,M2,10,0).\\nteampreference(A,M2,10,1).\\nteamavailable(A,M2,11,1).\\nteampreference(A,M2,11,2).\\nteamavailable(A,M3,0,1).\\nteampreference(A,M3,0,2).\\nteamavailable(A,M3,1,1).\\nteampreference(A,M3,1,3).\\nteamavailable(A,M3,2,0).\\nteampreference(A,M3,2,0).\\nteamavailable(A,M3,3,0).\\nteampreference(A,M3,3,1).\\nteamavailable(A,M3,4,1).\\nteampreference(A,M3,4,0).\\nteamavailable(A,M3,5,1).\\nteampreference(A,M3,5,2).\\nteamavailable(A,M3,6,0).\\nteampreference(A,M3,6,5).\\nteamavailable(A,M3,7,0).\\nteampreference(A,M3,7,4).\\nteamavailable(A,M3,8,1).\\nteampreference(A,M3,8,3).\\nteamavailable(A,M3,9,1).\\nteampreference(A,M3,9,2).\\nteamavailable(A,M3,10,1).\\nteampreference(A,M3,10,5).\\nteamavailable(A,M3,11,1).\\nteampreference(A,M3,11,3).\\nask summary(preference,B,M1,0).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-6",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 5782,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"inform().\\nteamavailable(A,M1,0,0).\\nteampreference(A,M1,0,4).\\nteamavailable(A,M1,1,1).\\nteampreference(A,M1,1,2).\\nteamavailable(A,M1,2,0).\\nteampreference(A,M1,2,3).\\nteamavailable(A,M1,3,1).\\nteampreference(A,M1,3,3).\\nteamavailable(A,M1,4,1).\\nteampreference(A,M1,4,0).\\nteamavailable(A,M1,5,0).\\nteampreference(A,M1,5,5).\\nteamavailable(A,M1,6,0).\\nteampreference(A,M1,6,6).\\nteamavailable(A,M1,7,1).\\nteampreference(A,M1,7,2).\\nteamavailable(A,M1,8,1).\\nteampreference(A,M1,8,6).\\nteamavailable(A,M1,9,1).\\nteampreference(A,M1,9,3).\\nteamavailable(A,M1,10,0).\\nteampreference(A,M1,10,4).\\nteamavailable(A,M1,11,1).\\nteampreference(A,M1,11,5).\\nteamavailable(A,M2,0,0).\\nteampreference(A,M2,0,2).\\nteamavailable(A,M2,1,1).\\nteampreference(A,M2,1,1).\\nteamavailable(A,M2,2,1).\\nteampreference(A,M2,2,3).\\nteamavailable(A,M2,3,1).\\nteampreference(A,M2,3,2).\\nteamavailable(A,M2,4,1).\\nteampreference(A,M2,4,0).\\nteamavailable(A,M2,5,0).\\nteampreference(A,M2,5,3).\\nteamavailable(A,M2,6,1).\\nteampreference(A,M2,6,3).\\nteamavailable(A,M2,7,1).\\nteampreference(A,M2,7,0).\\nteamavailable(A,M2,8,1).\\nteampreference(A,M2,8,3).\\nteamavailable(A,M2,9,1).\\nteampreference(A,M2,9,2).\\nteamavailable(A,M2,10,0).\\nteampreference(A,M2,10,1).\\nteamavailable(A,M2,11,1).\\nteampreference(A,M2,11,2).\\nteamavailable(A,M3,0,1).\\nteampreference(A,M3,0,2).\\nteamavailable(A,M3,1,1).\\nteampreference(A,M3,1,3).\\nteamavailable(A,M3,2,0).\\nteampreference(A,M3,2,0).\\nteamavailable(A,M3,3,0).\\nteampreference(A,M3,3,1).\\nteamavailable(A,M3,4,1).\\nteampreference(A,M3,4,0).\\nteamavailable(A,M3,5,1).\\nteampreference(A,M3,5,2).\\nteamavailable(A,M3,6,0).\\nteampreference(A,M3,6,5).\\nteamavailable(A,M3,7,0).\\nteampreference(A,M3,7,4).\\nteamavailable(A,M3,8,1).\\nteampreference(A,M3,8,3).\\nteamavailable(A,M3,9,1).\\nteampreference(A,M3,9,2).\\nteamavailable(A,M3,10,1).\\nteampreference(A,M3,10,5).\\nteamavailable(A,M3,11,1).\\nteampreference(A,M3,11,3).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "inform().\nteamavailable(A,M1,0,0).\nteampreference(A,M1,0,4).\nteamavailable(A,M1,1,1).\nteampreference(A,M1,1,2).\nteamavailable(A,M1,2,0).\nteampreference(A,M1,2,3).\nteamavailable(A,M1,3,1).\nteampreference(A,M1,3,3).\nteamavailable(A,M1,4,1).\nteampreference(A,M1,4,0).\nteamavailable(A,M1,5,0).\nteampreference(A,M1,5,5).\nteamavailable(A,M1,6,0).\nteampreference(A,M1,6,6).\nteamavailable(A,M1,7,1).\nteampreference(A,M1,7,2).\nteamavailable(A,M1,8,1).\nteampreference(A,M1,8,6).\nteamavailable(A,M1,9,1).\nteampreference(A,M1,9,3).\nteamavailable(A,M1,10,0).\nteampreference(A,M1,10,4).\nteamavailable(A,M1,11,1).\nteampreference(A,M1,11,5).\nteamavailable(A,M2,0,0).\nteampreference(A,M2,0,2).\nteamavailable(A,M2,1,1).\nteampreference(A,M2,1,1).\nteamavailable(A,M2,2,1).\nteampreference(A,M2,2,3).\nteamavailable(A,M2,3,1).\nteampreference(A,M2,3,2).\nteamavailable(A,M2,4,1).\nteampreference(A,M2,4,0).\nteamavailable(A,M2,5,0).\nteampreference(A,M2,5,3).\nteamavailable(A,M2,6,1).\nteampreference(A,M2,6,3).\nteamavailable(A,M2,7,1).\nteampreference(A,M2,7,0).\nteamavailable(A,M2,8,1).\nteampreference(A,M2,8,3).\nteamavailable(A,M2,9,1).\nteampreference(A,M2,9,2).\nteamavailable(A,M2,10,0).\nteampreference(A,M2,10,1).\nteamavailable(A,M2,11,1).\nteampreference(A,M2,11,2).\nteamavailable(A,M3,0,1).\nteampreference(A,M3,0,2).\nteamavailable(A,M3,1,1).\nteampreference(A,M3,1,3).\nteamavailable(A,M3,2,0).\nteampreference(A,M3,2,0).\nteamavailable(A,M3,3,0).\nteampreference(A,M3,3,1).\nteamavailable(A,M3,4,1).\nteampreference(A,M3,4,0).\nteamavailable(A,M3,5,1).\nteampreference(A,M3,5,2).\nteamavailable(A,M3,6,0).\nteampreference(A,M3,6,5).\nteamavailable(A,M3,7,0).\nteampreference(A,M3,7,4).\nteamavailable(A,M3,8,1).\nteampreference(A,M3,8,3).\nteamavailable(A,M3,9,1).\nteampreference(A,M3,9,2).\nteamavailable(A,M3,10,1).\nteampreference(A,M3,10,5).\nteamavailable(A,M3,11,1).\nteampreference(A,M3,11,3).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-6",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        2
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 30,
+    "request_id": "request-4",
+    "actor": "A",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: ask summary(preference,B,M1,0).",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"inform().\\nteamavailable(A,M1,0,0).\\nteampreference(A,M1,0,4).\\nteamavailable(A,M1,1,1).\\nteampreference(A,M1,1,2).\\nteamavailable(A,M1,2,0).\\nteampreference(A,M1,2,3).\\nteamavailable(A,M1,3,1).\\nteampreference(A,M1,3,3).\\nteamavailable(A,M1,4,1).\\nteampreference(A,M1,4,0).\\nteamavailable(A,M1,5,0).\\nteampreference(A,M1,5,5).\\nteamavailable(A,M1,6,0).\\nteampreference(A,M1,6,6).\\nteamavailable(A,M1,7,1).\\nteampreference(A,M1,7,2).\\nteamavailable(A,M1,8,1).\\nteampreference(A,M1,8,6).\\nteamavailable(A,M1,9,1).\\nteampreference(A,M1,9,3).\\nteamavailable(A,M1,10,0).\\nteampreference(A,M1,10,4).\\nteamavailable(A,M1,11,1).\\nteampreference(A,M1,11,5).\\nteamavailable(A,M2,0,0).\\nteampreference(A,M2,0,2).\\nteamavailable(A,M2,1,1).\\nteampreference(A,M2,1,1).\\nteamavailable(A,M2,2,1).\\nteampreference(A,M2,2,3).\\nteamavailable(A,M2,3,1).\\nteampreference(A,M2,3,2).\\nteamavailable(A,M2,4,1).\\nteampreference(A,M2,4,0).\\nteamavailable(A,M2,5,0).\\nteampreference(A,M2,5,3).\\nteamavailable(A,M2,6,1).\\nteampreference(A,M2,6,3).\\nteamavailable(A,M2,7,1).\\nteampreference(A,M2,7,0).\\nteamavailable(A,M2,8,1).\\nteampreference(A,M2,8,3).\\nteamavailable(A,M2,9,1).\\nteampreference(A,M2,9,2).\\nteamavailable(A,M2,10,0).\\nteampreference(A,M2,10,1).\\nteamavailable(A,M2,11,1).\\nteampreference(A,M2,11,2).\\nteamavailable(A,M3,0,1).\\nteampreference(A,M3,0,2).\\nteamavailable(A,M3,1,1).\\nteampreference(A,M3,1,3).\\nteamavailable(A,M3,2,0).\\nteampreference(A,M3,2,0).\\nteamavailable(A,M3,3,0).\\nteampreference(A,M3,3,1).\\nteamavailable(A,M3,4,1).\\nteampreference(A,M3,4,0).\\nteamavailable(A,M3,5,1).\\nteampreference(A,M3,5,2).\\nteamavailable(A,M3,6,0).\\nteampreference(A,M3,6,5).\\nteamavailable(A,M3,7,0).\\nteampreference(A,M3,7,4).\\nteamavailable(A,M3,8,1).\\nteampreference(A,M3,8,3).\\nteamavailable(A,M3,9,1).\\nteampreference(A,M3,9,2).\\nteamavailable(A,M3,10,1).\\nteampreference(A,M3,10,5).\\nteamavailable(A,M3,11,1).\\nteampreference(A,M3,11,3).\\nask summary(preference,B,M1,0).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-6",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 5782,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"inform().\\nteamavailable(A,M1,0,0).\\nteampreference(A,M1,0,4).\\nteamavailable(A,M1,1,1).\\nteampreference(A,M1,1,2).\\nteamavailable(A,M1,2,0).\\nteampreference(A,M1,2,3).\\nteamavailable(A,M1,3,1).\\nteampreference(A,M1,3,3).\\nteamavailable(A,M1,4,1).\\nteampreference(A,M1,4,0).\\nteamavailable(A,M1,5,0).\\nteampreference(A,M1,5,5).\\nteamavailable(A,M1,6,0).\\nteampreference(A,M1,6,6).\\nteamavailable(A,M1,7,1).\\nteampreference(A,M1,7,2).\\nteamavailable(A,M1,8,1).\\nteampreference(A,M1,8,6).\\nteamavailable(A,M1,9,1).\\nteampreference(A,M1,9,3).\\nteamavailable(A,M1,10,0).\\nteampreference(A,M1,10,4).\\nteamavailable(A,M1,11,1).\\nteampreference(A,M1,11,5).\\nteamavailable(A,M2,0,0).\\nteampreference(A,M2,0,2).\\nteamavailable(A,M2,1,1).\\nteampreference(A,M2,1,1).\\nteamavailable(A,M2,2,1).\\nteampreference(A,M2,2,3).\\nteamavailable(A,M2,3,1).\\nteampreference(A,M2,3,2).\\nteamavailable(A,M2,4,1).\\nteampreference(A,M2,4,0).\\nteamavailable(A,M2,5,0).\\nteampreference(A,M2,5,3).\\nteamavailable(A,M2,6,1).\\nteampreference(A,M2,6,3).\\nteamavailable(A,M2,7,1).\\nteampreference(A,M2,7,0).\\nteamavailable(A,M2,8,1).\\nteampreference(A,M2,8,3).\\nteamavailable(A,M2,9,1).\\nteampreference(A,M2,9,2).\\nteamavailable(A,M2,10,0).\\nteampreference(A,M2,10,1).\\nteamavailable(A,M2,11,1).\\nteampreference(A,M2,11,2).\\nteamavailable(A,M3,0,1).\\nteampreference(A,M3,0,2).\\nteamavailable(A,M3,1,1).\\nteampreference(A,M3,1,3).\\nteamavailable(A,M3,2,0).\\nteampreference(A,M3,2,0).\\nteamavailable(A,M3,3,0).\\nteampreference(A,M3,3,1).\\nteamavailable(A,M3,4,1).\\nteampreference(A,M3,4,0).\\nteamavailable(A,M3,5,1).\\nteampreference(A,M3,5,2).\\nteamavailable(A,M3,6,0).\\nteampreference(A,M3,6,5).\\nteamavailable(A,M3,7,0).\\nteampreference(A,M3,7,4).\\nteamavailable(A,M3,8,1).\\nteampreference(A,M3,8,3).\\nteamavailable(A,M3,9,1).\\nteampreference(A,M3,9,2).\\nteamavailable(A,M3,10,1).\\nteampreference(A,M3,10,5).\\nteamavailable(A,M3,11,1).\\nteampreference(A,M3,11,3).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "inform().\nteamavailable(A,M1,0,0).\nteampreference(A,M1,0,4).\nteamavailable(A,M1,1,1).\nteampreference(A,M1,1,2).\nteamavailable(A,M1,2,0).\nteampreference(A,M1,2,3).\nteamavailable(A,M1,3,1).\nteampreference(A,M1,3,3).\nteamavailable(A,M1,4,1).\nteampreference(A,M1,4,0).\nteamavailable(A,M1,5,0).\nteampreference(A,M1,5,5).\nteamavailable(A,M1,6,0).\nteampreference(A,M1,6,6).\nteamavailable(A,M1,7,1).\nteampreference(A,M1,7,2).\nteamavailable(A,M1,8,1).\nteampreference(A,M1,8,6).\nteamavailable(A,M1,9,1).\nteampreference(A,M1,9,3).\nteamavailable(A,M1,10,0).\nteampreference(A,M1,10,4).\nteamavailable(A,M1,11,1).\nteampreference(A,M1,11,5).\nteamavailable(A,M2,0,0).\nteampreference(A,M2,0,2).\nteamavailable(A,M2,1,1).\nteampreference(A,M2,1,1).\nteamavailable(A,M2,2,1).\nteampreference(A,M2,2,3).\nteamavailable(A,M2,3,1).\nteampreference(A,M2,3,2).\nteamavailable(A,M2,4,1).\nteampreference(A,M2,4,0).\nteamavailable(A,M2,5,0).\nteampreference(A,M2,5,3).\nteamavailable(A,M2,6,1).\nteampreference(A,M2,6,3).\nteamavailable(A,M2,7,1).\nteampreference(A,M2,7,0).\nteamavailable(A,M2,8,1).\nteampreference(A,M2,8,3).\nteamavailable(A,M2,9,1).\nteampreference(A,M2,9,2).\nteamavailable(A,M2,10,0).\nteampreference(A,M2,10,1).\nteamavailable(A,M2,11,1).\nteampreference(A,M2,11,2).\nteamavailable(A,M3,0,1).\nteampreference(A,M3,0,2).\nteamavailable(A,M3,1,1).\nteampreference(A,M3,1,3).\nteamavailable(A,M3,2,0).\nteampreference(A,M3,2,0).\nteamavailable(A,M3,3,0).\nteampreference(A,M3,3,1).\nteamavailable(A,M3,4,1).\nteampreference(A,M3,4,0).\nteamavailable(A,M3,5,1).\nteampreference(A,M3,5,2).\nteamavailable(A,M3,6,0).\nteampreference(A,M3,6,5).\nteamavailable(A,M3,7,0).\nteampreference(A,M3,7,4).\nteamavailable(A,M3,8,1).\nteampreference(A,M3,8,3).\nteamavailable(A,M3,9,1).\nteampreference(A,M3,9,2).\nteamavailable(A,M3,10,1).\nteampreference(A,M3,10,5).\nteamavailable(A,M3,11,1).\nteampreference(A,M3,11,3).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-6",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        2
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 3,
+    "trial": 30,
+    "request_id": "request-5",
+    "actor": "A",
+    "phase": "task",
+    "error": "Unknown predicate or invalid syntax: ask summary(preference,B,M1,0).",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"inform().\\nteamavailable(A,M1,0,0).\\nteampreference(A,M1,0,4).\\nteamavailable(A,M1,1,1).\\nteampreference(A,M1,1,2).\\nteamavailable(A,M1,2,0).\\nteampreference(A,M1,2,3).\\nteamavailable(A,M1,3,1).\\nteampreference(A,M1,3,3).\\nteamavailable(A,M1,4,1).\\nteampreference(A,M1,4,0).\\nteamavailable(A,M1,5,0).\\nteampreference(A,M1,5,5).\\nteamavailable(A,M1,6,0).\\nteampreference(A,M1,6,6).\\nteamavailable(A,M1,7,1).\\nteampreference(A,M1,7,2).\\nteamavailable(A,M1,8,1).\\nteampreference(A,M1,8,6).\\nteamavailable(A,M1,9,1).\\nteampreference(A,M1,9,3).\\nteamavailable(A,M1,10,0).\\nteampreference(A,M1,10,4).\\nteamavailable(A,M1,11,1).\\nteampreference(A,M1,11,5).\\nteamavailable(A,M2,0,0).\\nteampreference(A,M2,0,2).\\nteamavailable(A,M2,1,1).\\nteampreference(A,M2,1,1).\\nteamavailable(A,M2,2,1).\\nteampreference(A,M2,2,3).\\nteamavailable(A,M2,3,1).\\nteampreference(A,M2,3,2).\\nteamavailable(A,M2,4,1).\\nteampreference(A,M2,4,0).\\nteamavailable(A,M2,5,0).\\nteampreference(A,M2,5,3).\\nteamavailable(A,M2,6,1).\\nteampreference(A,M2,6,3).\\nteamavailable(A,M2,7,1).\\nteampreference(A,M2,7,0).\\nteamavailable(A,M2,8,1).\\nteampreference(A,M2,8,3).\\nteamavailable(A,M2,9,1).\\nteampreference(A,M2,9,2).\\nteamavailable(A,M2,10,0).\\nteampreference(A,M2,10,1).\\nteamavailable(A,M2,11,1).\\nteampreference(A,M2,11,2).\\nteamavailable(A,M3,0,1).\\nteampreference(A,M3,0,2).\\nteamavailable(A,M3,1,1).\\nteampreference(A,M3,1,3).\\nteamavailable(A,M3,2,0).\\nteampreference(A,M3,2,0).\\nteamavailable(A,M3,3,0).\\nteampreference(A,M3,3,1).\\nteamavailable(A,M3,4,1).\\nteampreference(A,M3,4,0).\\nteamavailable(A,M3,5,1).\\nteampreference(A,M3,5,2).\\nteamavailable(A,M3,6,0).\\nteampreference(A,M3,6,5).\\nteamavailable(A,M3,7,0).\\nteampreference(A,M3,7,4).\\nteamavailable(A,M3,8,1).\\nteampreference(A,M3,8,3).\\nteamavailable(A,M3,9,1).\\nteampreference(A,M3,9,2).\\nteamavailable(A,M3,10,1).\\nteampreference(A,M3,10,5).\\nteamavailable(A,M3,11,1).\\nteampreference(A,M3,11,3).\\nask summary(preference,B,M1,0).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-6",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 5782,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"inform().\\nteamavailable(A,M1,0,0).\\nteampreference(A,M1,0,4).\\nteamavailable(A,M1,1,1).\\nteampreference(A,M1,1,2).\\nteamavailable(A,M1,2,0).\\nteampreference(A,M1,2,3).\\nteamavailable(A,M1,3,1).\\nteampreference(A,M1,3,3).\\nteamavailable(A,M1,4,1).\\nteampreference(A,M1,4,0).\\nteamavailable(A,M1,5,0).\\nteampreference(A,M1,5,5).\\nteamavailable(A,M1,6,0).\\nteampreference(A,M1,6,6).\\nteamavailable(A,M1,7,1).\\nteampreference(A,M1,7,2).\\nteamavailable(A,M1,8,1).\\nteampreference(A,M1,8,6).\\nteamavailable(A,M1,9,1).\\nteampreference(A,M1,9,3).\\nteamavailable(A,M1,10,0).\\nteampreference(A,M1,10,4).\\nteamavailable(A,M1,11,1).\\nteampreference(A,M1,11,5).\\nteamavailable(A,M2,0,0).\\nteampreference(A,M2,0,2).\\nteamavailable(A,M2,1,1).\\nteampreference(A,M2,1,1).\\nteamavailable(A,M2,2,1).\\nteampreference(A,M2,2,3).\\nteamavailable(A,M2,3,1).\\nteampreference(A,M2,3,2).\\nteamavailable(A,M2,4,1).\\nteampreference(A,M2,4,0).\\nteamavailable(A,M2,5,0).\\nteampreference(A,M2,5,3).\\nteamavailable(A,M2,6,1).\\nteampreference(A,M2,6,3).\\nteamavailable(A,M2,7,1).\\nteampreference(A,M2,7,0).\\nteamavailable(A,M2,8,1).\\nteampreference(A,M2,8,3).\\nteamavailable(A,M2,9,1).\\nteampreference(A,M2,9,2).\\nteamavailable(A,M2,10,0).\\nteampreference(A,M2,10,1).\\nteamavailable(A,M2,11,1).\\nteampreference(A,M2,11,2).\\nteamavailable(A,M3,0,1).\\nteampreference(A,M3,0,2).\\nteamavailable(A,M3,1,1).\\nteampreference(A,M3,1,3).\\nteamavailable(A,M3,2,0).\\nteampreference(A,M3,2,0).\\nteamavailable(A,M3,3,0).\\nteampreference(A,M3,3,1).\\nteamavailable(A,M3,4,1).\\nteampreference(A,M3,4,0).\\nteamavailable(A,M3,5,1).\\nteampreference(A,M3,5,2).\\nteamavailable(A,M3,6,0).\\nteampreference(A,M3,6,5).\\nteamavailable(A,M3,7,0).\\nteampreference(A,M3,7,4).\\nteamavailable(A,M3,8,1).\\nteampreference(A,M3,8,3).\\nteamavailable(A,M3,9,1).\\nteampreference(A,M3,9,2).\\nteamavailable(A,M3,10,1).\\nteampreference(A,M3,10,5).\\nteamavailable(A,M3,11,1).\\nteampreference(A,M3,11,3).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "inform().\nteamavailable(A,M1,0,0).\nteampreference(A,M1,0,4).\nteamavailable(A,M1,1,1).\nteampreference(A,M1,1,2).\nteamavailable(A,M1,2,0).\nteampreference(A,M1,2,3).\nteamavailable(A,M1,3,1).\nteampreference(A,M1,3,3).\nteamavailable(A,M1,4,1).\nteampreference(A,M1,4,0).\nteamavailable(A,M1,5,0).\nteampreference(A,M1,5,5).\nteamavailable(A,M1,6,0).\nteampreference(A,M1,6,6).\nteamavailable(A,M1,7,1).\nteampreference(A,M1,7,2).\nteamavailable(A,M1,8,1).\nteampreference(A,M1,8,6).\nteamavailable(A,M1,9,1).\nteampreference(A,M1,9,3).\nteamavailable(A,M1,10,0).\nteampreference(A,M1,10,4).\nteamavailable(A,M1,11,1).\nteampreference(A,M1,11,5).\nteamavailable(A,M2,0,0).\nteampreference(A,M2,0,2).\nteamavailable(A,M2,1,1).\nteampreference(A,M2,1,1).\nteamavailable(A,M2,2,1).\nteampreference(A,M2,2,3).\nteamavailable(A,M2,3,1).\nteampreference(A,M2,3,2).\nteamavailable(A,M2,4,1).\nteampreference(A,M2,4,0).\nteamavailable(A,M2,5,0).\nteampreference(A,M2,5,3).\nteamavailable(A,M2,6,1).\nteampreference(A,M2,6,3).\nteamavailable(A,M2,7,1).\nteampreference(A,M2,7,0).\nteamavailable(A,M2,8,1).\nteampreference(A,M2,8,3).\nteamavailable(A,M2,9,1).\nteampreference(A,M2,9,2).\nteamavailable(A,M2,10,0).\nteampreference(A,M2,10,1).\nteamavailable(A,M2,11,1).\nteampreference(A,M2,11,2).\nteamavailable(A,M3,0,1).\nteampreference(A,M3,0,2).\nteamavailable(A,M3,1,1).\nteampreference(A,M3,1,3).\nteamavailable(A,M3,2,0).\nteampreference(A,M3,2,0).\nteamavailable(A,M3,3,0).\nteampreference(A,M3,3,1).\nteamavailable(A,M3,4,1).\nteampreference(A,M3,4,0).\nteamavailable(A,M3,5,1).\nteampreference(A,M3,5,2).\nteamavailable(A,M3,6,0).\nteampreference(A,M3,6,5).\nteamavailable(A,M3,7,0).\nteampreference(A,M3,7,4).\nteamavailable(A,M3,8,1).\nteampreference(A,M3,8,3).\nteamavailable(A,M3,9,1).\nteampreference(A,M3,9,2).\nteamavailable(A,M3,10,1).\nteampreference(A,M3,10,5).\nteamavailable(A,M3,11,1).\nteampreference(A,M3,11,3).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-6",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        2
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 5,
+    "trial": 29,
+    "request_id": "request-1",
+    "actor": "A",
+    "phase": "task",
+    "error": "Unknown instruction or arity",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"KIND inform\\nAV A1 0 1\\nAV A1 1 1\\nAV A1 2 0\\nAV A1 3 1\\nAV A1 4 1\\nAV A1 5 1\\nAV A1 6 0\\nAV A1 7 1\\nAV A1 8 1\\nAV A1 9 1\\nAV A1 10 1\\nAV A1 11 1\\nPREF A1 0 2\\nPREF A1 1 1\\nPREF A1 2 0\\nPREF A1 3 1\\nPREF A1 4 0\\nPREF A1 5 2\\nPREF A1 6 3\\nPREF A1 7 2\\nPREF A1 8 3\\nPREF A1 9 1\\nPREF A1 10 3\\nPREF A1 11 3\\nAV A2 0 0\\nAV A2 1 1\\nAV A2 2 1\\nAV A2 3 1\\nAV A2 4 1\\nAV A2 5 0\\nAV A2 6 1\\nAV A2 7 1\\nAV A2 8 1\\nAV A2 9 1\\nAV A2 10 0\\nAV A2 11 1\\nPREF A2 0 2\\nPREF A2 1 1\\nPREF A2 2 3\\nPREF A2 3 2\\nPREF A2 4 0\\nPREF A2 5 3\\nPREF A2 6 3\\nPREF A2 7 0\\nPREF A2 8 3\\nPREF A2 9 2\\nPREF A2 10 1\\nPREF A2 11 2\\nAV A3 0 1\\nAV A3 1 1\\nAV A3 2 1\\nAV A3 3 0\\nAV A3 4 1\\nAV A3 5 1\\nAV A3 6 1\\nAV A3 7 0\\nAV A3 8 1\\nAV A3 9 1\\nAV A3 10 1\\nAV A3 11 1\\nPREF A3 0 0\\nPREF A3 1 2\\nPREF A3 2 0\\nPREF A3 3 0\\nPREF A3 4 0\\nPREF A3 5 0\\nPREF A3 6 2\\nPREF A3 7 2\\nPREF A3 8 0\\nPREF A3 9 1\\nPREF A3 10 2\\nPREF A3 11 0\\nKIND request\\nASK B1\\nASK B2\\nASK B3\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-2",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 1321,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"KIND request\\nAV A1 0 1\\nAV A1 1 1\\nAV A1 2 0\\nAV A1 3 1\\nAV A1 4 1\\nAV A1 5 1\\nAV A1 6 0\\nAV A1 7 1\\nAV A1 8 1\\nAV A1 9 1\\nAV A1 10 1\\nAV A1 11 1\\nPREF A1 0 2\\nPREF A1 1 1\\nPREF A1 2 0\\nPREF A1 3 1\\nPREF A1 4 0\\nPREF A1 5 2\\nPREF A1 6 3\\nPREF A1 7 2\\nPREF A1 8 3\\nPREF A1 9 1\\nPREF A1 10 3\\nPREF A1 11 3\\nAV A2 0 0\\nAV A2 1 1\\nAV A2 2 1\\nAV A2 3 1\\nAV A2 4 1\\nAV A2 5 0\\nAV A2 6 1\\nAV A2 7 1\\nAV A2 8 1\\nAV A2 9 1\\nAV A2 10 0\\nAV A2 11 1\\nPREF A2 0 2\\nPREF A2 1 1\\nPREF A2 2 3\\nPREF A2 3 2\\nPREF A2 4 0\\nPREF A2 5 3\\nPREF A2 6 3\\nPREF A2 7 0\\nPREF A2 8 3\\nPREF A2 9 2\\nPREF A2 10 1\\nPREF A2 11 2\\nAV A3 0 1\\nAV A3 1 1\\nAV A3 2 1\\nAV A3 3 0\\nAV A3 4 1\\nAV A3 5 1\\nAV A3 6 1\\nAV A3 7 0\\nAV A3 8 1\\nAV A3 9 1\\nAV A3 10 1\\nAV A3 11 1\\nPREF A3 0 0\\nPREF A3 1 2\\nPREF A3 2 0\\nPREF A3 3 0\\nPREF A3 4 0\\nPREF A3 5 0\\nPREF A3 6 2\\nPREF A3 7 2\\nPREF A3 8 0\\nPREF A3 9 1\\nPREF A3 10 2\\nPREF A3 11 0\\nASK B1\\nASK B2\\nASK B3\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "KIND request\nAV A1 0 1\nAV A1 1 1\nAV A1 2 0\nAV A1 3 1\nAV A1 4 1\nAV A1 5 1\nAV A1 6 0\nAV A1 7 1\nAV A1 8 1\nAV A1 9 1\nAV A1 10 1\nAV A1 11 1\nPREF A1 0 2\nPREF A1 1 1\nPREF A1 2 0\nPREF A1 3 1\nPREF A1 4 0\nPREF A1 5 2\nPREF A1 6 3\nPREF A1 7 2\nPREF A1 8 3\nPREF A1 9 1\nPREF A1 10 3\nPREF A1 11 3\nAV A2 0 0\nAV A2 1 1\nAV A2 2 1\nAV A2 3 1\nAV A2 4 1\nAV A2 5 0\nAV A2 6 1\nAV A2 7 1\nAV A2 8 1\nAV A2 9 1\nAV A2 10 0\nAV A2 11 1\nPREF A2 0 2\nPREF A2 1 1\nPREF A2 2 3\nPREF A2 3 2\nPREF A2 4 0\nPREF A2 5 3\nPREF A2 6 3\nPREF A2 7 0\nPREF A2 8 3\nPREF A2 9 2\nPREF A2 10 1\nPREF A2 11 2\nAV A3 0 1\nAV A3 1 1\nAV A3 2 1\nAV A3 3 0\nAV A3 4 1\nAV A3 5 1\nAV A3 6 1\nAV A3 7 0\nAV A3 8 1\nAV A3 9 1\nAV A3 10 1\nAV A3 11 1\nPREF A3 0 0\nPREF A3 1 2\nPREF A3 2 0\nPREF A3 3 0\nPREF A3 4 0\nPREF A3 5 0\nPREF A3 6 2\nPREF A3 7 2\nPREF A3 8 0\nPREF A3 9 1\nPREF A3 10 2\nPREF A3 11 0\nASK B1\nASK B2\nASK B3",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-2",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        1
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 6,
+    "trial": 29,
+    "request_id": "request-3",
+    "actor": "A",
+    "phase": "task",
+    "error": "Message kind is required",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"tavail(A,M1,0,0).\\ntpref(A,M1,0,4).\\ntavail(A,M1,1,1).\\ntpref(A,M1,1,2).\\ntavail(A,M1,2,0).\\ntpref(A,M1,2,3).\\ntavail(A,M1,3,1).\\ntpref(A,M1,3,3).\\ntavail(A,M1,4,1).\\ntpref(A,M1,4,0).\\ntavail(A,M1,5,0).\\ntpref(A,M1,5,5).\\ntavail(A,M1,6,0).\\ntpref(A,M1,6,6).\\ntavail(A,M1,7,1).\\ntpref(A,M1,7,2).\\ntavail(A,M1,8,1).\\ntpref(A,M1,8,6).\\ntavail(A,M1,9,1).\\ntpref(A,M1,9,3).\\ntavail(A,M1,10,0).\\ntpref(A,M1,10,4).\\ntavail(A,M1,11,1).\\ntpref(A,M1,11,5).\\ntavail(A,M2,0,0).\\ntpref(A,M2,0,2).\\ntavail(A,M2,1,1).\\ntpref(A,M2,1,1).\\ntavail(A,M2,2,1).\\ntpref(A,M2,2,3).\\ntavail(A,M2,3,1).\\ntpref(A,M2,3,2).\\ntavail(A,M2,4,1).\\ntpref(A,M2,4,0).\\ntavail(A,M2,5,0).\\ntpref(A,M2,5,3).\\ntavail(A,M2,6,1).\\ntpref(A,M2,6,3).\\ntavail(A,M2,7,1).\\ntpref(A,M2,7,0).\\ntavail(A,M2,8,1).\\ntpref(A,M2,8,3).\\ntavail(A,M2,9,1).\\ntpref(A,M2,9,2).\\ntavail(A,M2,10,0).\\ntpref(A,M2,10,1).\\ntavail(A,M2,11,1).\\ntpref(A,M2,11,2).\\ntavail(A,M3,0,1).\\ntpref(A,M3,0,2).\\ntavail(A,M3,1,1).\\ntpref(A,M3,1,3).\\ntavail(A,M3,2,0).\\ntpref(A,M3,2,0).\\ntavail(A,M3,3,0).\\ntpref(A,M3,3,1).\\ntavail(A,M3,4,1).\\ntpref(A,M3,4,0).\\ntavail(A,M3,5,1).\\ntpref(A,M3,5,2).\\ntavail(A,M3,6,0).\\ntpref(A,M3,6,5).\\ntavail(A,M3,7,0).\\ntpref(A,M3,7,4).\\ntavail(A,M3,8,1).\\ntpref(A,M3,8,3).\\ntavail(A,M3,9,1).\\ntpref(A,M3,9,2).\\ntavail(A,M3,10,1).\\ntpref(A,M3,10,5).\\ntavail(A,M3,11,1).\\ntpref(A,M3,11,3).\\nask(B1).\\nask(B2).\\nask(B3).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-4",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 1776,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"info().\\ntavail(A,M1,0,0).\\ntpref(A,M1,0,4).\\ntavail(A,M1,1,1).\\ntpref(A,M1,1,2).\\ntavail(A,M1,2,0).\\ntpref(A,M1,2,3).\\ntavail(A,M1,3,1).\\ntpref(A,M1,3,3).\\ntavail(A,M1,4,1).\\ntpref(A,M1,4,0).\\ntavail(A,M1,5,0).\\ntpref(A,M1,5,5).\\ntavail(A,M1,6,0).\\ntpref(A,M1,6,6).\\ntavail(A,M1,7,1).\\ntpref(A,M1,7,2).\\ntavail(A,M1,8,1).\\ntpref(A,M1,8,6).\\ntavail(A,M1,9,1).\\ntpref(A,M1,9,3).\\ntavail(A,M1,10,0).\\ntpref(A,M1,10,4).\\ntavail(A,M1,11,1).\\ntpref(A,M1,11,5).\\ntavail(A,M2,0,0).\\ntpref(A,M2,0,2).\\ntavail(A,M2,1,1).\\ntpref(A,M2,1,1).\\ntavail(A,M2,2,1).\\ntpref(A,M2,2,3).\\ntavail(A,M2,3,1).\\ntpref(A,M2,3,2).\\ntavail(A,M2,4,1).\\ntpref(A,M2,4,0).\\ntavail(A,M2,5,0).\\ntpref(A,M2,5,3).\\ntavail(A,M2,6,1).\\ntpref(A,M2,6,3).\\ntavail(A,M2,7,1).\\ntpref(A,M2,7,0).\\ntavail(A,M2,8,1).\\ntpref(A,M2,8,3).\\ntavail(A,M2,9,1).\\ntpref(A,M2,9,2).\\ntavail(A,M2,10,0).\\ntpref(A,M2,10,1).\\ntavail(A,M2,11,1).\\ntpref(A,M2,11,2).\\ntavail(A,M3,0,1).\\ntpref(A,M3,0,2).\\ntavail(A,M3,1,1).\\ntpref(A,M3,1,3).\\ntavail(A,M3,2,0).\\ntpref(A,M3,2,0).\\ntavail(A,M3,3,0).\\ntpref(A,M3,3,1).\\ntavail(A,M3,4,1).\\ntpref(A,M3,4,0).\\ntavail(A,M3,5,1).\\ntpref(A,M3,5,2).\\ntavail(A,M3,6,0).\\ntpref(A,M3,6,5).\\ntavail(A,M3,7,0).\\ntpref(A,M3,7,4).\\ntavail(A,M3,8,1).\\ntpref(A,M3,8,3).\\ntavail(A,M3,9,1).\\ntpref(A,M3,9,2).\\ntavail(A,M3,10,1).\\ntpref(A,M3,10,5).\\ntavail(A,M3,11,1).\\ntpref(A,M3,11,3).\\nask(B1).\\nask(B2).\\nask(B3).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "info().\ntavail(A,M1,0,0).\ntpref(A,M1,0,4).\ntavail(A,M1,1,1).\ntpref(A,M1,1,2).\ntavail(A,M1,2,0).\ntpref(A,M1,2,3).\ntavail(A,M1,3,1).\ntpref(A,M1,3,3).\ntavail(A,M1,4,1).\ntpref(A,M1,4,0).\ntavail(A,M1,5,0).\ntpref(A,M1,5,5).\ntavail(A,M1,6,0).\ntpref(A,M1,6,6).\ntavail(A,M1,7,1).\ntpref(A,M1,7,2).\ntavail(A,M1,8,1).\ntpref(A,M1,8,6).\ntavail(A,M1,9,1).\ntpref(A,M1,9,3).\ntavail(A,M1,10,0).\ntpref(A,M1,10,4).\ntavail(A,M1,11,1).\ntpref(A,M1,11,5).\ntavail(A,M2,0,0).\ntpref(A,M2,0,2).\ntavail(A,M2,1,1).\ntpref(A,M2,1,1).\ntavail(A,M2,2,1).\ntpref(A,M2,2,3).\ntavail(A,M2,3,1).\ntpref(A,M2,3,2).\ntavail(A,M2,4,1).\ntpref(A,M2,4,0).\ntavail(A,M2,5,0).\ntpref(A,M2,5,3).\ntavail(A,M2,6,1).\ntpref(A,M2,6,3).\ntavail(A,M2,7,1).\ntpref(A,M2,7,0).\ntavail(A,M2,8,1).\ntpref(A,M2,8,3).\ntavail(A,M2,9,1).\ntpref(A,M2,9,2).\ntavail(A,M2,10,0).\ntpref(A,M2,10,1).\ntavail(A,M2,11,1).\ntpref(A,M2,11,2).\ntavail(A,M3,0,1).\ntpref(A,M3,0,2).\ntavail(A,M3,1,1).\ntpref(A,M3,1,3).\ntavail(A,M3,2,0).\ntpref(A,M3,2,0).\ntavail(A,M3,3,0).\ntpref(A,M3,3,1).\ntavail(A,M3,4,1).\ntpref(A,M3,4,0).\ntavail(A,M3,5,1).\ntpref(A,M3,5,2).\ntavail(A,M3,6,0).\ntpref(A,M3,6,5).\ntavail(A,M3,7,0).\ntpref(A,M3,7,4).\ntavail(A,M3,8,1).\ntpref(A,M3,8,3).\ntavail(A,M3,9,1).\ntpref(A,M3,9,2).\ntavail(A,M3,10,1).\ntpref(A,M3,10,5).\ntavail(A,M3,11,1).\ntpref(A,M3,11,3).\nask(B1).\nask(B2).\nask(B3).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-4",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        3
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  },
+  {
+    "stage": 6,
+    "trial": 30,
+    "request_id": "request-4",
+    "actor": "A",
+    "phase": "task",
+    "error": "Message kind is required",
+    "raw_response": "{\"action\":\"send\",\"payload\":\"teamav(A,M1,0,0).\\nteampref(A,M1,0,4).\\nteamav(A,M1,1,1).\\nteampref(A,M1,1,2).\\nteamav(A,M1,2,0).\\nteampref(A,M1,2,3).\\nteamav(A,M1,3,1).\\nteampref(A,M1,3,3).\\nteamav(A,M1,4,1).\\nteampref(A,M1,4,0).\\nteamav(A,M1,5,0).\\nteampref(A,M1,5,5).\\nteamav(A,M1,6,0).\\nteampref(A,M1,6,6).\\nteamav(A,M1,7,1).\\nteampref(A,M1,7,2).\\nteamav(A,M1,8,1).\\nteampref(A,M1,8,6).\\nteamav(A,M1,9,1).\\nteampref(A,M1,9,3).\\nteamav(A,M1,10,0).\\nteampref(A,M1,10,4).\\nteamav(A,M1,11,1).\\nteampref(A,M1,11,5).\\nteamav(A,M2,0,0).\\nteampref(A,M2,0,2).\\nteamav(A,M2,1,1).\\nteampref(A,M2,1,1).\\nteamav(A,M2,2,1).\\nteampref(A,M2,2,3).\\nteamav(A,M2,3,1).\\nteampref(A,M2,3,2).\\nteamav(A,M2,4,1).\\nteampref(A,M2,4,0).\\nteamav(A,M2,5,0).\\nteampref(A,M2,5,3).\\nteamav(A,M2,6,1).\\nteampref(A,M2,6,3).\\nteamav(A,M2,7,1).\\nteampref(A,M2,7,0).\\nteamav(A,M2,8,1).\\nteampref(A,M2,8,3).\\nteamav(A,M2,9,1).\\nteampref(A,M2,9,2).\\nteamav(A,M2,10,0).\\nteampref(A,M2,10,1).\\nteamav(A,M2,11,1).\\nteampref(A,M2,11,2).\\nteamav(A,M3,0,1).\\nteampref(A,M3,0,2).\\nteamav(A,M3,1,1).\\nteampref(A,M3,1,3).\\nteamav(A,M3,2,0).\\nteampref(A,M3,2,0).\\nteamav(A,M3,3,0).\\nteampref(A,M3,3,1).\\nteamav(A,M3,4,1).\\nteampref(A,M3,4,0).\\nteamav(A,M3,5,1).\\nteampref(A,M3,5,2).\\nteamav(A,M3,6,0).\\nteampref(A,M3,6,5).\\nteamav(A,M3,7,0).\\nteampref(A,M3,7,4).\\nteamav(A,M3,8,1).\\nteampref(A,M3,8,3).\\nteamav(A,M3,9,1).\\nteampref(A,M3,9,2).\\nteamav(A,M3,10,1).\\nteampref(A,M3,10,5).\\nteamav(A,M3,11,1).\\nteampref(A,M3,11,3).\",\"schedule\":[],\"language\":[]}",
+    "next_same_actor_applied": {
+      "request_id": "request-5",
+      "actor": "A",
+      "phase": "task",
+      "event_sequence": 3508,
+      "raw_response": "{\"action\":\"send\",\"payload\":\"info().\\nteamav(A,M1,0,0).\\nteampref(A,M1,0,4).\\nteamav(A,M1,1,1).\\nteampref(A,M1,1,2).\\nteamav(A,M1,2,0).\\nteampref(A,M1,2,3).\\nteamav(A,M1,3,1).\\nteampref(A,M1,3,3).\\nteamav(A,M1,4,1).\\nteampref(A,M1,4,0).\\nteamav(A,M1,5,0).\\nteampref(A,M1,5,5).\\nteamav(A,M1,6,0).\\nteampref(A,M1,6,6).\\nteamav(A,M1,7,1).\\nteampref(A,M1,7,2).\\nteamav(A,M1,8,1).\\nteampref(A,M1,8,6).\\nteamav(A,M1,9,1).\\nteampref(A,M1,9,3).\\nteamav(A,M1,10,0).\\nteampref(A,M1,10,4).\\nteamav(A,M1,11,1).\\nteampref(A,M1,11,5).\\nteamav(A,M2,0,0).\\nteampref(A,M2,0,2).\\nteamav(A,M2,1,1).\\nteampref(A,M2,1,1).\\nteamav(A,M2,2,1).\\nteampref(A,M2,2,3).\\nteamav(A,M2,3,1).\\nteampref(A,M2,3,2).\\nteamav(A,M2,4,1).\\nteampref(A,M2,4,0).\\nteamav(A,M2,5,0).\\nteampref(A,M2,5,3).\\nteamav(A,M2,6,1).\\nteampref(A,M2,6,3).\\nteamav(A,M2,7,1).\\nteampref(A,M2,7,0).\\nteamav(A,M2,8,1).\\nteampref(A,M2,8,3).\\nteamav(A,M2,9,1).\\nteampref(A,M2,9,2).\\nteamav(A,M2,10,0).\\nteampref(A,M2,10,1).\\nteamav(A,M2,11,1).\\nteampref(A,M2,11,2).\\nteamav(A,M3,0,1).\\nteampref(A,M3,0,2).\\nteamav(A,M3,1,1).\\nteampref(A,M3,1,3).\\nteamav(A,M3,2,0).\\nteampref(A,M3,2,0).\\nteamav(A,M3,3,0).\\nteampref(A,M3,3,1).\\nteamav(A,M3,4,1).\\nteampref(A,M3,4,0).\\nteamav(A,M3,5,1).\\nteampref(A,M3,5,2).\\nteamav(A,M3,6,0).\\nteampref(A,M3,6,5).\\nteamav(A,M3,7,0).\\nteampref(A,M3,7,4).\\nteamav(A,M3,8,1).\\nteampref(A,M3,8,3).\\nteamav(A,M3,9,1).\\nteampref(A,M3,9,2).\\nteamav(A,M3,10,1).\\nteampref(A,M3,10,5).\\nteamav(A,M3,11,1).\\nteampref(A,M3,11,3).\",\"schedule\":[],\"language\":[]}",
+      "action": {
+        "action": "send",
+        "payload": "info().\nteamav(A,M1,0,0).\nteampref(A,M1,0,4).\nteamav(A,M1,1,1).\nteampref(A,M1,1,2).\nteamav(A,M1,2,0).\nteampref(A,M1,2,3).\nteamav(A,M1,3,1).\nteampref(A,M1,3,3).\nteamav(A,M1,4,1).\nteampref(A,M1,4,0).\nteamav(A,M1,5,0).\nteampref(A,M1,5,5).\nteamav(A,M1,6,0).\nteampref(A,M1,6,6).\nteamav(A,M1,7,1).\nteampref(A,M1,7,2).\nteamav(A,M1,8,1).\nteampref(A,M1,8,6).\nteamav(A,M1,9,1).\nteampref(A,M1,9,3).\nteamav(A,M1,10,0).\nteampref(A,M1,10,4).\nteamav(A,M1,11,1).\nteampref(A,M1,11,5).\nteamav(A,M2,0,0).\nteampref(A,M2,0,2).\nteamav(A,M2,1,1).\nteampref(A,M2,1,1).\nteamav(A,M2,2,1).\nteampref(A,M2,2,3).\nteamav(A,M2,3,1).\nteampref(A,M2,3,2).\nteamav(A,M2,4,1).\nteampref(A,M2,4,0).\nteamav(A,M2,5,0).\nteampref(A,M2,5,3).\nteamav(A,M2,6,1).\nteampref(A,M2,6,3).\nteamav(A,M2,7,1).\nteampref(A,M2,7,0).\nteamav(A,M2,8,1).\nteampref(A,M2,8,3).\nteamav(A,M2,9,1).\nteampref(A,M2,9,2).\nteamav(A,M2,10,0).\nteampref(A,M2,10,1).\nteamav(A,M2,11,1).\nteampref(A,M2,11,2).\nteamav(A,M3,0,1).\nteampref(A,M3,0,2).\nteamav(A,M3,1,1).\nteampref(A,M3,1,3).\nteamav(A,M3,2,0).\nteampref(A,M3,2,0).\nteamav(A,M3,3,0).\nteampref(A,M3,3,1).\nteamav(A,M3,4,1).\nteampref(A,M3,4,0).\nteamav(A,M3,5,1).\nteampref(A,M3,5,2).\nteamav(A,M3,6,0).\nteampref(A,M3,6,5).\nteamav(A,M3,7,0).\nteampref(A,M3,7,4).\nteamav(A,M3,8,1).\nteampref(A,M3,8,3).\nteamav(A,M3,9,1).\nteampref(A,M3,9,2).\nteamav(A,M3,10,1).\nteampref(A,M3,10,5).\nteamav(A,M3,11,1).\nteampref(A,M3,11,3).",
+        "schedule": [],
+        "language": []
+      },
+      "applied": {
+        "actor": "A",
+        "phase": "task",
+        "request_id": "request-5",
+        "action": "send"
+      },
+      "rejected": null,
+      "delivered_messages": [
+        4
+      ],
+      "submissions_before": {},
+      "submissions_after": {}
+    }
+  }
+]

@@ -1,0 +1,2373 @@
+{
+  "version": 1,
+  "events_sha256": "d0ee0a969745e08a23fd371725f31df495dafb96a6072d74d64aec0b457f5fae",
+  "reviewer_kind": "ai",
+  "reviewer": "Initial author: Codex /root/stages_5_6; independent AI reviewer: Codex /root/stages_1_2; all delivered task messages, explicit values, evidence and scope audited; 2026-09-13",
+  "entries": [
+    {
+      "message": 1,
+      "status": "complete",
+      "evidence": "Here are my team summaries, listing slots 0–11 in order. M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5. M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2. M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3. Please share your team summaries for M1, M2, and M3, likewise listing availability and preference for slots 0–11.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          11
+        ]
+      ],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "evidence": "M1 (A1 and A2): available 0,1,0,1,1,0,0,1,1,1,0,1; preference 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "evidence": "M2 (A2): available 0,1,1,1,1,0,1,1,1,1,0,1; preference 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "evidence": "M3 (A1 and A3): available 1,1,0,0,1,1,0,0,1,1,1,1; preference 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        }
+      ],
+      "unjudgeable": [
+        "M1 (A1 and A2)",
+        "M2 (A2)",
+        "M3 (A1 and A3)"
+      ],
+      "notes": "A의 세 회의·슬롯0–11 가용성 및 선호합 72개를 원문에서 직접 전개했다. 괄호3개는 A팀 참석자 구성이며 지원 claim schema 밖이므로 정확한 발췌로 보존해 공개 참석자와 별도 검산했다. 상대 팀에 likewise availability/preference for slots0–11을 요청하므로 같은3회의·두관계·12슬롯의72개 질문으로 기록했다. 단일 참석자 A2의 요약도 개인 fact로 중복하지 않았다."
+    },
+    {
+      "message": 2,
+      "status": "complete",
+      "evidence": "My team summaries, listing slots 0–11 in order: M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3. M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4. M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1. Based on both teams’ summaries, I propose M1 at slot 1, M2 at slot 6, and M3 at slot 10; this is legal and scores 20. Please confirm or share any concern.",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "evidence": "M1 (B1): available 1,1,1,0,1,1,1,1,0,1,1,1; preference 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "evidence": "M2 (B1 and B2): available 1,0,1,0,1,1,1,1,0,0,1,1; preference 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 (B2 and B3): available 1,0,1,1,0,1,1,1,1,0,1,1; preference 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에서 슬롯0–11 순서와 자기 팀 요약이라고 직접 정의한 12개 값을 그대로 전개했다. 개인 fact 또는 원자료에서 가져온 값을 추가하지 않았다."
+        },
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "evidence": "this is legal"
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "scores 20."
+        }
+      ],
+      "unjudgeable": [
+        "M1 (B1)",
+        "M2 (B1 and B2)",
+        "M3 (B2 and B3)",
+        "Please confirm or share any concern."
+      ],
+      "notes": "B의 요약72개, 명시 후보1/6/10의 legal과20점 총74개 지원 주장을 기록했다. 괄호3개는 B팀 부분 참석자 구성이며 별도 검산했다. Based on both teams’ summaries는 근거 범위이며 실제 내부 계산 수행을 추가로 입증하지 않는다. confirm or share any concern은 OR 요청이라 request와 원문 발췌로 보존하고 typed valid/score 질의나 이미한수락으로 만들지 않았다. 후보의 개별 가용성·제약·최적성은 직접 말하지 않아 추가하지 않았다."
+    },
+    {
+      "message": 3,
+      "status": "complete",
+      "evidence": "I confirm the proposed schedule: M1 at slot 1, M2 at slot 6, and M3 at slot 10. It is legal and, using the summaries shared, achieves the maximum total preference score of 20. I will submit this exact schedule.",
+      "kinds": [
+        "inform",
+        "accept"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "evidence": "It is legal"
+        },
+        {
+          "type": "schedule_optimal",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "optimal": 1
+          },
+          "evidence": "It is legal and, using the summaries shared, achieves the maximum total preference score of 20.",
+          "note": "현재 legal 후보가 maximum total preference score를 달성한다고 확정적으로 말했다. using the summaries shared라는 근거 범위는 보존하지만 I find/my best 같은 찾은 후보 집합 한정은 없다. 실제 완전 탐색이나 상한 유도 수행을 입증하는 메타 claim은 아니다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "achieves the maximum total preference score of 20."
+        }
+      ],
+      "unjudgeable": [
+        "I will submit this exact schedule."
+      ],
+      "notes": "I confirm은 직전 완전 후보에 대한 명시 수락이다. 이어 legal·maximum total preference score 달성·수치20을 각각 직접 말해3개 지원 주장으로 기록했다. 사후 최적값으로 빈 발화를 채운 것이 아니라 확정형 maximum 달성의 의미를 보존했다. I will submit은 미래 행동 의향이며 지원 claim schema 밖이라 발췌했고, 나중 실제 A submit과 시간 순서를 별도 기록한다. 발화 시 이미 제출했다거나 내부 탐색이 완료됐다는 주장으로 바꾸지 않았다."
+    }
+  ]
+}

@@ -1,0 +1,2311 @@
+{
+  "version": 1,
+  "events_sha256": "1ca693b7e538b684889a6be5c873a48987fe4cdbe7feeef64b62fee68fc2001d",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_5_6; independent AI source audit of /root/stages_1_2 draft across all delivered task packets in trial-18; 2026-09-13",
+  "entries": [
+    {
+      "message": 1,
+      "status": "complete",
+      "evidence": "Here are B-team summaries by slot ID, written as availability/preference. For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3. For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4. For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1. Please share A-team summaries by meeting and slot so we can identify the best legal schedule.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          11
+        ]
+      ],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "evidence": "For M1: 0=1/2, 1=1/2, 2=1/0, 3=0/1, 4=1/2, 5=1/2, 6=1/2, 7=1/1, 8=0/3, 9=1/0, 10=1/3, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "evidence": "For M2: 0=1/4, 1=0/3, 2=1/0, 3=0/2, 4=1/2, 5=1/4, 6=1/4, 7=1/3, 8=0/3, 9=0/2, 10=1/4, 11=1/4.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "For M3: 0=1/4, 1=0/4, 2=1/1, 3=1/4, 4=0/0, 5=1/2, 6=1/2, 7=1/2, 8=1/2, 9=0/2, 10=1/4, 11=1/1.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        }
+      ],
+      "unjudgeable": [],
+      "notes": "B 팀의 세 회의·슬롯 0–11 가용성·선호합 72개를 발화 그대로 기록했다. A-team summaries by meeting and slot 요청은 직전의 동일 두 관계·세 회의·전 슬롯 범위로 읽어 72개 typed summary 질문으로 전개했다. best legal schedule 식별은 미래 목적이며 현재 후보 유효성·최적성 주장으로 만들지 않았다. 독립 AI 전수 검수: 이번 task 원문의 명시값과 발췌를 전수 대조했고 초안 의미 필드를 유지했다. 모호한 주체·비교 범위와 일정 제약의 해석은 동반 감사 메모 및 검산 JSON에 보존한다."
+    },
+    {
+      "message": 2,
+      "status": "complete",
+      "evidence": "Here are A-team summaries by slot ID, written as availability/preference. For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5. For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2. For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3. My best schedule proposal is M1 at slot 1, M2 at slot 6, and M3 at slot 10. It respects precedence and attendee overlap constraints; please confirm or share a better legal schedule.",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "evidence": "For M1: 0=0/4, 1=1/2, 2=0/3, 3=1/3, 4=1/0, 5=0/5, 6=0/6, 7=1/2, 8=1/6, 9=1/3, 10=0/4, 11=1/5.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "evidence": "For M2: 0=0/2, 1=1/1, 2=1/3, 3=1/2, 4=1/0, 5=0/3, 6=1/3, 7=1/0, 8=1/3, 9=1/2, 10=0/1, 11=1/2.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "evidence": "For M3: 0=1/2, 1=1/3, 2=0/0, 3=0/1, 4=1/0, 5=1/2, 6=0/5, 7=0/4, 8=1/3, 9=1/2, 10=1/5, 11=1/3.",
+          "note": "원문이 availability/preference 순서를 직접 정의한다. 명시된 각 슬롯 0–11 값만 전개했으며 정답으로 교체하거나 생략값을 생성하지 않았다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "evidence": "It respects precedence",
+          "note": "It은 바로 앞 후보 1/6/10이고 공개 precedence는 M1 before M3다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "evidence": "It respects precedence and attendee overlap constraints",
+          "note": "일정 후보가 attendee overlap constraints를 충족한다는 명시 주장이다. 모든 회의 쌍이 참석자를 공유하는 공개 조건 때문에 이 문제에서는 세 슬롯 distinct와 대응한다. 참석자 집합 자체가 분리돼 있다는 뜻으로 바꾸지 않았다."
+        }
+      ],
+      "unjudgeable": [
+        "My best schedule proposal",
+        "please confirm or share a better legal schedule."
+      ],
+      "notes": "A 팀 요약 72개를 직접 발화값으로 전개하고 후보 1/6/10 및 명시 precedence·attendee overlap constraints를 기록했다. My best schedule proposal은 자기 제안 중 최선이라는 범위로도 읽히며 전체 feasible schedule 중 최대 점수라는 확정형 표현은 아니다. 이 한정을 보존해 optimal=1로 강화하지 않았다. 총점이나 현재 후보 legal/valid, 회의별 가용성을 직접 말하지 않아 사후 정답으로 채우지 않았다. 확인 또는 더 나은 legal candidate 요청은 대안 존재나 수락을 뜻하지 않는다. 지원 typed question 형식이 없어 request 및 발췌로 보존했다. 후속 실제 submit을 task accept 발화로 바꾸지 않았다. 독립 AI 전수 검수: 이번 task 원문의 명시값과 발췌를 전수 대조했고 초안 의미 필드를 유지했다. 모호한 주체·비교 범위와 일정 제약의 해석은 동반 감사 메모 및 검산 JSON에 보존한다."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "reviewer_kind": "ai",
+  "source": "/Users/hyohyeon/Desktop/agent-research-commincation/.worktree/20260912T170838Z-plan-22772406666b/stage-1/results/experiment/20260912T170838Z-stage1-b960a45a627b/trial-05",
+  "events_sha256": "9e9737f3fe706586e73688ebb4a65baed561605808a689d1268b1fc74629c3da",
+  "draft_sha256": "1f7b40dde3c96ef8b127f76ab3ed84a4c813d9362b2fa24f688532b6d11e7739",
+  "reviewed_sha256": "7363b13a2ac79f7c31bc267ddabc7079f2de6130f6d2be201dd1e4224b446853",
+  "claim_count": 157,
+  "per_message_claim_counts": [
+    72,
+    72,
+    11,
+    2
+  ],
+  "summary": {
+    "content_review_status": "complete",
+    "task_messages": 4,
+    "reviewed_messages": 4,
+    "correct_claims": 156,
+    "incorrect_claims": 1,
+    "undetermined_claims": 0,
+    "unjudgeable_expressions": 3,
+    "codec_errors": 0,
+    "first_proposer": "A",
+    "changed_proposal_messages": 0,
+    "explicit_revisions": 0,
+    "accept_messages": 1
+  },
+  "non_true_claims": [
+    {
+      "type": "summary",
+      "value": [
+        "available",
+        "A",
+        "M1",
+        2,
+        1
+      ],
+      "expected": 0,
+      "correct": false,
+      "impact": {
+        "method": "isolated counterfactual; other claims unchanged",
+        "feasible_set_changed": true,
+        "schedule_scores_changed": true,
+        "optimal_score_before": 20,
+        "optimal_score_after": 20,
+        "optimal_schedules_changed": false,
+        "submitted_schedule_affected": false,
+        "submission_impact_status": "evaluated"
+      },
+      "judgment": "incorrect",
+      "impact_status": "evaluated",
+      "message": 1,
+      "sender": "A",
+      "evidence": "M1: slot 0 unavailable, 4 points; 1 available, 2; 2 available, 3; 3 available, 3; 4 available, 0; 5 unavailable, 5; 6 unavailable, 6; 7 available, 2; 8 available, 6; 9 available, 3; 10 unavailable, 4; 11 available, 5.",
+      "annotation_note": "Each slot 0 through 11 is explicitly numbered and described. Values are the spoken availability and team preference total; no complement or omitted-person assertion is inferred. M1 slot 2 remains the spoken available=1."
+    }
+  ],
+  "independent_checks": {
+    "spoken_summary_items_compared": 144,
+    "original_schedule": {
+      "valid": true,
+      "score": 20,
+      "violations": []
+    },
+    "original_best": 20,
+    "counterfactual_best": 20,
+    "counterfactual_selected_score": 20,
+    "original_feasible_count": 54,
+    "counterfactual_feasible_count": 69,
+    "optimal_schedules_unchanged": true,
+    "annotation_entries_unchanged": true,
+    "source_draft_hashes_unchanged": true
+  },
+  "counterfactual_scope": "Only the spoken A/M1/2 availability claim is replaced; other summaries equal original input. This does not infer agent beliefs."
+}

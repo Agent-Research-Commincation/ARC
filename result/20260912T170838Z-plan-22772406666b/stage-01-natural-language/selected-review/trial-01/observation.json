@@ -1,0 +1,3963 @@
+{
+  "version": 3,
+  "review_policy_version": "observation-review-v3.1",
+  "claim_counts_by_type": {
+    "fact": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "summary": {
+      "occurrences": 135,
+      "judged": 135,
+      "correct": 135,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "reason": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_score": {
+      "occurrences": 2,
+      "judged": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_valid": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_optimal": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "meeting_score": {
+      "occurrences": 15,
+      "judged": 15,
+      "correct": 14,
+      "incorrect": 1,
+      "undetermined": 0
+    },
+    "meeting_available": {
+      "occurrences": 15,
+      "judged": 15,
+      "correct": 15,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "schedule_constraint": {
+      "occurrences": 2,
+      "judged": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "public_precedence": {
+      "occurrences": 1,
+      "judged": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "undetermined": 0
+    }
+  },
+  "unique_claims": 168,
+  "claim_occurrences": 172,
+  "claim_changes": [],
+  "scope": "post-run observable content; no hidden reasoning; no feedback to agents",
+  "content_review_status": "complete",
+  "content_review_scope": "source-anchored annotations",
+  "task_messages": 4,
+  "reviewed_messages": 4,
+  "correct_claims": 171,
+  "incorrect_claims": 1,
+  "undetermined_claims": 0,
+  "unjudgeable_expressions": 6,
+  "codec_errors": 0,
+  "information_sharing": {
+    "A": {
+      "reviewed_messages": 2,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 63
+    },
+    "B": {
+      "reviewed_messages": 2,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 72
+    }
+  },
+  "first_proposer": "B",
+  "changed_proposal_messages": 0,
+  "explicit_revisions": 0,
+  "accept_messages": 0,
+  "agreement_note": "Acceptance expressions do not prove independent verification or final submission.",
+  "completion": {
+    "submitted_agents": [
+      "A",
+      "B"
+    ],
+    "both_submitted": true,
+    "identical_submissions": true,
+    "task_status": "success",
+    "error": null
+  },
+  "format_errors": [],
+  "messages": [
+    {
+      "message": 1,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11; their preference totals by slot are 4, 2, 3, 3, 0, 5, 6, 2, 6, 3, 4, and 5.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11; preference totals are 2, 1, 3, 2, 0, 3, 3, 0, 3, 2, 1, and 2.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11;",
+          "annotation_note": "The named slot is explicitly listed as available. Owner A is the sender. Completeness of the list is unresolved; no negative availability is inferred for omitted slots."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11; preference totals are 2, 3, 0, 1, 0, 2, 5, 4, 3, 2, 5, and 3.",
+          "annotation_note": "Twelve explicitly spoken preference totals in slot-ID order 0–11; manually transcribed; owner A is the sender."
+        }
+      ],
+      "unjudgeable": [
+        "For M1, my attendees are available at slots 1, 3, 4, 7, 8, 9, and 11;",
+        "For M2, my attendee is available at slots 1, 2, 3, 4, 6, 7, 8, 9, and 11;",
+        "For M3, my attendees are available at slots 0, 1, 4, 5, 8, 9, 10, and 11;"
+      ],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "독립 AI 원문 감사 반영: by slot ID 0–11은 번호 범위 안내로도 읽히며 가용성 목록의 완전성을 확정하지 않는다. 직접 나열된 24개 가용성 긍정 주장과 직접 말한 36개 선호값만 채점한다. 미나열 슬롯 M1={0,2,5,6,10}, M2={0,5,10}, M3={2,3,6,7}의 12개 불가 주장은 추론이므로 제외했다. unjudgeable의 세 발췌는 각 목록의 완전성 해석 보류를 보존하며, 나열된 슬롯이 가능한지 자체를 보류하거나 미나열을 내용 오류로 세는 뜻이 아니다. status=complete는 네 메시지의 검토 완료를 의미하며 모호성 해소 완료를 뜻하지 않는다. 개인별 원자료 주장은 추가하지 않았다.",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 2,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "propose",
+        "inform"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "These slots are feasible",
+          "annotation_note": "These slots resolves to the complete schedule stated immediately before it."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "These slots are feasible and distinct",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "respect M1 before M3",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": "yield a combined team-summary score of 20",
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": {
+        "valid": true,
+        "score": 20,
+        "violations": [],
+        "gap": 0
+      },
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "최초의 완전한 시간표 제안이다. feasible, distinct, precedence, score의 서로 다른 명시 의미를 기록했다. 이 메시지는 최적이라고 말하지 않으므로 최적성 주장을 추가하지 않았다.",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 3,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The proposed schedule is feasible against my availability",
+          "annotation_note": "Team-scoped feasibility decomposed only into the three selected team-A availability statements; not global schedule validity."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The proposed schedule is feasible against my availability",
+          "annotation_note": "Team-scoped feasibility decomposed only into the three selected team-A availability statements; not global schedule validity."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 3,
+          "sender": "A",
+          "evidence": "The proposed schedule is feasible against my availability",
+          "annotation_note": "Team-scoped feasibility decomposed only into the three selected team-A availability statements; not global schedule validity."
+        }
+      ],
+      "unjudgeable": [
+        "gives my team 10 preference points",
+        "or confirm the score of 20 is optimal."
+      ],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "the proposed schedule은 유일한 이전 제안인 메시지2의 M1=1/M2=6/M3=10으로 해소했다. A팀 가능 여부만 주장하므로 전체 일정 유효성으로 확대하지 않았다. A팀 전체 합계10은 현 claim types에 팀 전체 일정 합계형이 없어 발췌와 별도 검산에 보존했다. questions의 72항목은 B팀 모든 회의/슬롯 요약을 요청하는 하나의 선택지를 전개한 것이다. 뒤의 or optimal-confirmation 선택지까지 반드시 모두 이행해야 한다는 뜻은 아니다. 최적 여부 확인은 질문이지 최적성의 단정이 아니므로 schedule_optimal 주장으로 세지 않았다. references=[2]는 숫자 ID의 직접 발화가 아니라 이전 제안의 최적성 재확인 요청을 문맥상 연결한 것이다.",
+      "questions": [
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "B",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "B",
+          "M3",
+          11
+        ]
+      ],
+      "references": [
+        2
+      ]
+    },
+    {
+      "message": 4,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M1, availability is 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, and preference totals are 2, 2, 0, 1, 2, 2, 2, 1, 3, 0, 3, 3.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M2, availability is 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, and preference totals are 4, 3, 0, 2, 2, 4, 4, 3, 3, 2, 4, 4.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "For M3, availability is 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, and preference totals are 4, 4, 1, 4, 0, 2, 2, 2, 2, 2, 4, 1.",
+          "annotation_note": "Twelve explicitly spoken team-B values in slot-ID order 0–11, manually transcribed without replacing values from the task input."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "score": 4
+          },
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8;",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 4,
+            "score": 2
+          },
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8;",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 4,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 7,
+            "score": 3
+          },
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8;",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 7,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 9,
+            "score": 3
+          },
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8;",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 9,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 11,
+            "score": 8
+          },
+          "expected": 8,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8;",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 11,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 2,
+            "score": 3
+          },
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6;",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 2,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 4,
+            "score": 2
+          },
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6;",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 4,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "score": 7
+          },
+          "expected": 7,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6;",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 7,
+            "score": 3
+          },
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6;",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 7,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 11,
+            "score": 6
+          },
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6;",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 11,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 0,
+            "score": 6
+          },
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 0,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 5,
+            "score": 4
+          },
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 5,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 8,
+            "score": 3
+          },
+          "expected": 5,
+          "correct": false,
+          "impact": null,
+          "judgment": "incorrect",
+          "impact_status": "not_evaluated",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 8,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "score": 9
+          },
+          "expected": 9,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 11,
+            "score": 4
+          },
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "Per-meeting combined score explicitly stated. This is not the score of a complete schedule. In particular M3 slot 8 remains the spoken value 3."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 11,
+            "available": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Combining these with your summaries, the feasible combined scores are M1: slot 1 = 4, 4 = 2, 7 = 3, 9 = 3, 11 = 8; M2: slot 2 = 3, 4 = 2, 6 = 7, 7 = 3, 11 = 6; M3: slot 0 = 6, 5 = 4, 8 = 3, 10 = 9, 11 = 4.",
+          "annotation_note": "The listed meeting/slot is called feasible before cross-meeting constraints are considered. No negative claim is inferred for unlisted slots."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "expected": 20,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "candidate_valid": true,
+          "arithmetic_sum": 20,
+          "arithmetic_matches": true,
+          "interpretation": "feasible_candidate",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "the proposed schedule scores 20",
+          "annotation_note": null
+        },
+        {
+          "type": "schedule_optimal",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "optimal": 1
+          },
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "the proposed schedule scores 20 and is optimal",
+          "annotation_note": "The proposed schedule resolves to message 2. All shared hard constraints remain part of the scheduling task."
+        },
+        {
+          "type": "public_precedence",
+          "value": {
+            "before": "M1",
+            "after": "M3"
+          },
+          "expected": true,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 4,
+          "sender": "B",
+          "evidence": "Under distinct-slot and M1-before-M3 constraints",
+          "annotation_note": "The phrase explicitly identifies M1-before-M3 as a public constraint; it is not an additional independent candidate-validity claim."
+        }
+      ],
+      "unjudgeable": [
+        "for M1 slots 1, 4, 7, and 9, the best totals are respectively 20, 18, 19, and 19."
+      ],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "B의 팀 배열, 명시된 회의별 점수·가용성, 제안 시간표 총점·최적성, 공개 선후관계를 각각 원문에 연결했다. M3 슬롯8 점수3을 정답5로 고치지 않았다. feasible combined scores 목록에서는 직접 나열한 슬롯의 가용성만 주장으로 세며, 생략 슬롯의 부정이나 새 점수를 추가하지 않았다. Under constraints는 최적화 범위이고 조건별 최적합계 문장은 현 스키마에 조건부 최대값 유형이 없어 unjudgeable 발췌와 별도 검산으로 보존했다. 이 메시지는 새 배치 제안이나 명시적 수락이 아니므로 inform으로 분류했다.",
+      "questions": [],
+      "references": []
+    }
+  ],
+  "annotation_reviewer_kind": "ai",
+  "annotation_reviewer": "Codex /root/stages_5_6 (initial source annotation); Codex /root/stages_3_4 (independent source audit and final revision)"
+}

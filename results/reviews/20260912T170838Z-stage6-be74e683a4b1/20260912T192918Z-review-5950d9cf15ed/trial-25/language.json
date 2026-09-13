@@ -1,0 +1,22 @@
+{
+  "inform": "inform",
+  "request": "request",
+  "propose": "propose",
+  "accept": "accept",
+  "reject": "reject",
+  "available": "avail",
+  "preference": "prefer",
+  "at": "at",
+  "ask": "ask",
+  "teamavailable": "tavail",
+  "teampreference": "teampref",
+  "unavailable": "unavail",
+  "overlap": "overlap",
+  "askfact": "askfact",
+  "asksummary": "asksum",
+  "askvalid": "askvalid",
+  "askscore": "askscore",
+  "valid": "valid",
+  "score": "score",
+  "recheck": "recheck"
+}

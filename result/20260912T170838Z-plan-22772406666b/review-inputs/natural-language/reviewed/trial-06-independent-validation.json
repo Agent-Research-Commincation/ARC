@@ -1,0 +1,311 @@
+{
+  "trial": "trial-06",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_5_6; independent AI audit of /root/stages_1_2 draft against all delivered task packets in trial-06; 2026-09-13",
+  "events_sha256": "addbc0dfa891e770c6a9b362dba569ffd268991b4b3d676d0afa5511838d0c82",
+  "draft_sha256": "ba80340281c033af970c3125096b699a513f55768139ef1916dbc82e31bd7c20",
+  "reviewed_annotation_sha256": "fff0a5879daf3906d4f7d4bc8cc415357981613fd65154c74b92c5f819003413",
+  "draft_semantic_field_changes": [],
+  "independent_source_transcription": {
+    "explicit_summary_fields": 144,
+    "all_match_draft": true,
+    "implicit_negative_availability_claims_added": 0,
+    "per_message_claims": [
+      72,
+      3,
+      0,
+      74
+    ],
+    "question_entries": 72
+  },
+  "validation": {
+    "content_review_status": "complete",
+    "task_messages": 4,
+    "reviewed_messages": 4,
+    "correct_claims": 148,
+    "incorrect_claims": 1,
+    "undetermined_claims": 0,
+    "unjudgeable_expressions": 7,
+    "codec_errors": 0,
+    "first_proposer": "A",
+    "changed_proposal_messages": 0,
+    "explicit_revisions": 0,
+    "accept_messages": 0,
+    "completion": {
+      "submitted_agents": [
+        "B"
+      ],
+      "both_submitted": false,
+      "identical_submissions": null,
+      "task_status": "stopped",
+      "error": "Submitted the agreed maximum-scoring schedule."
+    },
+    "annotation_reviewer_kind": "ai"
+  },
+  "incorrect_claims": [
+    {
+      "message": 1,
+      "sender": "B",
+      "type": "summary",
+      "value": [
+        "available",
+        "B",
+        "M3",
+        9,
+        1
+      ],
+      "expected": 0,
+      "correct": false,
+      "impact": {
+        "method": "isolated counterfactual; other claims unchanged",
+        "feasible_set_changed": true,
+        "schedule_scores_changed": true,
+        "optimal_score_before": 20,
+        "optimal_score_after": 20,
+        "optimal_schedules_changed": false,
+        "submitted_schedule_affected": false,
+        "submission_impact_status": "evaluated"
+      },
+      "judgment": "incorrect",
+      "impact_status": "evaluated",
+      "evidence": "For B attendees of M3, they are: slot 0 available, 4; slot 1 unavailable, 4; slot 2 available, 1; slot 3 available, 4; slot 4 unavailable, 0; slot 5 available, 2; slot 6 available, 2; slot 7 available, 2; slot 8 available, 2; slot 9 available, 2; slot 10 available, 4; slot 11 available, 1.",
+      "annotation_note": "실제 원문에서 직접 열거한 값을 전개. available/unavailable을 정답으로 대체하지 않았다."
+    }
+  ],
+  "offline_independent_calculation": {
+    "method": "Enumerated 12^3 assignments using local audit code, without calling experiment.problem.evaluate or evaluation helpers; applied attendee overlap, availability and precedence.",
+    "selected_schedule": {
+      "M1": 1,
+      "M2": 6,
+      "M3": 10
+    },
+    "selected_feasible": true,
+    "selected_score": 20,
+    "team_contribution_details": {
+      "A": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 5
+      },
+      "B": {
+        "M1": 2,
+        "M2": 4,
+        "M3": 4
+      }
+    },
+    "whole_schedule_team_contributions": {
+      "A": 10,
+      "B": 10
+    },
+    "spoken_time_labels_all_match_public_slots": true,
+    "spoken_time_labels": {
+      "1": "D1 10:00",
+      "6": "D2 09:00",
+      "10": "D2 14:00"
+    },
+    "B_M3_slot9": {
+      "speaker_claim_available": 1,
+      "raw_B2_available": false,
+      "raw_B3_available": true,
+      "expected_available": 0,
+      "spoken_preference": 2,
+      "expected_preference": 2
+    },
+    "isolated_counterfactual": {
+      "before_feasible_count": 54,
+      "after_feasible_count": 67,
+      "added_schedules": [
+        {
+          "schedule": {
+            "M1": 1,
+            "M2": 2,
+            "M3": 9
+          },
+          "score": 11
+        },
+        {
+          "schedule": {
+            "M1": 1,
+            "M2": 4,
+            "M3": 9
+          },
+          "score": 10
+        },
+        {
+          "schedule": {
+            "M1": 1,
+            "M2": 6,
+            "M3": 9
+          },
+          "score": 15
+        },
+        {
+          "schedule": {
+            "M1": 1,
+            "M2": 7,
+            "M3": 9
+          },
+          "score": 11
+        },
+        {
+          "schedule": {
+            "M1": 1,
+            "M2": 11,
+            "M3": 9
+          },
+          "score": 14
+        },
+        {
+          "schedule": {
+            "M1": 4,
+            "M2": 2,
+            "M3": 9
+          },
+          "score": 9
+        },
+        {
+          "schedule": {
+            "M1": 4,
+            "M2": 6,
+            "M3": 9
+          },
+          "score": 13
+        },
+        {
+          "schedule": {
+            "M1": 4,
+            "M2": 7,
+            "M3": 9
+          },
+          "score": 9
+        },
+        {
+          "schedule": {
+            "M1": 4,
+            "M2": 11,
+            "M3": 9
+          },
+          "score": 12
+        },
+        {
+          "schedule": {
+            "M1": 7,
+            "M2": 2,
+            "M3": 9
+          },
+          "score": 10
+        },
+        {
+          "schedule": {
+            "M1": 7,
+            "M2": 4,
+            "M3": 9
+          },
+          "score": 9
+        },
+        {
+          "schedule": {
+            "M1": 7,
+            "M2": 6,
+            "M3": 9
+          },
+          "score": 14
+        },
+        {
+          "schedule": {
+            "M1": 7,
+            "M2": 11,
+            "M3": 9
+          },
+          "score": 13
+        }
+      ],
+      "removed_schedules": [],
+      "existing_schedule_scores_changed": false,
+      "before_optimal_score": 20,
+      "after_optimal_score": 20,
+      "before_optimal_schedules": [
+        {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        }
+      ],
+      "after_optimal_schedules": [
+        {
+          "M1": 1,
+          "M2": 6,
+          "M3": 10
+        }
+      ],
+      "selected_submission_affected": false
+    }
+  },
+  "control_actions_excluded_from_task_packets": [
+    {
+      "event_sequence": 972,
+      "actor": "B",
+      "action": "submit",
+      "payload": "",
+      "schedule": [
+        {
+          "meeting": "M1",
+          "slot": 1
+        },
+        {
+          "meeting": "M2",
+          "slot": 6
+        },
+        {
+          "meeting": "M3",
+          "slot": 10
+        }
+      ],
+      "language": []
+    },
+    {
+      "event_sequence": 1001,
+      "actor": "A",
+      "action": "wait",
+      "payload": "",
+      "schedule": [],
+      "language": []
+    },
+    {
+      "event_sequence": 1037,
+      "actor": "B",
+      "action": "stop",
+      "payload": "Submitted the agreed maximum-scoring schedule.",
+      "schedule": [],
+      "language": []
+    }
+  ],
+  "original_result": {
+    "status": "stopped",
+    "operational_status": "normal",
+    "success": false,
+    "message_count": 4,
+    "actions": 7,
+    "evaluation": null,
+    "submissions": {
+      "B": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    }
+  },
+  "source_unchanged": true,
+  "source_file_hashes_before_and_after": {
+    "Agent_A.md": "2bd2d706b04a760a87f67121a3e1d0961e55ca9a3369e9bff725c2656fca1ac8",
+    "Agent_B.md": "0a39aaa5b56b47d9aeedd5551716ab069afd7f454b1d2ece27b2dbb9c35770f8",
+    "events.jsonl": "addbc0dfa891e770c6a9b362dba569ffd268991b4b3d676d0afa5511838d0c82",
+    "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+    "result.json": "1aaa4175f2d2b6587c1b4de259fd50309307f29a6b06d294c3459e8eead42ab5",
+    "transcript.md": "e14b4aac2a2cb9d40d119fadd8c48eaa638a4a12b1e79b8f438855fc751b16c1"
+  },
+  "core_snapshot_unchanged": true,
+  "core_snapshot_sha256": "289422ae2e34dd86700820e4c646a88b3f564ef969f8dff6bd8752afb4732b5f",
+  "draft_unchanged": true,
+  "temporary_validation_removed": true
+}

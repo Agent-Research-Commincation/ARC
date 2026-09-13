@@ -1,0 +1,165 @@
+{
+  "trial": "trial-10",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_5_6; independent AI audit of /root/stages_1_2 draft against every delivered task packet in trial-10; 2026-09-13",
+  "events_sha256": "c1a3037125595193e46443814f53b9b8048ab86ae9cfc0f7da5ffcc4df867793",
+  "draft_sha256": "80c4e0e8261b235c0c95ee2cf9a5f28fb63ea1fcc79344749a89493db8566a06",
+  "reviewed_annotation_sha256": "5920f7b7ab1b9465b29ae983e422a0ad0a819daec6f5b8a5de0210904a8342fd",
+  "draft_semantic_field_changes": [],
+  "independent_source_transcription": {
+    "explicit_array_summary_fields": 144,
+    "all_match_draft_and_raw_input": true,
+    "additional_explicit_team_availability_claims": 0,
+    "implicit_negative_availability_claims_added": 0,
+    "per_message_claim_counts": [
+      72,
+      74
+    ],
+    "question_items": 72,
+    "schedule_optimal_claims": 0
+  },
+  "validation": {
+    "content_review_status": "complete",
+    "task_messages": 2,
+    "reviewed_messages": 2,
+    "correct_claims": 146,
+    "incorrect_claims": 0,
+    "undetermined_claims": 0,
+    "unjudgeable_expressions": 0,
+    "codec_errors": 0,
+    "first_proposer": "A",
+    "changed_proposal_messages": 0,
+    "explicit_revisions": 0,
+    "accept_messages": 0,
+    "completion": {
+      "submitted_agents": [
+        "A",
+        "B"
+      ],
+      "both_submitted": true,
+      "identical_submissions": true,
+      "task_status": "success",
+      "error": null
+    },
+    "annotation_reviewer_kind": "ai"
+  },
+  "offline_independent_calculation": {
+    "method": "Own raw-input enumeration of all 12^3 assignments, without problem/evaluation helper calls; calculated values never fill utterances.",
+    "selected_schedule": {
+      "M1": 1,
+      "M2": 6,
+      "M3": 10
+    },
+    "selected_feasible": true,
+    "selected_score": 20,
+    "feasible_count": 54,
+    "optimal_score": 20,
+    "optimal_schedules": [
+      {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    ],
+    "meeting_scores_for_verification_only": {
+      "M1": 4,
+      "M2": 7,
+      "M3": 9
+    },
+    "shared_attendees_for_constraint_scope": {
+      "M1/M2": [
+        "A2",
+        "B1"
+      ],
+      "M1/M3": [
+        "A1"
+      ],
+      "M2/M3": [
+        "B2"
+      ]
+    },
+    "spoken_time_labels": {},
+    "spoken_time_labels_match": true
+  },
+  "excluded_control_actions": [
+    {
+      "event_sequence": 538,
+      "actor": "B",
+      "action": "submit",
+      "payload": "",
+      "schedule": [
+        {
+          "meeting": "M1",
+          "slot": 1
+        },
+        {
+          "meeting": "M2",
+          "slot": 6
+        },
+        {
+          "meeting": "M3",
+          "slot": 10
+        }
+      ],
+      "language": []
+    },
+    {
+      "event_sequence": 593,
+      "actor": "A",
+      "action": "submit",
+      "payload": "",
+      "schedule": [
+        {
+          "meeting": "M1",
+          "slot": 1
+        },
+        {
+          "meeting": "M2",
+          "slot": 6
+        },
+        {
+          "meeting": "M3",
+          "slot": 10
+        }
+      ],
+      "language": []
+    }
+  ],
+  "original_result": {
+    "status": "success",
+    "operational_status": "normal",
+    "success": true,
+    "actions": 4,
+    "message_count": 2,
+    "evaluation": {
+      "valid": true,
+      "score": 20,
+      "violations": []
+    },
+    "submissions": {
+      "B": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "A": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      }
+    }
+  },
+  "source_unchanged": true,
+  "source_file_hashes_before_and_after": {
+    "Agent_A.md": "e82021d7096f40fd73733e9b98a31c5e5e983fc315bfe3d134ed4ee60a4396ea",
+    "Agent_B.md": "a8e2008f813cd6a050d66b1dee90e54e77a2502d019eac55ee47ab6cbfe03463",
+    "events.jsonl": "c1a3037125595193e46443814f53b9b8048ab86ae9cfc0f7da5ffcc4df867793",
+    "observation.md": "f319fb4921d0703fb7fd44eb430e43c28be3db82f3e222df3013da2b102d4009",
+    "result.json": "a911109b97205860cd486ea85fb78c7f1f6cb6b3fa19b37fb89ae27fcca9edff",
+    "transcript.md": "cdbd01d93131421583c0a7135cc20ba183328d6b90a782c47b941dace3ad6fa2"
+  },
+  "draft_unchanged": true,
+  "core_snapshot_unchanged": true,
+  "core_snapshot_sha256": "289422ae2e34dd86700820e4c646a88b3f564ef969f8dff6bd8752afb4732b5f",
+  "temporary_validation_removed": true
+}

@@ -1,0 +1,242 @@
+{
+  "id": "confirmation-v3-20260911",
+  "description": "Schedule three joint meetings over twelve one-hour slots. Maximize the sum of attendee preferences while satisfying every hard constraint.",
+  "slots": [
+    "D1 09:00",
+    "D1 10:00",
+    "D1 11:00",
+    "D1 13:00",
+    "D1 14:00",
+    "D1 15:00",
+    "D2 09:00",
+    "D2 10:00",
+    "D2 11:00",
+    "D2 13:00",
+    "D2 14:00",
+    "D2 15:00"
+  ],
+  "meetings": [
+    {
+      "id": "M1",
+      "attendees": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "duration_slots": 1
+    },
+    {
+      "id": "M2",
+      "attendees": [
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "duration_slots": 1
+    },
+    {
+      "id": "M3",
+      "attendees": [
+        "A1",
+        "A3",
+        "B2",
+        "B3"
+      ],
+      "duration_slots": 1
+    }
+  ],
+  "precedence": [
+    [
+      "M1",
+      "M3"
+    ]
+  ],
+  "people": {
+    "A1": {
+      "owner": "A",
+      "availability": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "preferences": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        2,
+        3,
+        2,
+        3,
+        1,
+        3,
+        3
+      ]
+    },
+    "A2": {
+      "owner": "A",
+      "availability": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "preferences": [
+        2,
+        1,
+        3,
+        2,
+        0,
+        3,
+        3,
+        0,
+        3,
+        2,
+        1,
+        2
+      ]
+    },
+    "A3": {
+      "owner": "A",
+      "availability": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "preferences": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    "B1": {
+      "owner": "B",
+      "availability": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "preferences": [
+        2,
+        2,
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        3,
+        0,
+        3,
+        3
+      ]
+    },
+    "B2": {
+      "owner": "B",
+      "availability": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "preferences": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    "B3": {
+      "owner": "B",
+      "availability": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "preferences": [
+        2,
+        3,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        3,
+        0
+      ]
+    }
+  }
+}

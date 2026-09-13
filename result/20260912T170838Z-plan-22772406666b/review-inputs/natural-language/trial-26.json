@@ -1,0 +1,2390 @@
+{
+  "version": 1,
+  "events_sha256": "414b3369acbc53bd48209eb1e87c363252fa7e4719b3f4498f064e3330f893b1",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_1_2; source-anchored initial AI annotation of all task packets in completed trial-26; 2026-09-13",
+  "entries": [
+    {
+      "message": 1,
+      "status": "complete",
+      "evidence": "For my B attendees, across slots 0–11: M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3. M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4. M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1. Please share the corresponding A-team summaries for M1, M2, and M3 across slots 0–11 so we can optimize a common schedule. Remember M1 must precede M3.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          11
+        ]
+      ],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "evidence": "M1 availability is 1,1,1,0,1,1,1,1,0,1,1,1 and preference is 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "evidence": "M2 availability is 1,0,1,0,1,1,1,1,0,0,1,1 and preference is 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 availability is 1,0,1,1,0,1,1,1,1,0,1,1 and preference is 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "public_precedence",
+          "value": {
+            "before": "M1",
+            "after": "M3"
+          },
+          "evidence": "M1 must precede M3.",
+          "note": "후보 제시 전 직접 말한 공개 선후관계 규칙이다."
+        }
+      ],
+      "unjudgeable": [],
+      "notes": "B 팀 요약 72개와 M1 must precede M3 공개 규칙을 명시값대로 기록했다. corresponding A-team summaries across slots 0–11은 같은 세 회의·두 관계의 72개 질문으로 대응했다. 미래 optimize 목적을 현재 후보 최적성 주장으로 만들지 않았다."
+    },
+    {
+      "message": 2,
+      "status": "complete",
+      "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5. For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2. For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "evidence": "For M1, the A-team availability across slots 0–11 is 0,1,0,1,1,0,0,1,1,1,0,1, and its preference is 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "evidence": "For M2, the A-team availability is 0,1,1,1,1,0,1,1,1,1,0,1, and its preference is 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "evidence": "For M3, the A-team availability is 1,1,0,0,1,1,0,0,1,1,1,1, and its preference is 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "원문에 정의한 슬롯 0–11 범위의 명시 가용성·선호합 값만 순서대로 전개했다. 생략 추론이나 정답 치환은 없다."
+        }
+      ],
+      "unjudgeable": [],
+      "notes": "A 팀 세 회의·슬롯 0–11의 가용성·선호합 72개를 전개했다. M2/M3는 같은 메시지 첫 문장의 슬롯 범위를 이어받는 12개 배열이다. 개인 원자료, 후보 또는 평가를 추가하지 않았다."
+    },
+    {
+      "message": 3,
+      "status": "complete",
+      "evidence": "The highest-scoring legal schedule I find is M1 at slot 1, M2 at slot 6, and M3 at slot 10. It respects M1-before-M3 and all availability and attendee-overlap constraints, with total preference 20. Please confirm this schedule and submit these same slot IDs.",
+      "kinds": [
+        "inform",
+        "propose",
+        "request"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "evidence": "The highest-scoring legal schedule I find is M1 at slot 1, M2 at slot 6, and M3 at slot 10.",
+          "note": "현재 명시 후보에 대한 legal 평가만 기록한다. highest-scoring ... I find는 전역 최적성으로 강화하지 않는다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "evidence": "It respects M1-before-M3"
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "available": 1
+          },
+          "evidence": "all availability and attendee-overlap constraints",
+          "note": "all availability라는 명시 범위를 앞의 세 회의·슬롯의 전체 참석자 가용성 주장으로 전개했다. 개인/팀별 중복 주장은 만들지 않았다."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "available": 1
+          },
+          "evidence": "all availability and attendee-overlap constraints",
+          "note": "all availability라는 명시 범위를 앞의 세 회의·슬롯의 전체 참석자 가용성 주장으로 전개했다. 개인/팀별 중복 주장은 만들지 않았다."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "available": 1
+          },
+          "evidence": "all availability and attendee-overlap constraints",
+          "note": "all availability라는 명시 범위를 앞의 세 회의·슬롯의 전체 참석자 가용성 주장으로 전개했다. 개인/팀별 중복 주장은 만들지 않았다."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "evidence": "all availability and attendee-overlap constraints",
+          "note": "공개 조건에서 모든 회의 쌍이 참석자를 공유하므로 이 문제의 attendee-overlap 제약 충족은 세 슬롯 distinct와 대응한다."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "with total preference 20."
+        }
+      ],
+      "unjudgeable": [
+        "The highest-scoring legal schedule I find",
+        "Please confirm this schedule and submit these same slot IDs."
+      ],
+      "notes": "현재 후보 1/6/10의 legal·M1-before-M3·모든 회의 가용성·attendee-overlap 제약·20점을 명시된 대로 기록했다. highest-scoring legal schedule I find에는 자기 탐색 범위가 남아 전역 optimal=1로 강화하지 않고 발췌했다. 확인·동일 ID 제출 요청은 실제 합의 또는 제출 사실이 아니다. 뒤 제어 submit을 전송 accept 메시지로 만들지 않았다. 직접 말하지 않은 회의별 점수 등은 채우지 않았다."
+    }
+  ]
+}

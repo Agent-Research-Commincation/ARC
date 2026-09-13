@@ -1,0 +1,3145 @@
+{
+  "version": 3,
+  "review_policy_version": "observation-review-v3.1",
+  "claim_counts_by_type": {
+    "fact": {
+      "occurrences": 72,
+      "judged": 72,
+      "correct": 72,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "summary": {
+      "occurrences": 66,
+      "judged": 66,
+      "correct": 66,
+      "incorrect": 0,
+      "undetermined": 0
+    },
+    "reason": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_score": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_valid": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_optimal": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "meeting_score": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "meeting_available": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "schedule_constraint": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    },
+    "public_precedence": {
+      "occurrences": 0,
+      "judged": 0,
+      "correct": null,
+      "incorrect": null,
+      "undetermined": 0
+    }
+  },
+  "unique_claims": 138,
+  "claim_occurrences": 138,
+  "claim_changes": [],
+  "scope": "post-run observable content; no hidden reasoning; no feedback to agents",
+  "content_review_status": "complete",
+  "content_review_scope": "structured explicit assertions",
+  "task_messages": 11,
+  "reviewed_messages": 11,
+  "correct_claims": 138,
+  "incorrect_claims": 0,
+  "undetermined_claims": 0,
+  "unjudgeable_expressions": 0,
+  "codec_errors": 0,
+  "information_sharing": {
+    "A": {
+      "reviewed_messages": 6,
+      "unique_own_raw_claims": 0,
+      "all_72_own_raw_claims_stated": false,
+      "summary_claims": 66
+    },
+    "B": {
+      "reviewed_messages": 5,
+      "unique_own_raw_claims": 72,
+      "all_72_own_raw_claims_stated": true,
+      "summary_claims": 0
+    }
+  },
+  "first_proposer": "A",
+  "changed_proposal_messages": 0,
+  "explicit_revisions": 0,
+  "accept_messages": 0,
+  "agreement_note": "Acceptance expressions do not prove independent verification or final submission.",
+  "completion": {
+    "submitted_agents": [
+      "A",
+      "B"
+    ],
+    "both_submitted": true,
+    "identical_submissions": true,
+    "task_status": "success",
+    "error": null
+  },
+  "format_errors": [
+    {
+      "actor": "A",
+      "request_id": "request-1",
+      "phase": "task",
+      "category": "message_payload",
+      "error": "Unknown predicate or invalid syntax: asksummmary(preference,B,M1,1).",
+      "raw_response": {
+        "action": "send",
+        "payload": "request().\nteamavailable(A,M1,1,1).\nteampreference(A,M1,1,2).\nteamavailable(A,M1,3,1).\nteampreference(A,M1,3,3).\nteamavailable(A,M1,4,1).\nteampreference(A,M1,4,0).\nteamavailable(A,M1,7,1).\nteampreference(A,M1,7,2).\nteamavailable(A,M1,8,1).\nteampreference(A,M1,8,6).\nteamavailable(A,M1,9,1).\nteampreference(A,M1,9,3).\nteamavailable(A,M1,11,1).\nteampreference(A,M1,11,5).\nteamavailable(A,M2,1,1).\nteampreference(A,M2,1,1).\nteamavailable(A,M2,2,1).\nteampreference(A,M2,2,3).\nteamavailable(A,M2,3,1).\nteampreference(A,M2,3,2).\nteamavailable(A,M2,4,1).\nteampreference(A,M2,4,0).\nteamavailable(A,M2,6,1).\nteampreference(A,M2,6,3).\nteamavailable(A,M2,7,1).\nteampreference(A,M2,7,0).\nteamavailable(A,M2,8,1).\nteampreference(A,M2,8,3).\nteamavailable(A,M2,9,1).\nteampreference(A,M2,9,2).\nteamavailable(A,M2,11,1).\nteampreference(A,M2,11,2).\nteamavailable(A,M3,0,1).\nteampreference(A,M3,0,2).\nteamavailable(A,M3,1,1).\nteampreference(A,M3,1,3).\nteamavailable(A,M3,4,1).\nteampreference(A,M3,4,0).\nteamavailable(A,M3,5,1).\nteampreference(A,M3,5,2).\nteamavailable(A,M3,8,1).\nteampreference(A,M3,8,3).\nteamavailable(A,M3,9,1).\nteampreference(A,M3,9,2).\nteamavailable(A,M3,10,1).\nteampreference(A,M3,10,5).\nteamavailable(A,M3,11,1).\nteampreference(A,M3,11,3).\nasksummmary(preference,B,M1,1).\nasksummmary(available,B,M1,1).\nasksummmary(preference,B,M1,3).\nasksummmary(available,B,M1,3).\nasksummmary(preference,B,M1,4).\nasksummmary(available,B,M1,4).\nasksummmary(preference,B,M1,7).\nasksummmary(available,B,M1,7).\nasksummmary(preference,B,M1,8).\nasksummmary(available,B,M1,8).\nasksummmary(preference,B,M1,9).\nasksummmary(available,B,M1,9).\nasksummmary(preference,B,M1,11).\nasksummmary(available,B,M1,11).\nasksummmary(preference,B,M2,1).\nasksummmary(available,B,M2,1).\nasksummmary(preference,B,M2,2).\nasksummmary(available,B,M2,2).\nasksummmary(preference,B,M2,3).\nasksummmary(available,B,M2,3).\nasksummmary(preference,B,M2,4).\nasksummmary(available,B,M2,4).\nasksummmary(preference,B,M2,6).\nasksummmary(available,B,M2,6).\nasksummmary(preference,B,M2,7).\nasksummmary(available,B,M2,7).\nasksummmary(preference,B,M2,8).\nasksummmary(available,B,M2,8).\nasksummmary(preference,B,M2,9).\nasksummmary(available,B,M2,9).\nasksummmary(preference,B,M2,11).\nasksummmary(available,B,M2,11).\nasksummmary(preference,B,M3,0).\nasksummmary(available,B,M3,0).\nasksummmary(preference,B,M3,1).\nasksummmary(available,B,M3,1).\nasksummmary(preference,B,M3,4).\nasksummmary(available,B,M3,4).\nasksummmary(preference,B,M3,5).\nasksummmary(available,B,M3,5).\nasksummmary(preference,B,M3,8).\nasksummmary(available,B,M3,8).\nasksummmary(preference,B,M3,9).\nasksummmary(available,B,M3,9).\nasksummmary(preference,B,M3,10).\nasksummmary(available,B,M3,10).\nasksummmary(preference,B,M3,11).\nasksummmary(available,B,M3,11).",
+        "schedule": [],
+        "language": []
+      }
+    },
+    {
+      "actor": "A",
+      "request_id": "request-2",
+      "phase": "task",
+      "category": "message_payload",
+      "error": "Unknown predicate or invalid syntax: asksummmary(preference,B,M1,1).",
+      "raw_response": {
+        "action": "send",
+        "payload": "request().\nteamavailable(A,M1,1,1).\nteampreference(A,M1,1,2).\nteamavailable(A,M1,3,1).\nteampreference(A,M1,3,3).\nteamavailable(A,M1,4,1).\nteampreference(A,M1,4,0).\nteamavailable(A,M1,7,1).\nteampreference(A,M1,7,2).\nteamavailable(A,M1,8,1).\nteampreference(A,M1,8,6).\nteamavailable(A,M1,9,1).\nteampreference(A,M1,9,3).\nteamavailable(A,M1,11,1).\nteampreference(A,M1,11,5).\nteamavailable(A,M2,1,1).\nteampreference(A,M2,1,1).\nteamavailable(A,M2,2,1).\nteampreference(A,M2,2,3).\nteamavailable(A,M2,3,1).\nteampreference(A,M2,3,2).\nteamavailable(A,M2,4,1).\nteampreference(A,M2,4,0).\nteamavailable(A,M2,6,1).\nteampreference(A,M2,6,3).\nteamavailable(A,M2,7,1).\nteampreference(A,M2,7,0).\nteamavailable(A,M2,8,1).\nteampreference(A,M2,8,3).\nteamavailable(A,M2,9,1).\nteampreference(A,M2,9,2).\nteamavailable(A,M2,11,1).\nteampreference(A,M2,11,2).\nteamavailable(A,M3,0,1).\nteampreference(A,M3,0,2).\nteamavailable(A,M3,1,1).\nteampreference(A,M3,1,3).\nteamavailable(A,M3,4,1).\nteampreference(A,M3,4,0).\nteamavailable(A,M3,5,1).\nteampreference(A,M3,5,2).\nteamavailable(A,M3,8,1).\nteampreference(A,M3,8,3).\nteamavailable(A,M3,9,1).\nteampreference(A,M3,9,2).\nteamavailable(A,M3,10,1).\nteampreference(A,M3,10,5).\nteamavailable(A,M3,11,1).\nteampreference(A,M3,11,3).\nasksummmary(preference,B,M1,1).\nasksummmary(available,B,M1,1).\nasksummmary(preference,B,M1,3).\nasksummmary(available,B,M1,3).\nasksummmary(preference,B,M1,4).\nasksummmary(available,B,M1,4).\nasksummmary(preference,B,M1,7).\nasksummmary(available,B,M1,7).\nasksummmary(preference,B,M1,8).\nasksummmary(available,B,M1,8).\nasksummmary(preference,B,M1,9).\nasksummmary(available,B,M1,9).\nasksummmary(preference,B,M1,11).\nasksummmary(available,B,M1,11).\nasksummmary(preference,B,M2,1).\nasksummmary(available,B,M2,1).\nasksummmary(preference,B,M2,2).\nasksummmary(available,B,M2,2).\nasksummmary(preference,B,M2,3).\nasksummmary(available,B,M2,3).\nasksummmary(preference,B,M2,4).\nasksummmary(available,B,M2,4).\nasksummmary(preference,B,M2,6).\nasksummmary(available,B,M2,6).\nasksummmary(preference,B,M2,7).\nasksummmary(available,B,M2,7).\nasksummmary(preference,B,M2,8).\nasksummmary(available,B,M2,8).\nasksummmary(preference,B,M2,9).\nasksummmary(available,B,M2,9).\nasksummmary(preference,B,M2,11).\nasksummmary(available,B,M2,11).\nasksummmary(preference,B,M3,0).\nasksummmary(available,B,M3,0).\nasksummmary(preference,B,M3,1).\nasksummmary(available,B,M3,1).\nasksummmary(preference,B,M3,4).\nasksummmary(available,B,M3,4).\nasksummmary(preference,B,M3,5).\nasksummmary(available,B,M3,5).\nasksummmary(preference,B,M3,8).\nasksummmary(available,B,M3,8).\nasksummmary(preference,B,M3,9).\nasksummmary(available,B,M3,9).\nasksummmary(preference,B,M3,10).\nasksummmary(available,B,M3,10).\nasksummmary(preference,B,M3,11).\nasksummmary(available,B,M3,11).",
+        "schedule": [],
+        "language": []
+      }
+    },
+    {
+      "actor": "A",
+      "request_id": "request-3",
+      "phase": "task",
+      "category": "message_payload",
+      "error": "Unknown predicate or invalid syntax: asksu mmary(preference,B,M1,1).",
+      "raw_response": {
+        "action": "send",
+        "payload": "request().\nteamavailable(A,M1,1,1).\nteampreference(A,M1,1,2).\nteamavailable(A,M1,3,1).\nteampreference(A,M1,3,3).\nteamavailable(A,M1,4,1).\nteampreference(A,M1,4,0).\nteamavailable(A,M1,7,1).\nteampreference(A,M1,7,2).\nteamavailable(A,M1,8,1).\nteampreference(A,M1,8,6).\nteamavailable(A,M1,9,1).\nteampreference(A,M1,9,3).\nteamavailable(A,M1,11,1).\nteampreference(A,M1,11,5).\nteamavailable(A,M2,1,1).\nteampreference(A,M2,1,1).\nteamavailable(A,M2,2,1).\nteampreference(A,M2,2,3).\nteamavailable(A,M2,3,1).\nteampreference(A,M2,3,2).\nteamavailable(A,M2,4,1).\nteampreference(A,M2,4,0).\nteamavailable(A,M2,6,1).\nteampreference(A,M2,6,3).\nteamavailable(A,M2,7,1).\nteampreference(A,M2,7,0).\nteamavailable(A,M2,8,1).\nteampreference(A,M2,8,3).\nteamavailable(A,M2,9,1).\nteampreference(A,M2,9,2).\nteamavailable(A,M2,11,1).\nteampreference(A,M2,11,2).\nteamavailable(A,M3,0,1).\nteampreference(A,M3,0,2).\nteamavailable(A,M3,1,1).\nteampreference(A,M3,1,3).\nteamavailable(A,M3,4,1).\nteampreference(A,M3,4,0).\nteamavailable(A,M3,5,1).\nteampreference(A,M3,5,2).\nteamavailable(A,M3,8,1).\nteampreference(A,M3,8,3).\nteamavailable(A,M3,9,1).\nteampreference(A,M3,9,2).\nteamavailable(A,M3,10,1).\nteampreference(A,M3,10,5).\nteamavailable(A,M3,11,1).\nteampreference(A,M3,11,3).\nasksu mmary(preference,B,M1,1).\nasksu mmary(available,B,M1,1).\nasksu mmary(preference,B,M1,3).\nasksu mmary(available,B,M1,3).\nasksu mmary(preference,B,M1,4).\nasksu mmary(available,B,M1,4).\nasksu mmary(preference,B,M1,7).\nasksu mmary(available,B,M1,7).\nasksu mmary(preference,B,M1,8).\nasksu mmary(available,B,M1,8).\nasksu mmary(preference,B,M1,9).\nasksu mmary(available,B,M1,9).\nasksu mmary(preference,B,M1,11).\nasksu mmary(available,B,M1,11).\nasksu mmary(preference,B,M2,1).\nasksu mmary(available,B,M2,1).\nasksu mmary(preference,B,M2,2).\nasksu mmary(available,B,M2,2).\nasksu mmary(preference,B,M2,3).\nasksu mmary(available,B,M2,3).\nasksu mmary(preference,B,M2,4).\nasksu mmary(available,B,M2,4).\nasksu mmary(preference,B,M2,6).\nasksu mmary(available,B,M2,6).\nasksu mmary(preference,B,M2,7).\nasksu mmary(available,B,M2,7).\nasksu mmary(preference,B,M2,8).\nasksu mmary(available,B,M2,8).\nasksu mmary(preference,B,M2,9).\nasksu mmary(available,B,M2,9).\nasksu mmary(preference,B,M2,11).\nasksu mmary(available,B,M2,11).\nasksu mmary(preference,B,M3,0).\nasksu mmary(available,B,M3,0).\nasksu mmary(preference,B,M3,1).\nasksu mmary(available,B,M3,1).\nasksu mmary(preference,B,M3,4).\nasksu mmary(available,B,M3,4).\nasksu mmary(preference,B,M3,5).\nasksu mmary(available,B,M3,5).\nasksu mmary(preference,B,M3,8).\nasksu mmary(available,B,M3,8).\nasksu mmary(preference,B,M3,9).\nasksu mmary(available,B,M3,9).\nasksu mmary(preference,B,M3,10).\nasksu mmary(available,B,M3,10).\nasksu mmary(preference,B,M3,11).\nasksu mmary(available,B,M3,11).",
+        "schedule": [],
+        "language": []
+      }
+    },
+    {
+      "actor": "A",
+      "request_id": "request-4",
+      "phase": "task",
+      "category": "message_payload",
+      "error": "Unknown predicate or invalid syntax: asks ummary(preference,B,M1,1).",
+      "raw_response": {
+        "action": "send",
+        "payload": "request().\nteamavailable(A,M1,1,1).\nteampreference(A,M1,1,2).\nteamavailable(A,M1,3,1).\nteampreference(A,M1,3,3).\nteamavailable(A,M1,4,1).\nteampreference(A,M1,4,0).\nteamavailable(A,M1,7,1).\nteampreference(A,M1,7,2).\nteamavailable(A,M1,8,1).\nteampreference(A,M1,8,6).\nteamavailable(A,M1,9,1).\nteampreference(A,M1,9,3).\nteamavailable(A,M1,11,1).\nteampreference(A,M1,11,5).\nteamavailable(A,M2,1,1).\nteampreference(A,M2,1,1).\nteamavailable(A,M2,2,1).\nteampreference(A,M2,2,3).\nteamavailable(A,M2,3,1).\nteampreference(A,M2,3,2).\nteamavailable(A,M2,4,1).\nteampreference(A,M2,4,0).\nteamavailable(A,M2,6,1).\nteampreference(A,M2,6,3).\nteamavailable(A,M2,7,1).\nteampreference(A,M2,7,0).\nteamavailable(A,M2,8,1).\nteampreference(A,M2,8,3).\nteamavailable(A,M2,9,1).\nteampreference(A,M2,9,2).\nteamavailable(A,M2,11,1).\nteampreference(A,M2,11,2).\nteamavailable(A,M3,0,1).\nteampreference(A,M3,0,2).\nteamavailable(A,M3,1,1).\nteampreference(A,M3,1,3).\nteamavailable(A,M3,4,1).\nteampreference(A,M3,4,0).\nteamavailable(A,M3,5,1).\nteampreference(A,M3,5,2).\nteamavailable(A,M3,8,1).\nteampreference(A,M3,8,3).\nteamavailable(A,M3,9,1).\nteampreference(A,M3,9,2).\nteamavailable(A,M3,10,1).\nteampreference(A,M3,10,5).\nteamavailable(A,M3,11,1).\nteampreference(A,M3,11,3).\nasks ummary(preference,B,M1,1).\nasks ummary(available,B,M1,1).\nasks ummary(preference,B,M1,3).\nasks ummary(available,B,M1,3).\nasks ummary(preference,B,M1,4).\nasks ummary(available,B,M1,4).\nasks ummary(preference,B,M1,7).\nasks ummary(available,B,M1,7).\nasks ummary(preference,B,M1,8).\nasks ummary(available,B,M1,8).\nasks ummary(preference,B,M1,9).\nasks ummary(available,B,M1,9).\nasks ummary(preference,B,M1,11).\nasks ummary(available,B,M1,11).\nasks ummary(preference,B,M2,1).\nasks ummary(available,B,M2,1).\nasks ummary(preference,B,M2,2).\nasks ummary(available,B,M2,2).\nasks ummary(preference,B,M2,3).\nasks ummary(available,B,M2,3).\nasks ummary(preference,B,M2,4).\nasks ummary(available,B,M2,4).\nasks ummary(preference,B,M2,6).\nasks ummary(available,B,M2,6).\nasks ummary(preference,B,M2,7).\nasks ummary(available,B,M2,7).\nasks ummary(preference,B,M2,8).\nasks ummary(available,B,M2,8).\nasks ummary(preference,B,M2,9).\nasks ummary(available,B,M2,9).\nasks ummary(preference,B,M2,11).\nasks ummary(available,B,M2,11).\nasks ummary(preference,B,M3,0).\nasks ummary(available,B,M3,0).\nasks ummary(preference,B,M3,1).\nasks ummary(available,B,M3,1).\nasks ummary(preference,B,M3,4).\nasks ummary(available,B,M3,4).\nasks ummary(preference,B,M3,5).\nasks ummary(available,B,M3,5).\nasks ummary(preference,B,M3,8).\nasks ummary(available,B,M3,8).\nasks ummary(preference,B,M3,9).\nasks ummary(available,B,M3,9).\nasks ummary(preference,B,M3,10).\nasks ummary(available,B,M3,10).\nasks ummary(preference,B,M3,11).\nasks ummary(available,B,M3,11).",
+        "schedule": [],
+        "language": []
+      }
+    },
+    {
+      "actor": "B",
+      "request_id": "request-6",
+      "phase": "task",
+      "category": "message_payload",
+      "error": "Unknown predicate or invalid syntax: askSummary(availability,A,M1,0).",
+      "raw_response": {
+        "action": "send",
+        "payload": "inform().\navailable(B1,0,1).\npreference(B1,0,2).\navailable(B1,1,1).\npreference(B1,1,2).\navailable(B1,2,1).\npreference(B1,2,0).\navailable(B1,3,0).\npreference(B1,3,1).\navailable(B1,4,1).\npreference(B1,4,2).\navailable(B1,5,1).\npreference(B1,5,2).\navailable(B1,6,1).\npreference(B1,6,2).\navailable(B1,7,1).\npreference(B1,7,1).\navailable(B1,8,0).\npreference(B1,8,3).\navailable(B1,9,1).\npreference(B1,9,0).\navailable(B1,10,1).\npreference(B1,10,3).\navailable(B1,11,1).\npreference(B1,11,3).\navailable(B2,0,1).\npreference(B2,0,2).\navailable(B2,1,0).\npreference(B2,1,1).\navailable(B2,2,1).\npreference(B2,2,0).\navailable(B2,3,1).\npreference(B2,3,1).\navailable(B2,4,1).\npreference(B2,4,0).\navailable(B2,5,1).\npreference(B2,5,2).\navailable(B2,6,1).\npreference(B2,6,2).\navailable(B2,7,1).\npreference(B2,7,2).\navailable(B2,8,1).\npreference(B2,8,0).\navailable(B2,9,0).\npreference(B2,9,2).\navailable(B2,10,1).\npreference(B2,10,1).\navailable(B2,11,1).\npreference(B2,11,1).\navailable(B3,0,1).\npreference(B3,0,2).\navailable(B3,1,1).\npreference(B3,1,3).\navailable(B3,2,1).\npreference(B3,2,1).\navailable(B3,3,1).\npreference(B3,3,3).\navailable(B3,4,0).\npreference(B3,4,0).\navailable(B3,5,1).\npreference(B3,5,0).\navailable(B3,6,1).\npreference(B3,6,0).\navailable(B3,7,1).\npreference(B3,7,0).\navailable(B3,8,1).\npreference(B3,8,2).\navailable(B3,9,1).\npreference(B3,9,0).\navailable(B3,10,1).\npreference(B3,10,3).\navailable(B3,11,1).\npreference(B3,11,0).\naskSummary(availability,A,M1,0).\naskSummary(preference,A,M1,0).\naskSummary(availability,A,M1,2).\naskSummary(preference,A,M1,2).\naskSummary(availability,A,M1,5).\naskSummary(preference,A,M1,5).\naskSummary(availability,A,M1,6).\naskSummary(preference,A,M1,6).\naskSummary(availability,A,M1,10).\naskSummary(preference,A,M1,10).\naskSummary(availability,A,M2,0).\naskSummary(preference,A,M2,0).\naskSummary(availability,A,M2,5).\naskSummary(preference,A,M2,5).\naskSummary(availability,A,M2,10).\naskSummary(preference,A,M2,10).\naskSummary(availability,A,M3,2).\naskSummary(preference,A,M3,2).\naskSummary(availability,A,M3,3).\naskSummary(preference,A,M3,3).\naskSummary(availability,A,M3,6).\naskSummary(preference,A,M3,6).\naskSummary(availability,A,M3,7).\naskSummary(preference,A,M3,7).",
+        "schedule": [],
+        "language": []
+      }
+    },
+    {
+      "actor": "B",
+      "request_id": "request-7",
+      "phase": "task",
+      "category": "message_payload",
+      "error": "Unknown predicate or invalid syntax: askSummary(available,A,M1,0).",
+      "raw_response": {
+        "action": "send",
+        "payload": "inform().\navailable(B1,0,1).\npreference(B1,0,2).\navailable(B1,1,1).\npreference(B1,1,2).\navailable(B1,2,1).\npreference(B1,2,0).\navailable(B1,3,0).\npreference(B1,3,1).\navailable(B1,4,1).\npreference(B1,4,2).\navailable(B1,5,1).\npreference(B1,5,2).\navailable(B1,6,1).\npreference(B1,6,2).\navailable(B1,7,1).\npreference(B1,7,1).\navailable(B1,8,0).\npreference(B1,8,3).\navailable(B1,9,1).\npreference(B1,9,0).\navailable(B1,10,1).\npreference(B1,10,3).\navailable(B1,11,1).\npreference(B1,11,3).\navailable(B2,0,1).\npreference(B2,0,2).\navailable(B2,1,0).\npreference(B2,1,1).\navailable(B2,2,1).\npreference(B2,2,0).\navailable(B2,3,1).\npreference(B2,3,1).\navailable(B2,4,1).\npreference(B2,4,0).\navailable(B2,5,1).\npreference(B2,5,2).\navailable(B2,6,1).\npreference(B2,6,2).\navailable(B2,7,1).\npreference(B2,7,2).\navailable(B2,8,1).\npreference(B2,8,0).\navailable(B2,9,0).\npreference(B2,9,2).\navailable(B2,10,1).\npreference(B2,10,1).\navailable(B2,11,1).\npreference(B2,11,1).\navailable(B3,0,1).\npreference(B3,0,2).\navailable(B3,1,1).\npreference(B3,1,3).\navailable(B3,2,1).\npreference(B3,2,1).\navailable(B3,3,1).\npreference(B3,3,3).\navailable(B3,4,0).\npreference(B3,4,0).\navailable(B3,5,1).\npreference(B3,5,0).\navailable(B3,6,1).\npreference(B3,6,0).\navailable(B3,7,1).\npreference(B3,7,0).\navailable(B3,8,1).\npreference(B3,8,2).\navailable(B3,9,1).\npreference(B3,9,0).\navailable(B3,10,1).\npreference(B3,10,3).\navailable(B3,11,1).\npreference(B3,11,0).\naskSummary(available,A,M1,0).\naskSummary(preference,A,M1,0).\naskSummary(available,A,M1,2).\naskSummary(preference,A,M1,2).\naskSummary(available,A,M1,5).\naskSummary(preference,A,M1,5).\naskSummary(available,A,M1,6).\naskSummary(preference,A,M1,6).\naskSummary(available,A,M1,10).\naskSummary(preference,A,M1,10).\naskSummary(available,A,M2,0).\naskSummary(preference,A,M2,0).\naskSummary(available,A,M2,5).\naskSummary(preference,A,M2,5).\naskSummary(available,A,M2,10).\naskSummary(preference,A,M2,10).\naskSummary(available,A,M3,2).\naskSummary(preference,A,M3,2).\naskSummary(available,A,M3,3).\naskSummary(preference,A,M3,3).\naskSummary(available,A,M3,6).\naskSummary(preference,A,M3,6).\naskSummary(available,A,M3,7).\naskSummary(preference,A,M3,7).",
+        "schedule": [],
+        "language": []
+      }
+    },
+    {
+      "actor": "B",
+      "request_id": "request-10",
+      "phase": "task",
+      "category": "message_payload",
+      "error": "Unknown predicate or invalid syntax: askSummary(preference,A,M1,0).",
+      "raw_response": {
+        "action": "send",
+        "payload": "request().\naskSummary(preference,A,M1,0).\naskSummary(available,A,M1,0).\naskSummary(preference,A,M1,2).\naskSummary(available,A,M1,2).\naskSummary(preference,A,M1,5).\naskSummary(available,A,M1,5).\naskSummary(preference,A,M1,6).\naskSummary(available,A,M1,6).\naskSummary(preference,A,M1,10).\naskSummary(available,A,M1,10).\naskSummary(preference,A,M2,0).\naskSummary(available,A,M2,0).\naskSummary(preference,A,M2,5).\naskSummary(available,A,M2,5).\naskSummary(preference,A,M2,10).\naskSummary(available,A,M2,10).\naskSummary(preference,A,M3,2).\naskSummary(available,A,M3,2).\naskSummary(preference,A,M3,3).\naskSummary(available,A,M3,3).\naskSummary(preference,A,M3,6).\naskSummary(available,A,M3,6).\naskSummary(preference,A,M3,7).\naskSummary(available,A,M3,7).",
+        "schedule": [],
+        "language": []
+      }
+    },
+    {
+      "actor": "B",
+      "request_id": "request-11",
+      "phase": "task",
+      "category": "message_payload",
+      "error": "Unknown predicate or invalid syntax: askSummary(preference,A,M1,0).",
+      "raw_response": {
+        "action": "send",
+        "payload": "request().\naskSummary(preference,A,M1,0).",
+        "schedule": [],
+        "language": []
+      }
+    }
+  ],
+  "messages": [
+    {
+      "message": 1,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "request"
+      ],
+      "schedule": {},
+      "requests": [
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 1,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 2,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B1",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            1,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            4,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            0,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            5,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            6,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            8,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            9,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "available",
+            "B3",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            1,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            4,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            7,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            8,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            10,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B1",
+            11,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            1,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            5,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            6,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            7,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            8,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            9,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B2",
+            11,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            1,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            2,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            3,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            4,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            7,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            8,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            9,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            10,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "fact",
+          "value": [
+            "preference",
+            "B3",
+            11,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 2,
+          "sender": "B",
+          "evidence": null,
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 3,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "propose"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "claims": [],
+      "unjudgeable": [],
+      "proposal_quality": {
+        "valid": true,
+        "score": 20,
+        "violations": [],
+        "gap": 0
+      },
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 4,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "",
+      "questions": [
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          0
+        ]
+      ],
+      "references": []
+    },
+    {
+      "message": 5,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 5,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 6,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "",
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          0
+        ]
+      ],
+      "references": []
+    },
+    {
+      "message": 7,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 7,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 8,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "",
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          10
+        ]
+      ],
+      "references": []
+    },
+    {
+      "message": 9,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "expected": 5,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "expected": 6,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "expected": 4,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "expected": 2,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "expected": 3,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 9,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "",
+      "questions": [],
+      "references": []
+    },
+    {
+      "message": 10,
+      "sender": "B",
+      "receiver": "A",
+      "review_status": "complete",
+      "kinds": [
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "",
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          3
+        ]
+      ],
+      "references": []
+    },
+    {
+      "message": 11,
+      "sender": "A",
+      "receiver": "B",
+      "review_status": "complete",
+      "kinds": [
+        "inform"
+      ],
+      "schedule": {},
+      "requests": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "expected": 0,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 11,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "expected": 1,
+          "correct": true,
+          "impact": null,
+          "judgment": "correct",
+          "impact_status": "not_needed",
+          "message": 11,
+          "sender": "A",
+          "evidence": null,
+          "annotation_note": null
+        }
+      ],
+      "unjudgeable": [],
+      "proposal_quality": null,
+      "codec_preserved": true,
+      "framing_preserved": true,
+      "decode_error": null,
+      "notes": "",
+      "questions": [],
+      "references": []
+    }
+  ]
+}

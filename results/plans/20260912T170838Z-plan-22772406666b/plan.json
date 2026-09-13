@@ -1,0 +1,1791 @@
+{
+  "version": "3.0.0",
+  "id": "20260912T170838Z-plan-22772406666b",
+  "created_at": "2026-09-12T17:08:38.375210+00:00",
+  "purpose": "experiment",
+  "config": {
+    "version": "3.0.0",
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "high",
+    "repetitions": 30,
+    "service_tier": "default",
+    "problem_file": "config/problem.json",
+    "pricing": {
+      "currency": "USD",
+      "basis": "API-equivalent estimate; not the actual ChatGPT subscription charge",
+      "checked_at": "2026-09-09",
+      "source": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+      "input_per_million": 0.2,
+      "cached_input_per_million": 0.02,
+      "cache_write_multiplier": 1.25,
+      "output_per_million": 1.2,
+      "local_processing_usd_per_cpu_second": null
+    },
+    "first_speakers": [
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A",
+      "B"
+    ],
+    "schedule_seed": 20260911
+  },
+  "problem": {
+    "id": "confirmation-v3-20260911",
+    "description": "Schedule three joint meetings over twelve one-hour slots. Maximize the sum of attendee preferences while satisfying every hard constraint.",
+    "slots": [
+      "D1 09:00",
+      "D1 10:00",
+      "D1 11:00",
+      "D1 13:00",
+      "D1 14:00",
+      "D1 15:00",
+      "D2 09:00",
+      "D2 10:00",
+      "D2 11:00",
+      "D2 13:00",
+      "D2 14:00",
+      "D2 15:00"
+    ],
+    "meetings": [
+      {
+        "id": "M1",
+        "attendees": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "duration_slots": 1
+      },
+      {
+        "id": "M2",
+        "attendees": [
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "duration_slots": 1
+      },
+      {
+        "id": "M3",
+        "attendees": [
+          "A1",
+          "A3",
+          "B2",
+          "B3"
+        ],
+        "duration_slots": 1
+      }
+    ],
+    "precedence": [
+      [
+        "M1",
+        "M3"
+      ]
+    ],
+    "people": {
+      "A1": {
+        "owner": "A",
+        "availability": [
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "preferences": [
+          2,
+          1,
+          0,
+          1,
+          0,
+          2,
+          3,
+          2,
+          3,
+          1,
+          3,
+          3
+        ]
+      },
+      "A2": {
+        "owner": "A",
+        "availability": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true
+        ],
+        "preferences": [
+          2,
+          1,
+          3,
+          2,
+          0,
+          3,
+          3,
+          0,
+          3,
+          2,
+          1,
+          2
+        ]
+      },
+      "A3": {
+        "owner": "A",
+        "availability": [
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "preferences": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          2,
+          2,
+          0,
+          1,
+          2,
+          0
+        ]
+      },
+      "B1": {
+        "owner": "B",
+        "availability": [
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true
+        ],
+        "preferences": [
+          2,
+          2,
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          0,
+          3,
+          3
+        ]
+      },
+      "B2": {
+        "owner": "B",
+        "availability": [
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true
+        ],
+        "preferences": [
+          2,
+          1,
+          0,
+          1,
+          0,
+          2,
+          2,
+          2,
+          0,
+          2,
+          1,
+          1
+        ]
+      },
+      "B3": {
+        "owner": "B",
+        "availability": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "preferences": [
+          2,
+          3,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          3,
+          0
+        ]
+      }
+    }
+  },
+  "config_hash": "399bac0949ab1eb2c032cb1bb7195cfb7348bfe23fd9e996e02f6ac70d3a98a8",
+  "problem_hash": "f5ce855ddde8e16bd2fee52bbfd88cc743b3fe508595fd2691ef9152b017e9ef",
+  "stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "count": 30,
+  "jobs": 6,
+  "profile": {
+    "jobs": 6,
+    "mode": "parallel"
+  },
+  "source_snapshot": {
+    "files": {
+      "AGENTS.md": "215387e52af2bb4f7578cea68aefb80279c8926a4a620d7dd3bc28ca861323db",
+      "config/experiment.json": "227ed25525acded4bb4a07f4df060fed75dc1fe0cfeec91c4cd5f4298e76d79d",
+      "config/problem-reference.json": "b006a41ba81b54a8441847bf17bc17d00ca7799d1ea225b0634a94b661f4f3b5",
+      "config/problem.json": "08ddec3de81f51e66a0b874ddcb422a87c7c39a0fbb9510c44c62f02c56f589f",
+      "experiment/__init__.py": "c92b0675bb9bbf62b6f5c9a869160b409160d8fee5a19890c0f1441033c95452",
+      "experiment/artifacts.py": "275e09ad0b51116a6c43a6da95fd735636a0decb7fd6c27258475b22197dc021",
+      "experiment/cli.py": "bde326745b7caccd7df7173bdea3501a347e882392958aa665083c01d1be8d33",
+      "experiment/codex.py": "67ec13b7c8133bfe687c0232b746f7505755cb84b6ad6cc4ffccc3563c0fda41",
+      "experiment/contracts.py": "1fbcd596b7b9d8923655705fb9be6564ba3f3cb99d4d179552f286c3e1e8c830",
+      "experiment/evaluation.py": "f7ab4f4e1093b3a56f0d8b23de23fb06bf3dfb54ba8b214cdf3a79d02c04aa34",
+      "experiment/metrics.py": "6b753c9f7a455a264886bbc0a2e21152dd6f76dc6ab34cead2dd3f747adcf020",
+      "experiment/problem.py": "361bbd6f4c29254eedf63a179252db823fd4ac77f2a0bd73d8d44ca8ec225663",
+      "experiment/protocols.py": "940604f7e130fcf2d5261f35926d7a3eb7438d1b38cee54adb797153baf59a83",
+      "experiment/records.py": "be886ac1c3e62161dd21580790825bd8c85b72dd35d57d43da10ffd53af5a5c9",
+      "experiment/runner.py": "1f9b135a2f27df92cd96f75ea49d9d3e573ed4b6977ec6f1414646235cbd2153",
+      "experiment/scheduling.py": "cb534174b7bc014effcc492d48a344cdce2cebf74061b77c02efcb5b16a42a5f",
+      "experiment/trial.py": "92a440f8d92851e7b66bf493bfb334f282ef4298c9d318897b9377c5cdb49655",
+      "lab.py": "7b2eb7f02e3cdfafd53d6117d5c46d55e587e6ee5a4963f4d866e473e5e1b4a0",
+      "scripts/export_histories.py": "c0a9bc514a01a59843206b8437d932845e96db0f959da1735f71b8e78d41c70e",
+      "scripts/freeze_problem.py": "1736556773e98e486f9e0b1049ea70b13cb63db0f756808e628fe028bc4e04d0",
+      "scripts/replay_review.py": "358717252b91f50f0c3e34a6447b6234ce4d224dd56427dd856e5bd7867ba2b0",
+      "tests/fixtures/config.json": "227ed25525acded4bb4a07f4df060fed75dc1fe0cfeec91c4cd5f4298e76d79d",
+      "tests/fixtures/problem.json": "c4c96ca735a1a6944a660b679e4fa29fe6f350ee16cc924d99777a5ade1f2baf",
+      "tests/test_experiment.py": "fe3fc9f1e2be5e15496261df68a39099084ce43ed0489d92965f5c3726a4e9bc",
+      "tests/test_export.py": "5fec152fe45f479c846469089346f6d47c433d3c8407e698a56f3807cf806651",
+      "tests/test_lab_v3.py": "d99f400447c26354705dd4dfd4f7aeb70b7a6d8eff0551d17e1cc79433d9fde9",
+      "tests/test_regressions.py": "18544601ef16deb0cb05720355d32118043ad154223f13b84b2122dd6a7ebae7",
+      "tests/test_review_policy.py": "e55030ecb2fe4a195f3e07f4f4a94c939636e21e32b04f12b0a43e69ca5f3d63"
+    },
+    "sha256": "289422ae2e34dd86700820e4c646a88b3f564ef969f8dff6bd8752afb4732b5f"
+  },
+  "slots": [
+    {
+      "id": "stage6-trial01",
+      "stage": 6,
+      "trial": 1,
+      "first_speaker": "A",
+      "block": 1,
+      "order": 0
+    },
+    {
+      "id": "stage4-trial01",
+      "stage": 4,
+      "trial": 1,
+      "first_speaker": "A",
+      "block": 1,
+      "order": 1
+    },
+    {
+      "id": "stage2-trial01",
+      "stage": 2,
+      "trial": 1,
+      "first_speaker": "A",
+      "block": 1,
+      "order": 2
+    },
+    {
+      "id": "stage1-trial01",
+      "stage": 1,
+      "trial": 1,
+      "first_speaker": "A",
+      "block": 1,
+      "order": 3
+    },
+    {
+      "id": "stage3-trial01",
+      "stage": 3,
+      "trial": 1,
+      "first_speaker": "A",
+      "block": 1,
+      "order": 4
+    },
+    {
+      "id": "stage5-trial01",
+      "stage": 5,
+      "trial": 1,
+      "first_speaker": "A",
+      "block": 1,
+      "order": 5
+    },
+    {
+      "id": "stage1-trial02",
+      "stage": 1,
+      "trial": 2,
+      "first_speaker": "B",
+      "block": 2,
+      "order": 6
+    },
+    {
+      "id": "stage3-trial02",
+      "stage": 3,
+      "trial": 2,
+      "first_speaker": "B",
+      "block": 2,
+      "order": 7
+    },
+    {
+      "id": "stage5-trial02",
+      "stage": 5,
+      "trial": 2,
+      "first_speaker": "B",
+      "block": 2,
+      "order": 8
+    },
+    {
+      "id": "stage4-trial02",
+      "stage": 4,
+      "trial": 2,
+      "first_speaker": "B",
+      "block": 2,
+      "order": 9
+    },
+    {
+      "id": "stage2-trial02",
+      "stage": 2,
+      "trial": 2,
+      "first_speaker": "B",
+      "block": 2,
+      "order": 10
+    },
+    {
+      "id": "stage6-trial02",
+      "stage": 6,
+      "trial": 2,
+      "first_speaker": "B",
+      "block": 2,
+      "order": 11
+    },
+    {
+      "id": "stage5-trial03",
+      "stage": 5,
+      "trial": 3,
+      "first_speaker": "A",
+      "block": 3,
+      "order": 12
+    },
+    {
+      "id": "stage1-trial03",
+      "stage": 1,
+      "trial": 3,
+      "first_speaker": "A",
+      "block": 3,
+      "order": 13
+    },
+    {
+      "id": "stage4-trial03",
+      "stage": 4,
+      "trial": 3,
+      "first_speaker": "A",
+      "block": 3,
+      "order": 14
+    },
+    {
+      "id": "stage6-trial03",
+      "stage": 6,
+      "trial": 3,
+      "first_speaker": "A",
+      "block": 3,
+      "order": 15
+    },
+    {
+      "id": "stage2-trial03",
+      "stage": 2,
+      "trial": 3,
+      "first_speaker": "A",
+      "block": 3,
+      "order": 16
+    },
+    {
+      "id": "stage3-trial03",
+      "stage": 3,
+      "trial": 3,
+      "first_speaker": "A",
+      "block": 3,
+      "order": 17
+    },
+    {
+      "id": "stage5-trial04",
+      "stage": 5,
+      "trial": 4,
+      "first_speaker": "B",
+      "block": 4,
+      "order": 18
+    },
+    {
+      "id": "stage2-trial04",
+      "stage": 2,
+      "trial": 4,
+      "first_speaker": "B",
+      "block": 4,
+      "order": 19
+    },
+    {
+      "id": "stage3-trial04",
+      "stage": 3,
+      "trial": 4,
+      "first_speaker": "B",
+      "block": 4,
+      "order": 20
+    },
+    {
+      "id": "stage1-trial04",
+      "stage": 1,
+      "trial": 4,
+      "first_speaker": "B",
+      "block": 4,
+      "order": 21
+    },
+    {
+      "id": "stage6-trial04",
+      "stage": 6,
+      "trial": 4,
+      "first_speaker": "B",
+      "block": 4,
+      "order": 22
+    },
+    {
+      "id": "stage4-trial04",
+      "stage": 4,
+      "trial": 4,
+      "first_speaker": "B",
+      "block": 4,
+      "order": 23
+    },
+    {
+      "id": "stage4-trial05",
+      "stage": 4,
+      "trial": 5,
+      "first_speaker": "A",
+      "block": 5,
+      "order": 24
+    },
+    {
+      "id": "stage1-trial05",
+      "stage": 1,
+      "trial": 5,
+      "first_speaker": "A",
+      "block": 5,
+      "order": 25
+    },
+    {
+      "id": "stage2-trial05",
+      "stage": 2,
+      "trial": 5,
+      "first_speaker": "A",
+      "block": 5,
+      "order": 26
+    },
+    {
+      "id": "stage3-trial05",
+      "stage": 3,
+      "trial": 5,
+      "first_speaker": "A",
+      "block": 5,
+      "order": 27
+    },
+    {
+      "id": "stage5-trial05",
+      "stage": 5,
+      "trial": 5,
+      "first_speaker": "A",
+      "block": 5,
+      "order": 28
+    },
+    {
+      "id": "stage6-trial05",
+      "stage": 6,
+      "trial": 5,
+      "first_speaker": "A",
+      "block": 5,
+      "order": 29
+    },
+    {
+      "id": "stage3-trial06",
+      "stage": 3,
+      "trial": 6,
+      "first_speaker": "B",
+      "block": 6,
+      "order": 30
+    },
+    {
+      "id": "stage5-trial06",
+      "stage": 5,
+      "trial": 6,
+      "first_speaker": "B",
+      "block": 6,
+      "order": 31
+    },
+    {
+      "id": "stage1-trial06",
+      "stage": 1,
+      "trial": 6,
+      "first_speaker": "B",
+      "block": 6,
+      "order": 32
+    },
+    {
+      "id": "stage6-trial06",
+      "stage": 6,
+      "trial": 6,
+      "first_speaker": "B",
+      "block": 6,
+      "order": 33
+    },
+    {
+      "id": "stage2-trial06",
+      "stage": 2,
+      "trial": 6,
+      "first_speaker": "B",
+      "block": 6,
+      "order": 34
+    },
+    {
+      "id": "stage4-trial06",
+      "stage": 4,
+      "trial": 6,
+      "first_speaker": "B",
+      "block": 6,
+      "order": 35
+    },
+    {
+      "id": "stage2-trial07",
+      "stage": 2,
+      "trial": 7,
+      "first_speaker": "A",
+      "block": 7,
+      "order": 36
+    },
+    {
+      "id": "stage4-trial07",
+      "stage": 4,
+      "trial": 7,
+      "first_speaker": "A",
+      "block": 7,
+      "order": 37
+    },
+    {
+      "id": "stage5-trial07",
+      "stage": 5,
+      "trial": 7,
+      "first_speaker": "A",
+      "block": 7,
+      "order": 38
+    },
+    {
+      "id": "stage6-trial07",
+      "stage": 6,
+      "trial": 7,
+      "first_speaker": "A",
+      "block": 7,
+      "order": 39
+    },
+    {
+      "id": "stage3-trial07",
+      "stage": 3,
+      "trial": 7,
+      "first_speaker": "A",
+      "block": 7,
+      "order": 40
+    },
+    {
+      "id": "stage1-trial07",
+      "stage": 1,
+      "trial": 7,
+      "first_speaker": "A",
+      "block": 7,
+      "order": 41
+    },
+    {
+      "id": "stage3-trial08",
+      "stage": 3,
+      "trial": 8,
+      "first_speaker": "B",
+      "block": 8,
+      "order": 42
+    },
+    {
+      "id": "stage4-trial08",
+      "stage": 4,
+      "trial": 8,
+      "first_speaker": "B",
+      "block": 8,
+      "order": 43
+    },
+    {
+      "id": "stage1-trial08",
+      "stage": 1,
+      "trial": 8,
+      "first_speaker": "B",
+      "block": 8,
+      "order": 44
+    },
+    {
+      "id": "stage6-trial08",
+      "stage": 6,
+      "trial": 8,
+      "first_speaker": "B",
+      "block": 8,
+      "order": 45
+    },
+    {
+      "id": "stage2-trial08",
+      "stage": 2,
+      "trial": 8,
+      "first_speaker": "B",
+      "block": 8,
+      "order": 46
+    },
+    {
+      "id": "stage5-trial08",
+      "stage": 5,
+      "trial": 8,
+      "first_speaker": "B",
+      "block": 8,
+      "order": 47
+    },
+    {
+      "id": "stage6-trial09",
+      "stage": 6,
+      "trial": 9,
+      "first_speaker": "A",
+      "block": 9,
+      "order": 48
+    },
+    {
+      "id": "stage4-trial09",
+      "stage": 4,
+      "trial": 9,
+      "first_speaker": "A",
+      "block": 9,
+      "order": 49
+    },
+    {
+      "id": "stage3-trial09",
+      "stage": 3,
+      "trial": 9,
+      "first_speaker": "A",
+      "block": 9,
+      "order": 50
+    },
+    {
+      "id": "stage2-trial09",
+      "stage": 2,
+      "trial": 9,
+      "first_speaker": "A",
+      "block": 9,
+      "order": 51
+    },
+    {
+      "id": "stage5-trial09",
+      "stage": 5,
+      "trial": 9,
+      "first_speaker": "A",
+      "block": 9,
+      "order": 52
+    },
+    {
+      "id": "stage1-trial09",
+      "stage": 1,
+      "trial": 9,
+      "first_speaker": "A",
+      "block": 9,
+      "order": 53
+    },
+    {
+      "id": "stage6-trial10",
+      "stage": 6,
+      "trial": 10,
+      "first_speaker": "B",
+      "block": 10,
+      "order": 54
+    },
+    {
+      "id": "stage1-trial10",
+      "stage": 1,
+      "trial": 10,
+      "first_speaker": "B",
+      "block": 10,
+      "order": 55
+    },
+    {
+      "id": "stage3-trial10",
+      "stage": 3,
+      "trial": 10,
+      "first_speaker": "B",
+      "block": 10,
+      "order": 56
+    },
+    {
+      "id": "stage4-trial10",
+      "stage": 4,
+      "trial": 10,
+      "first_speaker": "B",
+      "block": 10,
+      "order": 57
+    },
+    {
+      "id": "stage5-trial10",
+      "stage": 5,
+      "trial": 10,
+      "first_speaker": "B",
+      "block": 10,
+      "order": 58
+    },
+    {
+      "id": "stage2-trial10",
+      "stage": 2,
+      "trial": 10,
+      "first_speaker": "B",
+      "block": 10,
+      "order": 59
+    },
+    {
+      "id": "stage2-trial11",
+      "stage": 2,
+      "trial": 11,
+      "first_speaker": "A",
+      "block": 11,
+      "order": 60
+    },
+    {
+      "id": "stage4-trial11",
+      "stage": 4,
+      "trial": 11,
+      "first_speaker": "A",
+      "block": 11,
+      "order": 61
+    },
+    {
+      "id": "stage6-trial11",
+      "stage": 6,
+      "trial": 11,
+      "first_speaker": "A",
+      "block": 11,
+      "order": 62
+    },
+    {
+      "id": "stage5-trial11",
+      "stage": 5,
+      "trial": 11,
+      "first_speaker": "A",
+      "block": 11,
+      "order": 63
+    },
+    {
+      "id": "stage3-trial11",
+      "stage": 3,
+      "trial": 11,
+      "first_speaker": "A",
+      "block": 11,
+      "order": 64
+    },
+    {
+      "id": "stage1-trial11",
+      "stage": 1,
+      "trial": 11,
+      "first_speaker": "A",
+      "block": 11,
+      "order": 65
+    },
+    {
+      "id": "stage6-trial12",
+      "stage": 6,
+      "trial": 12,
+      "first_speaker": "B",
+      "block": 12,
+      "order": 66
+    },
+    {
+      "id": "stage1-trial12",
+      "stage": 1,
+      "trial": 12,
+      "first_speaker": "B",
+      "block": 12,
+      "order": 67
+    },
+    {
+      "id": "stage2-trial12",
+      "stage": 2,
+      "trial": 12,
+      "first_speaker": "B",
+      "block": 12,
+      "order": 68
+    },
+    {
+      "id": "stage3-trial12",
+      "stage": 3,
+      "trial": 12,
+      "first_speaker": "B",
+      "block": 12,
+      "order": 69
+    },
+    {
+      "id": "stage5-trial12",
+      "stage": 5,
+      "trial": 12,
+      "first_speaker": "B",
+      "block": 12,
+      "order": 70
+    },
+    {
+      "id": "stage4-trial12",
+      "stage": 4,
+      "trial": 12,
+      "first_speaker": "B",
+      "block": 12,
+      "order": 71
+    },
+    {
+      "id": "stage2-trial13",
+      "stage": 2,
+      "trial": 13,
+      "first_speaker": "A",
+      "block": 13,
+      "order": 72
+    },
+    {
+      "id": "stage1-trial13",
+      "stage": 1,
+      "trial": 13,
+      "first_speaker": "A",
+      "block": 13,
+      "order": 73
+    },
+    {
+      "id": "stage5-trial13",
+      "stage": 5,
+      "trial": 13,
+      "first_speaker": "A",
+      "block": 13,
+      "order": 74
+    },
+    {
+      "id": "stage3-trial13",
+      "stage": 3,
+      "trial": 13,
+      "first_speaker": "A",
+      "block": 13,
+      "order": 75
+    },
+    {
+      "id": "stage4-trial13",
+      "stage": 4,
+      "trial": 13,
+      "first_speaker": "A",
+      "block": 13,
+      "order": 76
+    },
+    {
+      "id": "stage6-trial13",
+      "stage": 6,
+      "trial": 13,
+      "first_speaker": "A",
+      "block": 13,
+      "order": 77
+    },
+    {
+      "id": "stage2-trial14",
+      "stage": 2,
+      "trial": 14,
+      "first_speaker": "B",
+      "block": 14,
+      "order": 78
+    },
+    {
+      "id": "stage6-trial14",
+      "stage": 6,
+      "trial": 14,
+      "first_speaker": "B",
+      "block": 14,
+      "order": 79
+    },
+    {
+      "id": "stage5-trial14",
+      "stage": 5,
+      "trial": 14,
+      "first_speaker": "B",
+      "block": 14,
+      "order": 80
+    },
+    {
+      "id": "stage3-trial14",
+      "stage": 3,
+      "trial": 14,
+      "first_speaker": "B",
+      "block": 14,
+      "order": 81
+    },
+    {
+      "id": "stage1-trial14",
+      "stage": 1,
+      "trial": 14,
+      "first_speaker": "B",
+      "block": 14,
+      "order": 82
+    },
+    {
+      "id": "stage4-trial14",
+      "stage": 4,
+      "trial": 14,
+      "first_speaker": "B",
+      "block": 14,
+      "order": 83
+    },
+    {
+      "id": "stage5-trial15",
+      "stage": 5,
+      "trial": 15,
+      "first_speaker": "A",
+      "block": 15,
+      "order": 84
+    },
+    {
+      "id": "stage2-trial15",
+      "stage": 2,
+      "trial": 15,
+      "first_speaker": "A",
+      "block": 15,
+      "order": 85
+    },
+    {
+      "id": "stage6-trial15",
+      "stage": 6,
+      "trial": 15,
+      "first_speaker": "A",
+      "block": 15,
+      "order": 86
+    },
+    {
+      "id": "stage3-trial15",
+      "stage": 3,
+      "trial": 15,
+      "first_speaker": "A",
+      "block": 15,
+      "order": 87
+    },
+    {
+      "id": "stage1-trial15",
+      "stage": 1,
+      "trial": 15,
+      "first_speaker": "A",
+      "block": 15,
+      "order": 88
+    },
+    {
+      "id": "stage4-trial15",
+      "stage": 4,
+      "trial": 15,
+      "first_speaker": "A",
+      "block": 15,
+      "order": 89
+    },
+    {
+      "id": "stage1-trial16",
+      "stage": 1,
+      "trial": 16,
+      "first_speaker": "B",
+      "block": 16,
+      "order": 90
+    },
+    {
+      "id": "stage3-trial16",
+      "stage": 3,
+      "trial": 16,
+      "first_speaker": "B",
+      "block": 16,
+      "order": 91
+    },
+    {
+      "id": "stage2-trial16",
+      "stage": 2,
+      "trial": 16,
+      "first_speaker": "B",
+      "block": 16,
+      "order": 92
+    },
+    {
+      "id": "stage4-trial16",
+      "stage": 4,
+      "trial": 16,
+      "first_speaker": "B",
+      "block": 16,
+      "order": 93
+    },
+    {
+      "id": "stage5-trial16",
+      "stage": 5,
+      "trial": 16,
+      "first_speaker": "B",
+      "block": 16,
+      "order": 94
+    },
+    {
+      "id": "stage6-trial16",
+      "stage": 6,
+      "trial": 16,
+      "first_speaker": "B",
+      "block": 16,
+      "order": 95
+    },
+    {
+      "id": "stage5-trial17",
+      "stage": 5,
+      "trial": 17,
+      "first_speaker": "A",
+      "block": 17,
+      "order": 96
+    },
+    {
+      "id": "stage4-trial17",
+      "stage": 4,
+      "trial": 17,
+      "first_speaker": "A",
+      "block": 17,
+      "order": 97
+    },
+    {
+      "id": "stage3-trial17",
+      "stage": 3,
+      "trial": 17,
+      "first_speaker": "A",
+      "block": 17,
+      "order": 98
+    },
+    {
+      "id": "stage6-trial17",
+      "stage": 6,
+      "trial": 17,
+      "first_speaker": "A",
+      "block": 17,
+      "order": 99
+    },
+    {
+      "id": "stage1-trial17",
+      "stage": 1,
+      "trial": 17,
+      "first_speaker": "A",
+      "block": 17,
+      "order": 100
+    },
+    {
+      "id": "stage2-trial17",
+      "stage": 2,
+      "trial": 17,
+      "first_speaker": "A",
+      "block": 17,
+      "order": 101
+    },
+    {
+      "id": "stage2-trial18",
+      "stage": 2,
+      "trial": 18,
+      "first_speaker": "B",
+      "block": 18,
+      "order": 102
+    },
+    {
+      "id": "stage4-trial18",
+      "stage": 4,
+      "trial": 18,
+      "first_speaker": "B",
+      "block": 18,
+      "order": 103
+    },
+    {
+      "id": "stage6-trial18",
+      "stage": 6,
+      "trial": 18,
+      "first_speaker": "B",
+      "block": 18,
+      "order": 104
+    },
+    {
+      "id": "stage1-trial18",
+      "stage": 1,
+      "trial": 18,
+      "first_speaker": "B",
+      "block": 18,
+      "order": 105
+    },
+    {
+      "id": "stage5-trial18",
+      "stage": 5,
+      "trial": 18,
+      "first_speaker": "B",
+      "block": 18,
+      "order": 106
+    },
+    {
+      "id": "stage3-trial18",
+      "stage": 3,
+      "trial": 18,
+      "first_speaker": "B",
+      "block": 18,
+      "order": 107
+    },
+    {
+      "id": "stage5-trial19",
+      "stage": 5,
+      "trial": 19,
+      "first_speaker": "A",
+      "block": 19,
+      "order": 108
+    },
+    {
+      "id": "stage2-trial19",
+      "stage": 2,
+      "trial": 19,
+      "first_speaker": "A",
+      "block": 19,
+      "order": 109
+    },
+    {
+      "id": "stage6-trial19",
+      "stage": 6,
+      "trial": 19,
+      "first_speaker": "A",
+      "block": 19,
+      "order": 110
+    },
+    {
+      "id": "stage1-trial19",
+      "stage": 1,
+      "trial": 19,
+      "first_speaker": "A",
+      "block": 19,
+      "order": 111
+    },
+    {
+      "id": "stage3-trial19",
+      "stage": 3,
+      "trial": 19,
+      "first_speaker": "A",
+      "block": 19,
+      "order": 112
+    },
+    {
+      "id": "stage4-trial19",
+      "stage": 4,
+      "trial": 19,
+      "first_speaker": "A",
+      "block": 19,
+      "order": 113
+    },
+    {
+      "id": "stage3-trial20",
+      "stage": 3,
+      "trial": 20,
+      "first_speaker": "B",
+      "block": 20,
+      "order": 114
+    },
+    {
+      "id": "stage6-trial20",
+      "stage": 6,
+      "trial": 20,
+      "first_speaker": "B",
+      "block": 20,
+      "order": 115
+    },
+    {
+      "id": "stage4-trial20",
+      "stage": 4,
+      "trial": 20,
+      "first_speaker": "B",
+      "block": 20,
+      "order": 116
+    },
+    {
+      "id": "stage2-trial20",
+      "stage": 2,
+      "trial": 20,
+      "first_speaker": "B",
+      "block": 20,
+      "order": 117
+    },
+    {
+      "id": "stage1-trial20",
+      "stage": 1,
+      "trial": 20,
+      "first_speaker": "B",
+      "block": 20,
+      "order": 118
+    },
+    {
+      "id": "stage5-trial20",
+      "stage": 5,
+      "trial": 20,
+      "first_speaker": "B",
+      "block": 20,
+      "order": 119
+    },
+    {
+      "id": "stage6-trial21",
+      "stage": 6,
+      "trial": 21,
+      "first_speaker": "A",
+      "block": 21,
+      "order": 120
+    },
+    {
+      "id": "stage5-trial21",
+      "stage": 5,
+      "trial": 21,
+      "first_speaker": "A",
+      "block": 21,
+      "order": 121
+    },
+    {
+      "id": "stage4-trial21",
+      "stage": 4,
+      "trial": 21,
+      "first_speaker": "A",
+      "block": 21,
+      "order": 122
+    },
+    {
+      "id": "stage2-trial21",
+      "stage": 2,
+      "trial": 21,
+      "first_speaker": "A",
+      "block": 21,
+      "order": 123
+    },
+    {
+      "id": "stage1-trial21",
+      "stage": 1,
+      "trial": 21,
+      "first_speaker": "A",
+      "block": 21,
+      "order": 124
+    },
+    {
+      "id": "stage3-trial21",
+      "stage": 3,
+      "trial": 21,
+      "first_speaker": "A",
+      "block": 21,
+      "order": 125
+    },
+    {
+      "id": "stage5-trial22",
+      "stage": 5,
+      "trial": 22,
+      "first_speaker": "B",
+      "block": 22,
+      "order": 126
+    },
+    {
+      "id": "stage6-trial22",
+      "stage": 6,
+      "trial": 22,
+      "first_speaker": "B",
+      "block": 22,
+      "order": 127
+    },
+    {
+      "id": "stage4-trial22",
+      "stage": 4,
+      "trial": 22,
+      "first_speaker": "B",
+      "block": 22,
+      "order": 128
+    },
+    {
+      "id": "stage2-trial22",
+      "stage": 2,
+      "trial": 22,
+      "first_speaker": "B",
+      "block": 22,
+      "order": 129
+    },
+    {
+      "id": "stage3-trial22",
+      "stage": 3,
+      "trial": 22,
+      "first_speaker": "B",
+      "block": 22,
+      "order": 130
+    },
+    {
+      "id": "stage1-trial22",
+      "stage": 1,
+      "trial": 22,
+      "first_speaker": "B",
+      "block": 22,
+      "order": 131
+    },
+    {
+      "id": "stage4-trial23",
+      "stage": 4,
+      "trial": 23,
+      "first_speaker": "A",
+      "block": 23,
+      "order": 132
+    },
+    {
+      "id": "stage1-trial23",
+      "stage": 1,
+      "trial": 23,
+      "first_speaker": "A",
+      "block": 23,
+      "order": 133
+    },
+    {
+      "id": "stage2-trial23",
+      "stage": 2,
+      "trial": 23,
+      "first_speaker": "A",
+      "block": 23,
+      "order": 134
+    },
+    {
+      "id": "stage5-trial23",
+      "stage": 5,
+      "trial": 23,
+      "first_speaker": "A",
+      "block": 23,
+      "order": 135
+    },
+    {
+      "id": "stage3-trial23",
+      "stage": 3,
+      "trial": 23,
+      "first_speaker": "A",
+      "block": 23,
+      "order": 136
+    },
+    {
+      "id": "stage6-trial23",
+      "stage": 6,
+      "trial": 23,
+      "first_speaker": "A",
+      "block": 23,
+      "order": 137
+    },
+    {
+      "id": "stage3-trial24",
+      "stage": 3,
+      "trial": 24,
+      "first_speaker": "B",
+      "block": 24,
+      "order": 138
+    },
+    {
+      "id": "stage5-trial24",
+      "stage": 5,
+      "trial": 24,
+      "first_speaker": "B",
+      "block": 24,
+      "order": 139
+    },
+    {
+      "id": "stage4-trial24",
+      "stage": 4,
+      "trial": 24,
+      "first_speaker": "B",
+      "block": 24,
+      "order": 140
+    },
+    {
+      "id": "stage1-trial24",
+      "stage": 1,
+      "trial": 24,
+      "first_speaker": "B",
+      "block": 24,
+      "order": 141
+    },
+    {
+      "id": "stage2-trial24",
+      "stage": 2,
+      "trial": 24,
+      "first_speaker": "B",
+      "block": 24,
+      "order": 142
+    },
+    {
+      "id": "stage6-trial24",
+      "stage": 6,
+      "trial": 24,
+      "first_speaker": "B",
+      "block": 24,
+      "order": 143
+    },
+    {
+      "id": "stage6-trial25",
+      "stage": 6,
+      "trial": 25,
+      "first_speaker": "A",
+      "block": 25,
+      "order": 144
+    },
+    {
+      "id": "stage1-trial25",
+      "stage": 1,
+      "trial": 25,
+      "first_speaker": "A",
+      "block": 25,
+      "order": 145
+    },
+    {
+      "id": "stage5-trial25",
+      "stage": 5,
+      "trial": 25,
+      "first_speaker": "A",
+      "block": 25,
+      "order": 146
+    },
+    {
+      "id": "stage3-trial25",
+      "stage": 3,
+      "trial": 25,
+      "first_speaker": "A",
+      "block": 25,
+      "order": 147
+    },
+    {
+      "id": "stage2-trial25",
+      "stage": 2,
+      "trial": 25,
+      "first_speaker": "A",
+      "block": 25,
+      "order": 148
+    },
+    {
+      "id": "stage4-trial25",
+      "stage": 4,
+      "trial": 25,
+      "first_speaker": "A",
+      "block": 25,
+      "order": 149
+    },
+    {
+      "id": "stage4-trial26",
+      "stage": 4,
+      "trial": 26,
+      "first_speaker": "B",
+      "block": 26,
+      "order": 150
+    },
+    {
+      "id": "stage2-trial26",
+      "stage": 2,
+      "trial": 26,
+      "first_speaker": "B",
+      "block": 26,
+      "order": 151
+    },
+    {
+      "id": "stage6-trial26",
+      "stage": 6,
+      "trial": 26,
+      "first_speaker": "B",
+      "block": 26,
+      "order": 152
+    },
+    {
+      "id": "stage3-trial26",
+      "stage": 3,
+      "trial": 26,
+      "first_speaker": "B",
+      "block": 26,
+      "order": 153
+    },
+    {
+      "id": "stage1-trial26",
+      "stage": 1,
+      "trial": 26,
+      "first_speaker": "B",
+      "block": 26,
+      "order": 154
+    },
+    {
+      "id": "stage5-trial26",
+      "stage": 5,
+      "trial": 26,
+      "first_speaker": "B",
+      "block": 26,
+      "order": 155
+    },
+    {
+      "id": "stage6-trial27",
+      "stage": 6,
+      "trial": 27,
+      "first_speaker": "A",
+      "block": 27,
+      "order": 156
+    },
+    {
+      "id": "stage2-trial27",
+      "stage": 2,
+      "trial": 27,
+      "first_speaker": "A",
+      "block": 27,
+      "order": 157
+    },
+    {
+      "id": "stage1-trial27",
+      "stage": 1,
+      "trial": 27,
+      "first_speaker": "A",
+      "block": 27,
+      "order": 158
+    },
+    {
+      "id": "stage4-trial27",
+      "stage": 4,
+      "trial": 27,
+      "first_speaker": "A",
+      "block": 27,
+      "order": 159
+    },
+    {
+      "id": "stage3-trial27",
+      "stage": 3,
+      "trial": 27,
+      "first_speaker": "A",
+      "block": 27,
+      "order": 160
+    },
+    {
+      "id": "stage5-trial27",
+      "stage": 5,
+      "trial": 27,
+      "first_speaker": "A",
+      "block": 27,
+      "order": 161
+    },
+    {
+      "id": "stage2-trial28",
+      "stage": 2,
+      "trial": 28,
+      "first_speaker": "B",
+      "block": 28,
+      "order": 162
+    },
+    {
+      "id": "stage1-trial28",
+      "stage": 1,
+      "trial": 28,
+      "first_speaker": "B",
+      "block": 28,
+      "order": 163
+    },
+    {
+      "id": "stage4-trial28",
+      "stage": 4,
+      "trial": 28,
+      "first_speaker": "B",
+      "block": 28,
+      "order": 164
+    },
+    {
+      "id": "stage5-trial28",
+      "stage": 5,
+      "trial": 28,
+      "first_speaker": "B",
+      "block": 28,
+      "order": 165
+    },
+    {
+      "id": "stage6-trial28",
+      "stage": 6,
+      "trial": 28,
+      "first_speaker": "B",
+      "block": 28,
+      "order": 166
+    },
+    {
+      "id": "stage3-trial28",
+      "stage": 3,
+      "trial": 28,
+      "first_speaker": "B",
+      "block": 28,
+      "order": 167
+    },
+    {
+      "id": "stage5-trial29",
+      "stage": 5,
+      "trial": 29,
+      "first_speaker": "A",
+      "block": 29,
+      "order": 168
+    },
+    {
+      "id": "stage2-trial29",
+      "stage": 2,
+      "trial": 29,
+      "first_speaker": "A",
+      "block": 29,
+      "order": 169
+    },
+    {
+      "id": "stage3-trial29",
+      "stage": 3,
+      "trial": 29,
+      "first_speaker": "A",
+      "block": 29,
+      "order": 170
+    },
+    {
+      "id": "stage1-trial29",
+      "stage": 1,
+      "trial": 29,
+      "first_speaker": "A",
+      "block": 29,
+      "order": 171
+    },
+    {
+      "id": "stage4-trial29",
+      "stage": 4,
+      "trial": 29,
+      "first_speaker": "A",
+      "block": 29,
+      "order": 172
+    },
+    {
+      "id": "stage6-trial29",
+      "stage": 6,
+      "trial": 29,
+      "first_speaker": "A",
+      "block": 29,
+      "order": 173
+    },
+    {
+      "id": "stage2-trial30",
+      "stage": 2,
+      "trial": 30,
+      "first_speaker": "B",
+      "block": 30,
+      "order": 174
+    },
+    {
+      "id": "stage6-trial30",
+      "stage": 6,
+      "trial": 30,
+      "first_speaker": "B",
+      "block": 30,
+      "order": 175
+    },
+    {
+      "id": "stage4-trial30",
+      "stage": 4,
+      "trial": 30,
+      "first_speaker": "B",
+      "block": 30,
+      "order": 176
+    },
+    {
+      "id": "stage1-trial30",
+      "stage": 1,
+      "trial": 30,
+      "first_speaker": "B",
+      "block": 30,
+      "order": 177
+    },
+    {
+      "id": "stage3-trial30",
+      "stage": 3,
+      "trial": 30,
+      "first_speaker": "B",
+      "block": 30,
+      "order": 178
+    },
+    {
+      "id": "stage5-trial30",
+      "stage": 5,
+      "trial": 30,
+      "first_speaker": "B",
+      "block": 30,
+      "order": 179
+    }
+  ]
+}

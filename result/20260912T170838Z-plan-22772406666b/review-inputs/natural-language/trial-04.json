@@ -1,0 +1,2730 @@
+{
+  "version": 1,
+  "events_sha256": "545dcf941870b8637ab98ffce89009f89e2cb15e807e45b980558df8536a7df7",
+  "reviewer_kind": "ai",
+  "reviewer": "Codex /root/stages_5_6; direct source reading of completed natural-language trial-04",
+  "entries": [
+    {
+      "message": 1,
+      "status": "complete",
+      "evidence": "For team B, at slots 0 through 11, M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3. M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4. M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1. Please share the corresponding team A summaries so we can choose a legal high-scoring schedule.",
+      "kinds": [
+        "inform",
+        "request"
+      ],
+      "schedule": {},
+      "requests": [],
+      "questions": [
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M1",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M2",
+          11
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "available",
+          "A",
+          "M3",
+          11
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          0
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          1
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          2
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          3
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          4
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          5
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          6
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          7
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          8
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          9
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          10
+        ],
+        [
+          "summary",
+          "preference",
+          "A",
+          "M3",
+          11
+        ]
+      ],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            0,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            2,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            3,
+            0
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            5,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            6,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            8,
+            0
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            10,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            0,
+            2
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            4,
+            2
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            5,
+            2
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            6,
+            2
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            8,
+            3
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            10,
+            3
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            11,
+            3
+          ],
+          "evidence": "M1 has availability 1,1,1,0,1,1,1,1,0,1,1,1 and preference totals 2,2,0,1,2,2,2,1,3,0,3,3.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            0,
+            1
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            1,
+            0
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            3,
+            0
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            5,
+            1
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            8,
+            0
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            9,
+            0
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            0,
+            4
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            1,
+            3
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            2,
+            0
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            4,
+            2
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            5,
+            4
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            7,
+            3
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            10,
+            4
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            11,
+            4
+          ],
+          "evidence": "M2 has availability 1,0,1,0,1,1,1,1,0,0,1,1 and preference totals 4,3,0,2,2,4,4,3,3,2,4,4.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            1,
+            0
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            6,
+            1
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            7,
+            1
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            9,
+            0
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            0,
+            4
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            1,
+            4
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            2,
+            1
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            3,
+            4
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            6,
+            2
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            7,
+            2
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            8,
+            2
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 has availability 1,0,1,1,0,1,1,1,1,0,1,1 and preference totals 4,4,1,4,0,2,2,2,2,2,4,1.",
+          "note": "The message explicitly announces slots 0 through 11 and gives all twelve availability and preference values. No omission is converted to unavailability."
+        }
+      ],
+      "unjudgeable": [],
+      "notes": "B가 명시한 슬롯0–11의12개 가용성 값과12개 선호 값을 그대로 전개했다. corresponding team A summaries 요청은 같은 회의/슬롯/관계의 A팀 요약72개 질문으로 연결했다. legal high-scoring schedule은 앞으로 선택하려는 목표이며 현재 후보나 최적성 주장이 아니다."
+    },
+    {
+      "message": 2,
+      "status": "complete",
+      "evidence": "Team A summaries for slots 0 through 11: M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5. M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2. M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3. A high-scoring legal candidate is M1 at slot 1, M2 at slot 6, and M3 at slot 10; this scores 20 total and respects M1 before M3.",
+      "kinds": [
+        "inform",
+        "propose"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            0,
+            0
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            1,
+            1
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            2,
+            0
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            3,
+            1
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            4,
+            1
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            5,
+            0
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            6,
+            0
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            7,
+            1
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            8,
+            1
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            9,
+            1
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            10,
+            0
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M1",
+            11,
+            1
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            0,
+            4
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            1,
+            2
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            2,
+            3
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            3,
+            3
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            4,
+            0
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            5,
+            5
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            6,
+            6
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            7,
+            2
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            8,
+            6
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            10,
+            4
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            11,
+            5
+          ],
+          "evidence": "M1 availability is 0,1,0,1,1,0,0,1,1,1,0,1 and preference totals are 4,2,3,3,0,5,6,2,6,3,4,5.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            0,
+            0
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            2,
+            1
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            3,
+            1
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            4,
+            1
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            5,
+            0
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            6,
+            1
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            7,
+            1
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            8,
+            1
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            9,
+            1
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            10,
+            0
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M2",
+            11,
+            1
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            0,
+            2
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            1,
+            1
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            2,
+            3
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            3,
+            2
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            4,
+            0
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            5,
+            3
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            7,
+            0
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            8,
+            3
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            9,
+            2
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            10,
+            1
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            11,
+            2
+          ],
+          "evidence": "M2 availability is 0,1,1,1,1,0,1,1,1,1,0,1 and preference totals are 2,1,3,2,0,3,3,0,3,2,1,2.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            0,
+            1
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            1,
+            1
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            3,
+            0
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            4,
+            1
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            5,
+            1
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            6,
+            0
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            7,
+            0
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            8,
+            1
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            9,
+            1
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            10,
+            1
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "available",
+            "A",
+            "M3",
+            11,
+            1
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            0,
+            2
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            1,
+            3
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            2,
+            0
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            3,
+            1
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            4,
+            0
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            5,
+            2
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            6,
+            5
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            7,
+            4
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            8,
+            3
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            9,
+            2
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            11,
+            3
+          ],
+          "evidence": "M3 availability is 1,1,0,0,1,1,0,0,1,1,1,1 and preference totals are 2,3,0,1,0,2,5,4,3,2,5,3.",
+          "note": "All twelve values for slots 0 through 11 are spoken explicitly. This is a team summary, not invented individual-person facts."
+        },
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "evidence": "A high-scoring legal candidate is M1 at slot 1, M2 at slot 6, and M3 at slot 10"
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "this scores 20 total"
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "evidence": "respects M1 before M3"
+        }
+      ],
+      "unjudgeable": [
+        "A high-scoring legal candidate"
+      ],
+      "notes": "최초의 완전한 시간표 후보, 명시적 legal, 총점20, 선후관계 충족을 기록했다. high-scoring은 상대적 기준이 없어 별도 발췌로 남겼으며 optimal 주장으로 바꾸지 않았다. 가용성0은 모두 직접 발화된 값이고 생략 추론이 없다."
+    },
+    {
+      "message": 3,
+      "status": "complete",
+      "evidence": "I checked the joint availability and preferences. A better legal candidate is M1 at slot 9, M2 at slot 6, and M3 at slot 10, for 22 total points. All three are available, the slots are distinct, and M1 precedes M3. Please use this schedule for the matching submission.",
+      "kinds": [
+        "propose"
+      ],
+      "schedule": {
+        "M1": 9,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "schedule_valid",
+          "value": {
+            "schedule": {
+              "M1": 9,
+              "M2": 6,
+              "M3": 10
+            },
+            "valid": 1
+          },
+          "evidence": "A better legal candidate is M1 at slot 9, M2 at slot 6, and M3 at slot 10"
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 9,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 22
+          },
+          "evidence": "for 22 total points",
+          "note": "Preserve B's stated 22 rather than replacing it with the later correction."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 9,
+            "available": 1
+          },
+          "evidence": "All three are available",
+          "note": "All three refers to the three meeting-slot pairs explicitly named in this message."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "available": 1
+          },
+          "evidence": "All three are available",
+          "note": "All three refers to the three meeting-slot pairs explicitly named in this message."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "available": 1
+          },
+          "evidence": "All three are available",
+          "note": "All three refers to the three meeting-slot pairs explicitly named in this message."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 9,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "evidence": "the slots are distinct"
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 9,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "evidence": "M1 precedes M3"
+        }
+      ],
+      "unjudgeable": [
+        "I checked the joint availability and preferences.",
+        "A better legal candidate"
+      ],
+      "notes": "9,6,10으로 배치를 바꾸자는 명시 제안이다. 22점 발화를 그대로 기록했다. I checked는 내부 검토 과정을 실제 수행했는지 외부에서 검증할 수 없는 자기 보고다. better는 메시지2의20점 후보와의 비교라는 문맥이지만 현재 claim types에 후보간 점수비교 유형이 없어 발췌와 별도 검산 메모로 보존했다. 제출 요청은 수락이나 실제 제출로 세지 않았다."
+    },
+    {
+      "message": 4,
+      "status": "complete",
+      "evidence": "I calculate the proposed 9,6,10 schedule as 19 points: M1 at slot 9 is 3 (A 3 + B 0), M2 at slot 6 is 7 (A 3 + B 4), and M3 at slot 10 is 9 (A 5 + B 4). The 1,6,10 schedule scores 20 (M1 4 + M2 7 + M3 9), with all meetings available, distinct, and M1 before M3. Please use M1 slot 1, M2 slot 6, M3 slot 10 for matching submissions.",
+      "kinds": [
+        "inform",
+        "propose"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 9,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 19
+          },
+          "evidence": "I calculate the proposed 9,6,10 schedule as 19 points"
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 9,
+            "score": 3
+          },
+          "evidence": "M1 at slot 9 is 3 (A 3 + B 0)"
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M1",
+            9,
+            3
+          ],
+          "evidence": "M1 at slot 9 is 3 (A 3 + B 0)",
+          "note": "Explicit team A term in the stated score decomposition."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M1",
+            9,
+            0
+          ],
+          "evidence": "M1 at slot 9 is 3 (A 3 + B 0)",
+          "note": "Explicit team B term in the stated score decomposition."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "score": 7
+          },
+          "evidence": "M2 at slot 6 is 7 (A 3 + B 4)"
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M2",
+            6,
+            3
+          ],
+          "evidence": "M2 at slot 6 is 7 (A 3 + B 4)",
+          "note": "Explicit team A term in the stated score decomposition."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M2",
+            6,
+            4
+          ],
+          "evidence": "M2 at slot 6 is 7 (A 3 + B 4)",
+          "note": "Explicit team B term in the stated score decomposition."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "score": 9
+          },
+          "evidence": "M3 at slot 10 is 9 (A 5 + B 4)"
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "A",
+            "M3",
+            10,
+            5
+          ],
+          "evidence": "M3 at slot 10 is 9 (A 5 + B 4)",
+          "note": "Explicit team A term in the stated score decomposition."
+        },
+        {
+          "type": "summary",
+          "value": [
+            "preference",
+            "B",
+            "M3",
+            10,
+            4
+          ],
+          "evidence": "M3 at slot 10 is 9 (A 5 + B 4)",
+          "note": "Explicit team B term in the stated score decomposition."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "The 1,6,10 schedule scores 20 (M1 4 + M2 7 + M3 9)"
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "score": 4
+          },
+          "evidence": "The 1,6,10 schedule scores 20 (M1 4 + M2 7 + M3 9)",
+          "note": "The breakdown explicitly labels M1, M2 and M3. Repeated meeting scores are distinct occurrences, not new facts invented by the reviewer."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "score": 7
+          },
+          "evidence": "The 1,6,10 schedule scores 20 (M1 4 + M2 7 + M3 9)",
+          "note": "The breakdown explicitly labels M1, M2 and M3. Repeated meeting scores are distinct occurrences, not new facts invented by the reviewer."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "score": 9
+          },
+          "evidence": "The 1,6,10 schedule scores 20 (M1 4 + M2 7 + M3 9)",
+          "note": "The breakdown explicitly labels M1, M2 and M3. Repeated meeting scores are distinct occurrences, not new facts invented by the reviewer."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "available": 1
+          },
+          "evidence": "with all meetings available",
+          "note": "This clause modifies the immediately preceding 1,6,10 schedule, not the earlier candidate."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "available": 1
+          },
+          "evidence": "with all meetings available",
+          "note": "This clause modifies the immediately preceding 1,6,10 schedule, not the earlier candidate."
+        },
+        {
+          "type": "meeting_available",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "available": 1
+          },
+          "evidence": "with all meetings available",
+          "note": "This clause modifies the immediately preceding 1,6,10 schedule, not the earlier candidate."
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "distinct",
+            "satisfied": 1
+          },
+          "evidence": "with all meetings available, distinct, and M1 before M3"
+        },
+        {
+          "type": "schedule_constraint",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "constraint": "precedence",
+            "satisfied": 1
+          },
+          "evidence": "with all meetings available, distinct, and M1 before M3"
+        }
+      ],
+      "unjudgeable": [],
+      "notes": "B후보9,6,10의19점과 주요후보1,6,10의20점을 서로 다른 schedule_score로 연결했다. 회의별점수와 A/B팀 구성값은 실제 발화된 숫자만 기록했다. 마지막 Please use는1,6,10으로 돌아가자는 제안이다. 이 메시지가 상대의 수락을 뜻하지는 않는다. 두후보의 동일한 M2/M3 점수는 발화 발생별로 보존했다."
+    },
+    {
+      "message": 5,
+      "status": "complete",
+      "evidence": "Please revise the candidate to M1 at slot 1, M2 at slot 6, and M3 at slot 10. Using the shared summaries, its total is 20 points: 4 + 7 + 9. The previously suggested 9,6,10 schedule totals 19 points, not 22.",
+      "kinds": [
+        "inform",
+        "propose"
+      ],
+      "schedule": {
+        "M1": 1,
+        "M2": 6,
+        "M3": 10
+      },
+      "requests": [],
+      "questions": [],
+      "references": [],
+      "claims": [
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 1,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 20
+          },
+          "evidence": "Using the shared summaries, its total is 20 points: 4 + 7 + 9."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M1",
+            "slot": 1,
+            "score": 4
+          },
+          "evidence": "Please revise the candidate to M1 at slot 1, M2 at slot 6, and M3 at slot 10. Using the shared summaries, its total is 20 points: 4 + 7 + 9.",
+          "note": "The ordered 4 + 7 + 9 breakdown is read in the immediately stated M1/M2/M3 order; values come from this utterance."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M2",
+            "slot": 6,
+            "score": 7
+          },
+          "evidence": "Please revise the candidate to M1 at slot 1, M2 at slot 6, and M3 at slot 10. Using the shared summaries, its total is 20 points: 4 + 7 + 9.",
+          "note": "The ordered 4 + 7 + 9 breakdown is read in the immediately stated M1/M2/M3 order; values come from this utterance."
+        },
+        {
+          "type": "meeting_score",
+          "value": {
+            "meeting": "M3",
+            "slot": 10,
+            "score": 9
+          },
+          "evidence": "Please revise the candidate to M1 at slot 1, M2 at slot 6, and M3 at slot 10. Using the shared summaries, its total is 20 points: 4 + 7 + 9.",
+          "note": "The ordered 4 + 7 + 9 breakdown is read in the immediately stated M1/M2/M3 order; values come from this utterance."
+        },
+        {
+          "type": "schedule_score",
+          "value": {
+            "schedule": {
+              "M1": 9,
+              "M2": 6,
+              "M3": 10
+            },
+            "score": 19
+          },
+          "evidence": "The previously suggested 9,6,10 schedule totals 19 points, not 22.",
+          "note": "The asserted value is 19. The explicitly negated 22 must never be recorded as A's affirmative score claim."
+        }
+      ],
+      "unjudgeable": [
+        "not 22."
+      ],
+      "notes": "Please revise는 명시 수정 요청이다. 실제 제어행동도revise로 기록됐지만 주석의kinds에는revise가 없으므로propose로 표현하고 제어행동 집계는 원본 이벤트에 맡겼다. 22는 부정한 값이며 schedule_score=22로 다시 추가하지 않았다. not22 부등식 의미는 별도 발췌와 메모에 남겼다. 명시적 accept 문장은 없다."
+    }
+  ]
+}
